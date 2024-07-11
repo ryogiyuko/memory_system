@@ -64,13 +64,16 @@ module Icache(
     reg r_write_enable;
     
     //fire1
+
+    //SRAM
     wire [553:0] Icache_SRAM_data_out_554; //[553:277] way1 [297:278] tag [277] v ; [276:0] way0 [20:1] tag [0] v
     wire [255:0] Icache_SRAM_out_way1_data_256, Icache_SRAM_out_way0_data_256;
     wire [19:0] Icache_SRAM_out_way1_tag_20, Icache_SRAM_out_way0_tag_20;
     wire Icache_SRAM_out_way1_V,Icache_SRAM_out_way0_V;  
-
-    wire w_fifo_buffer_write_enable;
+    
+    //fifo_buffer
     wire w_fifo_buffer_data_out;//fifo1时读fifo buffer
+    reg [1:0] r_fifo_buffer_write_enable_2;
     reg w_fifo_buffer_data_in;//spilitter1时写fifo buffer
 
 //Selector1
@@ -98,6 +101,7 @@ module Icache(
     cMutexMerge2_35b mutex1(
     .i_drive0    (i_Itlb_drive    ),
     .i_drive1    (i_L2Cache_drive    ),
+
     .i_data0_32  ({ i_Itlb_PA_34, 1'b0} ),
     .i_data1_32  ( { r_fifo2_1_addr_34, 1'b1} ), //write_enable位，回填时为1为写
 
@@ -106,6 +110,7 @@ module Icache(
     .o_free0     (o_Itlb_free     ),
     .o_free1     (o_L2Cache_free     ),
     .o_driveNext (w_mutex1_drive_cFifo2_1 ),
+
     .o_data_32   ( { w_mutex1_to_fifo2_1_addr_34, w_write_enable } )
     //w_write_enable 写时为1
  );
@@ -127,10 +132,12 @@ module Icache(
 
     always @(posedge w_cFifo2_fire_2[0] or negedge rst) begin
         if (rst == 0) begin
+            r_fifo_buffer_write_enable_2[0] <= 1'b0;
             r_fifo2_1_addr_34 <= 34'd0;
             r_write_enable <= 1'd0;
         end
         else begin
+            r_fifo_buffer_write_enable_2[0] <= ~r_fifo_buffer_write_enable_2[0];
             if(w_write_enable == 1'b0) r_fifo2_1_addr_34 <= w_mutex1_to_fifo2_1_addr_34;
             r_write_enable <= w_write_enable;
         end
@@ -162,13 +169,13 @@ module Icache(
     assign Icache_SRAM_out_way1_tag_20 = Icache_SRAM_data_out_554[297:28];
     assign Icache_SRAM_out_way0_tag_20 = Icache_SRAM_data_out_554[20:1];
     assign Icache_SRAM_out_way1_V = Icache_SRAM_data_out_554[277];
-    assign Icache_SRAM_out_way0_V = Icache_SRAM_data_out_554[0];  
+    assign Icache_SRAM_out_way0_V = Icache_SRAM_data_out_554[0];
 
     replace_fifo_buffer u_replace_fifo_buffer(
     .rst                                (rst                              ),
     .fire                               ( w_cFifo2_fire_2[1] | w_splitter1_drive_fifo_buffer ),
     .i_replace_fifo_buffer_addr_9       (w_Icache_addr_index_9       ), 
-    .i_replace_fifo_buffer_write_enable (     ),  //w_replace_fifo_buffer_write_enable,需要Selector2
+    .i_replace_fifo_buffer_write_enable ( r_fifo_buffer_write_enable_2[0]^ r_fifo_buffer_write_enable_2[1]  ),  //mutex1 Selector2
     .i_data_in                          ( w_fifo_buffer_data_in     ),//w_fifo_buffer_data_in见 Tag compare
     .o_data_out                         ( w_fifo_buffer_data_out    )
 );
@@ -196,11 +203,13 @@ module Icache(
         if (rst==0) begin
             // r_Icache_addr_tag_20 <= 20'd0;
             // r_Icache_addr_index_9 <= 9'd0;
+            r_fifo_buffer_write_enable_2[1] <= 1'b0;
             r_fifo_buffer_data_out <= 1'd0;
         end
         else begin
             // r_Icache_addr_tag_20 <= w_Icache_addr_tag_20;
             // r_Icache_addr_index_9 <= w_Icache_addr_index_9;
+            r_fifo_buffer_write_enable_2[1] <= ~r_fifo_buffer_write_enable_2[1];
             // 开始存的地址只在取指令时改变，故不用存
             r_fifo_buffer_data_out <= w_fifo_buffer_data_out;
             // 直接用该位指示回填，省去再读fifo buffer
@@ -224,7 +233,6 @@ module Icache(
     
 
 //Selector2
-
 
     cSelector2 u_cSelector2(
         .rst          (rst          ),
@@ -263,5 +271,6 @@ module Icache(
     assign o_miss_Addr_to_L2cache_34 = r_fifo2_1_addr_34;
 
 //mutex2
+    
 
 endmodule
