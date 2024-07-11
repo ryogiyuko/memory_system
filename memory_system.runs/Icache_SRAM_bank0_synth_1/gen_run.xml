@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="Icache_SRAM_bank0_synth_1" LaunchPart="xcvu13p-fhgb2104-2-i" LaunchTime="1720686219">
+<GenRun Id="Icache_SRAM_bank0_synth_1" LaunchPart="xcvu13p-fhgb2104-2-i" LaunchTime="1720697434">
   <File Type="PA-TCL" Name="Icache_SRAM_bank0.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="Icache_SRAM_bank0_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Icache_SRAM_bank0_reports.tcl"/>
@@ -42,9 +42,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

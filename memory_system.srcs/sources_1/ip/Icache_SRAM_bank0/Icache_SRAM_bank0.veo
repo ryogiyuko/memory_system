@@ -60,8 +60,8 @@ Icache_SRAM_bank0 your_instance_name (
   .ena(ena),              // input wire ena
   .wea(wea),              // input wire [0 : 0] wea
   .addra(addra),          // input wire [9 : 0] addra
-  .dina(dina),            // input wire [278 : 0] dina
-  .douta(douta),          // output wire [557 : 0] douta
+  .dina(dina),            // input wire [276 : 0] dina
+  .douta(douta),          // output wire [553 : 0] douta
   .rsta_busy(rsta_busy)  // output wire rsta_busy
 );
 // INST_TAG_END ------ End INSTANTIATION Template ---------
