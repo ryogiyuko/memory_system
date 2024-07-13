@@ -1,0 +1,18 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim/tb_replace_fifo_buffer_time_synth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IBUF_UNIQ_BASE_
+INFO: [VRFC 10-311] analyzing module IBUF_HD13
+INFO: [VRFC 10-311] analyzing module IBUF_HD14
+INFO: [VRFC 10-311] analyzing module IBUF_HD15
+INFO: [VRFC 10-311] analyzing module IBUF_HD16
+INFO: [VRFC 10-311] analyzing module IBUF_HD17
+INFO: [VRFC 10-311] analyzing module IBUF_HD18
+INFO: [VRFC 10-311] analyzing module IBUF_HD19
+INFO: [VRFC 10-311] analyzing module IBUF_HD20
+INFO: [VRFC 10-311] analyzing module IBUF_HD21
+INFO: [VRFC 10-311] analyzing module IBUF_HD22
+INFO: [VRFC 10-311] analyzing module IBUF_HD23
+INFO: [VRFC 10-311] analyzing module IBUF_HD24
+INFO: [VRFC 10-311] analyzing module replace_fifo_buffer
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sim_1/new/replace_fifo_buffer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_replace_fifo_buffer

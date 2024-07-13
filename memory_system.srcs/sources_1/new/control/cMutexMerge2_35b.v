@@ -18,13 +18,10 @@ output [34:0] o_data ;
 
 
 //wire & reg
-wire w_firstFire_1,w_secondFire_1,w_sendFire_1;
 wire w_firstTrig,w_secondTrig;
 wire w_firstReq,w_secondReq;
 wire w_driveNext0,w_driveNext1,w_driveNext;
-wire w_free0,w_free1,w_free;
-wire [34:0] w_data0 ,w_data1 ,w_data  ;
-reg [34:0] r_data0 ,r_data1 ,r_data  ;
+wire [34:0]  w_data  ;
 
 assign w_firstTrig = i_drive0 | o_free0;
 

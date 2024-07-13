@@ -25,13 +25,13 @@ module Icache(
 
     //MMU
     input i_Itlb_drive,
-    output o_Itlb_free,
+    output o_Itlb_free, //ºÍDcache²»Í¬£¬ÕÒÒ³±í²»ĞèÒª¹ıIcache£¬ÔÚ°ÑÖ¸Áî¸øifuÇ°²»»áÓĞÏÂÒ»¸öÊäÈë£¬²»ÓÃ¿¨×¡
     
     input [33:0] i_Itlb_PA_34,
 
     //L2 Cache
     input i_L2Cache_drive, i_freeNext_L2Cache,
-    output o_L2Cache_free, o_driveNext_L2Cache,
+    output o_L2Cache_free, o_driveNext_L2Cache, //32BÖ¸Áî¸øifuºóÔÙÊÍ·ÅL2cache
 
     input [255:0] i_L2Cache_refillLine_32B,
     output [33:0] o_miss_Addr_to_L2cache_34,
@@ -55,12 +55,12 @@ module Icache(
     wire [1:0] w_cFifo2_fire_2;
 
     //fire0
-    wire w_fifo_replace; //fifoä½ï¼Œä¸º0æ—¶way0ä¼˜å…ˆï¼Œä¸º1æ—¶way1ä¼˜å…ˆï¼›å½“ç¼ºå¤±æ—¶ï¼Œå…ˆç¿»è½¬ï¼Œå†å›å¡«ï¼Œä¸º0æ—¶å¡«way0ï¼Œä¸º1æ—¶å¡«way1
+    wire w_fifo_replace; //fifoÎ»£¬Îª0Ê±way0ÓÅÏÈ£¬Îª1Ê±way1ÓÅÏÈ£»µ±È±Ê§Ê±£¬ÏÈ·­×ª£¬ÔÙ»ØÌî£¬Îª0Ê±Ìîway0£¬Îª1Ê±Ìîway1
     wire [19:0] w_Icache_addr_tag_20;
     wire [8:0] w_Icache_addr_index_9;
     wire [9:0] w_Icache_SRAM_addr_10;
 
-    reg [33:0] r_fifo2_1_addr_34; //ä»…åœ¨å–æŒ‡ä»¤äº‹ä»¶æ—¶è¢«æ”¹å˜
+    reg [33:0] r_fifo2_1_addr_34; //½öÔÚÈ¡Ö¸ÁîÊÂ¼şÊ±±»¸Ä±ä
     reg r_write_enable;
     
     //fire1
@@ -72,52 +72,57 @@ module Icache(
     wire Icache_SRAM_out_way1_V,Icache_SRAM_out_way0_V;  
     
     //fifo_buffer
-    wire w_fifo_buffer_data_out;//fifo1æ—¶è¯»fifo buffer
+    wire w_fifo_buffer_data_out;//fifo1Ê±¶Áfifo buffer
     reg [1:0] r_fifo_buffer_write_enable_2;
-    reg w_fifo_buffer_data_in;//spilitter1æ—¶å†™fifo buffer
+    wire w_fifo_buffer_data_in;//spilitter1Ê±Ğ´fifo buffer
 
 //Selector1
-    wire w_Selector1_drive_Selector2,w_Selector1_free_Selector2;
+    wire w_Selector1_drive_Splitter1,w_Selector1_free_Splitter1;
     wire w_Selector1_drive_mutex2,w_Selector1_free_mutex2;
     wire w_Selector1_fire;
 
-    // reg [19:0] r_Icache_addr_tag_20;//æœ¬æ¬¡è¯»çš„tagï¼Œç•™ç»™å›å¡«
-    // reg [8:0] r_Icache_addr_index_9;//æœ¬æ¬¡è¯»çš„index, ç•™ç»™å›å¡«
-    // å¼€å§‹å­˜çš„åœ°å€åªåœ¨å–æŒ‡ä»¤æ—¶æ”¹å˜ï¼Œæ•…ä¸ç”¨å­˜
+    // reg [19:0] r_Icache_addr_tag_20;//±¾´Î¶ÁµÄtag£¬Áô¸ø»ØÌî
+    // reg [8:0] r_Icache_addr_index_9;//±¾´Î¶ÁµÄindex, Áô¸ø»ØÌî
+    // ¿ªÊ¼´æµÄµØÖ·Ö»ÔÚÈ¡Ö¸ÁîÊ±¸Ä±ä£¬¹Ê²»ÓÃ´æ
     reg r_fifo_buffer_data_out;
-    //ç¿»è½¬å‰çš„FIFOä½ã€‚ç›´æ¥ç”¨è¯¥ä½æŒ‡ç¤ºå›å¡«ï¼Œçœå»å†è¯»fifo buffer
+    //·­×ªÇ°µÄFIFOÎ»¡£Ö±½ÓÓÃ¸ÃÎ»Ö¸Ê¾»ØÌî£¬Ê¡È¥ÔÙ¶Áfifo buffer
 
-//Selector2
-    wire w_Selector2_drive_Splitter1, w_Selector2_free_Splitter1;
-    wire w_Selector2_drive_mutex2, w_Selector2_free_mutex2;
-    wire w_Selector2_fire;
+    wire [255:0] w_hit_data_Selector2_to_ifu_32B;
 
 //splitter1
     wire w_splitter1_drive_fifo_buffer, w_splitter1_free_fifo_buffer;
-    //wire w_splitter1_drive_L2Cache, w_splitter1_free_L2Cache;
+    wire w_splitter1_drive_Selector2, w_splitter1_free_Selector2;
+
+//Selector2
+    //wire w_Selector2_drive_L2Cache, w_Selector2_free_L2Cache;
+    wire w_Selector2_drive_mutex2, w_Selector2_free_mutex2;
+    wire w_Selector2_fire;
+
+    // wire w_lastFifo_fire;
+    // reg [255:0] r_hit_data_Selector2_to_ifu_32B;
 
 //mutex2
 
-    cMutexMerge2_35b mutex1(
+    (*dont_touch = "true"*)cMutexMerge2_35b mutex1(
     .i_drive0    (i_Itlb_drive    ),
     .i_drive1    (i_L2Cache_drive    ),
 
-    .i_data0_32  ({ i_Itlb_PA_34, 1'b0} ),
-    .i_data1_32  ( { r_fifo2_1_addr_34, 1'b1} ), //write_enableä½ï¼Œå›å¡«æ—¶ä¸º1ä¸ºå†™
+    .i_data0  ({ i_Itlb_PA_34, 1'b0} ),
+    .i_data1  ( { r_fifo2_1_addr_34, 1'b1} ), //write_enableÎ»£¬»ØÌîÊ±Îª1ÎªĞ´
 
     .i_freeNext  (w_mutex1_free_cFifo2_1  ),
     .rst         (rst         ),
     .o_free0     (o_Itlb_free     ),
-    .o_free1     (o_L2Cache_free     ),
+    .o_free1     (    ), //o_L2Cache_free ·ÅÔÚ»ØÌîÍê³É´¦
     .o_driveNext (w_mutex1_drive_cFifo2_1 ),
 
-    .o_data_32   ( { w_mutex1_to_fifo2_1_addr_34, w_write_enable } )
-    //w_write_enable å†™æ—¶ä¸º1
+    .o_data   ( { w_mutex1_to_fifo2_1_addr_34, w_write_enable } )
+    //w_write_enable Ğ´Ê±Îª1
  );
     
 //fifo2_1
     
-    cFifo2 u_cFifo2_1( //fire[0] fire[1]
+    (*dont_touch = "true"*)cFifo2 u_cFifo2_1( //fire[0] fire[1]
         .rst         (rst         ),
         .i_drive     (w_mutex1_drive_cFifo2_1     ),
         .o_free      (w_mutex1_free_cFifo2_1      ),
@@ -130,9 +135,9 @@ module Icache(
 
     //fire0
 
-    always @(posedge w_cFifo2_fire_2[0] or negedge rst) begin
+    (*dont_touch = "true"*)always @(posedge w_cFifo2_fire_2[0] or negedge rst) begin
         if (rst == 0) begin
-            r_fifo_buffer_write_enable_2[0] <= 1'b0;
+            r_fifo_buffer_write_enable_2[0] <= 1'b1;
             r_fifo2_1_addr_34 <= 34'd0;
             r_write_enable <= 1'd0;
         end
@@ -149,7 +154,7 @@ module Icache(
     assign w_Icache_SRAM_addr_10[9:1] = w_Icache_addr_index_9;
     assign w_Icache_SRAM_addr_10[0] = r_write_enable? w_fifo_replace : 1'b0;
 
-    assign w_fifo_replace = r_fifo_buffer_data_out;//ç”¨Selector1å­˜çš„å€¼ï¼Œå†³å®šå›å¡«åœ°å€
+    assign w_fifo_replace = r_fifo_buffer_data_out;//ÓÃSelector1´æµÄÖµ£¬¾ö¶¨»ØÌîµØÖ·
 
     //fire1
     Icache_SRAM_bank0 Icache_SRAM (
@@ -163,7 +168,7 @@ module Icache(
   .rsta_busy()  // output wire rsta_busy
 );
 
-    //Icacheçš„è¾“å‡ºæš‚æ—¶ä¸ç”¨å¯„å­˜å™¨å­˜ï¼Œä¾é å­˜å‚¨æœ¬èº«çš„å¯„å­˜å™¨
+    //IcacheµÄÊä³öÔİÊ±²»ÓÃ¼Ä´æÆ÷´æ£¬ÒÀ¿¿´æ´¢±¾ÉíµÄ¼Ä´æÆ÷
     assign Icache_SRAM_out_way1_data_256 = Icache_SRAM_data_out_554[553:298];
     assign Icache_SRAM_out_way0_data_256 = Icache_SRAM_data_out_554[276:21];
     assign Icache_SRAM_out_way1_tag_20 = Icache_SRAM_data_out_554[297:28];
@@ -173,33 +178,34 @@ module Icache(
 
     replace_fifo_buffer u_replace_fifo_buffer(
     .rst                                (rst                              ),
-    .fire                               ( w_cFifo2_fire_2[1] | w_splitter1_drive_fifo_buffer ),
+    .fire                               ( w_cFifo2_fire_2[1] | w_splitter1_drive_fifo_buffer ), //½öĞèÒªĞ´µÄfire£¬¶ÁµÄ²»ĞèÒª
     .i_replace_fifo_buffer_addr_9       (w_Icache_addr_index_9       ), 
-    .i_replace_fifo_buffer_write_enable ( r_fifo_buffer_write_enable_2[0]^ r_fifo_buffer_write_enable_2[1]  ),  //mutex1 Selector2
-    .i_data_in                          ( w_fifo_buffer_data_in     ),//w_fifo_buffer_data_inè§ Tag compare
-    .o_data_out                         ( w_fifo_buffer_data_out    )
+    .i_replace_fifo_buffer_write_enable ( r_fifo_buffer_write_enable_2[0] ^ r_fifo_buffer_write_enable_2[1]  ),  //mutex1 Selector1  ÕâÀïÓÃreg£¬Êµ¼Ê²»ĞèÒªÕâÃ´×ö£¬sramĞèÒª
+    .i_data_in                          ( w_fifo_buffer_data_in     ),//w_fifo_buffer_data_in¼û Tag compare
+    .o_data_out                         (     ),
+    .o_w_data_out                       ( w_fifo_buffer_data_out    )
 );
 
     
 //Selector1
 
 
-    cSelector2 u_cSelector1(
+    (*dont_touch = "true"*)cSelector2 u_cSelector1(
         .rst          (rst          ),
         .i_drive      (w_cFifo2_1_drive_cSelector1   ),
         .o_free       (w_cFifo2_1_free_cSelector1       ),
         .o_fire       (w_Selector1_fire       ),
 
         .valid0       (~r_write_enable), 
-        .valid1       (r_write_enable ),//å›å¡«æ—¶r_write_enable=1ï¼Œèµ°driveNext1
+        .valid1       (r_write_enable ),//»ØÌîÊ±r_write_enable=1£¬×ßdriveNext1
 
-        .o_driveNext0 (w_Selector1_drive_Selector2 ),
+        .o_driveNext0 (w_Selector1_drive_Splitter1 ),
         .o_driveNext1 (w_Selector1_drive_mutex2 ),
-        .i_freeNext0  (w_Selector1_free_Selector2  ),
+        .i_freeNext0  (w_Selector1_free_Splitter1  ),
         .i_freeNext1  (w_Selector1_free_mutex2  )
     );
 
-    always @(posedge w_Selector1_fire or negedge rst) begin
+    (*dont_touch = "true"*)always @(posedge w_Selector1_fire or negedge rst) begin
         if (rst==0) begin
             // r_Icache_addr_tag_20 <= 20'd0;
             // r_Icache_addr_index_9 <= 9'd0;
@@ -210,67 +216,119 @@ module Icache(
             // r_Icache_addr_tag_20 <= w_Icache_addr_tag_20;
             // r_Icache_addr_index_9 <= w_Icache_addr_index_9;
             r_fifo_buffer_write_enable_2[1] <= ~r_fifo_buffer_write_enable_2[1];
-            // å¼€å§‹å­˜çš„åœ°å€åªåœ¨å–æŒ‡ä»¤æ—¶æ”¹å˜ï¼Œæ•…ä¸ç”¨å­˜
+            // ¿ªÊ¼´æµÄµØÖ·Ö»ÔÚÈ¡Ö¸ÁîÊ±¸Ä±ä£¬¹Ê²»ÓÃ´æ
             r_fifo_buffer_data_out <= w_fifo_buffer_data_out;
-            // ç›´æ¥ç”¨è¯¥ä½æŒ‡ç¤ºå›å¡«ï¼Œçœå»å†è¯»fifo buffer
+            // Ö±½ÓÓÃ¸ÃÎ»Ö¸Ê¾»ØÌî£¬Ê¡È¥ÔÙ¶Áfifo buffer
         end
     end
 
     //Tag compare
-    wire hit;//æ˜¯å¦å‘½ä¸­ï¼Œå‘½ä¸­å“ªä¸€è·¯
-    wire [1:0] way_hit_2;
-    assign way_hit_2[1] = ( ( (r_Icache_addr_tag_20 - Icache_SRAM_out_way1_tag_20) == 20'b0) && Icache_SRAM_out_way1_V ) ? 1:0 ;
-    assign way_hit_2[0] = ( ( (r_Icache_addr_tag_20 - Icache_SRAM_out_way0_tag_20) == 20'b0) && Icache_SRAM_out_way0_V ) ? 1:0 ;
-    assign hit = way_hit_2[1] & way_hit_2[0];
-    always @( *) begin
-        if (hit == 1'b1) begin
-            w_fifo_buffer_data_in = way_hit_2[1]; //ä¸º0æ—¶way0ä¼˜å…ˆï¼Œä¸º1æ—¶way1ä¼˜å…ˆ
-        end
-        else begin
-            w_fifo_buffer_data_in = ~r_fifo_buffer_data_out;
-        end
-    end
+    wire hit;//ÊÇ·ñÃüÖĞ
+    wire [1:0] way_hit_2;//[1] way1 [0] way0£¬ÃüÖĞÄÄÒ»Â·
+    
+    tag_compare u_tag_compare(
+        .w_Icache_addr_tag_20            (w_Icache_addr_tag_20            ),
+        .Icache_SRAM_out_way1_tag_20     (Icache_SRAM_out_way1_tag_20     ),
+        .Icache_SRAM_out_way0_tag_20     (Icache_SRAM_out_way0_tag_20     ),
+        .Icache_SRAM_out_way1_V          (Icache_SRAM_out_way1_V          ),
+        .Icache_SRAM_out_way0_V          (Icache_SRAM_out_way0_V          ),
+        .r_fifo_buffer_data_out          (r_fifo_buffer_data_out          ),
+        .Icache_SRAM_out_way1_data_256   (Icache_SRAM_out_way1_data_256   ),
+        .Icache_SRAM_out_way0_data_256   (Icache_SRAM_out_way0_data_256   ),
+
+        .hit                             (hit                             ),
+        .way_hit_2                       (way_hit_2                       ),
+        .w_fifo_buffer_data_in           (w_fifo_buffer_data_in           ),
+        .w_hit_data_Selector2_to_ifu_32B (w_hit_data_Selector2_to_ifu_32B )
+    );
     
 
-//Selector2
-
-    cSelector2 u_cSelector2(
-        .rst          (rst          ),
-        .i_drive      (w_Selector1_drive_Selector2      ),
-        .o_free       (w_Selector1_free_Selector2       ),
-        .o_fire       (w_Selector2_fire   ),
-        .valid0       (~hit       ),
-        .valid1       (hit       ),
-        .o_driveNext0 (w_Selector2_drive_Splitter1 ),
-        .o_driveNext1 (w_Selector2_drive_mutex2 ),
-        .i_freeNext0  (w_Selector2_free_Splitter1  ),
-        .i_freeNext1  (w_Selector2_free_mutex2  )
-    );
-
-    always @(posedge w_Selector2_fire or negedge rst) begin
-       if (rst==0) begin
-
-       end 
-       else begin
-
-       end
-    end
 
 //splitter1
 
-    cSplitter2 u_cSplitter1(
-    .i_drive      (w_Selector2_drive_Splitter1      ),
+    (*dont_touch = "true"*)cSplitter2 u_cSplitter1(
+    .i_drive      (w_Selector1_drive_Splitter1      ),
     .i_freeNext0  (w_splitter1_free_fifo_buffer  ),
-    .i_freeNext1  (i_freeNext_L2Cache  ),
+    .i_freeNext1  (w_splitter1_free_Selector2  ),
     .rst          (rst          ),
-    .o_free       (w_Selector2_free_Splitter1       ),
+    .o_free       (w_Selector1_free_Splitter1       ),
     .o_driveNext0 (w_splitter1_drive_fifo_buffer ),
-    .o_driveNext1 (o_driveNext_L2Cache )
+    .o_driveNext1 (w_splitter1_drive_Selector2 )
 );
-    assign w_splitter1_free_fifo_buffer = i_freeNext_L2Cache;//ç›´æ¥L2Cacheå°†spliltterç»™free
+    assign w_splitter1_free_fifo_buffer = i_freeNext_L2Cache;//Ö±½ÓL2Cache½«spliltter¸øfree
+
+//Selector2
+
+    (*dont_touch = "true"*)cSelector2 u_cSelector2(
+        .rst          (rst          ),
+        .i_drive      (w_splitter1_drive_Selector2      ),
+        .o_free       (w_splitter1_free_Selector2      ),
+        .o_fire       (w_Selector2_fire   ),
+        .valid0       (~hit       ),
+        .valid1       (hit       ),
+        .o_driveNext0 (o_driveNext_L2Cache ),
+        .o_driveNext1 (w_Selector2_drive_mutex2 ),
+        .i_freeNext0  (i_freeNext_L2Cache  ),
+        .i_freeNext1  (w_Selector2_free_mutex2  )
+    );
+
+    // cLastFifo1 u_cLastFifo1(
+    //     .i_drive     (w_splitter1_drive_Selector2     ),
+    //     .rst         (rst         ),
+    //     .o_free      (      ),
+    //     .o_driveNext ( ),
+    //     .o_fire_1    (w_lastFifo_fire    )
+    // );
+    
+
+    // always @(posedge w_Selector2_fire or negedge rst) begin
+    //    if (rst==0) begin
+    //         r_hit_data_Selector2_to_ifu_32B[127:0] <= 128'b0;
+    //    end 
+    //    else begin
+    //         if (way_hit_2[1]) begin
+    //             r_hit_data_Selector2_to_ifu_32B[127:0] <= Icache_SRAM_out_way1_data_256[127:0];
+    //         end
+    //         else begin
+    //             r_hit_data_Selector2_to_ifu_32B[127:0] <= Icache_SRAM_out_way0_data_256[127:0];
+    //         end
+    //    end
+    // end
+
+    // always @(posedge w_lastFifo_fire or negedge rst) begin
+    //     if (rst==0) begin
+    //         r_hit_data_Selector2_to_ifu_32B[255:128] <= 128'b0;
+    //     end 
+    //     else begin
+    //         if (way_hit_2[1]) begin
+    //             r_hit_data_Selector2_to_ifu_32B[255:128] <= Icache_SRAM_out_way1_data_256[255:128];
+    //         end
+    //         else begin
+    //             r_hit_data_Selector2_to_ifu_32B[255:128] <= Icache_SRAM_out_way0_data_256[255:128];
+    //         end
+    //     end
+    // end
+
+    
     assign o_miss_Addr_to_L2cache_34 = r_fifo2_1_addr_34;
 
 //mutex2
+    //r_hit_data_Selector2_to_ifu_32B
+
+    (*dont_touch = "true"*)cMutexMerge2_1b mutex2(
+        .i_drive0    (w_Selector2_drive_mutex2    ),
+        .i_drive1    (w_Selector1_drive_mutex2  ),
+        .i_data0     (     ),
+        .i_data1     (     ),
+        .i_freeNext  (i_freeNext_ifu  ),
+        .rst         (rst         ),
+        .o_free0     (w_Selector2_free_mutex2     ),
+        .o_free1     (w_Selector1_free_mutex2     ),
+        .o_driveNext (o_driveNext_ifu ),
+        .o_data      (      )
+    );
     
+    assign o_L2Cache_free = i_freeNext_ifu; //µ±°Ñ32BÖ¸Áî¸øifuºóÊÍ·ÅL2cache
+    assign o_hit_data_to_ifu_32B = r_write_enable ? i_L2Cache_refillLine_32B:w_hit_data_Selector2_to_ifu_32B;
 
 endmodule

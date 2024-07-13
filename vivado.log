@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Jul 13 21:07:16 2024
+# Process ID: 22920
+# Current directory: D:/github/memory_system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17860 D:\github\memory_system\memory_system.xpr
+# Log file: D:/github/memory_system/vivado.log
+# Journal file: D:/github/memory_system\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project D:/github/memory_system/memory_system.xprSScanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2019.1/data/ip'.oopen_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 799.926 ; gain = 95.473
+launch_simulation -mode post-synthesis -type functional
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "D:/github/memory_system/memory_system.sim/sim_1/synth/func/xsim/simulate.log"
+launch_simulation
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "D:/github/memory_system/memory_system.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "D:/github/memory_system/memory_system.sim/sim_1/behav/xsim/simulate.log"
+launch_simulation -mode post-synthesis -type functional
+boost::filesystem::remove: 另一个程序正在使用此文件，进程无法访问。: "D:/github/memory_system/memory_system.sim/sim_1/synth/func/xsim/simulate.log"
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Jul 13 21:09:11 2024...

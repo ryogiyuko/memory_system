@@ -1,0 +1,6 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim/tb_replace_fifo_buffer_time_synth.v,1720845328,verilog,,D:/github/memory_system/memory_system.srcs/sim_1/new/replace_fifo_buffer_tb.v,,IBUF_HD13;IBUF_HD14;IBUF_HD15;IBUF_HD16;IBUF_HD17;IBUF_HD18;IBUF_HD19;IBUF_HD20;IBUF_HD21;IBUF_HD22;IBUF_HD23;IBUF_HD24;IBUF_UNIQ_BASE_;glbl;replace_fifo_buffer,,,,,,,,
+D:/github/memory_system/memory_system.srcs/sim_1/new/replace_fifo_buffer_tb.v,1720842410,verilog,,,,tb_replace_fifo_buffer,,,,,,,,

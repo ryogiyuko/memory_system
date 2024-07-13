@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="Icache_SRAM_bank0_synth_1" LaunchPart="xcvu13p-fhgb2104-2-i" LaunchTime="1720697434">
   <File Type="PA-TCL" Name="Icache_SRAM_bank0.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Icache_SRAM_bank0_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Icache_SRAM_bank0_reports.tcl"/>
   <File Type="RDS-RDS" Name="Icache_SRAM_bank0.vds"/>
   <File Type="RDS-UTIL" Name="Icache_SRAM_bank0_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Icache_SRAM_bank0_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Icache_SRAM_bank0.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Icache_SRAM_bank0_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Icache_SRAM_bank0_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Icache_SRAM_bank0">
     <File Path="$PSRCDIR/sources_1/ip/Icache_SRAM_bank0/Icache_SRAM_bank0.xci">
       <FileInfo>

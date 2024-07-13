@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.sim/sim_1/impl/func/xsim/tb_replace_fifo_buffer_func_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module replace_fifo_buffer
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sim_1/new/replace_fifo_buffer_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_replace_fifo_buffer

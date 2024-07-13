@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Jul 13 21:07:16 2024
+# Process ID: 22920
+# Current directory: D:/github/memory_system
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17860 D:\github\memory_system\memory_system.xpr
+# Log file: D:/github/memory_system/vivado.log
+# Journal file: D:/github/memory_system\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project D:/github/memory_system/memory_system.xprlaunch_simulation -mode post-synthesis -type functional
+launch_simulation
+launch_simulation
+launch_simulation -mode post-synthesis -type functional

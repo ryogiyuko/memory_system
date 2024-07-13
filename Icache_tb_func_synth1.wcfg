@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Icache_tb_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="Icache_tb" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="202746000fs"></ZoomStartTime>
+      <ZoomEndTime time="357307072fs"></ZoomEndTime>
+      <Cursor1Time time="227843000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="260"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="group130" type="group">
+      <obj_property name="label">Icache_top</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Icache_tb/run_time" type="array">
+         <obj_property name="ElementShortName">run_time[31:0]</obj_property>
+         <obj_property name="ObjectShortName">run_time[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/rst_cycle" type="array">
+         <obj_property name="ElementShortName">rst_cycle[31:0]</obj_property>
+         <obj_property name="ObjectShortName">rst_cycle[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/o_hit_data_to_ifu_32B" type="array">
+         <obj_property name="ElementShortName">o_hit_data_to_ifu_32B[255:0]</obj_property>
+         <obj_property name="ObjectShortName">o_hit_data_to_ifu_32B[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/PERIOD" type="array">
+         <obj_property name="ElementShortName">PERIOD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PERIOD[31:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/o_driveNext_ifu" type="logic">
+         <obj_property name="ElementShortName">o_driveNext_ifu</obj_property>
+         <obj_property name="ObjectShortName">o_driveNext_ifu</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/o_miss_Addr_to_L2cache_34" type="array">
+         <obj_property name="ElementShortName">o_miss_Addr_to_L2cache_34[33:0]</obj_property>
+         <obj_property name="ObjectShortName">o_miss_Addr_to_L2cache_34[33:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/o_driveNext_L2Cache" type="logic">
+         <obj_property name="ElementShortName">o_driveNext_L2Cache</obj_property>
+         <obj_property name="ObjectShortName">o_driveNext_L2Cache</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/i_freeNext_ifu" type="logic">
+         <obj_property name="ElementShortName">i_freeNext_ifu</obj_property>
+         <obj_property name="ObjectShortName">i_freeNext_ifu</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/o_Itlb_free" type="logic">
+         <obj_property name="ElementShortName">o_Itlb_free</obj_property>
+         <obj_property name="ObjectShortName">o_Itlb_free</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/o_L2Cache_free" type="logic">
+         <obj_property name="ElementShortName">o_L2Cache_free</obj_property>
+         <obj_property name="ObjectShortName">o_L2Cache_free</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/i_L2Cache_refillLine_32B" type="array">
+         <obj_property name="ElementShortName">i_L2Cache_refillLine_32B[255:0]</obj_property>
+         <obj_property name="ObjectShortName">i_L2Cache_refillLine_32B[255:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/i_freeNext_L2Cache" type="logic">
+         <obj_property name="ElementShortName">i_freeNext_L2Cache</obj_property>
+         <obj_property name="ObjectShortName">i_freeNext_L2Cache</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/i_L2Cache_drive" type="logic">
+         <obj_property name="ElementShortName">i_L2Cache_drive</obj_property>
+         <obj_property name="ObjectShortName">i_L2Cache_drive</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/i_Itlb_PA_34" type="array">
+         <obj_property name="ElementShortName">i_Itlb_PA_34[33:0]</obj_property>
+         <obj_property name="ObjectShortName">i_Itlb_PA_34[33:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/i_Itlb_drive" type="logic">
+         <obj_property name="ElementShortName">i_Itlb_drive</obj_property>
+         <obj_property name="ObjectShortName">i_Itlb_drive</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/count" type="array">
+         <obj_property name="ElementShortName">count[6:0]</obj_property>
+         <obj_property name="ObjectShortName">count[6:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group138" type="group">
+      <obj_property name="label">SRAM</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Icache_tb/u_Icache/Icache_SRAM/addra" type="array">
+         <obj_property name="ElementShortName">addra[9:0]</obj_property>
+         <obj_property name="ObjectShortName">addra[9:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/Icache_SRAM/clka" type="logic">
+         <obj_property name="ElementShortName">clka</obj_property>
+         <obj_property name="ObjectShortName">clka</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/Icache_SRAM/dina" type="array">
+         <obj_property name="ElementShortName">dina[276:0]</obj_property>
+         <obj_property name="ObjectShortName">dina[276:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/Icache_SRAM/douta" type="array">
+         <obj_property name="ElementShortName">douta[553:0]</obj_property>
+         <obj_property name="ObjectShortName">douta[553:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/Icache_SRAM/ena" type="logic">
+         <obj_property name="ElementShortName">ena</obj_property>
+         <obj_property name="ObjectShortName">ena</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/Icache_SRAM/rsta" type="logic">
+         <obj_property name="ElementShortName">rsta</obj_property>
+         <obj_property name="ObjectShortName">rsta</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/Icache_SRAM/rsta_busy" type="logic">
+         <obj_property name="ElementShortName">rsta_busy</obj_property>
+         <obj_property name="ObjectShortName">rsta_busy</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/Icache_SRAM/wea" type="array">
+         <obj_property name="ElementShortName">wea[0:0]</obj_property>
+         <obj_property name="ObjectShortName">wea[0:0]</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group146" type="group">
+      <obj_property name="label">mutex1</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/Icache_tb/u_Icache/mutex1/i_data0" type="array">
+         <obj_property name="ElementShortName">i_data0[34:0]</obj_property>
+         <obj_property name="ObjectShortName">i_data0[34:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/mutex1/i_data1" type="array">
+         <obj_property name="ElementShortName">i_data1[34:0]</obj_property>
+         <obj_property name="ObjectShortName">i_data1[34:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/mutex1/i_drive0" type="logic">
+         <obj_property name="ElementShortName">i_drive0</obj_property>
+         <obj_property name="ObjectShortName">i_drive0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/mutex1/i_drive1" type="logic">
+         <obj_property name="ElementShortName">i_drive1</obj_property>
+         <obj_property name="ObjectShortName">i_drive1</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/mutex1/i_freeNext" type="logic">
+         <obj_property name="ElementShortName">i_freeNext</obj_property>
+         <obj_property name="ObjectShortName">i_freeNext</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/mutex1/o_data" type="array">
+         <obj_property name="ElementShortName">o_data[34:0]</obj_property>
+         <obj_property name="ObjectShortName">o_data[34:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/mutex1/o_driveNext" type="logic">
+         <obj_property name="ElementShortName">o_driveNext</obj_property>
+         <obj_property name="ObjectShortName">o_driveNext</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/mutex1/o_free0" type="logic">
+         <obj_property name="ElementShortName">o_free0</obj_property>
+         <obj_property name="ObjectShortName">o_free0</obj_property>
+      </wvobject>
+      <wvobject fp_name="/Icache_tb/u_Icache/mutex1/o_free1" type="logic">
+         <obj_property name="ElementShortName">o_free1</obj_property>
+         <obj_property name="ObjectShortName">o_free1</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

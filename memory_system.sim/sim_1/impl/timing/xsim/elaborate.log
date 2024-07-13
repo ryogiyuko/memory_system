@@ -1,0 +1,39 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2d96962f3ee74b89b6947b08f7558a0d --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot tb_replace_fifo_buffer_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.tb_replace_fifo_buffer xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "tb_replace_fifo_buffer_time_impl.sdf", for root module "tb_replace_fifo_buffer/u_replace_fifo_buffer".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "tb_replace_fifo_buffer_time_impl.sdf", for root module "tb_replace_fifo_buffer/u_replace_fifo_buffer".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.LUT6
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.FDCE(IS_CLR_INVERTED=1'b1)
+Compiling module simprims_ver.BUFGCE(CE_TYPE="ASYNC",SIM_DEVIC...
+Compiling module simprims_ver.IBUFCTRL_default
+Compiling module simprims_ver.INBUF_default
+Compiling module xil_defaultlib.IBUF_UNIQ_BASE_
+Compiling module xil_defaultlib.IBUF_HD25
+Compiling module xil_defaultlib.IBUF_HD26
+Compiling module xil_defaultlib.IBUF_HD27
+Compiling module xil_defaultlib.IBUF_HD28
+Compiling module xil_defaultlib.IBUF_HD29
+Compiling module xil_defaultlib.IBUF_HD30
+Compiling module xil_defaultlib.IBUF_HD31
+Compiling module xil_defaultlib.IBUF_HD32
+Compiling module xil_defaultlib.IBUF_HD33
+Compiling module xil_defaultlib.IBUF_HD34
+Compiling module xil_defaultlib.IBUF_HD35
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.MUXF8
+Compiling module simprims_ver.MUXF7
+Compiling module xil_defaultlib.IBUF_HD36
+Compiling module xil_defaultlib.replace_fifo_buffer
+Compiling module xil_defaultlib.tb_replace_fifo_buffer
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_replace_fifo_buffer_time_impl
