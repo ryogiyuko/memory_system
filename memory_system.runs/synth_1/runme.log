@@ -15,9 +15,9 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xcvu13p'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcvu13p'
 INFO: [Device 21-403] Loading part xcvu13p-fhgb2104-2-i
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 5788 
+INFO: Helper process launched with PID 26652 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1650.879 ; gain = 158.695
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1650.984 ; gain = 157.801
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'Icache' [D:/github/memory_system/memory_system.srcs/sources_1/new/Icache.v:23]
 INFO: [Synth 8-6157] synthesizing module 'cMutexMerge2_35b' [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_35b.v:2]
@@ -55,127 +55,31 @@ INFO: [Synth 8-6155] done synthesizing module 'receiver' (8#1) [D:/github/memory
 INFO: [Synth 8-6157] synthesizing module 'delay1U' [D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay1U.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'delay1U' (9#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay1U.v:12]
 INFO: [Synth 8-6155] done synthesizing module 'cFifo2' (10#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cFifo2.v:8]
-INFO: [Synth 8-6157] synthesizing module 'Icache_SRAM_bank0' [D:/github/memory_system/memory_system.runs/synth_1/.Xil/Vivado-760-DESKTOP-DKUDC5F/realtime/Icache_SRAM_bank0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'Icache_SRAM_bank0' (11#1) [D:/github/memory_system/memory_system.runs/synth_1/.Xil/Vivado-760-DESKTOP-DKUDC5F/realtime/Icache_SRAM_bank0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'Icache_SRAM_bank' [D:/github/memory_system/memory_system.runs/synth_1/.Xil/Vivado-9556-DESKTOP-DKUDC5F/realtime/Icache_SRAM_bank_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'Icache_SRAM_bank' (11#1) [D:/github/memory_system/memory_system.runs/synth_1/.Xil/Vivado-9556-DESKTOP-DKUDC5F/realtime/Icache_SRAM_bank_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'replace_fifo_buffer' [D:/github/memory_system/memory_system.srcs/sources_1/new/replace_fifo_buffer.v:23]
 INFO: [Synth 8-6155] done synthesizing module 'replace_fifo_buffer' (12#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/replace_fifo_buffer.v:23]
 INFO: [Synth 8-6157] synthesizing module 'cSelector2' [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector2.v:10]
 INFO: [Synth 8-6157] synthesizing module 'delay2U' [D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay2U.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'delay2U' (13#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay2U.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'cSelector2' (14#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector2.v:10]
-INFO: [Synth 8-6157] synthesizing module 'tag_compare' [D:/github/memory_system/memory_system.srcs/sources_1/new/tag_compare.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'tag_compare' (15#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/tag_compare.v:23]
-WARNING: [Synth 8-689] width (256) of port connection 'w_hit_data_Selector2_to_ifu_32B' does not match port width (1) of module 'tag_compare' [D:/github/memory_system/memory_system.srcs/sources_1/new/Icache.v:242]
-INFO: [Synth 8-6157] synthesizing module 'cSplitter2' [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSplitter2.v:4]
+INFO: [Synth 8-6157] synthesizing module 'cFifo1' [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cFifo1.v:9]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cFifo1.v:20]
+INFO: [Synth 8-5534] Detected attribute (* dont_touch = "true" *) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cFifo1.v:21]
 INFO: [Synth 8-6157] synthesizing module 'delay1Unit' [D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay1Unit.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'delay1Unit' (16#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay1Unit.v:23]
-INFO: [Synth 8-6155] done synthesizing module 'cSplitter2' (17#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSplitter2.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'delay1Unit' (15#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay1Unit.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'cFifo1' (16#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cFifo1.v:9]
+INFO: [Synth 8-6157] synthesizing module 'tag_compare' [D:/github/memory_system/memory_system.srcs/sources_1/new/tag_compare.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'tag_compare' (17#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/tag_compare.v:23]
+INFO: [Synth 8-6157] synthesizing module 'cSplitter2' [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSplitter2.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'cSplitter2' (18#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSplitter2.v:4]
 INFO: [Synth 8-6157] synthesizing module 'cMutexMerge2_1b' [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_1b.v:2]
-INFO: [Synth 8-6155] done synthesizing module 'cMutexMerge2_1b' (18#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_1b.v:2]
-INFO: [Synth 8-6155] done synthesizing module 'Icache' (19#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/Icache.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'cMutexMerge2_1b' (19#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_1b.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'Icache' (20#1) [D:/github/memory_system/memory_system.srcs/sources_1/new/Icache.v:23]
 WARNING: [Synth 8-3331] design cMutexMerge2_1b has unconnected port rst
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[255]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[254]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[253]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[252]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[251]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[250]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[249]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[248]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[247]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[246]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[245]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[244]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[243]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[242]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[241]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[240]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[239]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[238]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[237]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[236]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[235]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[234]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[233]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[232]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[231]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[230]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[229]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[228]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[227]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[226]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[225]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[224]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[223]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[222]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[221]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[220]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[219]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[218]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[217]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[216]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[215]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[214]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[213]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[212]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[211]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[210]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[209]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[208]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[207]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[206]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[205]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[204]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[203]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[202]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[201]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[200]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[199]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[198]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[197]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[196]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[195]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[194]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[193]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[192]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[191]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[190]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[189]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[188]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[187]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[186]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[185]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[184]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[183]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[182]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[181]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[180]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[179]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[178]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[177]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[176]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[175]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[174]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[173]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[172]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[171]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[170]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[169]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[168]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[167]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[166]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[165]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[164]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[163]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[162]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[161]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[160]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[159]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[158]
-WARNING: [Synth 8-3331] design tag_compare has unconnected port Icache_SRAM_out_way1_data_256[157]
-INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3331] design cMutexMerge2_35b has unconnected port rst
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1713.773 ; gain = 221.590
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1715.090 ; gain = 221.906
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -188,26 +92,26 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1719.699 ; gain = 227.516
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1721.258 ; gain = 228.074
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1719.699 ; gain = 227.516
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1721.258 ; gain = 228.074
 ---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [d:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank0/Icache_SRAM_bank0/Icache_SRAM_bank0_in_context.xdc] for cell 'Icache_SRAM'
-Finished Parsing XDC File [d:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank0/Icache_SRAM_bank0/Icache_SRAM_bank0_in_context.xdc] for cell 'Icache_SRAM'
+Parsing XDC File [d:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank/Icache_SRAM_bank/Icache_SRAM_bank_in_context.xdc] for cell 'Icache_SRAM'
+Finished Parsing XDC File [d:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank/Icache_SRAM_bank/Icache_SRAM_bank_in_context.xdc] for cell 'Icache_SRAM'
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1886.516 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1865.980 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1886.516 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1865.980 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1886.516 ; gain = 394.332
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1865.980 ; gain = 372.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -215,17 +119,17 @@ Start Loading Part and Timing Information
 Loading part: xcvu13p-fhgb2104-2-i
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1886.516 ; gain = 394.332
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1865.980 ; gain = 372.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for Icache_SRAM. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1886.516 ; gain = 394.332
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1865.980 ; gain = 372.797
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1886.516 ; gain = 394.332
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1865.980 ; gain = 372.797
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -238,16 +142,16 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---XORs : 
-	   2 Input      1 Bit         XORs := 3     
+	   2 Input      1 Bit         XORs := 4     
 +---Registers : 
 	               34 Bit    Registers := 1     
 	               16 Bit    Registers := 32    
-	                1 Bit    Registers := 10    
+	                1 Bit    Registers := 12    
 +---Muxes : 
-	   2 Input    256 Bit        Muxes := 1     
+	   2 Input    256 Bit        Muxes := 2     
 	   2 Input     35 Bit        Muxes := 2     
 	   2 Input     16 Bit        Muxes := 64    
-	   2 Input      1 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -279,16 +183,17 @@ Detailed RTL Component Info :
 	                1 Bit    Registers := 1     
 +---Muxes : 
 	   2 Input     16 Bit        Muxes := 64    
-Module tag_compare 
-Detailed RTL Component Info : 
-+---Muxes : 
-	   2 Input      1 Bit        Muxes := 2     
 Module delay1Unit 
 Detailed RTL Component Info : 
 +---XORs : 
 	   2 Input      1 Bit         XORs := 1     
 +---Registers : 
 	                1 Bit    Registers := 1     
+Module tag_compare 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input    256 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 1     
 Module cMutexMerge2_1b 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -309,8 +214,10 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3331] design cMutexMerge2_1b has unconnected port rst
+WARNING: [Synth 8-3331] design cMutexMerge2_35b has unconnected port rst
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 1886.516 ; gain = 394.332
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1865.980 ; gain = 372.797
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -322,13 +229,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2283.109 ; gain = 790.926
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2283.363 ; gain = 790.180
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2284.941 ; gain = 792.758
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 2285.527 ; gain = 792.344
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -340,7 +247,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:27 . Memory (MB): peak = 2300.898 ; gain = 808.715
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 2302.121 ; gain = 808.938
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -363,10 +270,11 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
+WARNING: [Synth 8-3295] tying undriven pin w_driveNext_inferred:in0 to constant 0
 WARNING: [Synth 8-3295] tying undriven pin mutex2:i_data0 to constant 0
 WARNING: [Synth 8-3295] tying undriven pin mutex2:i_data1 to constant 0
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2313.719 ; gain = 821.535
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2315.922 ; gain = 822.738
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -379,7 +287,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2313.719 ; gain = 821.535
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2315.922 ; gain = 822.738
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -391,63 +299,63 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2313.719 ; gain = 821.535
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2315.922 ; gain = 822.738
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2313.719 ; gain = 821.535
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 2315.922 ; gain = 822.738
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2313.719 ; gain = 821.535
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2315.922 ; gain = 822.738
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2313.719 ; gain = 821.535
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2315.922 ; gain = 822.738
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
 ---------------------------------------------------------------------------------
 
 Report BlackBoxes: 
-+------+------------------+----------+
-|      |BlackBox name     |Instances |
-+------+------------------+----------+
-|1     |Icache_SRAM_bank0 |         1|
-+------+------------------+----------+
++------+-----------------+----------+
+|      |BlackBox name    |Instances |
++------+-----------------+----------+
+|1     |Icache_SRAM_bank |         1|
++------+-----------------+----------+
 
 Report Cell Usage: 
-+------+------------------+------+
-|      |Cell              |Count |
-+------+------------------+------+
-|1     |Icache_SRAM_bank0 |     1|
-|2     |BUFG              |     1|
-|3     |CARRY8            |     2|
-|4     |LUT1              |    52|
-|5     |LUT2              |   285|
-|6     |LUT3              |     4|
-|7     |LUT4              |   553|
-|8     |LUT5              |   264|
-|9     |LUT6              |   166|
-|10    |MUXF7             |    68|
-|11    |MUXF8             |    33|
-|12    |FDCE              |   567|
-|13    |FDPE              |    14|
-|14    |IBUF              |   295|
-|15    |OBUF              |   294|
-+------+------------------+------+
++------+-----------------+------+
+|      |Cell             |Count |
++------+-----------------+------+
+|1     |Icache_SRAM_bank |     1|
+|2     |BUFG             |     1|
+|3     |CARRY8           |     2|
+|4     |LUT1             |    63|
+|5     |LUT2             |    36|
+|6     |LUT3             |   260|
+|7     |LUT4             |   808|
+|8     |LUT5             |   257|
+|9     |LUT6             |   165|
+|10    |MUXF7            |    68|
+|11    |MUXF8            |    33|
+|12    |FDCE             |   573|
+|13    |FDPE             |    16|
+|14    |IBUF             |   295|
+|15    |OBUF             |   332|
++------+-----------------+------+
 
 Report Instance Areas: 
 +------+------------------------+--------------------+------+
 |      |Instance                |Module              |Cells |
 +------+------------------------+--------------------+------+
-|1     |top                     |                    |  3153|
+|1     |top                     |                    |  3463|
 |2     |  mutex1                |cMutexMerge2_35b    |    44|
 |3     |    firstTap            |contTap__1          |     2|
 |4     |    secondTap           |contTap__2          |     2|
@@ -457,52 +365,57 @@ Report Instance Areas:
 |8     |    receiver            |receiver__1         |     1|
 |9     |    outdelay0           |delay1U__1          |     2|
 |10    |    outdelay1           |delay1U             |     2|
-|11    |    sender              |sender__3           |     4|
+|11    |    sender              |sender__4           |     4|
 |12    |  u_cSelector1          |cSelector2__1       |    20|
-|13    |    sender              |sender__2           |     4|
-|14    |    relay0              |relay__3            |     8|
-|15    |    receiver            |receiver__2         |     1|
+|13    |    sender              |sender__3           |     4|
+|14    |    relay0              |relay__4            |     8|
+|15    |    receiver            |receiver__3         |     1|
 |16    |    outdelay0           |delay2U__1          |     4|
-|17    |  u_cSplitter1          |cSplitter2          |    15|
-|18    |    outdelay1           |delay1Unit__1       |     4|
-|19    |    firstTap            |contTap__3          |     2|
-|20    |    outdelay2           |delay1Unit          |     4|
-|21    |    secondTap           |contTap__4          |     2|
-|22    |  u_cSelector2          |cSelector2          |    20|
-|23    |    sender              |sender              |     4|
-|24    |    relay0              |relay               |     8|
-|25    |    receiver            |receiver            |     1|
-|26    |    outdelay0           |delay2U             |     4|
-|27    |  mutex2                |cMutexMerge2_1b     |    10|
-|28    |    firstTap            |contTap__5          |     2|
-|29    |    secondTap           |contTap             |     2|
-|30    |  u_replace_fifo_buffer |replace_fifo_buffer |  1023|
-|31    |  u_tag_compare         |tag_compare         |   539|
+|17    |  u_cFifo1              |cFifo1              |    18|
+|18    |    sender              |sender              |     4|
+|19    |    relay0              |relay               |     8|
+|20    |    receiver            |receiver            |     1|
+|21    |    outdelay0           |delay1Unit__1       |     4|
+|22    |  u_tag_compare         |tag_compare         |   276|
+|23    |  u_cSplitter1          |cSplitter2          |    15|
+|24    |    outdelay1           |delay1Unit__2       |     4|
+|25    |    firstTap            |contTap__3          |     2|
+|26    |    outdelay2           |delay1Unit          |     4|
+|27    |    secondTap           |contTap__4          |     2|
+|28    |  u_cSelector2          |cSelector2          |    20|
+|29    |    sender              |sender__2           |     4|
+|30    |    relay0              |relay__3            |     8|
+|31    |    receiver            |receiver__2         |     1|
+|32    |    outdelay0           |delay2U             |     4|
+|33    |  mutex2                |cMutexMerge2_1b     |    10|
+|34    |    firstTap            |contTap__5          |     2|
+|35    |    secondTap           |contTap             |     2|
+|36    |  u_replace_fifo_buffer |replace_fifo_buffer |  1535|
 +------+------------------------+--------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2313.719 ; gain = 821.535
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2315.922 ; gain = 822.738
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:25 . Memory (MB): peak = 2313.719 ; gain = 654.719
-Synthesis Optimization Complete : Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 2313.719 ; gain = 821.535
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:27 . Memory (MB): peak = 2315.922 ; gain = 678.016
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 2315.922 ; gain = 822.738
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 399 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2440.363 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2433.984 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 296 instances were transformed.
   BUFG => BUFGCE: 1 instances
   IBUF => IBUF (IBUFCTRL, INBUF): 295 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-57 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
+60 Infos, 7 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:41 ; elapsed = 00:00:43 . Memory (MB): peak = 2440.363 ; gain = 2043.062
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2440.363 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:42 ; elapsed = 00:00:45 . Memory (MB): peak = 2433.984 ; gain = 2036.645
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2433.984 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint 'D:/github/memory_system/memory_system.runs/synth_1/Icache.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Icache_utilization_synth.rpt -pb Icache_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sat Jul 13 22:18:26 2024...
+INFO: [Common 17-206] Exiting Vivado at Sun Jul 14 20:59:16 2024...

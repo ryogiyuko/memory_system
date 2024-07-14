@@ -20,6 +20,8 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
+//2024_0714 未加约束，fpga前仿 7.989ns ~ 10.383ns
+
 module Icache(
     input rst,
 
@@ -42,7 +44,13 @@ module Icache(
 
     output [255:0] o_hit_data_to_ifu_32B
 
-    );
+    //触发器，调试用
+    ,output  [1:0] o_fifo_buffer_write_enable_2
+    ,output  [33:0] o_fifo2_1_addr_34
+    ,output  o_write_enable
+    ,output  o_fifo_buffer_data_out
+
+    ); 
 
 //mutex1
     wire w_mutex1_drive_cFifo2_1, w_mutex1_free_cFifo2_1;
@@ -77,7 +85,7 @@ module Icache(
     wire w_fifo_buffer_data_in;//spilitter1时写fifo buffer
 
 //Selector1
-    wire w_Selector1_drive_Splitter1,w_Selector1_free_Splitter1;
+    wire w_Selector1_drive_fifo1,w_Selector1_free_fifo1;
     wire w_Selector1_drive_mutex2,w_Selector1_free_mutex2;
     wire w_Selector1_fire;
 
@@ -89,6 +97,10 @@ module Icache(
 
     wire [255:0] w_hit_data_Selector2_to_ifu_32B;
 
+//cfifo1
+    wire w_fifo1_drive_splitter1,w_fifo1_free_splitter1;
+    wire w_fifo1_fire;
+
 //splitter1
     wire w_splitter1_drive_fifo_buffer, w_splitter1_free_fifo_buffer;
     wire w_splitter1_drive_Selector2, w_splitter1_free_Selector2;
@@ -98,10 +110,17 @@ module Icache(
     wire w_Selector2_drive_mutex2, w_Selector2_free_mutex2;
     wire w_Selector2_fire;
 
-    // wire w_lastFifo_fire;
-    // reg [255:0] r_hit_data_Selector2_to_ifu_32B;
-
 //mutex2
+
+//reg
+    // r_fifo_buffer_write_enable_2
+    // r_fifo2_1_addr_34
+    // r_write_enable
+    // r_fifo_buffer_data_out
+    assign  o_fifo_buffer_write_enable_2 = r_fifo_buffer_write_enable_2;
+    assign  o_fifo2_1_addr_34 = r_fifo2_1_addr_34;
+    assign  o_write_enable = r_write_enable;
+    assign  o_fifo_buffer_data_out = r_fifo_buffer_data_out;
 
     (*dont_touch = "true"*)cMutexMerge2_35b mutex1(
     .i_drive0    (i_Itlb_drive    ),
@@ -119,7 +138,10 @@ module Icache(
     .o_data   ( { w_mutex1_to_fifo2_1_addr_34, w_write_enable } )
     //w_write_enable 写时为1
  );
+
     
+
+
 //fifo2_1
     
     (*dont_touch = "true"*)cFifo2 u_cFifo2_1( //fire[0] fire[1]
@@ -135,7 +157,7 @@ module Icache(
 
     //fire0
 
-    (*dont_touch = "true"*)always @(posedge w_cFifo2_fire_2[0] or negedge rst) begin
+    always @(posedge w_cFifo2_fire_2[0] or negedge rst) begin
         if (rst == 0) begin
             r_fifo_buffer_write_enable_2[0] <= 1'b1;
             r_fifo2_1_addr_34 <= 34'd0;
@@ -157,15 +179,15 @@ module Icache(
     assign w_fifo_replace = r_fifo_buffer_data_out;//用Selector1存的值，决定回填地址
 
     //fire1
-    Icache_SRAM_bank0 Icache_SRAM (
+    Icache_SRAM_bank Icache_SRAM (
   .clka(w_cFifo2_fire_2[1]),            // input wire clka
-  .rsta(rst),            // input wire rsta
+  //.rsta(rst),            // input wire rsta
   .ena(1'b1),              // input wire ena
   .wea(r_write_enable),              // input wire [0 : 0] wea
   .addra(w_Icache_SRAM_addr_10),          // input wire [9 : 0] addra
   .dina({ i_L2Cache_refillLine_32B, w_Icache_addr_tag_20, 1'b1 }),            // input wire [276 : 0] dina
-  .douta( Icache_SRAM_data_out_554 ),          // output wire [553 : 0] douta
-  .rsta_busy()  // output wire rsta_busy
+  .douta( Icache_SRAM_data_out_554 )          // output wire [553 : 0] douta
+    // output wire rsta_busy
 );
 
     //Icache的输出暂时不用寄存器存，依靠存储本身的寄存器
@@ -186,7 +208,8 @@ module Icache(
     .o_w_data_out                       ( w_fifo_buffer_data_out    )
 );
 
-    
+
+
 //Selector1
 
 
@@ -199,9 +222,9 @@ module Icache(
         .valid0       (~r_write_enable), 
         .valid1       (r_write_enable ),//回填时r_write_enable=1，走driveNext1
 
-        .o_driveNext0 (w_Selector1_drive_Splitter1 ),
+        .o_driveNext0 (w_Selector1_drive_fifo1 ),
         .o_driveNext1 (w_Selector1_drive_mutex2 ),
-        .i_freeNext0  (w_Selector1_free_Splitter1  ),
+        .i_freeNext0  (w_Selector1_free_fifo1  ),
         .i_freeNext1  (w_Selector1_free_mutex2  )
     );
 
@@ -222,11 +245,23 @@ module Icache(
         end
     end
 
+//cfifo1
+
+    (*dont_touch = "true"*)cFifo1 u_cFifo1(
+        .i_drive     (w_Selector1_drive_fifo1     ),
+        .i_freeNext  (w_fifo1_free_splitter1  ),
+        .o_free      (w_Selector1_free_fifo1      ),
+        .o_driveNext (w_fifo1_drive_splitter1 ),
+        .o_fire_1    (w_fifo1_fire    ),
+        .rst         (rst         )
+    );
+    
+
     //Tag compare
     wire hit;//是否命中
     wire [1:0] way_hit_2;//[1] way1 [0] way0，命中哪一路
     
-    tag_compare u_tag_compare(
+    (*dont_touch = "true"*)tag_compare u_tag_compare(
         .w_Icache_addr_tag_20            (w_Icache_addr_tag_20            ),
         .Icache_SRAM_out_way1_tag_20     (Icache_SRAM_out_way1_tag_20     ),
         .Icache_SRAM_out_way0_tag_20     (Icache_SRAM_out_way0_tag_20     ),
@@ -247,11 +282,11 @@ module Icache(
 //splitter1
 
     (*dont_touch = "true"*)cSplitter2 u_cSplitter1(
-    .i_drive      (w_Selector1_drive_Splitter1      ),
+    .i_drive      (w_fifo1_drive_splitter1      ),
     .i_freeNext0  (w_splitter1_free_fifo_buffer  ),
     .i_freeNext1  (w_splitter1_free_Selector2  ),
     .rst          (rst          ),
-    .o_free       (w_Selector1_free_Splitter1       ),
+    .o_free       (w_fifo1_free_splitter1       ),
     .o_driveNext0 (w_splitter1_drive_fifo_buffer ),
     .o_driveNext1 (w_splitter1_drive_Selector2 )
 );
@@ -271,44 +306,6 @@ module Icache(
         .i_freeNext0  (i_freeNext_L2Cache  ),
         .i_freeNext1  (w_Selector2_free_mutex2  )
     );
-
-    // cLastFifo1 u_cLastFifo1(
-    //     .i_drive     (w_splitter1_drive_Selector2     ),
-    //     .rst         (rst         ),
-    //     .o_free      (      ),
-    //     .o_driveNext ( ),
-    //     .o_fire_1    (w_lastFifo_fire    )
-    // );
-    
-
-    // always @(posedge w_Selector2_fire or negedge rst) begin
-    //    if (rst==0) begin
-    //         r_hit_data_Selector2_to_ifu_32B[127:0] <= 128'b0;
-    //    end 
-    //    else begin
-    //         if (way_hit_2[1]) begin
-    //             r_hit_data_Selector2_to_ifu_32B[127:0] <= Icache_SRAM_out_way1_data_256[127:0];
-    //         end
-    //         else begin
-    //             r_hit_data_Selector2_to_ifu_32B[127:0] <= Icache_SRAM_out_way0_data_256[127:0];
-    //         end
-    //    end
-    // end
-
-    // always @(posedge w_lastFifo_fire or negedge rst) begin
-    //     if (rst==0) begin
-    //         r_hit_data_Selector2_to_ifu_32B[255:128] <= 128'b0;
-    //     end 
-    //     else begin
-    //         if (way_hit_2[1]) begin
-    //             r_hit_data_Selector2_to_ifu_32B[255:128] <= Icache_SRAM_out_way1_data_256[255:128];
-    //         end
-    //         else begin
-    //             r_hit_data_Selector2_to_ifu_32B[255:128] <= Icache_SRAM_out_way0_data_256[255:128];
-    //         end
-    //     end
-    // end
-
     
     assign o_miss_Addr_to_L2cache_34 = r_fifo2_1_addr_34;
 

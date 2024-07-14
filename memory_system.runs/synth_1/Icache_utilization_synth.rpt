@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Sat Jul 13 22:18:26 2024
+| Date         : Sun Jul 14 20:59:16 2024
 | Host         : DESKTOP-DKUDC5F running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Icache_utilization_synth.rpt -pb Icache_utilization_synth.pb
 | Design       : Icache
@@ -35,11 +35,11 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| CLB LUTs*               | 1060 |     0 |   1728000 |  0.06 |
-|   LUT as Logic          | 1060 |     0 |   1728000 |  0.06 |
+| CLB LUTs*               | 1145 |     0 |   1728000 |  0.07 |
+|   LUT as Logic          | 1145 |     0 |   1728000 |  0.07 |
 |   LUT as Memory         |    0 |     0 |    791040 |  0.00 |
-| CLB Registers           |  581 |     0 |   3456000 |  0.02 |
-|   Register as Flip Flop |  581 |     0 |   3456000 |  0.02 |
+| CLB Registers           |  589 |     0 |   3456000 |  0.02 |
+|   Register as Flip Flop |  589 |     0 |   3456000 |  0.02 |
 |   Register as Latch     |    0 |     0 |   3456000 |  0.00 |
 | CARRY8                  |    2 |     0 |    216000 | <0.01 |
 | F7 Muxes                |   68 |     0 |    864000 | <0.01 |
@@ -61,8 +61,8 @@ Table of Contents
 | 0     |            _ |         Set |            - |
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
-| 14    |          Yes |           - |          Set |
-| 567   |          Yes |           - |        Reset |
+| 16    |          Yes |           - |          Set |
+| 573   |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
 | 0     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
@@ -98,7 +98,7 @@ Table of Contents
 +------------+------+-------+-----------+-------+
 |  Site Type | Used | Fixed | Available | Util% |
 +------------+------+-------+-----------+-------+
-| Bonded IOB |  589 |     0 |       702 | 83.90 |
+| Bonded IOB |  627 |     0 |       702 | 89.32 |
 +------------+------+-------+-----------+-------+
 
 
@@ -158,19 +158,19 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDCE     |  567 |            Register |
-| LUT4     |  553 |                 CLB |
+| LUT4     |  808 |                 CLB |
+| FDCE     |  573 |            Register |
+| OBUF     |  332 |                 I/O |
 | INBUF    |  295 |                 I/O |
 | IBUFCTRL |  295 |              Others |
-| OBUF     |  294 |                 I/O |
-| LUT2     |  285 |                 CLB |
-| LUT5     |  264 |                 CLB |
-| LUT6     |  166 |                 CLB |
+| LUT3     |  260 |                 CLB |
+| LUT5     |  257 |                 CLB |
+| LUT6     |  165 |                 CLB |
 | MUXF7    |   68 |                 CLB |
-| LUT1     |   52 |                 CLB |
+| LUT1     |   63 |                 CLB |
+| LUT2     |   36 |                 CLB |
 | MUXF8    |   33 |                 CLB |
-| FDPE     |   14 |            Register |
-| LUT3     |    4 |                 CLB |
+| FDPE     |   16 |            Register |
 | CARRY8   |    2 |                 CLB |
 | BUFGCE   |    1 |               Clock |
 +----------+------+---------------------+
@@ -179,11 +179,11 @@ Table of Contents
 9. Black Boxes
 --------------
 
-+-------------------+------+
-|      Ref Name     | Used |
-+-------------------+------+
-| Icache_SRAM_bank0 |    1 |
-+-------------------+------+
++------------------+------+
+|     Ref Name     | Used |
++------------------+------+
+| Icache_SRAM_bank |    1 |
++------------------+------+
 
 
 10. Instantiated Netlists

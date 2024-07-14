@@ -49,21 +49,20 @@ read_verilog -library xil_defaultlib {
   D:/github/memory_system/memory_system.srcs/sources_1/new/Dcache.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/L2Cache.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/MMU.v
-  D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/bidirDelay1U.v
-  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_32b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector7.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cWaitMerge2_64b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay2Unit.v
-  D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay4Unit.v
-  D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay8Unit.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/memorySystemTop.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/pmtRelay.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cLastFifo1.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_1b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/tag_compare.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cPmtFifo2.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_outpmt_35b.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cPmtSelector2.v
 }
-read_ip -quiet D:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank0/Icache_SRAM_bank0.xci
-set_property used_in_implementation false [get_files -all d:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank0/Icache_SRAM_bank0_ooc.xdc]
+read_ip -quiet d:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank/Icache_SRAM_bank.xci
+set_property used_in_implementation false [get_files -all d:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank/Icache_SRAM_bank_ooc.xdc]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

@@ -25,7 +25,7 @@ module Icache_tb;
 // Icache Parameters
 parameter PERIOD    = 5;
 parameter rst_cycle  = 30;
-parameter run_time  = 30;
+parameter run_time  = 15;
 
 reg [6:0] count = 0;
 
@@ -45,7 +45,10 @@ wire  o_driveNext_L2Cache                  ;
 wire  [33:0]  o_miss_Addr_to_L2cache_34    ;
 wire  o_driveNext_ifu                      ;
 wire  [255:0]  o_hit_data_to_ifu_32B       ;
-
+wire  [1:0]  o_fifo_buffer_write_enable_2  ;
+wire  [33:0]  o_fifo2_1_addr_34            ;
+wire  o_write_enable                       ;
+wire  o_fifo_buffer_data_out               ;
 
 initial
 begin
@@ -76,8 +79,15 @@ Icache  u_Icache (
     .o_driveNext_L2Cache        ( o_driveNext_L2Cache                ),
     .o_miss_Addr_to_L2cache_34  ( o_miss_Addr_to_L2cache_34  [33:0]  ),
     .o_driveNext_ifu            ( o_driveNext_ifu                    ),
-    .o_hit_data_to_ifu_32B      ( o_hit_data_to_ifu_32B      [255:0] )
+    .o_hit_data_to_ifu_32B      ( o_hit_data_to_ifu_32B      [255:0] ),
+    
+    .o_fifo_buffer_write_enable_2  ( o_fifo_buffer_write_enable_2  [1:0]   ),
+    .o_fifo2_1_addr_34             ( o_fifo2_1_addr_34             [33:0]  ),
+    .o_write_enable                ( o_write_enable                        ),
+    .o_fifo_buffer_data_out        ( o_fifo_buffer_data_out                )
 );
+
+
 
 // i_Itlb_drive                         = 0 ;
 // i_Itlb_PA_34                 = 0 ;
@@ -102,6 +112,7 @@ begin
     #run_time;
 	#(PERIOD/2.0)		i_freeNext_L2Cache =  1'b1;
     #(PERIOD/2.0)       i_freeNext_L2Cache =  1'b0;
+    #(PERIOD);
 		// #(PERIOD/2.0)		i_freeNext_ifu		=		1'b0;
         // i_freeNext_ifu =  1'b0;
   
@@ -118,9 +129,35 @@ begin
     #run_time;
     #(PERIOD/2.0)		i_freeNext_ifu		=		1'b1;
     #(PERIOD/2.0) i_freeNext_ifu =  1'b0;
-        
+    #(PERIOD);
 
-    //case3 ∂¡√¸÷–
+    //case3 ∂¡»± ß£¨∑√Œ L2
+    count = count +1'b1;
+
+    i_Itlb_PA_34 = 34'h256789_abc;
+
+    #(PERIOD/2.0) i_Itlb_drive = 1'b1;
+    #(PERIOD/2.0) i_Itlb_drive = 1'b0;
+
+    #run_time;
+	#(PERIOD/2.0)		i_freeNext_L2Cache =  1'b1;
+    #(PERIOD/2.0)       i_freeNext_L2Cache =  1'b0;
+    #(PERIOD);
+    
+    //case3 ªÿÃÓ
+    count = count +1'b1;
+
+    i_Itlb_PA_34 = 34'h256789_abc;
+
+    #(PERIOD/2.0) i_L2Cache_drive = 1'b1;
+    #(PERIOD/2.0) i_L2Cache_drive = 1'b0;
+
+    #run_time;
+	#(PERIOD/2.0)		i_freeNext_ifu =  1'b1;
+    #(PERIOD/2.0)       i_freeNext_ifu =  1'b0;
+    #(PERIOD);
+    
+    //case4 ∂¡√¸÷–
     count = count +1'b1;
 
     i_Itlb_PA_34 = 34'h234567_abc;
@@ -131,6 +168,7 @@ begin
     #run_time;
 	#(PERIOD/2.0)		i_freeNext_ifu =  1'b1;
     #(PERIOD/2.0)       i_freeNext_ifu =  1'b0;
+    #(PERIOD);
 
     $finish;
 end
