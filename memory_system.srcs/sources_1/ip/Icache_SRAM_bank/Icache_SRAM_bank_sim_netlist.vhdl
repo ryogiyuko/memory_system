@@ -1,7 +1,7 @@
 -- Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
--- Date        : Sun Jul 14 19:58:42 2024
+-- Date        : Mon Jul 15 16:32:35 2024
 -- Host        : DESKTOP-DKUDC5F running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
 --               d:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank/Icache_SRAM_bank_sim_netlist.vhdl
@@ -20,7 +20,7 @@ entity Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 8 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -148,8 +148,8 @@ begin
       WRITE_WIDTH_B => 9
     )
         port map (
-      ADDRARDADDR(13) => '0',
-      ADDRARDADDR(12 downto 3) => addra(9 downto 0),
+      ADDRARDADDR(13 downto 11) => B"000",
+      ADDRARDADDR(10 downto 3) => addra(7 downto 0),
       ADDRARDADDR(2 downto 0) => B"000",
       ADDRBWRADDR(13 downto 0) => B"00000000000000",
       ADDRENA => '0',
@@ -210,7 +210,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized0\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -419,8 +419,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -499,7 +499,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized1\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -708,8 +708,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -788,7 +788,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized10\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -997,8 +997,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -1077,7 +1077,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized11\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -1286,8 +1286,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -1366,7 +1366,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized12\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -1575,8 +1575,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -1655,7 +1655,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized13\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -1864,8 +1864,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -1944,7 +1944,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized14\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 15 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -2157,8 +2157,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -2231,7 +2231,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized2\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -2440,8 +2440,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -2520,7 +2520,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized3\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -2729,8 +2729,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -2809,7 +2809,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized4\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -3018,8 +3018,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -3098,7 +3098,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized5\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -3307,8 +3307,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -3387,7 +3387,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized6\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -3596,8 +3596,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -3676,7 +3676,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized7\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -3885,8 +3885,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -3965,7 +3965,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized8\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4174,8 +4174,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -4254,7 +4254,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized9\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4463,8 +4463,8 @@ begin
       WRITE_WIDTH_B => 18
     )
         port map (
-      ADDRARDADDR(14) => '0',
-      ADDRARDADDR(13 downto 4) => addra(9 downto 0),
+      ADDRARDADDR(14 downto 12) => B"000",
+      ADDRARDADDR(11 downto 4) => addra(7 downto 0),
       ADDRARDADDR(3 downto 0) => B"0000",
       ADDRBWRADDR(14 downto 0) => B"000000000000000",
       ADDRENA => '0',
@@ -4543,7 +4543,7 @@ entity Icache_SRAM_bank_blk_mem_gen_prim_width is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 8 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4555,7 +4555,7 @@ architecture STRUCTURE of Icache_SRAM_bank_blk_mem_gen_prim_width is
 begin
 \prim_init.ram\: entity work.Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(8 downto 0) => dina(8 downto 0),
       douta(17 downto 0) => douta(17 downto 0),
@@ -4574,7 +4574,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized0\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4586,7 +4586,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized0\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4605,7 +4605,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized1\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4617,7 +4617,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized1\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4636,7 +4636,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized10\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4648,7 +4648,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized10\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4667,7 +4667,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized11\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4679,7 +4679,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized11\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4698,7 +4698,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized12\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4710,7 +4710,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized12\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4729,7 +4729,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized13\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4741,7 +4741,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized13\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4760,7 +4760,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized14\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 15 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4772,7 +4772,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized14\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(15 downto 0) => dina(15 downto 0),
       douta(31 downto 0) => douta(31 downto 0),
@@ -4791,7 +4791,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized2\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4803,7 +4803,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized2\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4822,7 +4822,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized3\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4834,7 +4834,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized3\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4853,7 +4853,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized4\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4865,7 +4865,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized4\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4884,7 +4884,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized5\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4896,7 +4896,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized5\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4915,7 +4915,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized6\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4927,7 +4927,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized6\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4946,7 +4946,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized7\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4958,7 +4958,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized7\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -4977,7 +4977,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized8\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -4989,7 +4989,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized8\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -5008,7 +5008,7 @@ entity \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized9\ is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 17 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -5020,7 +5020,7 @@ architecture STRUCTURE of \Icache_SRAM_bank_blk_mem_gen_prim_width__parameterize
 begin
 \prim_init.ram\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_wrapper_init__parameterized9\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(17 downto 0),
       douta(35 downto 0) => douta(35 downto 0),
@@ -5039,7 +5039,7 @@ entity Icache_SRAM_bank_blk_mem_gen_generic_cstr is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 276 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -5051,7 +5051,7 @@ architecture STRUCTURE of Icache_SRAM_bank_blk_mem_gen_generic_cstr is
 begin
 \ramloop[0].ram.r\: entity work.Icache_SRAM_bank_blk_mem_gen_prim_width
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(8 downto 0) => dina(8 downto 0),
       douta(17 downto 9) => douta(285 downto 277),
@@ -5062,7 +5062,7 @@ begin
     );
 \ramloop[10].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized9\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(188 downto 171),
       douta(35 downto 18) => douta(465 downto 448),
@@ -5073,7 +5073,7 @@ begin
     );
 \ramloop[11].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized10\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(206 downto 189),
       douta(35 downto 18) => douta(483 downto 466),
@@ -5084,7 +5084,7 @@ begin
     );
 \ramloop[12].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized11\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(224 downto 207),
       douta(35 downto 18) => douta(501 downto 484),
@@ -5095,7 +5095,7 @@ begin
     );
 \ramloop[13].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized12\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(242 downto 225),
       douta(35 downto 18) => douta(519 downto 502),
@@ -5106,7 +5106,7 @@ begin
     );
 \ramloop[14].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized13\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(260 downto 243),
       douta(35 downto 18) => douta(537 downto 520),
@@ -5117,7 +5117,7 @@ begin
     );
 \ramloop[15].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized14\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(15 downto 0) => dina(276 downto 261),
       douta(31 downto 16) => douta(553 downto 538),
@@ -5128,7 +5128,7 @@ begin
     );
 \ramloop[1].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized0\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(26 downto 9),
       douta(35 downto 18) => douta(303 downto 286),
@@ -5139,7 +5139,7 @@ begin
     );
 \ramloop[2].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized1\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(44 downto 27),
       douta(35 downto 18) => douta(321 downto 304),
@@ -5150,7 +5150,7 @@ begin
     );
 \ramloop[3].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized2\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(62 downto 45),
       douta(35 downto 18) => douta(339 downto 322),
@@ -5161,7 +5161,7 @@ begin
     );
 \ramloop[4].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized3\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(80 downto 63),
       douta(35 downto 18) => douta(357 downto 340),
@@ -5172,7 +5172,7 @@ begin
     );
 \ramloop[5].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized4\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(98 downto 81),
       douta(35 downto 18) => douta(375 downto 358),
@@ -5183,7 +5183,7 @@ begin
     );
 \ramloop[6].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized5\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(116 downto 99),
       douta(35 downto 18) => douta(393 downto 376),
@@ -5194,7 +5194,7 @@ begin
     );
 \ramloop[7].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized6\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(134 downto 117),
       douta(35 downto 18) => douta(411 downto 394),
@@ -5205,7 +5205,7 @@ begin
     );
 \ramloop[8].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized7\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(152 downto 135),
       douta(35 downto 18) => douta(429 downto 412),
@@ -5216,7 +5216,7 @@ begin
     );
 \ramloop[9].ram.r\: entity work.\Icache_SRAM_bank_blk_mem_gen_prim_width__parameterized8\
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(17 downto 0) => dina(170 downto 153),
       douta(35 downto 18) => douta(447 downto 430),
@@ -5236,7 +5236,7 @@ entity Icache_SRAM_bank_blk_mem_gen_top is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 276 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -5248,7 +5248,7 @@ architecture STRUCTURE of Icache_SRAM_bank_blk_mem_gen_top is
 begin
 \valid.cstr\: entity work.Icache_SRAM_bank_blk_mem_gen_generic_cstr
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(276 downto 0) => dina(276 downto 0),
       douta(553 downto 0) => douta(553 downto 0),
@@ -5267,7 +5267,7 @@ entity Icache_SRAM_bank_blk_mem_gen_v8_4_3_synth is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     sleep : in STD_LOGIC;
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 276 downto 0 );
     wea : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
@@ -5279,7 +5279,7 @@ architecture STRUCTURE of Icache_SRAM_bank_blk_mem_gen_v8_4_3_synth is
 begin
 \gnbram.gnativebmg.native_blk_mem_gen\: entity work.Icache_SRAM_bank_blk_mem_gen_top
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(276 downto 0) => dina(276 downto 0),
       douta(553 downto 0) => douta(553 downto 0),
@@ -5299,7 +5299,7 @@ entity Icache_SRAM_bank_blk_mem_gen_v8_4_3 is
     ena : in STD_LOGIC;
     regcea : in STD_LOGIC;
     wea : in STD_LOGIC_VECTOR ( 0 to 0 );
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 276 downto 0 );
     douta : out STD_LOGIC_VECTOR ( 553 downto 0 );
     clkb : in STD_LOGIC;
@@ -5307,7 +5307,7 @@ entity Icache_SRAM_bank_blk_mem_gen_v8_4_3 is
     enb : in STD_LOGIC;
     regceb : in STD_LOGIC;
     web : in STD_LOGIC_VECTOR ( 0 to 0 );
-    addrb : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addrb : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dinb : in STD_LOGIC_VECTOR ( 276 downto 0 );
     doutb : out STD_LOGIC_VECTOR ( 276 downto 0 );
     injectsbiterr : in STD_LOGIC;
@@ -5315,7 +5315,7 @@ entity Icache_SRAM_bank_blk_mem_gen_v8_4_3 is
     eccpipece : in STD_LOGIC;
     sbiterr : out STD_LOGIC;
     dbiterr : out STD_LOGIC;
-    rdaddrecc : out STD_LOGIC_VECTOR ( 9 downto 0 );
+    rdaddrecc : out STD_LOGIC_VECTOR ( 7 downto 0 );
     sleep : in STD_LOGIC;
     deepsleep : in STD_LOGIC;
     shutdown : in STD_LOGIC;
@@ -5356,12 +5356,12 @@ entity Icache_SRAM_bank_blk_mem_gen_v8_4_3 is
     s_axi_injectdbiterr : in STD_LOGIC;
     s_axi_sbiterr : out STD_LOGIC;
     s_axi_dbiterr : out STD_LOGIC;
-    s_axi_rdaddrecc : out STD_LOGIC_VECTOR ( 9 downto 0 )
+    s_axi_rdaddrecc : out STD_LOGIC_VECTOR ( 7 downto 0 )
   );
   attribute C_ADDRA_WIDTH : integer;
-  attribute C_ADDRA_WIDTH of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 10;
+  attribute C_ADDRA_WIDTH of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 8;
   attribute C_ADDRB_WIDTH : integer;
-  attribute C_ADDRB_WIDTH of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 10;
+  attribute C_ADDRB_WIDTH of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 8;
   attribute C_ALGORITHM : integer;
   attribute C_ALGORITHM of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 1;
   attribute C_AXI_ID_WIDTH : integer;
@@ -5455,9 +5455,9 @@ entity Icache_SRAM_bank_blk_mem_gen_v8_4_3 is
   attribute C_PRIM_TYPE : integer;
   attribute C_PRIM_TYPE of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 1;
   attribute C_READ_DEPTH_A : integer;
-  attribute C_READ_DEPTH_A of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 512;
+  attribute C_READ_DEPTH_A of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 128;
   attribute C_READ_DEPTH_B : integer;
-  attribute C_READ_DEPTH_B of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 1024;
+  attribute C_READ_DEPTH_B of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 256;
   attribute C_READ_LATENCY_A : integer;
   attribute C_READ_LATENCY_A of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 1;
   attribute C_READ_LATENCY_B : integer;
@@ -5495,9 +5495,9 @@ entity Icache_SRAM_bank_blk_mem_gen_v8_4_3 is
   attribute C_WEB_WIDTH : integer;
   attribute C_WEB_WIDTH of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 1;
   attribute C_WRITE_DEPTH_A : integer;
-  attribute C_WRITE_DEPTH_A of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 1024;
+  attribute C_WRITE_DEPTH_A of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 256;
   attribute C_WRITE_DEPTH_B : integer;
-  attribute C_WRITE_DEPTH_B of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 1024;
+  attribute C_WRITE_DEPTH_B of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is 256;
   attribute C_WRITE_MODE_A : string;
   attribute C_WRITE_MODE_A of Icache_SRAM_bank_blk_mem_gen_v8_4_3 : entity is "NO_CHANGE";
   attribute C_WRITE_MODE_B : string;
@@ -5795,8 +5795,6 @@ begin
   doutb(2) <= \<const0>\;
   doutb(1) <= \<const0>\;
   doutb(0) <= \<const0>\;
-  rdaddrecc(9) <= \<const0>\;
-  rdaddrecc(8) <= \<const0>\;
   rdaddrecc(7) <= \<const0>\;
   rdaddrecc(6) <= \<const0>\;
   rdaddrecc(5) <= \<const0>\;
@@ -5817,8 +5815,6 @@ begin
   s_axi_bresp(0) <= \<const0>\;
   s_axi_bvalid <= \<const0>\;
   s_axi_dbiterr <= \<const0>\;
-  s_axi_rdaddrecc(9) <= \<const0>\;
-  s_axi_rdaddrecc(8) <= \<const0>\;
   s_axi_rdaddrecc(7) <= \<const0>\;
   s_axi_rdaddrecc(6) <= \<const0>\;
   s_axi_rdaddrecc(5) <= \<const0>\;
@@ -6121,7 +6117,7 @@ GND: unisim.vcomponents.GND
     );
 inst_blk_mem_gen: entity work.Icache_SRAM_bank_blk_mem_gen_v8_4_3_synth
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
+      addra(7 downto 0) => addra(7 downto 0),
       clka => clka,
       dina(276 downto 0) => dina(276 downto 0),
       douta(553 downto 0) => douta(553 downto 0),
@@ -6139,7 +6135,7 @@ entity Icache_SRAM_bank is
     clka : in STD_LOGIC;
     ena : in STD_LOGIC;
     wea : in STD_LOGIC_VECTOR ( 0 to 0 );
-    addra : in STD_LOGIC_VECTOR ( 9 downto 0 );
+    addra : in STD_LOGIC_VECTOR ( 7 downto 0 );
     dina : in STD_LOGIC_VECTOR ( 276 downto 0 );
     douta : out STD_LOGIC_VECTOR ( 553 downto 0 )
   );
@@ -6167,17 +6163,17 @@ architecture STRUCTURE of Icache_SRAM_bank is
   signal NLW_U0_s_axi_wready_UNCONNECTED : STD_LOGIC;
   signal NLW_U0_sbiterr_UNCONNECTED : STD_LOGIC;
   signal NLW_U0_doutb_UNCONNECTED : STD_LOGIC_VECTOR ( 276 downto 0 );
-  signal NLW_U0_rdaddrecc_UNCONNECTED : STD_LOGIC_VECTOR ( 9 downto 0 );
+  signal NLW_U0_rdaddrecc_UNCONNECTED : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal NLW_U0_s_axi_bid_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal NLW_U0_s_axi_bresp_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
-  signal NLW_U0_s_axi_rdaddrecc_UNCONNECTED : STD_LOGIC_VECTOR ( 9 downto 0 );
+  signal NLW_U0_s_axi_rdaddrecc_UNCONNECTED : STD_LOGIC_VECTOR ( 7 downto 0 );
   signal NLW_U0_s_axi_rdata_UNCONNECTED : STD_LOGIC_VECTOR ( 276 downto 0 );
   signal NLW_U0_s_axi_rid_UNCONNECTED : STD_LOGIC_VECTOR ( 3 downto 0 );
   signal NLW_U0_s_axi_rresp_UNCONNECTED : STD_LOGIC_VECTOR ( 1 downto 0 );
   attribute C_ADDRA_WIDTH : integer;
-  attribute C_ADDRA_WIDTH of U0 : label is 10;
+  attribute C_ADDRA_WIDTH of U0 : label is 8;
   attribute C_ADDRB_WIDTH : integer;
-  attribute C_ADDRB_WIDTH of U0 : label is 10;
+  attribute C_ADDRB_WIDTH of U0 : label is 8;
   attribute C_ALGORITHM : integer;
   attribute C_ALGORITHM of U0 : label is 1;
   attribute C_AXI_ID_WIDTH : integer;
@@ -6271,9 +6267,9 @@ architecture STRUCTURE of Icache_SRAM_bank is
   attribute C_PRIM_TYPE : integer;
   attribute C_PRIM_TYPE of U0 : label is 1;
   attribute C_READ_DEPTH_A : integer;
-  attribute C_READ_DEPTH_A of U0 : label is 512;
+  attribute C_READ_DEPTH_A of U0 : label is 128;
   attribute C_READ_DEPTH_B : integer;
-  attribute C_READ_DEPTH_B of U0 : label is 1024;
+  attribute C_READ_DEPTH_B of U0 : label is 256;
   attribute C_READ_LATENCY_A : integer;
   attribute C_READ_LATENCY_A of U0 : label is 1;
   attribute C_READ_LATENCY_B : integer;
@@ -6311,9 +6307,9 @@ architecture STRUCTURE of Icache_SRAM_bank is
   attribute C_WEB_WIDTH : integer;
   attribute C_WEB_WIDTH of U0 : label is 1;
   attribute C_WRITE_DEPTH_A : integer;
-  attribute C_WRITE_DEPTH_A of U0 : label is 1024;
+  attribute C_WRITE_DEPTH_A of U0 : label is 256;
   attribute C_WRITE_DEPTH_B : integer;
-  attribute C_WRITE_DEPTH_B of U0 : label is 1024;
+  attribute C_WRITE_DEPTH_B of U0 : label is 256;
   attribute C_WRITE_MODE_A : string;
   attribute C_WRITE_MODE_A of U0 : label is "NO_CHANGE";
   attribute C_WRITE_MODE_B : string;
@@ -6337,8 +6333,8 @@ architecture STRUCTURE of Icache_SRAM_bank is
 begin
 U0: entity work.Icache_SRAM_bank_blk_mem_gen_v8_4_3
      port map (
-      addra(9 downto 0) => addra(9 downto 0),
-      addrb(9 downto 0) => B"0000000000",
+      addra(7 downto 0) => addra(7 downto 0),
+      addrb(7 downto 0) => B"00000000",
       clka => clka,
       clkb => '0',
       dbiterr => NLW_U0_dbiterr_UNCONNECTED,
@@ -6352,7 +6348,7 @@ U0: entity work.Icache_SRAM_bank_blk_mem_gen_v8_4_3
       enb => '0',
       injectdbiterr => '0',
       injectsbiterr => '0',
-      rdaddrecc(9 downto 0) => NLW_U0_rdaddrecc_UNCONNECTED(9 downto 0),
+      rdaddrecc(7 downto 0) => NLW_U0_rdaddrecc_UNCONNECTED(7 downto 0),
       regcea => '0',
       regceb => '0',
       rsta => '0',
@@ -6382,7 +6378,7 @@ U0: entity work.Icache_SRAM_bank_blk_mem_gen_v8_4_3
       s_axi_dbiterr => NLW_U0_s_axi_dbiterr_UNCONNECTED,
       s_axi_injectdbiterr => '0',
       s_axi_injectsbiterr => '0',
-      s_axi_rdaddrecc(9 downto 0) => NLW_U0_s_axi_rdaddrecc_UNCONNECTED(9 downto 0),
+      s_axi_rdaddrecc(7 downto 0) => NLW_U0_s_axi_rdaddrecc_UNCONNECTED(7 downto 0),
       s_axi_rdata(276 downto 0) => NLW_U0_s_axi_rdata_UNCONNECTED(276 downto 0),
       s_axi_rid(3 downto 0) => NLW_U0_s_axi_rid_UNCONNECTED(3 downto 0),
       s_axi_rlast => NLW_U0_s_axi_rlast_UNCONNECTED,

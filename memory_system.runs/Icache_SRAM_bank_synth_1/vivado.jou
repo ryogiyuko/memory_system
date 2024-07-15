@@ -2,8 +2,8 @@
 # Vivado v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Jul 14 19:56:48 2024
-# Process ID: 10248
+# Start of session at: Mon Jul 15 16:30:35 2024
+# Process ID: 12496
 # Current directory: D:/github/memory_system/memory_system.runs/Icache_SRAM_bank_synth_1
 # Command line: vivado.exe -log Icache_SRAM_bank.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Icache_SRAM_bank.tcl
 # Log file: D:/github/memory_system/memory_system.runs/Icache_SRAM_bank_synth_1/Icache_SRAM_bank.vds

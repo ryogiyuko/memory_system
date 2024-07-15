@@ -1,5 +1,6 @@
 `timescale 1ns / 1ps
-module cMutexMerge2_outpmt_35b( //±ØÐëºó½Ófifo
+
+module cMutexMerge2_outpmt_35b( 
 i_drive0, i_data0, o_free0,
 i_drive1, i_data1, o_free1,
 i_freeNext, o_driveNext, o_data ,

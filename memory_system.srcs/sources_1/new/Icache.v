@@ -65,8 +65,8 @@ module Icache(
     //fire0
     wire w_fifo_replace; //fifo位，为0时way0优先，为1时way1优先；当缺失时，先翻转，再回填，为0时填way0，为1时填way1
     wire [19:0] w_Icache_addr_tag_20;
-    wire [8:0] w_Icache_addr_index_9;
-    wire [9:0] w_Icache_SRAM_addr_10;
+    wire [6:0] w_Icache_addr_index_7;
+    wire [7:0] w_Icache_SRAM_addr_8;
 
     reg [33:0] r_fifo2_1_addr_34; //仅在取指令事件时被改变
     reg r_write_enable;
@@ -171,10 +171,10 @@ module Icache(
     end
     
     assign w_Icache_addr_tag_20 = r_fifo2_1_addr_34[33:14];
-    assign w_Icache_addr_index_9 = r_fifo2_1_addr_34[13:5];
+    assign w_Icache_addr_index_7 = r_fifo2_1_addr_34[13:7];
 
-    assign w_Icache_SRAM_addr_10[9:1] = w_Icache_addr_index_9;
-    assign w_Icache_SRAM_addr_10[0] = r_write_enable? w_fifo_replace : 1'b0;
+    assign w_Icache_SRAM_addr_8 [7:1] = w_Icache_addr_index_7;
+    assign w_Icache_SRAM_addr_8 [0] = r_write_enable? w_fifo_replace : 1'b0;
 
     assign w_fifo_replace = r_fifo_buffer_data_out;//用Selector1存的值，决定回填地址
 
@@ -184,7 +184,7 @@ module Icache(
   //.rsta(rst),            // input wire rsta
   .ena(1'b1),              // input wire ena
   .wea(r_write_enable),              // input wire [0 : 0] wea
-  .addra(w_Icache_SRAM_addr_10),          // input wire [9 : 0] addra
+  .addra(w_Icache_SRAM_addr_8),          // input wire [7 : 0] addra
   .dina({ i_L2Cache_refillLine_32B, w_Icache_addr_tag_20, 1'b1 }),            // input wire [276 : 0] dina
   .douta( Icache_SRAM_data_out_554 )          // output wire [553 : 0] douta
     // output wire rsta_busy
@@ -201,7 +201,7 @@ module Icache(
     replace_fifo_buffer u_replace_fifo_buffer(
     .rst                                (rst                              ),
     .fire                               ( w_cFifo2_fire_2[1] | w_splitter1_drive_fifo_buffer ), //仅需要写的fire，读的不需要
-    .i_replace_fifo_buffer_addr_9       (w_Icache_addr_index_9       ), 
+    .i_replace_fifo_buffer_addr_7       (w_Icache_addr_index_7       ), 
     .i_replace_fifo_buffer_write_enable ( r_fifo_buffer_write_enable_2[0] ^ r_fifo_buffer_write_enable_2[1]  ),  //mutex1 Selector1  这里用reg，实际不需要这么做，sram需要
     .i_data_in                          ( w_fifo_buffer_data_in     ),//w_fifo_buffer_data_in见 Tag compare
     .o_data_out                         (     ),

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xcvu13p-fhgb2104-2-i" LaunchTime="1720961903">
   <File Type="PA-TCL" Name="Icache.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Icache_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Icache_reports.tcl"/>
   <File Type="RDS-RDS" Name="Icache.vds"/>
   <File Type="RDS-UTIL" Name="Icache_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Icache_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Icache.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Icache_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Icache_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/replace_fifo_buffer.v">
