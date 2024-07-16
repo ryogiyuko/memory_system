@@ -29,7 +29,7 @@ module replace_fifo_buffer(//Ğ´+¶Á£º6.723£¬6.8£» ¶Á£º5.858£¬6.506£¬6.948£¬6.506£
     );
 
     // 64B/4 = 128 bits =  2^4 ĞĞ  2^3 ÁĞ
-    reg [7:0] fifo_buffer [15:0];//Êı×éÓĞ32¸öÔªËØ£¬Ã¿¸öÔªËØ¶¼ÊÇ16Î»µÄ¿í
+    reg [7:0] fifo_buffer [15:0];//Êı×éÓĞ16¸öÔªËØ£¬Ã¿¸öÔªËØ¶¼ÊÇ8Î»µÄ¿í
 
     always @(posedge fire or negedge rst) begin
         if (rst == 0) begin
