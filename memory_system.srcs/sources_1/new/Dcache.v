@@ -57,9 +57,10 @@ module Dcache(
     
     //触发器
     ,output [5:0] o_r_case_number_6
+    ,output [11:0] o_dcache_offset_12
     ,output [2:0] o_plru_evictWay_3
     ,output [33:0] o_dcache_PA_34
-    ,output o_missPte_or_hitPte
+    ,output o_missPte_or_loadPte
     );
 
 
@@ -78,19 +79,24 @@ module Dcache(
     reg w_readSRAM_or_writeSRAM, w_write_or_refill; //SRAM 1读 0写(含回填)；Dcache 1 写 0 重填
 
     reg [5:0] r_case_number_6;//独热码： 5回填完毕，写操作  4命中，写操作  3二次回填  2查询页表  1一次回填  0读写
+    
+    wire [33:0] w_dcache_PA_34;
+    
 
-
-    //fire1
     wire w_dataSRAM0_write_enable, w_dataSRAM1_write_enable, w_tagSRAM_write_enable, w_d_v_write_enable;
     wire [8:0] w_Data_SRAM_addr_9; //5位读时找组，3位写的时候选路，1位写的时候选16B中的8B
     wire [7:0] w_tag_D_V_addr_8;//5位读时找组，3位写的时候选路
     wire [4:0] w_PLRU_addr_5; //5位读写时找组
 
+    //fire1
+
     wire [255:0] w_dataSRAM_out_way0_32B, w_dataSRAM_out_way1_32B,w_dataSRAM_out_way2_32B, w_dataSRAM_out_way3_32B;
     wire [255:0] w_dataSRAM_out_way4_32B, w_dataSRAM_out_way5_32B, w_dataSRAM_out_way6_32B, w_dataSRAM_out_way7_32B;  
     wire [21:0] w_tagSRAM_out_way0_22, w_tagSRAM_out_way1_22, w_tagSRAM_out_way2_22, w_tagSRAM_out_way3_22;
     wire [21:0] w_tagSRAM_out_way4_22, w_tagSRAM_out_way5_22, w_tagSRAM_out_way6_22, w_tagSRAM_out_way7_22;
-
+    
+    wire [1:0] w_D_V_buffer_dataIn_2; // 1位 D,0位 V 
+    wire [15:0] w_D_V_buffer_dataOut_16;
 
 //selector1
     wire w_Selector1_drive_wait1, w_Selector1_free_wait1;    
@@ -99,6 +105,8 @@ module Dcache(
     wire w_Selector1_drive_mutex2_readComplete, w_Selector1_free_mutex2_readComplete;
     wire w_Selector1_drive_mutex2_writeComplete, w_Selector1_free_mutex2_writeComplete;
     
+    //wire w_Selector1_drive_mutex3_ptePA, w_Selector1_free_mutex3_ptePA;
+
     wire w_Selector1_fire;
 
     wire [2:0] w_dcache_plru_evict_out_evictWay_3;//输出替换的行
@@ -111,7 +119,7 @@ module Dcache(
 //wait1
     wire w_wait1_drive_selector2, w_wait1_free_selector2;
     wire wait1_data_meanless; //无意义
-    wire w_missPte_or_hitPte; //1 miss,0 hit
+    wire w_missPte_or_loadPte; //1 miss,0 hit
 
 //selector2
     wire w_Selector2_drive_mutex1, w_Selector2_free_mutex1;
@@ -119,10 +127,15 @@ module Dcache(
     wire [1:0] w_Selector2_fire_2;
 
     //fire0
-    reg [33:0] r_dcache_PA_34;
-    reg r_missPte_or_hitPte;
+    reg [33:0] r_dcache_PA_34; //L2寻找填充行使用
+    reg r_missPte_or_loadPte; //selector2使用
+
+    wire w_hit;
+    wire [7:0] w_way_hit_8,w_way_dirty_8;
+    wire [2:0] w_hit_way_3;
 
     //fire1
+    wire [7:0] w_plru_buffer_dataIn_8;
     wire [6:0] w_plru_buffer_out_7; //plru buffer的输出，实时变化，无需读事件
 
 //mutex2
@@ -186,14 +199,23 @@ module Dcache(
     
     always @(posedge w_pmtfifo1_fire_2[0]  or negedge rst) begin
         if (rst==0) begin
-            r_case_number_6 <= 6'b0;             
+            r_case_number_6 <= 6'b0;            
         end
         else begin
             r_case_number_6 <= w_mutex1_data_to_pmtfifo1_6;
+            // if (w_mutex1_data_to_pmtfifo1_6[0]) begin
+            //     r_dcache_offset_12 <= i_lsu_VA_offset_12;
+            // end
+            // else if (w_mutex1_data_to_pmtfifo1_6[2]) begin
+            //     r_dcache_offset_12 <= i_ptw_ptePA_34[11:0];
+            // end
         end
     end
     assign o_r_case_number_6 = r_case_number_6;
+    //assign o_dcache_offset_12 = r_dcache_offset_12;
 
+    assign w_dcache_PA_34[11:0] = r_case_number_6[0] ? i_lsu_VA_offset_12:(r_case_number_6[2] ? i_ptw_ptePA_34[11:0] : i_lsu_VA_offset_12) ;
+    assign w_dcache_PA_34[33:12] = r_case_number_6[0] ? i_Dtlb_PA_ppn_22:(r_case_number_6[2] ? i_ptw_ptePA_34[33:12] : i_Dtlb_PA_ppn_22) ;
 
     assign w_lsu_load_or_store = i_lsu_load_or_store;
     assign w_ptePA_or_PA = r_case_number_6[2];
@@ -217,13 +239,13 @@ module Dcache(
         else w_write_or_refill <= 1'b0;
     end
 
-    //fire1     
-    
     assign w_dataSRAM0_write_enable = (r_case_number_6[5] | r_case_number_6[4] & w_PA_offset_12[4] ) | r_case_number_6[3] |r_case_number_6[1];
     assign w_dataSRAM1_write_enable =(r_case_number_6[5] |r_case_number_6[4] & w_PA_offset_12[4] ) | r_case_number_6[3] |r_case_number_6[1];
     assign w_tagSRAM_write_enable = r_case_number_6[1];
     assign w_d_v_write_enable = r_case_number_6[5] | r_case_number_6[4] | r_case_number_6[1]; // 1 D=0,V=1; 4 5 D=1,V=1
 
+    //fire1     
+    
     //low 16B
     Dcache_bank_dataSram0 u_Dcache_bank_dataSram0 (
     .clka(w_pmtfifo1_fire_2[1]),    // input wire clka
@@ -253,8 +275,7 @@ module Dcache(
   .douta({w_tagSRAM_out_way7_22, w_tagSRAM_out_way6_22, w_tagSRAM_out_way5_22, w_tagSRAM_out_way4_22, w_tagSRAM_out_way3_22, w_tagSRAM_out_way2_22, w_tagSRAM_out_way1_22, w_tagSRAM_out_way0_22})  // output wire [175 : 0] douta
     );
     
-    wire [1:0] w_D_V_buffer_dataIn_2; // 1位 D,0位 V 
-    wire [15:0] w_D_V_buffer_dataOut_16;
+
 
     assign w_D_V_buffer_dataIn_2[0] = 1;
     assign w_D_V_buffer_dataIn_2[1] = w_write_or_refill ? 1:0 ;
@@ -318,7 +339,7 @@ module Dcache(
 //mutex3
     cMutexMerge2_1b u_cMutexMerge3(
         .i_drive0    (i_ptw_drive    ),
-        .i_drive1    (i_Dtlb_drive    ),
+        .i_drive1    (i_Dtlb_drive | ( r_case_number_6[2] & w_Selector1_drive_wait1 ) ),
 
         .i_data0     ( 1'b1  ),
         .i_data1     ( 1'b0  ),
@@ -345,7 +366,7 @@ module Dcache(
         .o_free1     ( w_Selector1_free_wait1    ),
 
         .o_driveNext (w_wait1_drive_selector2 ),
-        .o_data      (  {wait1_data_meanless, w_missPte_or_hitPte}    ) //o_data  = {i_data1 , i_data0 }
+        .o_data      (  {wait1_data_meanless, w_missPte_or_loadPte}    ) //o_data  = {i_data1 , i_data0 }
     );
     
 //selector2
@@ -353,16 +374,19 @@ module Dcache(
     always @(posedge w_Selector2_fire_2[0] or negedge rst) begin
         if (rst==0) begin
             r_dcache_PA_34 <= 34'b0;
-            r_missPte_or_hitPte <= 1'b0;
+            r_missPte_or_loadPte <= 1'b0;
         end
         else begin
-            if(w_missPte_or_hitPte==0)r_dcache_PA_34 <= {i_Dtlb_PA_ppn_22, i_lsu_VA_offset_12 };
-            else if(w_missPte_or_hitPte==1)r_dcache_PA_34 <= i_ptw_ptePA_34;
-            r_missPte_or_hitPte <= w_missPte_or_hitPte;
+            if(w_missPte_or_loadPte==0) begin
+                r_dcache_PA_34 <= w_dcache_PA_34;
+            end
+            else begin
+                r_dcache_PA_34 <= r_dcache_PA_34;
+            end
         end
     end
     assign o_dcache_PA_34 = r_dcache_PA_34;
-    assign o_missPte_or_hitPte = r_missPte_or_hitPte;
+    assign o_missPte_or_loadPte = r_missPte_or_loadPte;
     
     //dcache_tag_compare
 
