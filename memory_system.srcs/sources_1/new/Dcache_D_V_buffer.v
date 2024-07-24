@@ -51,8 +51,8 @@ module Dcache_D_V_buffer( //´ý²â
         end
     end
     always @( *) begin
-        if(rst==0) o_w_data_out_16<=16'b0;
-        else o_w_data_out_16 <= D_V_buffer[ i_D_V_buffer_addr_8[7:3] ];
+        if(rst==0) o_w_data_out_16=16'b0;
+        else o_w_data_out_16 = D_V_buffer[ i_D_V_buffer_addr_8[7:3] ];
     end 
 
 

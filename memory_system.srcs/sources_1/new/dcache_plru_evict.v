@@ -43,9 +43,9 @@ module dcache_plru_evict( //找最不经常访问的进行替换，
 
     always @( w_plru_buffer_out_7[6:0] ) begin
         casez (w_plru_buffer_out_7[6:0] )
-            7'b???0?00: w_dcache_plru_evict_out_evictWay_3 <= 3'b000 ;
-            7'b???1?00: w_dcache_plru_evict_out_evictWay_3 <= 3'b001 ;
-            7'b??0??10: w_dcache_plru_evict_out_evictWay_3 <= 3'b010 ;
+            7'b???0?00: w_dcache_plru_evict_out_evictWay_3 = 3'b000 ;
+            7'b???1?00: w_dcache_plru_evict_out_evictWay_3 = 3'b001 ;
+            7'b??0??10: w_dcache_plru_evict_out_evictWay_3 = 3'b010 ;
             7'b??1??10: w_dcache_plru_evict_out_evictWay_3 = 3'b011 ;
             7'b?0??0?1: w_dcache_plru_evict_out_evictWay_3 = 3'b100 ;
             7'b?1??0?1: w_dcache_plru_evict_out_evictWay_3 = 3'b101 ;
