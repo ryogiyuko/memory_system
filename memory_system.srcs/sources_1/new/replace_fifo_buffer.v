@@ -25,7 +25,7 @@ module replace_fifo_buffer(//Ð´+¶Á£º6.723£¬6.8£» ¶Á£º5.858£¬6.506£¬6.948£¬6.506£
     input [6:0] i_replace_fifo_buffer_addr_7, //Á½Â·Ö»ÐèÒªÒ»Î»£¬²»ÐèÒªsel_way_1
     input i_replace_fifo_buffer_write_enable, i_data_in,
     output reg o_data_out,
-    output reg o_w_data_out
+    output o_w_data_out
     );
 
     // 64B/4 = 128 bits =  2^4 ÐÐ  2^3 ÁÐ
@@ -50,9 +50,7 @@ module replace_fifo_buffer(//Ð´+¶Á£º6.723£¬6.8£» ¶Á£º5.858£¬6.506£¬6.948£¬6.506£
             end
         end
     end
-    always @( *) begin
-        if(rst==0) o_w_data_out<=1'b0;
-        else o_w_data_out <= fifo_buffer[ i_replace_fifo_buffer_addr_7[6:3] ][ i_replace_fifo_buffer_addr_7[2:0] ] ;
-    end 
-
+ 
+    assign o_w_data_out = fifo_buffer[ i_replace_fifo_buffer_addr_7[6:3] ][ i_replace_fifo_buffer_addr_7[2:0] ] ;
+    
 endmodule

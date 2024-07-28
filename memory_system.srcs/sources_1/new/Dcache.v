@@ -27,15 +27,15 @@ module Dcache(
     input i_lsu_drive,  i_freeNext_lsu,
     output o_lsu_free, o_driveNext_lsu,
 
-    input [11:0]    i_lsu_VA_offset_12, //虚拟地址低12位,i_lsu_Vai_32[11:0] *4
+    input [33:0]    i_lsu_PA_34,
     input [31:0]    i_lsu_storeData_32,
     input [5:0]     i_lsu_storeIndex_6, //标号，写完成后发回LSU
     input i_lsu_load_or_store,          //1 load 0 store
     output [5:0]    o_storeIndex_to_lsu_6,
 
     //retire
-    input  i_freeNext_retire,
-    output o_driveNext_retire,
+    input  i_freeNext_retire_store, i_freeNext_retire_load,
+    output o_driveNext_retire_store, o_driveNext_retire_load,
 
     output o_loadData_to_retire_32,o_load_store, //load结果；区分读写
 
@@ -61,9 +61,12 @@ module Dcache(
     ,output [11:0] o_dcache_offset_12
     ,output [2:0] o_plru_evictWay_3
     ,output [33:0] o_dcache_PA_34
-    ,output o_missPte_or_loadPte
     );
 
+
+//arb1
+    wire w_arb1_drive_mutex1, w_arb1_free;
+    wire [5:0] w_arb1Data_to_mutex1;
 
 //mutex1(pmt)
     wire w_mutex1_drive_pmtfifo1, w_mutex1_free_pmtfifo1;
@@ -75,8 +78,7 @@ module Dcache(
     wire [1:0] w_pmtfifo1_fire_2;
 
     //fire0
-    wire w_lsu_load_or_store;//lsu 1 load 0 写；
-    //wire [11:0]w_PA_offset_12;
+    wire w_lsu_load_or_store;//lsu 1 load 0 store；
     reg w_readSRAM_or_writeSRAM, w_write_or_refill; //SRAM 1读 0写(含回填)；Dcache 1 写 0 重填
 
     reg [5:0] r_case_number_6;//独热码： 5回填完毕，写操作  4命中，写操作  3二次回填  2查询页表  1一次回填  0读写
@@ -90,7 +92,7 @@ module Dcache(
     wire [4:0] w_PLRU_addr_5; //5位读写时找组
 
     //fire1
-    wire [63:0]w_dataSRAM0_datain_64, w_dataSRAM1_datain_64;
+    reg [63:0]w_dataSRAM0_datain_64, w_dataSRAM1_datain_64;
     wire [21:0]w_tagSRAM_datain_22;
 
     wire [255:0] w_dataSRAM_out_way0_32B, w_dataSRAM_out_way1_32B,w_dataSRAM_out_way2_32B, w_dataSRAM_out_way3_32B;
@@ -102,12 +104,12 @@ module Dcache(
     wire [15:0] w_D_V_buffer_dataOut_16;
 
 //selector1
-    wire w_Selector1_drive_wait1, w_Selector1_free_wait1;    
+    wire w_Selector1_drive_selector2, w_Selector1_free_selector2;    
     wire w_Selector1_drive_mutex1_refill, w_Selector1_free_mutex1_refill;
     wire w_Selector1_drive_mutex1_write, w_Selector1_free_mutex1_write;
     wire w_Selector1_drive_mutex2_readComplete, w_Selector1_free_mutex2_readComplete;
-    wire w_Selector1_drive_mutex2_writeComplete, w_Selector1_free_mutex2_writeComplete;
-    
+    wire w_Seletcor1_drive_mutex3, w_Seletcor1_free_mutex3;
+
     //wire w_Selector1_drive_mutex3_ptePA, w_Selector1_free_mutex3_ptePA;
 
     wire w_Selector1_fire;
@@ -115,25 +117,18 @@ module Dcache(
     wire [2:0] w_dcache_plru_evict_out_evictWay_3;//输出替换的行
     reg [2:0] r_plru_evictWay_3; //记录替换的行
     
-//mutex3
-    wire w_mutex3_drive_wait1, w_mutex3_free_wait1;
-    wire w_data_mutex3_to_wait1;
-
-//wait1
-    wire w_wait1_drive_selector2, w_wait1_free_selector2;
-    wire wait1_data_meanless; //无意义
-    wire w_missPte_or_loadPte; //1 miss,0 hit,用于判断本次事件是否有用
 
 //selector2
-    wire w_Selector2_drive_last1, w_Selector2_free_last1;
+    // wire w_Selector2_drive_last1, w_Selector2_free_last1;
     wire w_Selector2_drive_mutex1, w_Selector2_free_mutex1;
     wire w_Selector2_drive_mutex2, w_Selector2_free_mutex2;
+    wire w_Selector2_drive_mutex3, w_Selector2_free_mutex3;
 
     wire [1:0] w_Selector2_fire_2;
 
     //fire0
     reg [33:0] r_dcache_PA_34; //L2寻找填充行使用
-    reg r_missPte_or_loadPte; //selector2使用
+    reg [1:0] r_PA_or_ptePA_2; //用于回填时，区分是不是读页表, 1 lsu读写 0 ptw读页表
 
     wire w_hit, w_dirty;
     wire [255:0] w_hitway_data_32B, w_evict_way_32B;
@@ -150,36 +145,57 @@ module Dcache(
     
 //mutex2
 
-    //触发器
+//mutex3
+
 
 //给主要输入模块的free
-    assign o_lsu_free = o_driveNext_retire; //读完成或写完成的drive来了，再给lsu free（可接受下个输入）
-    assign o_L2cache_free = w_Selector1_drive_mutex1_write | w_Selector1_drive_mutex2_readComplete;
-    assign o_ptw_free = o_driveNext_ptw; //读页表完成的drive来了，再给free
+    // assign o_lsu_free = o_driveNext_retire; //读完成或写完成的drive来了，再给lsu free（可接受下个输入）
+    // assign o_ptw_free = o_driveNext_ptw; //读页表完成的drive来了，再给free
+    assign o_L2cache_free = w_Selector1_drive_mutex1_write | w_Selector1_drive_mutex2_readComplete | w_Seletcor1_drive_mutex3;
+    
+    wire w_lsu_free, w_ptw_free;
+    assign w_lsu_free = o_driveNext_lsu | o_driveNext_retire_load;
+    assign w_ptw_free = o_driveNext_ptw;
+    assign w_arb1_free = w_lsu_free | w_ptw_free;
+
+//arb1
+    cArbMerge2_6b u_cArbMerge2_6b(
+        .i_drive0    (i_lsu_drive    ),
+        .i_drive1    (i_ptw_drive    ),
+        .i_data0     (6'b000001      ),
+        .i_data1     (6'b000100      ),
+        .i_freeNext  (w_arb1_free       ),
+        .rst         (rst         ),
+        .o_free0     (o_lsu_free     ),
+        .o_free1     (o_ptw_free    ),
+        .o_driveNext (w_arb1_drive_mutex1 ),
+        .o_data      (w_arb1Data_to_mutex1     )
+    );
+    
 
 //mutex1(pmt)
 
     (*dont_touch = "true"*)cMutexMerge6_outpmt_6b u_cMutexMerge6_outpmt_6b(
         
-        .i_drive0    (i_lsu_drive    ),
+        .i_drive0    (1'b0    ),
         .i_drive1    (i_L2cache_drive    ),
-        .i_drive2    (i_ptw_drive    ),
+        .i_drive2    (w_arb1_drive_mutex1    ),
         .i_drive3    (w_Selector1_drive_mutex1_refill    ),
         .i_drive4    (w_Selector2_drive_mutex1    ),
         .i_drive5    (w_Selector1_drive_mutex1_write    ),
 
-        .i_data0     (6'b000001     ), //读写
+        .i_data0     (6'b000001    ), 
         .i_data1     (6'b000010     ), //一次回填
-        .i_data2     (6'b000100     ), //查询页表
+        .i_data2     (w_arb1Data_to_mutex1     ), //读写or查询页表
         .i_data3     (6'b001000     ), //二次回填
         .i_data4     (6'b010000     ), //命中，写操作
         .i_data5     (6'b100000     ), //回填完毕，写操作
         
         .i_freeNext  (w_mutex1_free_pmtfifo1  ),
         .rst         (rst         ),
-        .o_free0     (     ),//o_lsu_free 等读写完成
+        .o_free0     (     ),
         .o_free1     (     ),//o_L2cache_free 等二次回填完成
-        .o_free2     (     ),//o_ptw_free 等读页表完成
+        .o_free2     (     ),//  w_arb1_free 不能过早给; o_ptw_free 等读页表完成 ,o_lsu_free 等读写完成
         .o_free3     (w_Selector1_free_mutex1_refill ),
         .o_free4     (w_Selector2_free_mutex1     ),
         .o_free5     (w_Selector1_free_mutex1_write     ),
@@ -215,13 +231,13 @@ module Dcache(
             r_case_number_6 <= w_mutex1_data_to_pmtfifo1_6;
             
             if (w_mutex1_data_to_pmtfifo1_6[0]) begin
-                r_dcache_offset_12 <= i_lsu_VA_offset_12;
+                r_dcache_offset_12 <= i_lsu_PA_34[11:0];
             end
             else if (w_mutex1_data_to_pmtfifo1_6[2]) begin
                 r_dcache_offset_12 <= i_ptw_ptePA_34[11:0];
             end
             else begin
-                r_dcache_offset_12 <= i_lsu_VA_offset_12;
+                r_dcache_offset_12 <= i_lsu_PA_34[11:0];
             end
         end
     end
@@ -378,32 +394,35 @@ module Dcache(
     
 //selector1
     
-    (*dont_touch = "true"*)cSelector5 u_cSelector1(
+    cSelector6 u_cSelector6(
         .rst          (rst          ),
         .i_drive      (w_pmtfifo1_drive_selector1      ),
         .o_free       (w_pmtfifo1_free_selector1       ),
-
         .o_fire       (w_Selector1_fire       ),
+
         .valid0       (w_readSRAM_or_writeSRAM      ),
         .valid1       (r_case_number_6[1]       ),
-        .valid2       (r_case_number_6[3] &  ~w_lsu_load_or_store ),
-        .valid3       (r_case_number_6[3] &  w_lsu_load_or_store       ),
+        .valid2       (r_PA_or_ptePA_2[1] & r_case_number_6[3] &  (~w_lsu_load_or_store) ),
+        .valid3       (r_PA_or_ptePA_2[1] & r_case_number_6[3] &  w_lsu_load_or_store       ),
         .valid4       (r_case_number_6[4] & r_case_number_6[5]      ),
+        .valid5       (r_PA_or_ptePA_2[0] & r_case_number_6[3]),
 
-        .o_driveNext0 (w_Selector1_drive_wait1 ),
+        .o_driveNext0 (w_Selector1_drive_selector2 ),
         .o_driveNext1 (w_Selector1_drive_mutex1_refill ),
         .o_driveNext2 (w_Selector1_drive_mutex1_write ),
         .o_driveNext3 (w_Selector1_drive_mutex2_readComplete ),
-        .o_driveNext4 (w_Selector1_drive_mutex2_writeComplete ),
+        .o_driveNext4 (o_driveNext_retire_store ),
+        .o_driveNext5 (w_Seletcor1_drive_mutex3 ),
 
-        .i_freeNext0  (w_Selector1_free_wait1  ),
+        .i_freeNext0  (w_Selector1_free_selector2  ),
         .i_freeNext1  (w_Selector1_free_mutex1_refill  ),
         .i_freeNext2  (w_Selector1_free_mutex1_write  ),
         .i_freeNext3  (w_Selector1_free_mutex2_readComplete  ),
-        .i_freeNext4  (w_Selector1_free_mutex2_writeComplete  )
+        .i_freeNext4  (i_freeNext_retire_store  ),
+        .i_freeNext5  (w_Seletcor1_free_mutex3  )
     );
 
-    assign o_driveNext_lsu = w_Selector1_drive_mutex2_writeComplete; //out_to_lsu
+    assign o_driveNext_lsu = o_driveNext_retire_store; //out_to_lsu
     assign o_storeIndex_to_lsu_6 = i_lsu_storeIndex_6;
 
     dcache_plru_evict u_dcache_plru_evict(
@@ -416,7 +435,7 @@ module Dcache(
             r_plru_evictWay_3 <= 3'b0;
         end
         else begin
-            if (w_readSRAM_or_writeSRAM==1'b1) begin //仅在读SRAM时更新
+            if (w_readSRAM_or_writeSRAM==1'b1) begin //仅在读SRAM时更新  plru buffer也可以保证
                 r_plru_evictWay_3 <= w_dcache_plru_evict_out_evictWay_3;
             end
             else begin
@@ -425,59 +444,23 @@ module Dcache(
         end
     end
     assign o_plru_evictWay_3 = r_plru_evictWay_3;
-
-//mutex3
-    cMutexMerge2_1b u_cMutexMerge3(
-        .i_drive0    (i_ptw_drive    ),
-        .i_drive1    (i_Dtlb_drive | ( r_case_number_6[2] & w_Selector1_drive_wait1 ) ),
-
-        .i_data0     ( 1'b1  ),
-        .i_data1     ( 1'b0  ),
-        .i_freeNext  ( w_mutex3_free_wait1  ),
-        .rst         ( rst         ),
-        
-        .o_free0     (     ),//不需要
-        .o_free1     ( o_Dtlb_free ),//至少到fifo1才会返回free
-        .o_driveNext ( w_mutex3_drive_wait1     ),
-        .o_data      ( w_data_mutex3_to_wait1     )  //1 miss,0 hit
-    );
-    
-//wait1
-    cWaitMerge2_2b u_cWaitMerge1(
-        .i_drive0    ( w_mutex3_drive_wait1    ),
-        .i_drive1    ( w_Selector1_drive_wait1   ),
-
-        .i_data0     ( w_data_mutex3_to_wait1    ),
-        .i_data1     ( 1'b0  ),
-        .i_freeNext  (w_wait1_free_selector2  ),
-        .rst         (rst         ),
-
-        .o_free0     (w_mutex3_free_wait1     ),
-        .o_free1     ( w_Selector1_free_wait1    ),
-
-        .o_driveNext (w_wait1_drive_selector2 ),
-        .o_data      (  {wait1_data_meanless, w_missPte_or_loadPte}    ) //o_data  = {i_data1 , i_data0 }
-    );
     
 //selector2
     //fire0
     always @(posedge w_Selector2_fire_2[0] or negedge rst) begin
         if (rst==0) begin
             r_dcache_PA_34 <= 34'b0;
-            r_missPte_or_loadPte <= 1'b0;
+            r_PA_or_ptePA_2 <= 2'b0;
         end
         else begin
-            if(w_missPte_or_loadPte==0) begin
-                r_dcache_PA_34 <= w_dcache_PA_34;
-            end
-            else begin
-                r_dcache_PA_34 <= r_dcache_PA_34;
-            end
-            r_missPte_or_loadPte <= w_missPte_or_loadPte;
+            r_dcache_PA_34 <= w_dcache_PA_34;
+            if(r_case_number_6[0]) r_PA_or_ptePA_2 <= 2'b10;
+            else if(r_case_number_6[2]) r_PA_or_ptePA_2 <= 2'b01;
+            else r_PA_or_ptePA_2 <= 2'b00;
         end
     end
     assign o_dcache_PA_34 = r_dcache_PA_34;
-    assign o_missPte_or_loadPte = r_missPte_or_loadPte;
+
     
     //dcache_tag_compare
     dcache_tag_compare u_dcache_tag_compare(
@@ -518,34 +501,27 @@ module Dcache(
     //
     cSelector5_fire2 u_cSelector5_fire2(
         .rst          (rst          ),
-        .i_drive      (w_wait1_drive_selector2      ),
-        .o_free       (w_wait1_free_selector2       ),
+        .i_drive      ( w_Selector1_drive_selector2      ),
+        .o_free       ( w_Selector1_free_selector2      ),
         .o_fire_2     ( w_Selector2_fire_2    ),
 
-        .valid0       (r_missPte_or_loadPte    ),
-        .valid1       (~r_missPte_or_loadPte &  (r_case_number_6[0] | r_case_number_6[2]) & w_hit ),
-        .valid2       (~r_missPte_or_loadPte &  r_case_number_6[0] & (~i_lsu_load_or_store)   & w_hit  ),
-        .valid3       (~r_missPte_or_loadPte &  r_case_number_6[2] & w_hit      ),
-        .valid4       (~r_missPte_or_loadPte &  r_case_number_6[0] & i_lsu_load_or_store & w_hit     ),
+        .valid0       ( 1'b0   ), //没用了
+        .valid1       ( (r_case_number_6[0] | r_case_number_6[2]) & (~w_hit) ),
+        .valid2       (  r_case_number_6[0] &  (~w_lsu_load_or_store)  & w_hit  ),
+        .valid3       (  r_case_number_6[2] &  w_hit      ),
+        .valid4       (  r_case_number_6[0] &  i_lsu_load_or_store     & w_hit     ),
 
         .o_driveNext0 (w_Selector2_drive_last1 ),
         .o_driveNext1 (o_driveNext_L2cache ),
         .o_driveNext2 (w_Selector2_drive_mutex1 ),
-        .o_driveNext3 (o_driveNext_ptw ),
+        .o_driveNext3 (w_Selector2_drive_mutex3 ),
         .o_driveNext4 (w_Selector2_drive_mutex2 ),
+        
         .i_freeNext0  (w_Selector2_free_last1  ),
         .i_freeNext1  (i_freeNext_L2cache  ),
         .i_freeNext2  (w_Selector2_free_mutex1  ),
-        .i_freeNext3  (i_freeNext_ptw  ),
+        .i_freeNext3  (w_Selector2_free_mutex3  ),
         .i_freeNext4  (w_Selector2_free_mutex2  )
-    );
-    
-    cLastFifo1 u_cLastFifo1(
-        .i_drive     (w_Selector2_drive_last1     ),
-        .rst         (rst         ),
-        .o_free      (w_Selector2_free_last1      ),
-        .o_driveNext ( ),
-        .o_fire_1    (    )
     );
     
     assign o_miss_addr_34 = r_dcache_PA_34;
@@ -567,7 +543,7 @@ module Dcache(
     end
 
     //plru_buffer
-    assign w_PLRU_write_enable = (~r_missPte_or_loadPte) & (r_case_number_6[0] | r_case_number_6[2]);
+    assign w_PLRU_write_enable = (r_case_number_6[0] | r_case_number_6[2]);
 
     Dcache_plru_buffer u_Dcache_plru_buffer(
         .rst                  (rst                  ),
@@ -582,55 +558,97 @@ module Dcache(
     reg [31:0] w_load_result_32;
 
     always @( *) begin
-        case (r_dcache_PA_34[4:2])
-            3'b000: begin
-              w_load_result_32 = w_hitway_data_32B[31:0];
-            end
-            3'b001: begin
-              w_load_result_32 = w_hitway_data_32B[63:32];
-            end
-            3'b010: begin
-              w_load_result_32 = w_hitway_data_32B[95:64];
-            end
-            3'b011: begin
-              w_load_result_32 = w_hitway_data_32B[127:96];
-            end
-            3'b100: begin
-              w_load_result_32 = w_hitway_data_32B[159:128];
-            end
-            3'b101: begin
-              w_load_result_32 = w_hitway_data_32B[191:160];
-            end
-            3'b110: begin
-              w_load_result_32 = w_hitway_data_32B[223:192];
-            end
-            3'b111: begin
-              w_load_result_32 = w_hitway_data_32B[255:224];
-            end
+        if (r_case_number_6[0] | r_case_number_6[2]) begin
+           case (r_dcache_PA_34[4:2])
+                3'b000: begin
+                w_load_result_32 = w_hitway_data_32B[31:0];
+                end
+                3'b001: begin
+                w_load_result_32 = w_hitway_data_32B[63:32];
+                end
+                3'b010: begin
+                w_load_result_32 = w_hitway_data_32B[95:64];
+                end
+                3'b011: begin
+                w_load_result_32 = w_hitway_data_32B[127:96];
+                end
+                3'b100: begin
+                w_load_result_32 = w_hitway_data_32B[159:128];
+                end
+                3'b101: begin
+                w_load_result_32 = w_hitway_data_32B[191:160];
+                end
+                3'b110: begin
+                w_load_result_32 = w_hitway_data_32B[223:192];
+                end
+                3'b111: begin
+                w_load_result_32 = w_hitway_data_32B[255:224];
+                end
+                default: w_load_result_32 = 32'b0;
+            endcase 
+        end
+        else if (r_case_number_6[3]) begin
+            case (r_dcache_PA_34[4:2])
+                3'b000: begin
+                w_load_result_32 = i_L2cache_refill_32B[31:0];
+                end
+                3'b001: begin
+                w_load_result_32 = i_L2cache_refill_32B[63:32];
+                end
+                3'b010: begin
+                w_load_result_32 = i_L2cache_refill_32B[95:64];
+                end
+                3'b011: begin
+                w_load_result_32 = i_L2cache_refill_32B[127:96];
+                end
+                3'b100: begin
+                w_load_result_32 = i_L2cache_refill_32B[159:128];
+                end
+                3'b101: begin
+                w_load_result_32 = i_L2cache_refill_32B[191:160];
+                end
+                3'b110: begin
+                w_load_result_32 = i_L2cache_refill_32B[223:192];
+                end
+                3'b111: begin
+                w_load_result_32 = i_L2cache_refill_32B[255:224];
+                end
             default: w_load_result_32 = 32'b0;
-        endcase
+            endcase
+        end
+        else w_load_result_32 = 32'b0;
     end
 
-    assign o_pte_32 = w_load_result_32;
+//mutex2
+    cMutexMerge2_1b u_cMutexMerge2(
+        .i_drive0    ( w_Selector1_drive_mutex2_readComplete    ),
+        .i_drive1    ( w_Selector2_drive_mutex2   ),
+        .i_data0     (     ),
+        .i_data1     (     ),
+        .i_freeNext  ( i_freeNext_retire_load ),
+        .rst         (rst         ),
+        .o_free0     ( w_Selector1_free_mutex2_readComplete    ),
+        .o_free1     ( w_Selector2_free_mutex2    ),
+        .o_driveNext ( o_driveNext_retire_load ),
+        .o_data      (      )
+    );
+    
     assign o_loadData_to_retire_32 = w_load_result_32;
 
-
-//mutex2
-    cMutexMerge3_1b u_cMutexMerge2_1b(
-        .i_drive0    (w_Selector2_drive_mutex2    ),
-        .i_drive1    (w_Selector1_drive_mutex2_readComplete    ),
-        .i_drive2    (w_Selector1_drive_mutex2_writeComplete    ),
-        .i_data0     (1'b1     ), //1 load 0 write
-        .i_data1     (1'b0     ),
-        .i_data2     (1'b0     ),
-        .i_freeNext  (i_freeNext_retire  ),
-        .rst         (rst         ),
-        .o_free0     (w_Selector2_free_mutex2     ),
-        .o_free1     (w_Selector1_free_mutex2_readComplete     ),
-        .o_free2     (w_Selector1_free_mutex2_writeComplete     ),
-        .o_driveNext (o_driveNext_retire ),
-        .o_data      (o_load_store      )
+//mutex3
+    cMutexMerge2_1b u_cMutexMerge3(
+        .i_drive0    ( w_Seletcor1_drive_mutex3    ),
+        .i_drive1    ( w_Selector2_drive_mutex3   ),
+        .i_data0     (     ),
+        .i_data1     (     ),
+        .i_freeNext  ( i_freeNext_ptw ),
+        .rst         ( rst         ),
+        .o_free0     ( w_Seletcor1_free_mutex3    ),
+        .o_free1     ( w_Selector2_free_mutex3    ),
+        .o_driveNext ( o_driveNext_ptw),
+        .o_data      (      )
     );
 
+    assign o_pte_32 = w_load_result_32;
 
 endmodule

@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="Icache_SRAM_bank_synth_1" LaunchPart="xcvu13p-fhgb2104-2-i" LaunchTime="1721032233">
   <File Type="PA-TCL" Name="Icache_SRAM_bank.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Icache_SRAM_bank_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Icache_SRAM_bank_reports.tcl"/>
   <File Type="RDS-RDS" Name="Icache_SRAM_bank.vds"/>
   <File Type="RDS-UTIL" Name="Icache_SRAM_bank_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Icache_SRAM_bank_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Icache_SRAM_bank.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Icache_SRAM_bank_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Icache_SRAM_bank_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/Icache_SRAM_bank">
     <File Path="$PSRCDIR/sources_1/ip/Icache_SRAM_bank/Icache_SRAM_bank.xci">
       <FileInfo>
@@ -42,9 +39,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

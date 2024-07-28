@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xcvu13p-fhgb2104-2-i" LaunchTime="1720961903">
-  <File Type="PA-TCL" Name="Icache.tcl"/>
-  <File Type="REPORTS-TCL" Name="Icache_reports.tcl"/>
-  <File Type="RDS-RDS" Name="Icache.vds"/>
-  <File Type="RDS-UTIL" Name="Icache_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="Icache_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="Icache.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xcvu13p-fhgb2104-2-i" LaunchTime="1721988693">
+  <File Type="PA-TCL" Name="Dcache_D_V_buffer.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="Dcache_D_V_buffer_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="Dcache_D_V_buffer_reports.tcl"/>
+  <File Type="RDS-RDS" Name="Dcache_D_V_buffer.vds"/>
+  <File Type="RDS-UTIL" Name="Dcache_D_V_buffer_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="Dcache_D_V_buffer_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="Dcache_D_V_buffer.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="Dcache_D_V_buffer_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="Dcache_D_V_buffer_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/replace_fifo_buffer.v">
@@ -211,9 +214,72 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/control/cMutexMerge6_outpmt_6b.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Dcache_D_V_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Dcache_plru_buffer.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control/cSelector5.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dcache_plru_evict.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control/cSelector5_fire2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control/cWaitMerge2_2b.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/dcache_tag_compare.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/control/cMutexMerge3_1b.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="Icache"/>
+      <Option Name="TopModule" Val="Dcache_D_V_buffer"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
@@ -232,5 +298,8 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design"/>
   </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="Dcache_bank_dataSram1"/>
   <BlockFileSet Type="BlockSrcs" Name="Icache_SRAM_bank"/>
+  <BlockFileSet Type="BlockSrcs" Name="Dcache_bank_dataSram0"/>
+  <BlockFileSet Type="BlockSrcs" Name="Dcache_bank_tagSRAM"/>
 </GenRun>

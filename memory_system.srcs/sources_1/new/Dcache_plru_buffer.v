@@ -25,7 +25,7 @@ module Dcache_plru_buffer(
     input [4:0] i_plru_buffer_addr_5, //2b为单位，最下面不管
     input i_plru_write_enable, 
     input [7:0] i_data_in_8,
-    output reg [7:0] o_w_data_out_8
+    output  [7:0] o_w_data_out_8
     );
     
     // 8b/set => 8b * 32sets = 32B
@@ -52,9 +52,8 @@ module Dcache_plru_buffer(
             end
         end
     end
-    always @( *) begin
-        if(rst==0) o_w_data_out_8=8'b0;
-        else o_w_data_out_8 = plru_buffer[ i_plru_buffer_addr_5];
-    end 
+
+    assign   o_w_data_out_8 = plru_buffer[ i_plru_buffer_addr_5];
+ 
 
 endmodule
