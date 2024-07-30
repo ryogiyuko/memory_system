@@ -42,14 +42,8 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_syst
 INFO: [VRFC 10-311] analyzing module L2Cache
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/MMU.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module MMU
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector7.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module cSelector7
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cWaitMerge2_64b.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module cWaitMerge2_64b
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay2Unit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module delay2Unit
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/memorySystemTop.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module memorySystemTop
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/pmtRelay.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module pmtRelay
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cLastFifo1.v" into library xil_defaultlib
@@ -60,10 +54,6 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_syst
 INFO: [VRFC 10-311] analyzing module tag_compare
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cPmtFifo2.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module cPmtFifo2
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_outpmt_35b.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module cMutexMerge2_outpmt_35b
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cPmtSelector2.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module cPmtSelector2
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge6_outpmt_6b.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module cMutexMerge6_outpmt_6b
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/Dcache_D_V_buffer.v" into library xil_defaultlib
@@ -80,11 +70,17 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_syst
 INFO: [VRFC 10-311] analyzing module cWaitMerge2_2b
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/dcache_tag_compare.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module dcache_tag_compare
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge3_1b.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module cMutexMerge3_1b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cPmtFifo1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cPmtFifo1
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cArbMerge2_6b.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cArbMerge2_6b
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector6.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cSelector6
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sim_1/new/replace_fifo_buffer_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module replace_fifo_buffer_tb
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sim_1/new/Icache_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Icache_tb
 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sim_1/new/Dcache_D_V_buffer_tb.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module Dcache_D_V_buffer_tb
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/github/memory_system/memory_system.srcs/sim_1/new/Dcache_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Dcache_tb

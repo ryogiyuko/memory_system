@@ -22,30 +22,30 @@
 
 module Dcache_plru_buffer(
     input  rst, fire, 
-    input [4:0] i_plru_buffer_addr_5, //2bä¸ºå•ä½ï¼Œæœ€ä¸‹é¢ä¸ç®¡
+    input [4:0] i_plru_buffer_addr_5, //2bÎªµ¥Î»£¬×îÏÂÃæ²»¹Ü
     input i_plru_write_enable, 
-    input [7:0] i_data_in_8,
-    output  [7:0] o_w_data_out_8
+    input [6:0] i_data_in_7,
+    output  [6:0] o_w_data_out_7
     );
     
     // 8b/set => 8b * 32sets = 32B
-    // 64B = 256b = 32 * 8 = 2^5 è¡Œ  2^4 åˆ—
-    reg  [7:0] plru_buffer [31:0];//æ•°ç»„æœ‰32ä¸ªå…ƒç´ ï¼Œæ¯ä¸ªå…ƒç´ éƒ½æ˜¯16ä½çš„å®½  D,V
+    // 64B = 256b = 32 * 8 = 2^5 ĞĞ  2^4 ÁĞ
+    reg  [6:0] plru_buffer [31:0];//Êı×éÓĞ32¸öÔªËØ£¬Ã¿¸öÔªËØ¶¼ÊÇ16Î»µÄ¿í  D,V
 
     always @(posedge fire or negedge rst) begin
         if (rst == 0) begin
-            plru_buffer[0] <= 8'b0;plru_buffer[1] <= 8'b0;plru_buffer[2] <= 8'b0;plru_buffer[3] <= 8'b0;
-            plru_buffer[4] <= 8'b0;plru_buffer[5] <= 8'b0;plru_buffer[6] <= 8'b0;plru_buffer[7] <= 8'b0;
-            plru_buffer[8] <= 8'b0;plru_buffer[9] <= 8'b0;plru_buffer[10] <= 8'b0;plru_buffer[11] <= 8'b0;
-            plru_buffer[12] <= 8'b0;plru_buffer[13] <= 8'b0;plru_buffer[14] <= 8'b0;plru_buffer[15] <= 8'b0;
-            plru_buffer[16] <= 8'b0;plru_buffer[17] <= 8'b0;plru_buffer[18] <= 8'b0;plru_buffer[19] <= 8'b0;
-            plru_buffer[20] <= 8'b0;plru_buffer[21] <= 8'b0;plru_buffer[22] <= 8'b0;plru_buffer[23] <= 8'b0;
-            plru_buffer[24] <= 8'b0;plru_buffer[25] <= 8'b0;plru_buffer[26] <= 8'b0;plru_buffer[27] <= 8'b0;
-            plru_buffer[28] <= 8'b0;plru_buffer[29] <= 8'b0;plru_buffer[30] <= 8'b0;plru_buffer[31] <= 8'b0;
+            plru_buffer[0] <= 7'b0;plru_buffer[1] <= 7'b0;plru_buffer[2] <= 7'b0;plru_buffer[3] <= 7'b0;
+            plru_buffer[4] <= 7'b0;plru_buffer[5] <= 7'b0;plru_buffer[6] <= 7'b0;plru_buffer[7] <= 7'b0;
+            plru_buffer[8] <= 7'b0;plru_buffer[9] <= 7'b0;plru_buffer[10] <= 7'b0;plru_buffer[11] <= 7'b0;
+            plru_buffer[12] <= 7'b0;plru_buffer[13] <= 7'b0;plru_buffer[14] <= 7'b0;plru_buffer[15] <= 7'b0;
+            plru_buffer[16] <= 7'b0;plru_buffer[17] <= 7'b0;plru_buffer[18] <= 7'b0;plru_buffer[19] <= 7'b0;
+            plru_buffer[20] <= 7'b0;plru_buffer[21] <= 7'b0;plru_buffer[22] <= 7'b0;plru_buffer[23] <= 7'b0;
+            plru_buffer[24] <= 7'b0;plru_buffer[25] <= 7'b0;plru_buffer[26] <= 7'b0;plru_buffer[27] <= 7'b0;
+            plru_buffer[28] <= 7'b0;plru_buffer[29] <= 7'b0;plru_buffer[30] <= 7'b0;plru_buffer[31] <= 7'b0;
         end
         else begin
             if ( i_plru_write_enable==1'b1 ) begin
-                plru_buffer[ i_plru_buffer_addr_5 ]<= i_data_in_8;  
+                plru_buffer[ i_plru_buffer_addr_5 ]<= i_data_in_7;  
             end
             else begin
                 plru_buffer[ i_plru_buffer_addr_5 ]<= plru_buffer[ i_plru_buffer_addr_5 ];
@@ -53,7 +53,7 @@ module Dcache_plru_buffer(
         end
     end
 
-    assign   o_w_data_out_8 = plru_buffer[ i_plru_buffer_addr_5];
+    assign   o_w_data_out_7 = plru_buffer[ i_plru_buffer_addr_5];
  
 
 endmodule

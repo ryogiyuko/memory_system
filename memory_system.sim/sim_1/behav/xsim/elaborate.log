@@ -1,13 +1,53 @@
 Vivado Simulator 2019.1
 Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
-Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2d96962f3ee74b89b6947b08f7558a0d --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Dcache_D_V_buffer_tb_behav xil_defaultlib.Dcache_D_V_buffer_tb xil_defaultlib.glbl -log elaborate.log 
+Running: D:/Xilinx/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 2d96962f3ee74b89b6947b08f7558a0d --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot Dcache_tb_behav xil_defaultlib.Dcache_tb xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
+Compiling module unisims_ver.x_lut1_mux2
+Compiling module unisims_ver.LUT1
+Compiling module xil_defaultlib.sender
+Compiling module unisims_ver.x_lut2_mux4
+Compiling module unisims_ver.LUT2
+Compiling module unisims_ver.FDPE(INIT=1'b0)
+Compiling module xil_defaultlib.pmtRelay
+Compiling module xil_defaultlib.receiver
+Compiling module xil_defaultlib.delay1Unit
+Compiling module xil_defaultlib.delay1U
+Compiling module xil_defaultlib.cPmtFifo1
+Compiling module xil_defaultlib.contTap
+Compiling module xil_defaultlib.relay
+Compiling module xil_defaultlib.cFifo1
+Compiling module xil_defaultlib.cArbMerge2_6b
+Compiling module xil_defaultlib.cMutexMerge6_outpmt_6b
+Compiling module xil_defaultlib.cPmtFifo2
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="vir...
+Compiling module xil_defaultlib.Dcache_bank_dataSram0
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="vir...
+Compiling module xil_defaultlib.Dcache_bank_dataSram1
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_output_stage(...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_3.blk_mem_gen_v8_4_3(C_FAMILY="vir...
+Compiling module xil_defaultlib.Dcache_bank_tagSRAM
 Compiling module xil_defaultlib.Dcache_D_V_buffer
-Compiling module xil_defaultlib.Dcache_D_V_buffer_tb
+Compiling module xil_defaultlib.delay2U
+Compiling module xil_defaultlib.cSelector6
+Compiling module xil_defaultlib.dcache_plru_evict
+Compiling module xil_defaultlib.dcache_tag_compare
+Compiling module xil_defaultlib.cSelector5_fire2
+Compiling module xil_defaultlib.Dcache_plru_buffer
+Compiling module xil_defaultlib.cMutexMerge2_1b
+Compiling module xil_defaultlib.Dcache
+Compiling module xil_defaultlib.Dcache_tb
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot Dcache_D_V_buffer_tb_behav
+Built simulation snapshot Dcache_tb_behav

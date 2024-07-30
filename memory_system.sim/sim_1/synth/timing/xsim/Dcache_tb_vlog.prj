@@ -1,0 +1,10 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"Dcache_tb_time_synth.v" \
+"../../../../../memory_system.srcs/sim_1/new/replace_fifo_buffer_tb.v" \
+"../../../../../memory_system.srcs/sim_1/new/Icache_tb.v" \
+"../../../../../memory_system.srcs/sim_1/new/Dcache_D_V_buffer_tb.v" \
+"../../../../../memory_system.srcs/sim_1/new/Dcache_tb.v" \
+
+# Do not sort compile order
+nosort

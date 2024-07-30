@@ -28,7 +28,7 @@ module dcache_tag_compare(
     input [21:0] w_tagSRAM_out_way0_22, w_tagSRAM_out_way1_22, w_tagSRAM_out_way2_22, w_tagSRAM_out_way3_22,
     input [21:0] w_tagSRAM_out_way4_22, w_tagSRAM_out_way5_22, w_tagSRAM_out_way6_22, w_tagSRAM_out_way7_22,
     
-    input [15:0] w_D_V_buffer_dataOut_16,//1ä½ D,0ä½ V
+    input [15:0] w_D_V_buffer_dataOut_16,//1Î» D,0Î» V
     input [2:0] r_plru_evictWay_3,
     input [6:0] w_plru_buffer_out_7,
 
@@ -119,9 +119,10 @@ module dcache_tag_compare(
 //           w_plru_buffer_dataIn_7[2] = w_plru_buffer_out_7[2];
 //           w_plru_buffer_dataIn_7[1] = w_plru_buffer_out_7[1];
 //           w_plru_buffer_dataIn_7[0] = w_plru_buffer_out_7[0];
-    always @(w_hit or w_way_hit_8[7:0] or w_plru_buffer_out_7[6:0]) begin
-        //hit å‘½ä¸­è¡Œå˜ä¸ºæœ€PLRU
+    always @(*) begin
+        //hit ÃüÖĞĞĞ±äÎª×îPLRU
         if(w_hit==1)begin
+          w_evict_way_32B = 256'b0;
           case (w_way_hit_8[7:0])
             8'b00000001:begin
               w_plru_buffer_dataIn_7[6] = w_plru_buffer_out_7[6];
@@ -199,7 +200,7 @@ module dcache_tag_compare(
           endcase
         end
 
-        //miss è¢«é©±é€è¡Œå˜ä¸ºæœ€PLRU
+        //miss ±»ÇıÖğĞĞ±äÎª×îPLRU
         else begin
           case (r_plru_evictWay_3)
             3'b000: begin

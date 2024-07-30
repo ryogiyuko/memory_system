@@ -45,10 +45,10 @@ module Icache(
     output [255:0] o_hit_data_to_ifu_32B
 
     //´¥·¢Æ÷£¬µ÷ÊÔÓÃ
-    ,output  [1:0] o_fifo_buffer_write_enable_2
-    ,output  [33:0] o_fifo2_1_addr_34
-    ,output  o_write_enable
-    ,output  o_fifo_buffer_data_out
+    // ,output  [1:0] o_fifo_buffer_write_enable_2
+    // ,output  [33:0] o_fifo2_1_addr_34
+    // ,output  o_write_enable
+    // ,output  o_fifo_buffer_data_out
 
     ); 
 

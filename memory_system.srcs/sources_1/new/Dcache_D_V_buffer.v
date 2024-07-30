@@ -25,7 +25,7 @@ module Dcache_D_V_buffer( //待测
     input [7:0] i_D_V_buffer_addr_8, //2b为单位，最下面不管
     input i_D_V_write_enable, 
     input [1:0] i_data_in_2, //高位D,V
-    output reg [15:0] o_w_data_out_16
+    output [15:0] o_w_data_out_16
     );
     
     // 16b/set => 16b * 32sets = 64B
@@ -54,9 +54,7 @@ module Dcache_D_V_buffer( //待测
             end
         end
     end
-    always @(i_D_V_buffer_addr_8 or fire) begin
-       o_w_data_out_16 = D_V_buffer[ i_D_V_buffer_addr_8[7:3] ];
-    end 
-
+    
+    assign o_w_data_out_16 = D_V_buffer[ i_D_V_buffer_addr_8[7:3] ];
 
 endmodule

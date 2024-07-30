@@ -40,4 +40,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log Dcache_D_V_buffer.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Dcache_D_V_buffer.tcl
+EAStep vivado -log Dcache.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Dcache.tcl
