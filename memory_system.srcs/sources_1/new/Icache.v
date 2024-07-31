@@ -25,7 +25,7 @@
 module Icache(
     input rst,
 
-    //MMU
+    //MMU  实际上改为ifu处理完后再访问
     input i_Itlb_drive,
     output o_Itlb_free, //和Dcache不同，找页表不需要过Icache，在把指令给ifu前不会有下一个输入，不用卡住
     
@@ -45,10 +45,10 @@ module Icache(
     output [255:0] o_hit_data_to_ifu_32B
 
     //触发器，调试用
-    // ,output  [1:0] o_fifo_buffer_write_enable_2
-    // ,output  [33:0] o_fifo2_1_addr_34
-    // ,output  o_write_enable
-    // ,output  o_fifo_buffer_data_out
+    ,output  [1:0] o_fifo_buffer_write_enable_2
+    ,output  [33:0] o_fifo2_1_addr_34
+    ,output  o_write_enable
+    ,output  o_fifo_buffer_data_out
 
     ); 
 

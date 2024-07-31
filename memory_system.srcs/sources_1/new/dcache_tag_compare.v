@@ -37,8 +37,8 @@ module dcache_tag_compare(
     output reg [255:0] w_hitway_data_32B,w_evict_way_32B,
     output [7:0]w_way_hit_8, w_way_dirty_8,
     output reg [2:0] w_hit_way_3,
-    output reg [6:0] w_plru_buffer_dataIn_7
-
+    output reg [6:0] w_plru_buffer_dataIn_7,
+    output reg [21:0] w_evict_tag_22
     );
 
     //tag compare
@@ -65,42 +65,35 @@ module dcache_tag_compare(
         case (w_way_hit_8)
             8'b00000001:begin
               w_hitway_data_32B = w_dataSRAM_out_way0_32B;
-              w_dirty = w_way_dirty_8[0];
               w_hit_way_3 = 3'b000;
             end
             8'b00000010:begin
               w_hitway_data_32B = w_dataSRAM_out_way1_32B;
-              w_dirty = w_way_dirty_8[1];
+              
               w_hit_way_3 = 3'b001;
             end 
             8'b00000100:begin
               w_hitway_data_32B = w_dataSRAM_out_way2_32B;
-              w_dirty = w_way_dirty_8[2];
               w_hit_way_3 = 3'b010;
             end
             8'b00001000:begin
               w_hitway_data_32B = w_dataSRAM_out_way3_32B;
-              w_dirty = w_way_dirty_8[3];
               w_hit_way_3 = 3'b011;
             end
             8'b00010000:begin
               w_hitway_data_32B = w_dataSRAM_out_way4_32B;
-              w_dirty = w_way_dirty_8[4];
               w_hit_way_3 = 3'b100;
             end
             8'b00100000: begin
               w_hitway_data_32B = w_dataSRAM_out_way5_32B;
-              w_dirty = w_way_dirty_8[5];
               w_hit_way_3 = 3'b101;
             end
             8'b01000000: begin
               w_hitway_data_32B = w_dataSRAM_out_way6_32B;
-              w_dirty = w_way_dirty_8[6];
               w_hit_way_3 = 3'b110;
             end
             8'b10000000: begin
               w_hitway_data_32B = w_dataSRAM_out_way7_32B;
-              w_dirty = w_way_dirty_8[7];
               w_hit_way_3 = 3'b111;
             end
           default: begin
@@ -122,6 +115,7 @@ module dcache_tag_compare(
     always @(*) begin
         //hit 命中行变为最PLRU
         if(w_hit==1)begin
+          w_dirty = 1'b0;;
           w_evict_way_32B = 256'b0;
           case (w_way_hit_8[7:0])
             8'b00000001:begin
@@ -204,7 +198,10 @@ module dcache_tag_compare(
         else begin
           case (r_plru_evictWay_3)
             3'b000: begin
+              w_dirty = w_way_dirty_8[0];
               w_evict_way_32B = w_dataSRAM_out_way0_32B;
+              w_evict_tag_22 = w_tagSRAM_out_way0_22;
+
               w_plru_buffer_dataIn_7[6] = w_plru_buffer_out_7[6];
               w_plru_buffer_dataIn_7[5] = w_plru_buffer_out_7[5];
               w_plru_buffer_dataIn_7[4] = w_plru_buffer_out_7[4];
@@ -214,7 +211,10 @@ module dcache_tag_compare(
               w_plru_buffer_dataIn_7[0] = 1'b1;
             end
             3'b001: begin
+              w_dirty = w_way_dirty_8[1];
               w_evict_way_32B = w_dataSRAM_out_way1_32B;
+              w_evict_tag_22 = w_tagSRAM_out_way1_22;
+
               w_plru_buffer_dataIn_7[6] = w_plru_buffer_out_7[6];
               w_plru_buffer_dataIn_7[5] = w_plru_buffer_out_7[5];
               w_plru_buffer_dataIn_7[4] = w_plru_buffer_out_7[4];
@@ -224,7 +224,10 @@ module dcache_tag_compare(
               w_plru_buffer_dataIn_7[0] = 1'b1;
             end
             3'b010: begin
+              w_dirty = w_way_dirty_8[2];
               w_evict_way_32B = w_dataSRAM_out_way2_32B;
+              w_evict_tag_22 = w_tagSRAM_out_way2_22;
+
               w_plru_buffer_dataIn_7[6] = w_plru_buffer_out_7[6];
               w_plru_buffer_dataIn_7[5] = w_plru_buffer_out_7[5];
               w_plru_buffer_dataIn_7[4] = 1'b1;
@@ -234,7 +237,10 @@ module dcache_tag_compare(
               w_plru_buffer_dataIn_7[0] = 1'b1;
             end
             3'b011: begin
+              w_dirty = w_way_dirty_8[3];
               w_evict_way_32B = w_dataSRAM_out_way3_32B;
+              w_evict_tag_22 = w_tagSRAM_out_way3_22;
+
               w_plru_buffer_dataIn_7[6] = w_plru_buffer_out_7[6];
               w_plru_buffer_dataIn_7[5] = w_plru_buffer_out_7[5];
               w_plru_buffer_dataIn_7[4] = 1'b0;
@@ -244,7 +250,10 @@ module dcache_tag_compare(
               w_plru_buffer_dataIn_7[0] = 1'b1;
             end
             3'b100: begin
+              w_dirty = w_way_dirty_8[4];
               w_evict_way_32B = w_dataSRAM_out_way4_32B;
+              w_evict_tag_22 = w_tagSRAM_out_way4_22;
+              
               w_plru_buffer_dataIn_7[6] = w_plru_buffer_out_7[6];
               w_plru_buffer_dataIn_7[5] = 1'b1;
               w_plru_buffer_dataIn_7[4] = w_plru_buffer_out_7[4];
@@ -254,7 +263,10 @@ module dcache_tag_compare(
               w_plru_buffer_dataIn_7[0] = 1'b0;
             end
             3'b101: begin
+              w_dirty = w_way_dirty_8[5];
               w_evict_way_32B = w_dataSRAM_out_way5_32B;
+              w_evict_tag_22 = w_tagSRAM_out_way5_22;
+
               w_plru_buffer_dataIn_7[6] = w_plru_buffer_out_7[6];
               w_plru_buffer_dataIn_7[5] = 1'b0;
               w_plru_buffer_dataIn_7[4] = w_plru_buffer_out_7[4];
@@ -264,7 +276,10 @@ module dcache_tag_compare(
               w_plru_buffer_dataIn_7[0] = 1'b0;
             end
             3'b110: begin
+              w_dirty = w_way_dirty_8[6];
               w_evict_way_32B = w_dataSRAM_out_way6_32B;
+              w_evict_tag_22 = w_tagSRAM_out_way6_22;
+
               w_plru_buffer_dataIn_7[6] = 1'b1;
               w_plru_buffer_dataIn_7[5] = w_plru_buffer_out_7[5];
               w_plru_buffer_dataIn_7[4] = w_plru_buffer_out_7[4];
@@ -274,7 +289,10 @@ module dcache_tag_compare(
               w_plru_buffer_dataIn_7[0] = 1'b0;
             end
             3'b111: begin
+              w_dirty = w_way_dirty_8[7];
               w_evict_way_32B = w_dataSRAM_out_way7_32B;
+              w_evict_tag_22 = w_tagSRAM_out_way7_22;
+
               w_plru_buffer_dataIn_7[6] = 1'b0;
               w_plru_buffer_dataIn_7[5] = w_plru_buffer_out_7[5];
               w_plru_buffer_dataIn_7[4] = w_plru_buffer_out_7[4];
@@ -284,6 +302,7 @@ module dcache_tag_compare(
               w_plru_buffer_dataIn_7[0] = 1'b0;
             end
             default: begin
+              w_dirty = 1'b0;
               w_evict_way_32B = 256'b0;
               w_plru_buffer_dataIn_7 = w_plru_buffer_out_7;
             end

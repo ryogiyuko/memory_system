@@ -47,19 +47,20 @@ module Dcache(
     output [31:0] o_pte_32,
 
     //L2Cache
-    input  i_L2cache_drive, i_freeNext_L2cache,
-    output o_L2cache_free, o_driveNext_L2cache,
+    input  i_L2cache_drive, i_freeNext_L2cache_writeBack, i_freeNext_L2cache_miss,
+    output o_L2cache_free, o_driveNext_L2cache_writeBack, o_driveNext_L2cache_miss,
 
     input  [255:0]  i_L2cache_refill_32B,
-    output [33:0]  o_miss_addr_34,
+    output [33:0]  o_miss_addr_34,o_writeBack_addr_34,
     output [255:0] o_writeBack_32B,//sram保持，不特意存
     output o_miss_or_writeBack//1 miss 0 writeBack
     
     //触发器
     ,output [5:0] o_r_case_number_6
     ,output [11:0] o_dcache_offset_12
-    ,output [2:0] o_plru_evictWay_3
-    ,output [33:0] o_dcache_PA_34
+    ,output [2:0] o_plru_evictWay_3,o_r_hit_way_3
+    ,output [33:0] o_dcache_PA_34,o_r_writeBack_addr_34
+    ,output o_r_hit, o_r_dirty
     );
 
 
@@ -141,7 +142,8 @@ module Dcache(
     wire w_PLRU_write_enable;
     wire [6:0] w_plru_buffer_dataIn_7;
     wire [6:0] w_plru_buffer_out_7; //plru buffer的输出，实时变化，无需读事件
-    
+    wire [21:0] w_evict_tag_22;
+
 //mutex2
 
 //mutex3
@@ -153,9 +155,9 @@ module Dcache(
     assign o_L2cache_free = w_Selector1_drive_mutex1_write | w_Selector1_drive_mutex2_readComplete | w_Seletcor1_drive_mutex3;
     
     wire w_lsu_free, w_ptw_free;
-    assign w_lsu_free = o_driveNext_lsu | o_driveNext_retire_load;
-    assign w_ptw_free = o_driveNext_ptw;
-    assign w_arb1_free = w_lsu_free | w_ptw_free;
+    assign o_lsu_free = o_driveNext_lsu | o_driveNext_retire_load;
+    assign o_ptw_free = o_driveNext_ptw;
+    //assign w_arb1_free = w_lsu_free | w_ptw_free;
 
 //arb1
     (*dont_touch = "true"*)cArbMerge2_6b u_cArbMerge2_6b(
@@ -165,8 +167,8 @@ module Dcache(
         .i_data1     (6'b000100      ),
         .i_freeNext  (w_arb1_free       ),
         .rst         (rst         ),
-        .o_free0     (o_lsu_free     ),
-        .o_free1     (o_ptw_free    ),
+        .o_free0     (     ),//o_lsu_free
+        .o_free1     (    ),//o_ptw_free
         .o_driveNext (w_arb1_drive_mutex1 ),
         .o_data      (w_arb1Data_to_mutex1     )
     );
@@ -194,7 +196,7 @@ module Dcache(
         .rst         (rst         ),
         .o_free0     (     ),
         .o_free1     (     ),//o_L2cache_free 等二次回填完成
-        .o_free2     (     ),//  w_arb1_free 不能过早给; o_ptw_free 等读页表完成 ,o_lsu_free 等读写完成
+        .o_free2     (w_arb1_free     ),//  w_arb1_free 不能过早给; o_ptw_free 等读页表完成 ,o_lsu_free 等读写完成
         .o_free3     (w_Selector1_free_mutex1_refill ),
         .o_free4     (w_Selector2_free_mutex1     ),
         .o_free5     (w_Selector1_free_mutex1_write     ),
@@ -500,7 +502,8 @@ module Dcache(
         .w_way_hit_8             (w_way_hit_8             ),
         .w_way_dirty_8           (w_way_dirty_8           ),
         .w_hit_way_3             (w_hit_way_3             ),
-        .w_plru_buffer_dataIn_7  (w_plru_buffer_dataIn_7  )
+        .w_plru_buffer_dataIn_7  (w_plru_buffer_dataIn_7  ),
+        .w_evict_tag_22          (w_evict_tag_22)
     );
     
 
@@ -511,28 +514,30 @@ module Dcache(
         .o_free       ( w_Selector1_free_selector2      ),
         .o_fire_2     ( w_Selector2_fire_2    ),
 
-        .valid0       ( 1'b0   ), //没用了
-        .valid1       ( (r_case_number_6[0] | r_case_number_6[2]) & (~w_hit) ),
-        .valid2       (  r_case_number_6[0] &  (~w_lsu_load_or_store)  & w_hit  ),
-        .valid3       (  r_case_number_6[2] &  w_hit      ),
-        .valid4       (  r_case_number_6[0] &  i_lsu_load_or_store     & w_hit     ),
+        .valid0       (  (~r_hit) & r_dirty  ), 
+        .valid1       (  (~r_hit) & (~r_dirty) ),
+        .valid2       (  r_case_number_6[0] &  (~w_lsu_load_or_store)  & r_hit  ),
+        .valid3       (  r_case_number_6[2] &  r_hit      ),
+        .valid4       (  r_case_number_6[0] &  w_lsu_load_or_store     & r_hit     ),
 
-        .o_driveNext0 ( ),
-        .o_driveNext1 (o_driveNext_L2cache ),
+        .o_driveNext0 (o_driveNext_L2cache_writeBack ),
+        .o_driveNext1 (o_driveNext_L2cache_miss ),
         .o_driveNext2 (w_Selector2_drive_mutex1 ),
         .o_driveNext3 (w_Selector2_drive_mutex3 ),
         .o_driveNext4 (w_Selector2_drive_mutex2 ),
         
-        .i_freeNext0  (  ),
-        .i_freeNext1  (i_freeNext_L2cache  ),
+        .i_freeNext0  (i_freeNext_L2cache_writeBack ),
+        .i_freeNext1  (i_freeNext_L2cache_miss  ),
         .i_freeNext2  (w_Selector2_free_mutex1  ),
         .i_freeNext3  (w_Selector2_free_mutex3  ),
         .i_freeNext4  (w_Selector2_free_mutex2  )
     );
     
+    reg [33:0] r_writeBack_addr_34;
+
     assign o_miss_addr_34 = r_dcache_PA_34;
+    assign o_writeBack_addr_34 = r_writeBack_addr_34;
     assign o_writeBack_32B = w_evict_way_32B;
-    assign o_miss_or_writeBack = r_dirty;
 
     //fire1
     always @(posedge w_Selector2_fire_2[1] or negedge rst) begin
@@ -540,13 +545,22 @@ module Dcache(
             r_hit_way_3 <= 3'b0;
             r_hit <= 1'b0;
             r_dirty <= 1'b0;
+            r_writeBack_addr_34 <= 34'b0;
         end
         else begin
             r_hit_way_3 <= w_hit_way_3;
             r_hit <= w_hit;
             r_dirty <= w_dirty;
+            r_writeBack_addr_34[4:0] <= 5'b0;
+            r_writeBack_addr_34[11:5] <= r_dcache_PA_34[11:5];
+            r_writeBack_addr_34[33:12] <= w_evict_tag_22; 
         end
     end
+    
+    assign o_r_writeBack_addr_34 = r_writeBack_addr_34 ;
+    assign o_r_hit_way_3 = r_hit_way_3;
+    assign o_r_hit = r_hit;
+    assign o_r_dirty = r_dirty;
 
     //plru_buffer
     assign w_PLRU_write_enable = (r_case_number_6[0] | r_case_number_6[2]);
