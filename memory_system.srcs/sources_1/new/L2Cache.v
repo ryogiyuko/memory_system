@@ -27,7 +27,7 @@ module L2Cache(
     input i_DCache_miss_drive, i_DCache_writeBack_drive, i_freeNext_DCache,
     output o_DCache_miss_free, o_DCache_writeBack_free, o_driveNext_DCache,
 
-    input [33:0] i_miss_Addr_from_L1Cache_34, i_writeBack_Addr_from_L1Cache_34,
+    input [33:0] i_miss_Addr_from_DCache_34, i_writeBack_Addr_from_DCache_34,
     input [255:0] i_L1Cache_writeBackLine_32B,    // L1Cache只传来了数据 DV都是1 D为0的不需要被传直接被覆盖
     output [255:0] o_refillLine_to_L1Cache_32B,   // I D 共用，具体靠事件区分
     
@@ -35,6 +35,8 @@ module L2Cache(
     input  i_ICache_miss_drive, i_freeNext_ICache,
     output o_ICache_miss_free, o_driveNext_ICache,
 
+    input [33:0] i_miss_Addr_from_ICache_34,
+    output [1:0] o_Dcache_or_Icache_2,
     //output [255:0] o_refillLine_to_L1Cache_32B,
 
     // DDR
@@ -64,7 +66,7 @@ module L2Cache(
 
 //  selector1 模块cSelector2
 
-// 2_cfifo2
+//  fifo2 模块cFifo2
 
 // selector2 模块cSelector3
     wire w_selector2_drive_mutex1;
@@ -134,22 +136,24 @@ module L2Cache(
     );
 
 // 1_cfifo2
-    (*dont_touch = "true"*)cFifo2 1_cfifo2( // 先fire[0] 后fire[1]
+        (*dont_touch = "true"*)cFifo2 fifo1( // 先fire[0] 后fire[1]
 
         .rst(rst),
     
-        .i_drive(w_mutex1_drive_cfifo2), 
-        .o_free(w_mutex1_free_cfifo2), 
+        .i_drive(w_mutex1_drive_cfifo1), 
+        .o_free(w_mutex1_free_cfifo1), 
     
         .o_driveNext(w_cfifo1_drive_selector1),
         .i_freeNext(w_cfifo1_free_selector1),
     
-        .o_fire_2(w_cfifo1_fire_2)
+        .o_fire_2(w_fifo1_fire_2)
     );
 
     // fire0    
     // 先进行tag compare 找到需要read或write的L2Cache 
-    always @(posedge w_cfifo2_fire_2[0] or negedge rst) begin
+    wire [33:0] w_Icache_addr_34; 
+
+    always @(posedge w_fifo1_fire_2[0] or negedge rst) begin
         if (rst == 0) begin
             r_case_number_4 <= 4'b0000;
             r_Dcache_or_Icache_2 <= 2'b00;
@@ -188,11 +192,13 @@ module L2Cache(
            end
            else begin
                 r_case_number_4 <= 4'b0;
-                r_Dcache_or_Icache_2 <= 2'b0;
+                r_Dcache_or_Icache_2 <= r_case_number_4;
            end
         end
     end
 
+    assign o_Dcache_or_Icache_2 = r_Dcache_or_Icache_2;
+    assign w_Icache_addr_34 = r_Dcache_or_Icache_2[1] ? i_miss_Addr_from_DCache_34 : (r_Dcache_or_Icache_2[0] ?  i_miss_Addr_from_ICache_34 :0);
     // fire1
     
 //selector1 

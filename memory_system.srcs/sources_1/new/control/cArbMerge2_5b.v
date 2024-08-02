@@ -1,10 +1,10 @@
 //-----------------------------------------------
-//	module name: cArbMerge2_6b
+//	module name: cArbMerge2_5b
 //	author: Tong Fu, Lingzhuang Zhang
 //	version: 1st version (2022-11-30)
 //-----------------------------------------------
 
-module cArbMerge2_6b(
+module cArbMerge2_5b(
 	i_drive0,i_drive1,//i_drive2,i_drive3,i_drive4,i_drive5,i_drive6,i_drive7,
 	i_data0 ,i_data1 ,//i_data2 ,i_data3 ,i_data4 ,i_data5 ,i_data6 ,i_data7 ,
 	i_freeNext,rst,
@@ -14,13 +14,13 @@ module cArbMerge2_6b(
 
 //input & output port
 input i_drive0,i_drive1;
-input [5:0] i_data0 ,i_data1 ;
+input [4:0] i_data0 ,i_data1 ;
 input i_freeNext;
 input rst;
 
 output o_free0,o_free1;
 output o_driveNext;
-output [5:0] o_data ;
+output [4:0] o_data ;
 
 (* dont_touch="true" *)wire w_westFire_1,w_eastFire_1,w_northFire_1,w_southFire_1,w_southeastFire_1,w_northwestFire_1,w_northeastFire_1,w_southwestFire_1;
 (* dont_touch="true" *)wire w_sendFire_1,w_sendPreDrive0;
@@ -35,11 +35,11 @@ output [5:0] o_data ;
 (* dont_touch="true" *)wire pmt;
 (* dont_touch="true" *)wire w_sendTrig,w_sendDrive;
 (* dont_touch="true" *)wire w_sendFree,w_sendPreDrive,w_roundTrig;
-(* dont_touch="true" *)wire [5:0] w_data0 ,w_data1  ;
-(* dont_touch="true" *)wire [5:0] w_data ;
+(* dont_touch="true" *)wire [4:0] w_data0 ,w_data1  ;
+(* dont_touch="true" *)wire [4:0] w_data ;
 (* dont_touch="true" *)wire [1:0] w_priority_2;
-(* dont_touch="true" *)reg [5:0] r_data0 ,r_data1  ;
-(* dont_touch="true" *)reg [5:0] r_data ;
+(* dont_touch="true" *)reg [4:0] r_data0 ,r_data1  ;
+(* dont_touch="true" *)reg [4:0] r_data ;
 (* dont_touch="true" *)reg [1:0] r_priority_2;
 
 //----------------westFifo---------------//
@@ -56,7 +56,7 @@ output [5:0] o_data ;
 always@(posedge w_westFire_1 or negedge rst)
 begin
     if(!rst) begin
-		r_data0  <= 6'b0;
+		r_data0  <= 5'b0;
 		end
 	else begin
 		r_data0  <= i_data0 ;
@@ -83,7 +83,7 @@ assign w_westTrig = w_westFire_1 | w_westReset;
 always@(posedge w_eastFire_1 or negedge rst)
 begin
     if(!rst) begin
-		r_data1  <= 6'b0;
+		r_data1  <= 5'b0;
 		end
 	else begin
 		r_data1  <= i_data1 ;
@@ -127,7 +127,7 @@ assign w_isValid = w_validation_2[0] | w_validation_2[1] ;
 
 //Mux
 (* dont_touch="true" *)assign w_data= (w_validation_2 == 2'b01) ? w_data0 :
-										 ((w_validation_2 == 2'b10) ? w_data1 :  6'b0 );
+										 ((w_validation_2 == 2'b10) ? w_data1 :  5'b0 );
 
 //lock
 assign pmt = ~(w_westReq | w_eastReq );
@@ -182,7 +182,7 @@ assign w_eastReset = w_priority_2[1]  & w_eastReq & i_freeNext;
 always@(posedge w_sendFire_1 or negedge rst)
 begin
     if(!rst) begin
-		r_data <= 6'b0;
+		r_data <= 5'b0;
 		end
 	else begin
 		r_data <= w_data;

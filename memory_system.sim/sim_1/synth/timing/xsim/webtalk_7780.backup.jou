@@ -2,12 +2,11 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Sun Jul 14 13:03:30 2024
-# Process ID: 12732
+# Start of session at: Tue Jul 30 11:31:46 2024
+# Process ID: 7780
 # Current directory: D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim
-# Command line: wbtcv.exe -mode batch -source D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim/xsim.dir/Icache_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
+# Command line: wbtcv.exe -mode batch -source D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim/xsim.dir/Dcache_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
 # Log file: D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim/webtalk.log
 # Journal file: D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim\webtalk.jou
 #-----------------------------------------------------------
-source D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim/xsim.dir/Icache_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
-INFO: [Common 17-206] Exiting Webtalk at Sun Jul 14 13:03:31 2024...
+source D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim/xsim.dir/Dcache_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace

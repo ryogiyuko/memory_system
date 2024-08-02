@@ -2,3 +2,6 @@ Running: xsim.dir/Dcache_tb_time_synth/xsimk.exe -simmode gui -wdb Dcache_tb_tim
 Design successfully loaded
 Design Loading Memory Usage: 98644 KB (Peak: 98644 KB)
 Design Loading CPU Usage: 233 ms
+Simulation completed
+Simulation Memory Usage: 393108 KB (Peak: 393108 KB)
+Simulation CPU Usage: 1202 ms

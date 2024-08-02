@@ -52,8 +52,7 @@ module Dcache(
 
     input  [255:0]  i_L2cache_refill_32B,
     output [33:0]  o_miss_addr_34,o_writeBack_addr_34,
-    output [255:0] o_writeBack_32B,//sram保持，不特意存
-    output o_miss_or_writeBack//1 miss 0 writeBack
+    output [255:0] o_writeBack_32B//sram保持，不特意存
     
     //触发器
     ,output [5:0] o_r_case_number_6
@@ -253,21 +252,21 @@ module Dcache(
     // assign w_PA_offset_12 = w_ptePA_or_PA ? i_ptw_ptePA_34[11:0] : i_lsu_VA_offset_12;
 
     always @( *) begin
-        if ( r_case_number_6[2] |r_case_number_6[0]) begin
-            w_readSRAM_or_writeSRAM <= 1'b1;
+        if ( r_case_number_6[2] | r_case_number_6[0]) begin
+            w_readSRAM_or_writeSRAM = 1'b1;
         end
         else if ( r_case_number_6[5] |r_case_number_6[4] | r_case_number_6[3] |r_case_number_6[1]) begin
-            w_readSRAM_or_writeSRAM <= 1'b0;
+            w_readSRAM_or_writeSRAM = 1'b0;
         end
-        else w_readSRAM_or_writeSRAM <= 1'b1;//初始必须为读状态
+        else w_readSRAM_or_writeSRAM = 1'b1;//初始必须为读状态
 
-        if (r_case_number_6[3] |r_case_number_6[1]) begin
-            w_write_or_refill <= 1'b0;
+        if (r_case_number_6[3] | r_case_number_6[1]) begin
+            w_write_or_refill = 1'b0;
         end
         else if (r_case_number_6[5] |r_case_number_6[4]) begin
-            w_write_or_refill <= 1'b1;
+            w_write_or_refill = 1'b1;
         end
-        else w_write_or_refill <= 1'b0;
+        else w_write_or_refill = 1'b0;
     end
 
     assign w_dataSRAM0_write_enable = ((r_case_number_6[5] | r_case_number_6[4]) & ~r_dcache_offset_12[4] ) | r_case_number_6[3] |r_case_number_6[1];
@@ -408,7 +407,7 @@ module Dcache(
         .o_free       (w_pmtfifo1_free_selector1       ),
         .o_fire       (w_Selector1_fire       ),
 
-        .valid0       (w_readSRAM_or_writeSRAM      ),
+        .valid0       (r_PA_or_ptePA_2[0] & r_case_number_6[2]      ),
         .valid1       (r_case_number_6[1]       ),
         .valid2       (r_PA_or_ptePA_2[1] & r_case_number_6[3] &  (~w_lsu_load_or_store) ),
         .valid3       (r_PA_or_ptePA_2[1] & r_case_number_6[3] &  w_lsu_load_or_store       ),
