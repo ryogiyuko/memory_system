@@ -97,7 +97,7 @@ module dcache_tag_compare(
               w_hit_way_3 = 3'b111;
             end
           default: begin
-            w_dirty = 1'b0; 
+             
             w_hitway_data_32B = 256'b0;
             w_hit_way_3 = 3'b000;
           end
@@ -115,7 +115,7 @@ module dcache_tag_compare(
     always @(*) begin
         //hit 命中行变为最PLRU
         if(w_hit==1)begin
-          w_dirty = 1'b0;;
+          w_dirty = 1'b0;
           w_evict_way_32B = 256'b0;
           case (w_way_hit_8[7:0])
             8'b00000001:begin

@@ -30,6 +30,7 @@ parameter run_time  = 30;
 reg [6:0] count = 0;
 
 
+
 // Dcache Inputs
 reg   rst                                  = 1 ;
 reg   i_lsu_drive                          = 0 ;
@@ -40,13 +41,12 @@ reg   [5:0]  i_lsu_storeIndex_6            = 0 ;
 reg   i_lsu_load_or_store                  = 0 ;
 reg   i_freeNext_retire_store              = 0 ;
 reg   i_freeNext_retire_load               = 0 ;
-reg   i_Dtlb_drive                         = 0 ;
 reg   i_ptw_drive                          = 0 ;
 reg   i_freeNext_ptw                       = 0 ;
-reg   [21:0]  i_Dtlb_PA_ppn_22             = 0 ;
 reg   [33:0]  i_ptw_ptePA_34               = 0 ;
 reg   i_L2cache_drive                      = 0 ;
-reg   i_freeNext_L2cache                   = 0 ;
+reg   i_freeNext_L2cache_writeBack         = 0 ;
+reg   i_freeNext_L2cache_miss              = 0 ;
 reg   [255:0]  i_L2cache_refill_32B        = 0 ;
 
 // Dcache Outputs
@@ -55,21 +55,24 @@ wire  o_driveNext_lsu                      ;
 wire  [5:0]  o_storeIndex_to_lsu_6         ;
 wire  o_driveNext_retire_store             ;
 wire  o_driveNext_retire_load              ;
-wire  o_loadData_to_retire_32              ;
-wire  o_load_store                         ;
-wire  o_Dtlb_free                          ;
+wire  [31:0]  o_loadData_to_retire_32      ;
 wire  o_ptw_free                           ;
 wire  o_driveNext_ptw                      ;
 wire  [31:0]  o_pte_32                     ;
 wire  o_L2cache_free                       ;
-wire  o_driveNext_L2cache                  ;
+wire  o_driveNext_L2cache_writeBack        ;
+wire  o_driveNext_L2cache_miss             ;
 wire  [33:0]  o_miss_addr_34               ;
+wire  [33:0]  o_writeBack_addr_34          ;
 wire  [255:0]  o_writeBack_32B             ;
-wire  o_miss_or_writeBack                  ;
 wire  [5:0]  o_r_case_number_6             ;
 wire  [11:0]  o_dcache_offset_12           ;
 wire  [2:0]  o_plru_evictWay_3             ;
+wire  [2:0]  o_r_hit_way_3                 ;
 wire  [33:0]  o_dcache_PA_34               ;
+wire  [33:0]  o_r_writeBack_addr_34        ;
+wire  o_r_hit                              ;
+wire  o_r_dirty                            ;
 
 
 initial
@@ -87,40 +90,46 @@ begin
 end
 
 Dcache  u_Dcache (
-    .rst                       ( rst                               ),
-    .i_lsu_drive               ( i_lsu_drive                       ),
-    .i_freeNext_lsu            ( i_freeNext_lsu                    ),
-    .i_lsu_PA_34               ( i_lsu_PA_34               [33:0]  ),
-    .i_lsu_storeData_32        ( i_lsu_storeData_32        [31:0]  ),
-    .i_lsu_storeIndex_6        ( i_lsu_storeIndex_6        [5:0]   ),
-    .i_lsu_load_or_store       ( i_lsu_load_or_store               ),
-    .i_freeNext_retire_store   ( i_freeNext_retire_store           ),
-    .i_freeNext_retire_load    ( i_freeNext_retire_load            ),
-    .i_ptw_drive               ( i_ptw_drive                       ),
-    .i_freeNext_ptw            ( i_freeNext_ptw                    ),
-    .i_ptw_ptePA_34            ( i_ptw_ptePA_34            [33:0]  ),
-    .i_L2cache_drive           ( i_L2cache_drive                   ),
-    .i_freeNext_L2cache        ( i_freeNext_L2cache                ),
-    .i_L2cache_refill_32B      ( i_L2cache_refill_32B      [255:0] ),
+    .rst                            ( rst                                    ),
+    .i_lsu_drive                    ( i_lsu_drive                            ),
+    .i_freeNext_lsu                 ( i_freeNext_lsu                         ),
+    .i_lsu_PA_34                    ( i_lsu_PA_34                    [33:0]  ),
+    .i_lsu_storeData_32             ( i_lsu_storeData_32             [31:0]  ),
+    .i_lsu_storeIndex_6             ( i_lsu_storeIndex_6             [5:0]   ),
+    .i_lsu_load_or_store            ( i_lsu_load_or_store                    ),
+    .i_freeNext_retire_store        ( i_freeNext_retire_store                ),
+    .i_freeNext_retire_load         ( i_freeNext_retire_load                 ),
+    .i_ptw_drive                    ( i_ptw_drive                            ),
+    .i_freeNext_ptw                 ( i_freeNext_ptw                         ),
+    .i_ptw_ptePA_34                 ( i_ptw_ptePA_34                 [33:0]  ),
+    .i_L2cache_drive                ( i_L2cache_drive                        ),
+    .i_freeNext_L2cache_writeBack   ( i_freeNext_L2cache_writeBack           ),
+    .i_freeNext_L2cache_miss        ( i_freeNext_L2cache_miss                ),
+    .i_L2cache_refill_32B           ( i_L2cache_refill_32B           [255:0] ),
 
-    .o_lsu_free                ( o_lsu_free                        ),
-    .o_driveNext_lsu           ( o_driveNext_lsu                   ),
-    .o_storeIndex_to_lsu_6     ( o_storeIndex_to_lsu_6     [5:0]   ),
-    .o_driveNext_retire_store  ( o_driveNext_retire_store          ),
-    .o_driveNext_retire_load   ( o_driveNext_retire_load           ),
-    .o_loadData_to_retire_32   ( o_loadData_to_retire_32           ),
-    .o_ptw_free                ( o_ptw_free                        ),
-    .o_driveNext_ptw           ( o_driveNext_ptw                   ),
-    .o_pte_32                  ( o_pte_32                  [31:0]  ),
-    .o_L2cache_free            ( o_L2cache_free                    ),
-    .o_driveNext_L2cache       ( o_driveNext_L2cache               ),
-    .o_miss_addr_34            ( o_miss_addr_34            [33:0]  ),
-    .o_writeBack_32B           ( o_writeBack_32B           [255:0] ),
-    .o_miss_or_writeBack       ( o_miss_or_writeBack               ),
-    .o_r_case_number_6         ( o_r_case_number_6         [5:0]   ),
-    .o_dcache_offset_12        ( o_dcache_offset_12        [11:0]  ),
-    .o_plru_evictWay_3         ( o_plru_evictWay_3         [2:0]   ),
-    .o_dcache_PA_34            ( o_dcache_PA_34            [33:0]  )
+    .o_lsu_free                     ( o_lsu_free                             ),
+    .o_driveNext_lsu                ( o_driveNext_lsu                        ),
+    .o_storeIndex_to_lsu_6          ( o_storeIndex_to_lsu_6          [5:0]   ),
+    .o_driveNext_retire_store       ( o_driveNext_retire_store               ),
+    .o_driveNext_retire_load        ( o_driveNext_retire_load                ),
+    .o_loadData_to_retire_32        ( o_loadData_to_retire_32        [31:0]  ),
+    .o_ptw_free                     ( o_ptw_free                             ),
+    .o_driveNext_ptw                ( o_driveNext_ptw                        ),
+    .o_pte_32                       ( o_pte_32                       [31:0]  ),
+    .o_L2cache_free                 ( o_L2cache_free                         ),
+    .o_driveNext_L2cache_writeBack  ( o_driveNext_L2cache_writeBack          ),
+    .o_driveNext_L2cache_miss       ( o_driveNext_L2cache_miss               ),
+    .o_miss_addr_34                 ( o_miss_addr_34                 [33:0]  ),
+    .o_writeBack_addr_34            ( o_writeBack_addr_34            [33:0]  ),
+    .o_writeBack_32B                ( o_writeBack_32B                [255:0] ),
+    .o_r_case_number_6              ( o_r_case_number_6              [5:0]   ),
+    .o_dcache_offset_12             ( o_dcache_offset_12             [11:0]  ),
+    .o_plru_evictWay_3              ( o_plru_evictWay_3              [2:0]   ),
+    .o_r_hit_way_3                  ( o_r_hit_way_3                  [2:0]   ),
+    .o_dcache_PA_34                 ( o_dcache_PA_34                 [33:0]  ),
+    .o_r_writeBack_addr_34          ( o_r_writeBack_addr_34          [33:0]  ),
+    .o_r_hit                        ( o_r_hit                                ),
+    .o_r_dirty                      ( o_r_dirty                              )
 );
 
 
@@ -160,8 +169,8 @@ begin
 
     #run_time;
 
-	#(PERIOD/2.0)		i_freeNext_L2cache =  1'b1;
-    #(PERIOD/2.0)       i_freeNext_L2cache =  1'b0;
+	#(PERIOD/2.0)		i_freeNext_L2cache_miss =  1'b1;
+    #(PERIOD/2.0)       i_freeNext_L2cache_miss =  1'b0;
     #(PERIOD);
 
     //L2回填   结果：读的回填，二次回填后给出 o_driveNext_retire_load  o_loadData_to_retire_32
@@ -190,8 +199,8 @@ begin
 
     #run_time;
 
-	#(PERIOD/2.0)	i_freeNext_L2cache	 =  1'b1;
-    #(PERIOD/2.0)   i_freeNext_L2cache   =  1'b0;
+	#(PERIOD/2.0)	i_freeNext_L2cache_miss	 =  1'b1;
+    #(PERIOD/2.0)   i_freeNext_L2cache_miss   =  1'b0;
     #(PERIOD);
     
     //L2回填    结果：读页表的回填，二次回填后给出 o_driveNext_ptw o_pte_32
@@ -237,7 +246,7 @@ begin
     #(PERIOD/2.0)   i_freeNext_ptw   =  1'b0;
     #(PERIOD);
 
-    $finish;
+    $stop;
 end
 
 // wait(o_driveNext == 1'b1);

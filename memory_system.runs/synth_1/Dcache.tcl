@@ -17,6 +17,8 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
+set_param simulator.modelsimInstallPath D:/software/modeltech64_10.7/win64
+set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xcvu13p-fhgb2104-2-i
 
 set_param project.singleFileAddWarning.threshold 0
@@ -48,10 +50,8 @@ read_verilog -library xil_defaultlib {
   D:/github/memory_system/memory_system.srcs/sources_1/new/CacheTop.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/Dcache.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/L2Cache.v
-  D:/github/memory_system/memory_system.srcs/sources_1/new/MMU.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay2Unit.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/pmtRelay.v
-  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cLastFifo1.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_1b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/tag_compare.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cPmtFifo2.v
@@ -66,6 +66,13 @@ read_verilog -library xil_defaultlib {
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cPmtFifo1.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cArbMerge2_6b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector6.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge4_38b.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector4.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge3_5b.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_5b.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cArbMerge2_5b.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector8.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cArbMerge8_8b.v
 }
 read_ip -quiet D:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank/Icache_SRAM_bank.xci
 set_property used_in_implementation false [get_files -all d:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank/Icache_SRAM_bank_ooc.xdc]

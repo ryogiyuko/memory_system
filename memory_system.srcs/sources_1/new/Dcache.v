@@ -407,7 +407,7 @@ module Dcache(
         .o_free       (w_pmtfifo1_free_selector1       ),
         .o_fire       (w_Selector1_fire       ),
 
-        .valid0       (r_PA_or_ptePA_2[0] & r_case_number_6[2]      ),
+        .valid0       ( r_case_number_6[0] | r_case_number_6[2]      ),
         .valid1       (r_case_number_6[1]       ),
         .valid2       (r_PA_or_ptePA_2[1] & r_case_number_6[3] &  (~w_lsu_load_or_store) ),
         .valid3       (r_PA_or_ptePA_2[1] & r_case_number_6[3] &  w_lsu_load_or_store       ),
@@ -642,8 +642,8 @@ module Dcache(
     (*dont_touch = "true"*)cMutexMerge2_1b u_cMutexMerge2(
         .i_drive0    ( w_Selector1_drive_mutex2_readComplete    ),
         .i_drive1    ( w_Selector2_drive_mutex2   ),
-        .i_data0     (     ),
-        .i_data1     (     ),
+        .i_data0     ( 1'b0    ),
+        .i_data1     ( 1'b0    ),
         .i_freeNext  ( i_freeNext_retire_load ),
         .rst         (rst         ),
         .o_free0     ( w_Selector1_free_mutex2_readComplete    ),
@@ -658,8 +658,8 @@ module Dcache(
     (*dont_touch = "true"*)cMutexMerge2_1b u_cMutexMerge3(
         .i_drive0    ( w_Seletcor1_drive_mutex3    ),
         .i_drive1    ( w_Selector2_drive_mutex3   ),
-        .i_data0     (     ),
-        .i_data1     (     ),
+        .i_data0     ( 1'b0    ),
+        .i_data1     ( 1'b0    ),
         .i_freeNext  ( i_freeNext_ptw ),
         .rst         ( rst         ),
         .o_free0     ( w_Seletcor1_free_mutex3    ),

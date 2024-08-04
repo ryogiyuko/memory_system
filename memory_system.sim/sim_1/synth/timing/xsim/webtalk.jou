@@ -2,8 +2,8 @@
 # Webtalk v2019.1 (64-bit)
 # SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
 # IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
-# Start of session at: Fri Aug  2 14:57:52 2024
-# Process ID: 32260
+# Start of session at: Sun Aug  4 15:53:31 2024
+# Process ID: 34400
 # Current directory: D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim
 # Command line: wbtcv.exe -mode batch -source D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim/xsim.dir/Dcache_tb_time_synth/webtalk/xsim_webtalk.tcl -notrace
 # Log file: D:/github/memory_system/memory_system.sim/sim_1/synth/timing/xsim/webtalk.log

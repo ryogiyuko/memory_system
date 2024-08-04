@@ -34,12 +34,12 @@ module CacheTop(
 
     input [4:0] i_lsu_rd0_5, i_lsu_rd1_5, i_lsu_rd2_5,  i_lsu_rd3_5, 
     input [5:0] i_lsu_index0_6, i_lsu_index1_6, i_lsu_index2_6, i_lsu_index3_6,
-    input [1:0] i_lsu_flag0_2, i_lsu_flag1_2, i_lsu_flag2_2, i_lsu_flag3_2,  //[1] load_or_store [0] flag
+    input [2:0] i_lsu_flag0_3, i_lsu_flag1_3, i_lsu_flag2_3, i_lsu_flag3_3,  //[2] load_or_store [1] flag(∂‡¥Œªπ «µ•¥Œ) [0] µ⁄º∏¥Œ
     input i_lsu_bypass0, i_lsu_bypass1, i_lsu_bypass2, i_lsu_bypass3,
 
     output [4:0] o_lsu_rd0_5, o_lsu_rd1_5, o_lsu_rd2_5,  o_lsu_rd3_5,
     output [5:0] o_lsu_index0_6, o_lsu_index1_6, o_lsu_index2_6, o_lsu_index3_6,  
-    output [1:0] o_lsu_flag0_2, o_lsu_flag1_2, o_lsu_flag2_2, o_lsu_flag3_2, 
+    output [2:0] o_lsu_flag0_3, o_lsu_flag1_3, o_lsu_flag2_3, o_lsu_flag3_3,
     output o_lsu_bypass0, o_lsu_bypass1, o_lsu_bypass2, o_lsu_bypass3,
     
     //mmu
@@ -79,7 +79,7 @@ module CacheTop(
     wire w_driveNext0_retire_load, w_driveNext1_retire_load, w_driveNext2_retire_load, w_driveNext3_retire_load;
     wire [37:0] w_loadData0_to_retire_38, w_loadData1_to_retire_38, w_loadData2_to_retire_38, w_loadData3_to_retire_38 ;//i_lsu_index_6 , load_data_32
 
-    cMutexMerge4_38b mutex_to_retire(
+    (*dont_touch = "true"*)cMutexMerge4_38b mutex_to_retire(
         .i_drive0    (  w_driveNext0_retire_load  ),
         .i_drive1    (  w_driveNext1_retire_load  ),
         .i_drive2    (  w_driveNext2_retire_load  ),
@@ -106,7 +106,7 @@ module CacheTop(
     wire w_driveNext0_ptw, w_driveNext1_ptw, w_driveNext2_ptw, w_driveNext3_ptw ;
     wire [31:0] w_pte0_32, w_pte1_32, w_pte2_32, w_pte3_32;
 
-    cMutexMerge4_38b mutex_to_ptw(
+    (*dont_touch = "true"*)cMutexMerge4_38b mutex_to_ptw(
         .i_drive0    (  w_driveNext0_ptw  ),
         .i_drive1    (  w_driveNext1_ptw  ),
         .i_drive2    (  w_driveNext2_ptw  ),
@@ -272,7 +272,7 @@ module CacheTop(
         //wire w_splitter6_drive_arbWrite, w_splitter6_free_arbWrite;
         //wire w_splitter7_drive_arbWrite, w_splitter7_free_arbWrite;
         //o_write_driveNext_DDR, w_DDR_free_cache
-        wire [7:0] w_arbWrite_selBank_8;// Áã¨ÁÉ≠Á†Å arbWrite ÁöÑËæìÂá∫
+        wire [7:0] w_arbWrite_selBank_8;// Áã?ÁÉ?Á†? arbWrite ÁöÑËæìÂá?
     
     //arbRead
         //wire w_mutex0_drive_arbRead, w_mutex0_free_arbRead;
@@ -284,7 +284,7 @@ module CacheTop(
         //wire w_mutex6_drive_arbRead, w_mutex6_free_arbRead;
         //wire w_mutex7_drive_arbRead, w_mutex7_free_arbRead;
         //o_read_driveNext_DDR, w_DDR_free_cache
-        wire [7:0] w_arbRead_selBank_8;// Áã¨ÁÉ≠Á†Å arbRead ÁöÑËæìÂá∫
+        wire [7:0] w_arbRead_selBank_8;// Áã?ÁÉ?Á†? arbRead ÁöÑËæìÂá?
     
     //SelectorRead
         //i_DDR_drive_cache, w_DDR_free_cache 
@@ -396,7 +396,7 @@ module CacheTop(
 //
     assign { o_lsu_rd0_5, o_lsu_rd1_5, o_lsu_rd2_5,  o_lsu_rd3_5} = { i_lsu_rd0_5, i_lsu_rd1_5, i_lsu_rd2_5,  i_lsu_rd3_5 } ;
     assign { o_lsu_index0_6, o_lsu_index1_6, o_lsu_index2_6, o_lsu_index3_6 } = { i_lsu_index0_6, i_lsu_index1_6, i_lsu_index2_6, i_lsu_index3_6 };
-    assign { o_lsu_flag0_2, o_lsu_flag1_2, o_lsu_flag2_2, o_lsu_flag3_2 } = { i_lsu_flag0_2, i_lsu_flag1_2, i_lsu_flag2_2, i_lsu_flag3_2 };
+    assign { o_lsu_flag0_3, o_lsu_flag1_3, o_lsu_flag2_3, o_lsu_flag3_3 } = { i_lsu_flag0_3, i_lsu_flag1_3, i_lsu_flag2_3, i_lsu_flag3_3 };
     assign { o_lsu_bypass0, o_lsu_bypass1, o_lsu_bypass2, o_lsu_bypass3 } = { i_lsu_bypass0, i_lsu_bypass1, i_lsu_bypass2, i_lsu_bypass3 };
 
     assign { w_loadData0_to_retire_38[37:32], w_loadData1_to_retire_38[37:32], w_loadData2_to_retire_38[37:32], w_loadData3_to_retire_38[37:32] } = { i_lsu_index0_6, i_lsu_index1_6, i_lsu_index2_6, i_lsu_index3_6 };
@@ -430,7 +430,7 @@ module CacheTop(
         .i_lsu_PA_34              (i_lsu_PA0_34              ),
         .i_lsu_storeData_32       (i_lsu_storeData0_32       ),
         .i_lsu_storeIndex_6       (6'b0       ),
-        .i_lsu_load_or_store      (i_lsu_flag0_2[1]      ),
+        .i_lsu_load_or_store      (i_lsu_flag0_3[2]      ),
         .o_storeIndex_to_lsu_6    (    ),
         
         .i_freeNext_retire_store  (1'b0  ),.i_freeNext_retire_load   (w_freeNext0_retire_load   ),
@@ -454,7 +454,7 @@ module CacheTop(
         .o_r_case_number_6(),.o_dcache_offset_12(),.o_plru_evictWay_3(),.o_r_hit_way_3(),.o_dcache_PA_34(),.o_r_writeBack_addr_34(),.o_r_hit(),.o_r_dirty()
     );
 
-    cSelector2 Icache_bank0_selector(
+    (*dont_touch = "true"*)cSelector2 Icache_bank0_selector(
         .rst          (rst          ),
         .i_drive      (w_IcacheBank0_drive_selector      ),
         .o_free       (w_IcacheBank0_free_selector      ),
@@ -468,7 +468,7 @@ module CacheTop(
         .i_freeNext1  (w_IcacheBank0_selector_free_L2Bank1  )
     );
 
-    cSelector2 Dcache_bank0_miss_selector(
+    (*dont_touch = "true"*)cSelector2 Dcache_bank0_miss_selector(
         .rst          (rst          ),
         .i_drive      (w_DcacheBank0_miss_drive_selector      ),
         .o_free       (w_DcacheBank0_miss_free_selector       ),
@@ -482,7 +482,7 @@ module CacheTop(
         .i_freeNext1  (w_DcacheBank0_miss_selector_free_L2Bank1  )
     );
 
-    cSelector2 Dcache_bank0_writeBack_selector(
+    (*dont_touch = "true"*)cSelector2 Dcache_bank0_writeBack_selector(
         .rst          (rst          ),
         .i_drive      ( w_DcacheBank0_writeBack_drive_selector     ),
         .o_free       ( w_DcacheBank0_writeBack_free_selector      ),
@@ -496,7 +496,7 @@ module CacheTop(
         .i_freeNext1  ( w_DcacheBank0_writeBack_selector_free_L2Bank1 )
     );
 
-    cMutexMerge2_1b Icache_bank0(
+    (*dont_touch = "true"*)cMutexMerge2_1b Icache_bank0(
         .i_drive0    ( w_L2Bank0_drive_IcacheBank0   ),
         .i_drive1    ( w_L2Bank1_drive_IcacheBank0   ),
         .i_data0     ( 1'b0   ),
@@ -509,7 +509,7 @@ module CacheTop(
         .o_data      (      )
     );
 
-    cMutexMerge2_1b Dcache_bank0(
+    (*dont_touch = "true"*)cMutexMerge2_1b Dcache_bank0(
         .i_drive0    ( w_L2Bank0_drive_DcacheBank0   ),
         .i_drive1    ( w_L2Bank1_drive_DcacheBank0   ),
         .i_data0     ( 1'b0   ),
@@ -552,7 +552,7 @@ module CacheTop(
         .i_lsu_PA_34              (i_lsu_PA1_34              ),
         .i_lsu_storeData_32       (i_lsu_storeData1_32       ),
         .i_lsu_storeIndex_6       (6'b0       ),
-        .i_lsu_load_or_store      (i_lsu_flag1_2[1]      ),
+        .i_lsu_load_or_store      (i_lsu_flag1_3[2]      ),
         .o_storeIndex_to_lsu_6    (    ),
         
         .i_freeNext_retire_store  (1'b0  ),.i_freeNext_retire_load   (w_freeNext1_retire_load   ),
@@ -576,7 +576,7 @@ module CacheTop(
         .o_r_case_number_6(),.o_dcache_offset_12(),.o_plru_evictWay_3(),.o_r_hit_way_3(),.o_dcache_PA_34(),.o_r_writeBack_addr_34(),.o_r_hit(),.o_r_dirty()
     );
 
-    cSelector2 Icache_bank1_selector(
+    (*dont_touch = "true"*)cSelector2 Icache_bank1_selector(
         .rst          (rst          ),
         .i_drive      (w_IcacheBank1_drive_selector      ),
         .o_free       (w_IcacheBank1_free_selector      ),
@@ -590,7 +590,7 @@ module CacheTop(
         .i_freeNext1  (w_IcacheBank1_selector_free_L2Bank3  )
     );
 
-    cSelector2 Dcache_bank1_miss_selector(
+    (*dont_touch = "true"*)cSelector2 Dcache_bank1_miss_selector(
         .rst          (rst          ),
         .i_drive      (w_DcacheBank1_miss_drive_selector      ),
         .o_free       (w_DcacheBank1_miss_free_selector       ),
@@ -604,7 +604,7 @@ module CacheTop(
         .i_freeNext1  (w_DcacheBank1_miss_selector_free_L2Bank3  )
     );
 
-    cSelector2 Dcache_bank1_writeBack_selector(
+    (*dont_touch = "true"*)cSelector2 Dcache_bank1_writeBack_selector(
         .rst          (rst          ),
         .i_drive      ( w_DcacheBank1_writeBack_drive_selector     ),
         .o_free       ( w_DcacheBank1_writeBack_free_selector      ),
@@ -618,7 +618,7 @@ module CacheTop(
         .i_freeNext1  ( w_DcacheBank1_writeBack_selector_free_L2Bank3 )
     );
 
-    cMutexMerge2_1b Icache_bank1(
+    (*dont_touch = "true"*)cMutexMerge2_1b Icache_bank1(
         .i_drive0    ( w_L2Bank2_drive_IcacheBank1   ),
         .i_drive1    ( w_L2Bank3_drive_IcacheBank1   ),
         .i_data0     ( 1'b0   ),
@@ -631,7 +631,7 @@ module CacheTop(
         .o_data      (      )
     );
 
-    cMutexMerge2_1b Dcache_bank1(
+    (*dont_touch = "true"*)cMutexMerge2_1b Dcache_bank1(
         .i_drive0    ( w_L2Bank2_drive_DcacheBank1   ),
         .i_drive1    ( w_L2Bank3_drive_DcacheBank1   ),
         .i_data0     ( 1'b0   ),
@@ -662,7 +662,7 @@ module CacheTop(
         .o_driveNext_ifu              ( o_driveNext2_ifu            ),
         .o_hit_data_to_ifu_32B        (  o_instr2_to_ifu_256      ),
 
-        .o_fifo_buffer_write_enable_2 ( ),.o_fifo2_2_addr_34            (           ),
+        .o_fifo_buffer_write_enable_2 ( ),.o_fifo2_1_addr_34            (           ),
         .o_write_enable               (               ),.o_fifo_buffer_data_out       (       )
     );
 
@@ -674,7 +674,7 @@ module CacheTop(
         .i_lsu_PA_34              (i_lsu_PA2_34              ),
         .i_lsu_storeData_32       (i_lsu_storeData2_32       ),
         .i_lsu_storeIndex_6       (6'b0       ),
-        .i_lsu_load_or_store      (i_lsu_flag2_2[1]      ),
+        .i_lsu_load_or_store      (i_lsu_flag2_3[2]      ),
         .o_storeIndex_to_lsu_6    (    ),
         
         .i_freeNext_retire_store  (1'b0  ),.i_freeNext_retire_load   (w_freeNext2_retire_load   ),
@@ -698,7 +698,7 @@ module CacheTop(
         .o_r_case_number_6(),.o_dcache_offset_12(),.o_plru_evictWay_3(),.o_r_hit_way_3(),.o_dcache_PA_34(),.o_r_writeBack_addr_34(),.o_r_hit(),.o_r_dirty()
     );
 
-    cSelector2 Icache_bank2_selector(
+    (*dont_touch = "true"*)cSelector2 Icache_bank2_selector(
         .rst          (rst          ),
         .i_drive      (w_IcacheBank2_drive_selector      ),
         .o_free       (w_IcacheBank2_free_selector      ),
@@ -712,7 +712,7 @@ module CacheTop(
         .i_freeNext1  (w_IcacheBank2_selector_free_L2Bank5  )
     );
 
-    cSelector2 Dcache_bank2_miss_selector(
+    (*dont_touch = "true"*)cSelector2 Dcache_bank2_miss_selector(
         .rst          (rst          ),
         .i_drive      (w_DcacheBank2_miss_drive_selector      ),
         .o_free       (w_DcacheBank2_miss_free_selector       ),
@@ -726,7 +726,7 @@ module CacheTop(
         .i_freeNext1  (w_DcacheBank2_miss_selector_free_L2Bank5  )
     );
 
-    cSelector2 Dcache_bank2_writeBack_selector(
+    (*dont_touch = "true"*)cSelector2 Dcache_bank2_writeBack_selector(
         .rst          (rst          ),
         .i_drive      ( w_DcacheBank2_writeBack_drive_selector     ),
         .o_free       ( w_DcacheBank2_writeBack_free_selector      ),
@@ -740,7 +740,7 @@ module CacheTop(
         .i_freeNext1  ( w_DcacheBank2_writeBack_selector_free_L2Bank5 )
     );
 
-    cMutexMerge2_1b Icache_bank2(
+    (*dont_touch = "true"*)cMutexMerge2_1b Icache_bank2(
         .i_drive0    ( w_L2Bank4_drive_IcacheBank2   ),
         .i_drive1    ( w_L2Bank5_drive_IcacheBank2   ),
         .i_data0     ( 1'b0   ),
@@ -753,7 +753,7 @@ module CacheTop(
         .o_data      (      )
     );
 
-    cMutexMerge2_1b Dcache_bank2(
+    (*dont_touch = "true"*)cMutexMerge2_1b Dcache_bank2(
         .i_drive0    ( w_L2Bank4_drive_DcacheBank2   ),
         .i_drive1    ( w_L2Bank5_drive_DcacheBank2   ),
         .i_data0     ( 1'b0   ),
@@ -784,7 +784,7 @@ module CacheTop(
         .o_driveNext_ifu              ( o_driveNext3_ifu            ),
         .o_hit_data_to_ifu_32B        (  o_instr3_to_ifu_256      ),
 
-        .o_fifo_buffer_write_enable_2 ( ),.o_fifo2_2_addr_34            (           ),
+        .o_fifo_buffer_write_enable_2 ( ),.o_fifo2_1_addr_34            (           ),
         .o_write_enable               (               ),.o_fifo_buffer_data_out       (       )
     );
 
@@ -796,7 +796,7 @@ module CacheTop(
         .i_lsu_PA_34              (i_lsu_PA3_34              ),
         .i_lsu_storeData_32       (i_lsu_storeData3_32       ),
         .i_lsu_storeIndex_6       (6'b0       ),
-        .i_lsu_load_or_store      (i_lsu_flag3_2[1]      ),
+        .i_lsu_load_or_store      (i_lsu_flag3_3[2]      ),
         .o_storeIndex_to_lsu_6    (    ),
         
         .i_freeNext_retire_store  (1'b0  ),.i_freeNext_retire_load   (w_freeNext3_retire_load   ),
@@ -820,7 +820,7 @@ module CacheTop(
         .o_r_case_number_6(),.o_dcache_offset_12(),.o_plru_evictWay_3(),.o_r_hit_way_3(),.o_dcache_PA_34(),.o_r_writeBack_addr_34(),.o_r_hit(),.o_r_dirty()
     );
 
-    cSelector2 Icache_bank3_selector(
+    (*dont_touch = "true"*)cSelector2 Icache_bank3_selector(
         .rst          (rst          ),
         .i_drive      (w_IcacheBank3_drive_selector      ),
         .o_free       (w_IcacheBank3_free_selector      ),
@@ -834,7 +834,7 @@ module CacheTop(
         .i_freeNext1  (w_IcacheBank3_selector_free_L2Bank7  )
     );
 
-    cSelector2 Dcache_bank3_miss_selector(
+    (*dont_touch = "true"*)cSelector2 Dcache_bank3_miss_selector(
         .rst          (rst          ),
         .i_drive      (w_DcacheBank3_miss_drive_selector      ),
         .o_free       (w_DcacheBank3_miss_free_selector       ),
@@ -848,7 +848,7 @@ module CacheTop(
         .i_freeNext1  (w_DcacheBank3_miss_selector_free_L2Bank7  )
     );
 
-    cSelector2 Dcache_bank3_writeBack_selector(
+    (*dont_touch = "true"*)cSelector2 Dcache_bank3_writeBack_selector(
         .rst          (rst          ),
         .i_drive      ( w_DcacheBank3_writeBack_drive_selector     ),
         .o_free       ( w_DcacheBank3_writeBack_free_selector      ),
@@ -862,7 +862,7 @@ module CacheTop(
         .i_freeNext1  ( w_DcacheBank3_writeBack_selector_free_L2Bank7 )
     );
 
-    cMutexMerge2_1b Icache_bank3(
+    (*dont_touch = "true"*)cMutexMerge2_1b Icache_bank3(
         .i_drive0    ( w_L2Bank6_drive_IcacheBank3   ),
         .i_drive1    ( w_L2Bank7_drive_IcacheBank3   ),
         .i_data0     ( 1'b0   ),
@@ -875,7 +875,7 @@ module CacheTop(
         .o_data      (      )
     );
 
-    cMutexMerge2_1b Dcache_bank3(
+    (*dont_touch = "true"*)cMutexMerge2_1b Dcache_bank3(
         .i_drive0    ( w_L2Bank6_drive_DcacheBank3   ),
         .i_drive1    ( w_L2Bank7_drive_DcacheBank3   ),
         .i_data0     ( 1'b0   ),
@@ -917,7 +917,7 @@ module CacheTop(
     );
 
     //L2 0 to DDR
-    cSplitter2 L2Bank_splitter0(
+    (*dont_touch = "true"*)cSplitter2 L2Bank_splitter0(
         .i_drive      ( w_L2_writeBack_drive_splitter0      ),
 
         .i_freeNext0  ( w_splitter0_free_arbWrite  ),
@@ -929,7 +929,7 @@ module CacheTop(
         .o_driveNext1 ( w_splitter0_drive_wait0 )
     );
     
-    cWaitMerge2_2b L2Bank_wait0(
+    (*dont_touch = "true"*)cWaitMerge2_2b L2Bank_wait0(
         .i_drive0    ( w_splitter0_drive_wait0   ),
         .i_drive1    ( i_write_freeNext_DDR & w_arbWrite_selBank_8[0]  ),
 
@@ -944,7 +944,7 @@ module CacheTop(
         .o_data      (      )
     );
     
-    cMutexMerge2_1b L2Bank_mutex0(
+    (*dont_touch = "true"*)cMutexMerge2_1b L2Bank_mutex0(
         .i_drive0    ( w_wait0_drive_mutex0    ),
         .i_drive1    ( w_L2_miss_drive_mutex0   ),
         .i_data0     ( 1'b0   ),                   .i_data1     ( 1'b0   ),
@@ -986,7 +986,7 @@ module CacheTop(
     );
 
     //L2 1 to DDR
-        cSplitter2 L2Bank_splitter1(
+        (*dont_touch = "true"*)cSplitter2 L2Bank_splitter1(
             .i_drive      ( w_L2_writeBack_drive_splitter1      ),
 
             .i_freeNext0  ( w_splitter1_free_arbWrite  ),
@@ -998,7 +998,7 @@ module CacheTop(
             .o_driveNext1 ( w_splitter1_drive_wait1 )
         );
         
-        cWaitMerge2_2b L2Bank_wait1(
+        (*dont_touch = "true"*)cWaitMerge2_2b L2Bank_wait1(
             .i_drive0    ( w_splitter1_drive_wait1   ),
             .i_drive1    ( i_write_freeNext_DDR & w_arbWrite_selBank_8[1]  ),
 
@@ -1013,7 +1013,7 @@ module CacheTop(
             .o_data      (      )
         );
         
-        cMutexMerge2_1b L2Bank_mutex1(
+        (*dont_touch = "true"*)cMutexMerge2_1b L2Bank_mutex1(
             .i_drive0    ( w_wait1_drive_mutex1    ),
             .i_drive1    ( w_L2_miss_drive_mutex1   ),
             .i_data0     ( 1'b0   ),                   .i_data1     ( 1'b0   ),
@@ -1055,7 +1055,7 @@ module CacheTop(
     );
 
     //L2 2 to DDR
-        cSplitter2 L2Bank_splitter2(
+        (*dont_touch = "true"*)cSplitter2 L2Bank_splitter2(
             .i_drive      ( w_L2_writeBack_drive_splitter2      ),
 
             .i_freeNext0  ( w_splitter2_free_arbWrite  ),
@@ -1067,7 +1067,7 @@ module CacheTop(
             .o_driveNext1 ( w_splitter2_drive_wait2 )
         );
         
-        cWaitMerge2_2b L2Bank_wait2(
+        (*dont_touch = "true"*)cWaitMerge2_2b L2Bank_wait2(
             .i_drive0    ( w_splitter2_drive_wait2   ),
             .i_drive1    ( i_write_freeNext_DDR & w_arbWrite_selBank_8[2]  ),
 
@@ -1082,7 +1082,7 @@ module CacheTop(
             .o_data      (      )
         );
         
-        cMutexMerge2_1b L2Bank_mutex2(
+        (*dont_touch = "true"*)cMutexMerge2_1b L2Bank_mutex2(
             .i_drive0    ( w_wait2_drive_mutex2    ),
             .i_drive1    ( w_L2_miss_drive_mutex2   ),
             .i_data0     ( 1'b0   ),                   .i_data1     ( 1'b0   ),
@@ -1124,7 +1124,7 @@ module CacheTop(
     );
 
     //L2 3 to DDR
-        cSplitter2 L2Bank_splitter3(
+        (*dont_touch = "true"*)cSplitter2 L2Bank_splitter3(
             .i_drive      ( w_L2_writeBack_drive_splitter3      ),
 
             .i_freeNext0  ( w_splitter3_free_arbWrite  ),
@@ -1136,7 +1136,7 @@ module CacheTop(
             .o_driveNext1 ( w_splitter3_drive_wait3 )
         );
         
-        cWaitMerge2_2b L2Bank_wait3(
+        (*dont_touch = "true"*)cWaitMerge2_2b L2Bank_wait3(
             .i_drive0    ( w_splitter3_drive_wait3   ),
             .i_drive1    ( i_write_freeNext_DDR & w_arbWrite_selBank_8[3]  ),
 
@@ -1151,7 +1151,7 @@ module CacheTop(
             .o_data      (      )
         );
         
-        cMutexMerge2_1b L2Bank_mutex3(
+        (*dont_touch = "true"*)cMutexMerge2_1b L2Bank_mutex3(
             .i_drive0    ( w_wait3_drive_mutex3    ),
             .i_drive1    ( w_L2_miss_drive_mutex3   ),
             .i_data0     ( 1'b0   ),                   .i_data1     ( 1'b0   ),
@@ -1193,7 +1193,7 @@ module CacheTop(
     );
 
     //L2 4 to DDR
-        cSplitter2 L2Bank_splitter4(
+        (*dont_touch = "true"*)cSplitter2 L2Bank_splitter4(
             .i_drive      ( w_L2_writeBack_drive_splitter4      ),
 
             .i_freeNext0  ( w_splitter4_free_arbWrite  ),
@@ -1205,7 +1205,7 @@ module CacheTop(
             .o_driveNext1 ( w_splitter4_drive_wait4 )
         );
         
-        cWaitMerge2_2b L2Bank_wait4(
+        (*dont_touch = "true"*)cWaitMerge2_2b L2Bank_wait4(
             .i_drive0    ( w_splitter4_drive_wait4   ),
             .i_drive1    ( i_write_freeNext_DDR & w_arbWrite_selBank_8[4]  ),
 
@@ -1220,7 +1220,7 @@ module CacheTop(
             .o_data      (      )
         );
         
-        cMutexMerge2_1b L2Bank_mutex4(
+        (*dont_touch = "true"*)cMutexMerge2_1b L2Bank_mutex4(
             .i_drive0    ( w_wait4_drive_mutex4    ),
             .i_drive1    ( w_L2_miss_drive_mutex4   ),
             .i_data0     ( 1'b0   ),                   .i_data1     ( 1'b0   ),
@@ -1262,7 +1262,7 @@ module CacheTop(
     );
 
     //L2 5 to DDR
-        cSplitter2 L2Bank_splitter5(
+        (*dont_touch = "true"*)cSplitter2 L2Bank_splitter5(
             .i_drive      ( w_L2_writeBack_drive_splitter5      ),
 
             .i_freeNext0  ( w_splitter5_free_arbWrite  ),
@@ -1274,7 +1274,7 @@ module CacheTop(
             .o_driveNext1 ( w_splitter5_drive_wait5 )
         );
         
-        cWaitMerge2_2b L2Bank_wait5(
+        (*dont_touch = "true"*)cWaitMerge2_2b L2Bank_wait5(
             .i_drive0    ( w_splitter5_drive_wait5   ),
             .i_drive1    ( i_write_freeNext_DDR & w_arbWrite_selBank_8[5]  ),
 
@@ -1289,7 +1289,7 @@ module CacheTop(
             .o_data      (      )
         );
         
-        cMutexMerge2_1b L2Bank_mutex5(
+        (*dont_touch = "true"*)cMutexMerge2_1b L2Bank_mutex5(
             .i_drive0    ( w_wait5_drive_mutex5    ),
             .i_drive1    ( w_L2_miss_drive_mutex5   ),
             .i_data0     ( 1'b0   ),                   .i_data1     ( 1'b0   ),
@@ -1331,7 +1331,7 @@ module CacheTop(
     );
 
     //L2 6 to DDR
-        cSplitter2 L2Bank_splitter6(
+        (*dont_touch = "true"*)cSplitter2 L2Bank_splitter6(
             .i_drive      ( w_L2_writeBack_drive_splitter6      ),
 
             .i_freeNext0  ( w_splitter6_free_arbWrite  ),
@@ -1343,7 +1343,7 @@ module CacheTop(
             .o_driveNext1 ( w_splitter6_drive_wait6 )
         );
         
-        cWaitMerge2_2b L2Bank_wait6(
+        (*dont_touch = "true"*)cWaitMerge2_2b L2Bank_wait6(
             .i_drive0    ( w_splitter6_drive_wait6   ),
             .i_drive1    ( i_write_freeNext_DDR & w_arbWrite_selBank_8[6]  ),
 
@@ -1358,7 +1358,7 @@ module CacheTop(
             .o_data      (      )
         );
         
-        cMutexMerge2_1b L2Bank_mutex6(
+        (*dont_touch = "true"*)cMutexMerge2_1b L2Bank_mutex6(
             .i_drive0    ( w_wait6_drive_mutex6    ),
             .i_drive1    ( w_L2_miss_drive_mutex6   ),
             .i_data0     ( 1'b0   ),                   .i_data1     ( 1'b0   ),
@@ -1399,7 +1399,7 @@ module CacheTop(
     );
 
     //L2 7 to DDR
-        cSplitter2 L2Bank_splitter7(
+        (*dont_touch = "true"*)cSplitter2 L2Bank_splitter7(
             .i_drive      ( w_L2_writeBack_drive_splitter7      ),
 
             .i_freeNext0  ( w_splitter7_free_arbWrite  ),
@@ -1411,7 +1411,7 @@ module CacheTop(
             .o_driveNext1 ( w_splitter7_drive_wait7 )
         );
         
-        cWaitMerge2_2b L2Bank_wait7(
+        (*dont_touch = "true"*)cWaitMerge2_2b L2Bank_wait7(
             .i_drive0    ( w_splitter7_drive_wait7   ),
             .i_drive1    ( i_write_freeNext_DDR & w_arbWrite_selBank_8[7]  ),
 
@@ -1426,7 +1426,7 @@ module CacheTop(
             .o_data      (      )
         );
         
-        cMutexMerge2_1b L2Bank_mutex7(
+        (*dont_touch = "true"*)cMutexMerge2_1b L2Bank_mutex7(
             .i_drive0    ( w_wait7_drive_mutex7    ),
             .i_drive1    ( w_L2_miss_drive_mutex7   ),
             .i_data0     ( 1'b0   ),                   .i_data1     ( 1'b0   ),
@@ -1442,7 +1442,7 @@ module CacheTop(
 
 //L2 to DDR
     // Arb_write
-    cArbMerge8_8b Arb_Write(
+    (*dont_touch = "true"*)cArbMerge8_8b Arb_Write(
         .i_drive0    (w_splitter0_drive_arbWrite    ),.i_drive1    (w_splitter1_drive_arbWrite    ),.i_drive2    (w_splitter2_drive_arbWrite    ),.i_drive3    (w_splitter3_drive_arbWrite    ),
         .i_drive4    (w_splitter4_drive_arbWrite    ),.i_drive5    (w_splitter5_drive_arbWrite    ),.i_drive6    (w_splitter6_drive_arbWrite    ),.i_drive7    (w_splitter7_drive_arbWrite    ),
         .i_data0     (8'b00000001 ),.i_data1 ( 8'b00000010    ),.i_data2     ( 8'b00000100    ),.i_data3     ( 8'b00001000    ),
@@ -1500,7 +1500,7 @@ module CacheTop(
     end
 
     // Arb_Read
-    cArbMerge8_8b Arb_Read(
+    (*dont_touch = "true"*)cArbMerge8_8b Arb_Read(
         .i_drive0    (w_mutex0_drive_arbRead    ),.i_drive1    (w_mutex1_drive_arbRead    ),.i_drive2    (w_mutex2_drive_arbRead    ),.i_drive3    (w_mutex3_drive_arbRead    ),
         .i_drive4    (w_mutex4_drive_arbRead    ),.i_drive5    (w_mutex5_drive_arbRead    ),.i_drive6    (w_mutex6_drive_arbRead    ),.i_drive7    (w_mutex7_drive_arbRead    ),
 
@@ -1550,7 +1550,7 @@ module CacheTop(
     end
 
     // selector_Read
-    cSelector8 Selector_Read(
+    (*dont_touch = "true"*)cSelector8 Selector_Read(
         .rst          (rst          ),
         .i_drive      (i_DDR_drive_cache      ),
         .o_free       (w_DDR_free_cache       ),

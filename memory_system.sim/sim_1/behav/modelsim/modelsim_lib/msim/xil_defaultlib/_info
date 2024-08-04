@@ -1,0 +1,1136 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/github/memory_system/memory_system.sim/sim_1/behav/modelsim
+T_opt
+!s110 1722655438
+VR<>bKMzaM0gADSLHX[mB>2
+04 9 4 work Dcache_tb fast 0
+04 4 4 work glbl fast 0
+=1-244bfe515a66-66ada2ce-233-9eec
+o-quiet -auto_acc_if_foreign -work xil_defaultlib -L blk_mem_gen_v8_4_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+vCacheTop
+!s10a 1722652969
+Z2 !s110 1722654805
+!i10b 1
+!s100 BBT:@_biz1>mc73QI>mI>2
+IOm2Mm_80mVoLjchlO8JEC2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1722652969
+8../../../../memory_system.srcs/sources_1/new/CacheTop.v
+F../../../../memory_system.srcs/sources_1/new/CacheTop.v
+Z4 L0 23
+Z5 OL;L;10.7;67
+r1
+!s85 0
+31
+Z6 !s108 1722654805.000000
+Z7 !s107 ../../../../memory_system.srcs/sim_1/new/Dcache_tb.v|../../../../memory_system.srcs/sim_1/new/Dcache_D_V_buffer_tb.v|../../../../memory_system.srcs/sim_1/new/Icache_tb.v|../../../../memory_system.srcs/sim_1/new/replace_fifo_buffer_tb.v|../../../../memory_system.srcs/sources_1/new/control/cArbMerge8_8b.v|../../../../memory_system.srcs/sources_1/new/control/cSelector8.v|../../../../memory_system.srcs/sources_1/new/control/cArbMerge2_5b.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_5b.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge3_5b.v|../../../../memory_system.srcs/sources_1/new/control/cSelector4.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge4_38b.v|../../../../memory_system.srcs/sources_1/new/control/cSelector6.v|../../../../memory_system.srcs/sources_1/new/control/cArbMerge2_6b.v|../../../../memory_system.srcs/sources_1/new/control/cPmtFifo1.v|../../../../memory_system.srcs/sources_1/new/dcache_tag_compare.v|../../../../memory_system.srcs/sources_1/new/control/cWaitMerge2_2b.v|../../../../memory_system.srcs/sources_1/new/control/cSelector5_fire2.v|../../../../memory_system.srcs/sources_1/new/dcache_plru_evict.v|../../../../memory_system.srcs/sources_1/new/control/cSelector5.v|../../../../memory_system.srcs/sources_1/new/Dcache_plru_buffer.v|../../../../memory_system.srcs/sources_1/new/Dcache_D_V_buffer.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge6_outpmt_6b.v|../../../../memory_system.srcs/sources_1/new/control/cPmtFifo2.v|../../../../memory_system.srcs/sources_1/new/tag_compare.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_1b.v|../../../../memory_system.srcs/sources_1/new/control/pmtRelay.v|../../../../memory_system.srcs/sources_1/new/control/delay/delay2Unit.v|../../../../memory_system.srcs/sources_1/new/L2Cache.v|../../../../memory_system.srcs/sources_1/new/Dcache.v|../../../../memory_system.srcs/sources_1/new/CacheTop.v|../../../../memory_system.srcs/sources_1/new/control/cFifo1.v|../../../../memory_system.srcs/sources_1/new/Icache.v|../../../../memory_system.srcs/sources_1/new/control/sender.v|../../../../memory_system.srcs/sources_1/new/control/relay.v|../../../../memory_system.srcs/sources_1/new/control/receiver.v|../../../../memory_system.srcs/sources_1/new/control/delay/delay2U.v|../../../../memory_system.srcs/sources_1/new/control/delay/delay1Unit.v|../../../../memory_system.srcs/sources_1/new/control/delay/delay1U.v|../../../../memory_system.srcs/sources_1/new/control/contTap.v|../../../../memory_system.srcs/sources_1/new/control/cSplitter2.v|../../../../memory_system.srcs/sources_1/new/control/cSelector2.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_35b.v|../../../../memory_system.srcs/sources_1/new/control/cFifo2.v|../../../../memory_system.srcs/sources_1/new/replace_fifo_buffer.v|../../../../memory_system.srcs/sources_1/ip/Dcache_bank_tagSRAM/sim/Dcache_bank_tagSRAM.v|../../../../memory_system.srcs/sources_1/ip/Dcache_bank_dataSram1/sim/Dcache_bank_dataSram1.v|../../../../memory_system.srcs/sources_1/ip/Dcache_bank_dataSram0/sim/Dcache_bank_dataSram0.v|../../../../memory_system.srcs/sources_1/ip/Icache_SRAM_bank/sim/Icache_SRAM_bank.v|
+Z8 !s90 -64|-incr|-work|xil_defaultlib|../../../../memory_system.srcs/sources_1/ip/Icache_SRAM_bank/sim/Icache_SRAM_bank.v|../../../../memory_system.srcs/sources_1/ip/Dcache_bank_dataSram0/sim/Dcache_bank_dataSram0.v|../../../../memory_system.srcs/sources_1/ip/Dcache_bank_dataSram1/sim/Dcache_bank_dataSram1.v|../../../../memory_system.srcs/sources_1/ip/Dcache_bank_tagSRAM/sim/Dcache_bank_tagSRAM.v|../../../../memory_system.srcs/sources_1/new/replace_fifo_buffer.v|../../../../memory_system.srcs/sources_1/new/control/cFifo2.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_35b.v|../../../../memory_system.srcs/sources_1/new/control/cSelector2.v|../../../../memory_system.srcs/sources_1/new/control/cSplitter2.v|../../../../memory_system.srcs/sources_1/new/control/contTap.v|../../../../memory_system.srcs/sources_1/new/control/delay/delay1U.v|../../../../memory_system.srcs/sources_1/new/control/delay/delay1Unit.v|../../../../memory_system.srcs/sources_1/new/control/delay/delay2U.v|../../../../memory_system.srcs/sources_1/new/control/receiver.v|../../../../memory_system.srcs/sources_1/new/control/relay.v|../../../../memory_system.srcs/sources_1/new/control/sender.v|../../../../memory_system.srcs/sources_1/new/Icache.v|../../../../memory_system.srcs/sources_1/new/control/cFifo1.v|../../../../memory_system.srcs/sources_1/new/CacheTop.v|../../../../memory_system.srcs/sources_1/new/Dcache.v|../../../../memory_system.srcs/sources_1/new/L2Cache.v|../../../../memory_system.srcs/sources_1/new/control/delay/delay2Unit.v|../../../../memory_system.srcs/sources_1/new/control/pmtRelay.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_1b.v|../../../../memory_system.srcs/sources_1/new/tag_compare.v|../../../../memory_system.srcs/sources_1/new/control/cPmtFifo2.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge6_outpmt_6b.v|../../../../memory_system.srcs/sources_1/new/Dcache_D_V_buffer.v|../../../../memory_system.srcs/sources_1/new/Dcache_plru_buffer.v|../../../../memory_system.srcs/sources_1/new/control/cSelector5.v|../../../../memory_system.srcs/sources_1/new/dcache_plru_evict.v|../../../../memory_system.srcs/sources_1/new/control/cSelector5_fire2.v|../../../../memory_system.srcs/sources_1/new/control/cWaitMerge2_2b.v|../../../../memory_system.srcs/sources_1/new/dcache_tag_compare.v|../../../../memory_system.srcs/sources_1/new/control/cPmtFifo1.v|../../../../memory_system.srcs/sources_1/new/control/cArbMerge2_6b.v|../../../../memory_system.srcs/sources_1/new/control/cSelector6.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge4_38b.v|../../../../memory_system.srcs/sources_1/new/control/cSelector4.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge3_5b.v|../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_5b.v|../../../../memory_system.srcs/sources_1/new/control/cArbMerge2_5b.v|../../../../memory_system.srcs/sources_1/new/control/cSelector8.v|../../../../memory_system.srcs/sources_1/new/control/cArbMerge8_8b.v|../../../../memory_system.srcs/sim_1/new/replace_fifo_buffer_tb.v|../../../../memory_system.srcs/sim_1/new/Icache_tb.v|../../../../memory_system.srcs/sim_1/new/Dcache_D_V_buffer_tb.v|../../../../memory_system.srcs/sim_1/new/Dcache_tb.v|
+!i113 0
+Z9 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+n@cache@top
+vcArbMerge2_5b
+!s10a 1722498343
+R2
+!i10b 1
+!s100 kHVad@mFhgGDF=H3_fO<=2
+I498mk0efa0i6oDTjZ?O4M0
+R3
+R0
+w1722498343
+8../../../../memory_system.srcs/sources_1/new/control/cArbMerge2_5b.v
+F../../../../memory_system.srcs/sources_1/new/control/cArbMerge2_5b.v
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@arb@merge2_5b
+vcArbMerge2_6b
+!s10a 1722498483
+R2
+!i10b 1
+!s100 C;IaE5ncf6U=UN]HcW`gl2
+InB8Xdd?S^6m_zI3Ki217;1
+R3
+R0
+w1722498483
+8../../../../memory_system.srcs/sources_1/new/control/cArbMerge2_6b.v
+F../../../../memory_system.srcs/sources_1/new/control/cArbMerge2_6b.v
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@arb@merge2_6b
+vcArbMerge8_8b
+!s10a 1722588194
+R2
+!i10b 1
+!s100 ]<D1CVSWgFO]edJjzM1Wm3
+IH7zMfk9MZMN7WUFVb@K7N3
+R3
+R0
+w1722588194
+8../../../../memory_system.srcs/sources_1/new/control/cArbMerge8_8b.v
+F../../../../memory_system.srcs/sources_1/new/control/cArbMerge8_8b.v
+L0 7
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@arb@merge8_8b
+vcFifo1
+Z10 !s10a 1720668262
+R2
+!i10b 1
+!s100 `g_o;UQN:MAO<1oX@E=cn0
+I]>hVdO[AW6TkeRHzL9Nj61
+R3
+R0
+Z11 w1720668262
+8../../../../memory_system.srcs/sources_1/new/control/cFifo1.v
+F../../../../memory_system.srcs/sources_1/new/control/cFifo1.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@fifo1
+vcFifo2
+!s10a 1720688934
+R2
+!i10b 1
+!s100 A02<CkT;k7RIh2CN03iR83
+I:18U@`[iWdUVAiNJi3:kN2
+R3
+R0
+w1720688934
+8../../../../memory_system.srcs/sources_1/new/control/cFifo2.v
+F../../../../memory_system.srcs/sources_1/new/control/cFifo2.v
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@fifo2
+vcMutexMerge2_1b
+!s10a 1720872053
+R2
+!i10b 1
+!s100 Ggza:4T=[ZzDi9z5HFGGR2
+I3UoXHWJi3jeQ2l_<URVT[0
+R3
+R0
+w1720872053
+8../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_1b.v
+F../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_1b.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@mutex@merge2_1b
+vcMutexMerge2_35b
+!s10a 1720856698
+R2
+!i10b 1
+!s100 D[HY[[jRbzZ:klEXO;7na3
+I[F_Udo8bW=6To>ndfT=^N3
+R3
+R0
+w1720856698
+8../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_35b.v
+F../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_35b.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@mutex@merge2_35b
+vcMutexMerge2_5b
+!s10a 1722434336
+R2
+!i10b 1
+!s100 Ta;ha:>6X9^Qe5PS14h^l1
+IWJfJJc3RK;gS<4>;n0^2f0
+R3
+R0
+w1722434336
+8../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_5b.v
+F../../../../memory_system.srcs/sources_1/new/control/cMutexMerge2_5b.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@mutex@merge2_5b
+vcMutexMerge3_5b
+!s10a 1722434482
+R2
+!i10b 1
+!s100 Fl[Hh?VA>nd3L>kDO>DmT0
+IR:R5171f_1kjZzPFgE2Qn1
+R3
+R0
+w1722434482
+8../../../../memory_system.srcs/sources_1/new/control/cMutexMerge3_5b.v
+F../../../../memory_system.srcs/sources_1/new/control/cMutexMerge3_5b.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@mutex@merge3_5b
+vcMutexMerge4_38b
+!s10a 1722418047
+R2
+!i10b 1
+!s100 :LGB`aFdK?C8eUhd7[Iak3
+IDOV5`jcDYN871FdKFgGH22
+R3
+R0
+w1722418047
+8../../../../memory_system.srcs/sources_1/new/control/cMutexMerge4_38b.v
+F../../../../memory_system.srcs/sources_1/new/control/cMutexMerge4_38b.v
+L0 2
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@mutex@merge4_38b
+vcMutexMerge6_outpmt_6b
+!s10a 1722417852
+R2
+!i10b 1
+!s100 lGXKigHI50@HSA9ZRM4gS1
+IJ>QIWkkMH^9ER<M1ciSl]0
+R3
+R0
+w1722417852
+8../../../../memory_system.srcs/sources_1/new/control/cMutexMerge6_outpmt_6b.v
+F../../../../memory_system.srcs/sources_1/new/control/cMutexMerge6_outpmt_6b.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@mutex@merge6_outpmt_6b
+vcontTap
+!s10a 1695801782
+R2
+!i10b 1
+!s100 dQn06U81:EDZz<afkhWS93
+IlYHPQKCU0;NU[HAHPbhP01
+R3
+R0
+w1695801782
+8../../../../memory_system.srcs/sources_1/new/control/contTap.v
+F../../../../memory_system.srcs/sources_1/new/control/contTap.v
+Z12 L0 11
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+ncont@tap
+vcPmtFifo1
+!s10a 1705306526
+R2
+!i10b 1
+!s100 1]?22FP<o;MV3leSj1`=^1
+IghViZT7B5Po0zVSnC[=f]2
+R3
+R0
+w1705306526
+8../../../../memory_system.srcs/sources_1/new/control/cPmtFifo1.v
+F../../../../memory_system.srcs/sources_1/new/control/cPmtFifo1.v
+L0 9
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@pmt@fifo1
+vcPmtFifo2
+!s10a 1720937917
+R2
+!i10b 1
+!s100 E:P`Xm5f<jHkDF6XAD6883
+IFT:BeVd>V]nCYUH]I`EIL2
+R3
+R0
+w1720937917
+8../../../../memory_system.srcs/sources_1/new/control/cPmtFifo2.v
+F../../../../memory_system.srcs/sources_1/new/control/cPmtFifo2.v
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@pmt@fifo2
+vcSelector2
+!s10a 1720699266
+R2
+!i10b 1
+!s100 6OlD@`1?aS>m<eGYlRm3g1
+I@^_`FI5cXO2B1CYAeBE]M2
+R3
+R0
+w1720699266
+8../../../../memory_system.srcs/sources_1/new/control/cSelector2.v
+F../../../../memory_system.srcs/sources_1/new/control/cSelector2.v
+Z13 L0 10
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@selector2
+vcSelector4
+!s10a 1722599211
+R2
+!i10b 1
+!s100 ji;MMhH?;HfIjG>1EDLh32
+Iz>TChHjkWh^:ICG2Nk<=42
+R3
+R0
+w1722599211
+8../../../../memory_system.srcs/sources_1/new/control/cSelector4.v
+F../../../../memory_system.srcs/sources_1/new/control/cSelector4.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@selector4
+vcSelector5
+!s10a 1721129315
+R2
+!i10b 1
+!s100 F<:@<BbDdnRP1C0>O@MIc3
+I[UdKWIbR<>o]kX8I]b2E?0
+R3
+R0
+w1721129315
+8../../../../memory_system.srcs/sources_1/new/control/cSelector5.v
+F../../../../memory_system.srcs/sources_1/new/control/cSelector5.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@selector5
+vcSelector5_fire2
+!s10a 1721130023
+R2
+!i10b 1
+!s100 T[3_zgPOV4Q7eCR10BM`I1
+I1SeKHcnA_I^J;LjVSdikL2
+R3
+R0
+w1721130023
+8../../../../memory_system.srcs/sources_1/new/control/cSelector5_fire2.v
+F../../../../memory_system.srcs/sources_1/new/control/cSelector5_fire2.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@selector5_fire2
+vcSelector6
+!s10a 1722157806
+R2
+!i10b 1
+!s100 Jc^=jl3Li02k9Y?b[WL9j1
+I[GIz]0VGQcZeb:?b8Wn1f0
+R3
+R0
+w1722157806
+8../../../../memory_system.srcs/sources_1/new/control/cSelector6.v
+F../../../../memory_system.srcs/sources_1/new/control/cSelector6.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@selector6
+vcSelector8
+!s10a 1722587523
+R2
+!i10b 1
+!s100 eY0ijO6FeEITF]OFYkNc30
+IRJfm:l8O<d=73MBWCJAJC0
+R3
+R0
+w1722587523
+8../../../../memory_system.srcs/sources_1/new/control/cSelector8.v
+F../../../../memory_system.srcs/sources_1/new/control/cSelector8.v
+R13
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@selector8
+vcSplitter2
+!s10a 1720704062
+R2
+!i10b 1
+!s100 1aM]_6XWRdbY9CaVCiIj02
+Il<B0i`[^:7][0MRY@;bP71
+R3
+R0
+w1720704062
+8../../../../memory_system.srcs/sources_1/new/control/cSplitter2.v
+F../../../../memory_system.srcs/sources_1/new/control/cSplitter2.v
+L0 4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@splitter2
+vcWaitMerge2_2b
+!s10a 1721127056
+R2
+!i10b 1
+!s100 7j7jo3d_0jbbWdQ<6oz8e1
+IH<RCBnP76k56K2fImi49Y3
+R3
+R0
+w1721127056
+8../../../../memory_system.srcs/sources_1/new/control/cWaitMerge2_2b.v
+F../../../../memory_system.srcs/sources_1/new/control/cWaitMerge2_2b.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+nc@wait@merge2_2b
+vDcache
+!s10a 1722504117
+R2
+!i10b 1
+!s100 ^cBiBbN<in]Bn4j9nYg^G2
+IV9WIQYoe_2_QC:INZ3zVJ2
+R3
+R0
+w1722504117
+8../../../../memory_system.srcs/sources_1/new/Dcache.v
+F../../../../memory_system.srcs/sources_1/new/Dcache.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@dcache
+vDcache_bank_dataSram0
+!s10a 1721050675
+R2
+!i10b 1
+!s100 zRI0PE2=9BN4]P8c;z2^O3
+I4QfNfc=D[H4S3_POB?`XN3
+R3
+R0
+w1721050675
+8../../../../memory_system.srcs/sources_1/ip/Dcache_bank_dataSram0/sim/Dcache_bank_dataSram0.v
+F../../../../memory_system.srcs/sources_1/ip/Dcache_bank_dataSram0/sim/Dcache_bank_dataSram0.v
+Z14 L0 56
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@dcache_bank_data@sram0
+vDcache_bank_dataSram1
+!s10a 1721050646
+R2
+!i10b 1
+!s100 jD_EVm_jQ=7mFX@`A]8GV1
+IHooSf00^O5DaXPDhF:h@70
+R3
+R0
+w1721050646
+8../../../../memory_system.srcs/sources_1/ip/Dcache_bank_dataSram1/sim/Dcache_bank_dataSram1.v
+F../../../../memory_system.srcs/sources_1/ip/Dcache_bank_dataSram1/sim/Dcache_bank_dataSram1.v
+R14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@dcache_bank_data@sram1
+vDcache_bank_tagSRAM
+!s10a 1721094926
+R2
+!i10b 1
+!s100 c[Wke2ZJQoCSBfElmkXh01
+IU3>VUO3kVbC3<K_a@U6mz3
+R3
+R0
+w1721094926
+8../../../../memory_system.srcs/sources_1/ip/Dcache_bank_tagSRAM/sim/Dcache_bank_tagSRAM.v
+F../../../../memory_system.srcs/sources_1/ip/Dcache_bank_tagSRAM/sim/Dcache_bank_tagSRAM.v
+R14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@dcache_bank_tag@s@r@a@m
+vDcache_D_V_buffer
+!s10a 1722168293
+R2
+!i10b 1
+!s100 oHG@J_151_6mG2;`d>[jb2
+IE@6282X>5>`e]m4cF8DDM3
+R3
+R0
+w1722168293
+8../../../../memory_system.srcs/sources_1/new/Dcache_D_V_buffer.v
+F../../../../memory_system.srcs/sources_1/new/Dcache_D_V_buffer.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@dcache_@d_@v_buffer
+vDcache_D_V_buffer_tb
+!s10a 1721990927
+R2
+!i10b 1
+!s100 RCU;2mnZgI>Xnm1mIEb[B0
+Ig=g:C@06<SgE54LiV4]5V3
+R3
+R0
+w1721990927
+8../../../../memory_system.srcs/sim_1/new/Dcache_D_V_buffer_tb.v
+F../../../../memory_system.srcs/sim_1/new/Dcache_D_V_buffer_tb.v
+L0 3
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@dcache_@d_@v_buffer_tb
+vDcache_plru_buffer
+!s10a 1722168193
+R2
+!i10b 1
+!s100 Y3YO@HRMa35l5Rf>ZD4Ci2
+IP^>Y5Q@@6L]0B2e2:27<E3
+R3
+R0
+w1722168193
+8../../../../memory_system.srcs/sources_1/new/Dcache_plru_buffer.v
+F../../../../memory_system.srcs/sources_1/new/Dcache_plru_buffer.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@dcache_plru_buffer
+vdcache_plru_evict
+!s10a 1721810625
+R2
+!i10b 1
+!s100 b^McGdUE;G=SN[TEF0>1E2
+I@8jOZ[GzPM4X=>3HHGe3U3
+R3
+R0
+w1721810625
+8../../../../memory_system.srcs/sources_1/new/dcache_plru_evict.v
+F../../../../memory_system.srcs/sources_1/new/dcache_plru_evict.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vdcache_tag_compare
+!s10a 1722652966
+R2
+!i10b 1
+!s100 9@_UMIISX@jBnRna4?_^B3
+IccBgn8`0z^=ge<G2=l`OG2
+R3
+R0
+w1722652966
+8../../../../memory_system.srcs/sources_1/new/dcache_tag_compare.v
+F../../../../memory_system.srcs/sources_1/new/dcache_tag_compare.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vDcache_tb
+!s110 1722655430
+!i10b 1
+!s100 SGOkiTWhb]4<UEc`3S]Go1
+IUPLZ;66TcO45lk?mHdnoF1
+R3
+R0
+w1722655422
+8../../../../memory_system.srcs/sim_1/new/Dcache_tb.v
+F../../../../memory_system.srcs/sim_1/new/Dcache_tb.v
+R4
+R5
+r1
+!s85 0
+31
+!s108 1722655430.000000
+R7
+R8
+!i113 0
+R9
+R1
+n@dcache_tb
+vdelay1U
+!s10a 1720881488
+R2
+!i10b 1
+!s100 T291V81VcIWJdMDLII0jz1
+I3I:?[`;1aTQzlkIY58<3;1
+R3
+R0
+w1720881488
+8../../../../memory_system.srcs/sources_1/new/control/delay/delay1U.v
+F../../../../memory_system.srcs/sources_1/new/control/delay/delay1U.v
+L0 12
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+ndelay1@u
+vdelay1Unit
+!s10a 1720668264
+R2
+!i10b 1
+!s100 ShW`hlCM8S3J=HdG=[57d2
+IGzDmKkhi;<]O7Sz<F]Vl42
+R3
+R0
+w1720668264
+8../../../../memory_system.srcs/sources_1/new/control/delay/delay1Unit.v
+F../../../../memory_system.srcs/sources_1/new/control/delay/delay1Unit.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+ndelay1@unit
+vdelay2U
+Z15 !s10a 1720668263
+R2
+!i10b 1
+!s100 >6gcHlYK5Q30^an27ELkH2
+InoMo3=n77?VGV2ocndQ2S0
+R3
+R0
+Z16 w1720668263
+8../../../../memory_system.srcs/sources_1/new/control/delay/delay2U.v
+F../../../../memory_system.srcs/sources_1/new/control/delay/delay2U.v
+L0 14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+ndelay2@u
+vdelay2Unit
+R15
+R2
+!i10b 1
+!s100 VA_2igeH9A[miFoQ83SKH0
+IcOBRLL2^KPUVfS2V14nLP3
+R3
+R0
+R16
+8../../../../memory_system.srcs/sources_1/new/control/delay/delay2Unit.v
+F../../../../memory_system.srcs/sources_1/new/control/delay/delay2Unit.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+ndelay2@unit
+vglbl
+!s110 1722655432
+!i10b 1
+!s100 7cd<?T0KPANS9PBoRj:BY2
+INdU5f[;Bb^Y=SUnL>A9=o3
+R3
+R0
+w1558713910
+8glbl.v
+Fglbl.v
+L0 6
+R5
+r1
+!s85 0
+31
+!s108 1722655432.000000
+!s107 glbl.v|
+!s90 -work|xil_defaultlib|glbl.v|
+!i113 0
+R9
+R1
+vIcache
+!s10a 1722415537
+R2
+!i10b 1
+!s100 Zhd>a6>lZ=goko=R01Deh0
+IKO3n^<@^g6PfL1ERc@JhB1
+R3
+R0
+w1722415537
+8../../../../memory_system.srcs/sources_1/new/Icache.v
+F../../../../memory_system.srcs/sources_1/new/Icache.v
+L0 25
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@icache
+vIcache_SRAM_bank
+!s10a 1721032233
+R2
+!i10b 1
+!s100 m_QY<5Ufn:?m1GofCai042
+I[bJ29Ba2kMb4R[m^2FnDS3
+R3
+R0
+w1721032233
+8../../../../memory_system.srcs/sources_1/ip/Icache_SRAM_bank/sim/Icache_SRAM_bank.v
+F../../../../memory_system.srcs/sources_1/ip/Icache_SRAM_bank/sim/Icache_SRAM_bank.v
+R14
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@icache_@s@r@a@m_bank
+vIcache_tb
+!s10a 1720962335
+R2
+!i10b 1
+!s100 YDe=CQCDMOQ6We<F0dP2`1
+IAz?azR=GXdRaCU4Z=iM0n2
+R3
+R0
+w1720962335
+8../../../../memory_system.srcs/sim_1/new/Icache_tb.v
+F../../../../memory_system.srcs/sim_1/new/Icache_tb.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@icache_tb
+vL2Cache
+!s10a 1722484047
+R2
+!i10b 1
+!s100 1NHSD8giI18ciaLWJTNEN2
+IIU[KSLLm_5H7cU82kmjm40
+R3
+R0
+w1722484047
+8../../../../memory_system.srcs/sources_1/new/L2Cache.v
+F../../../../memory_system.srcs/sources_1/new/L2Cache.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+n@l2@cache
+vpmtRelay
+Z17 !s10a 1720668260
+R2
+!i10b 1
+!s100 7N3aPC^NzK4j0@19HInd`2
+I@YRh`]_eAZkog2Raok_9=3
+R3
+R0
+Z18 w1720668260
+8../../../../memory_system.srcs/sources_1/new/control/pmtRelay.v
+F../../../../memory_system.srcs/sources_1/new/control/pmtRelay.v
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+npmt@relay
+vreceiver
+R17
+R2
+!i10b 1
+!s100 YBhkkGRji46k5`>`e5YW[0
+IzFnlZdA5N<^m6aPbLHjkF0
+R3
+R0
+R18
+8../../../../memory_system.srcs/sources_1/new/control/receiver.v
+F../../../../memory_system.srcs/sources_1/new/control/receiver.v
+R12
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vrelay
+R10
+R2
+!i10b 1
+!s100 WdGcQ[cc;d5TbeHj?@BKm1
+IQ7J?NBTh=BdGn5BHeNW:i3
+R3
+R0
+R11
+8../../../../memory_system.srcs/sources_1/new/control/relay.v
+F../../../../memory_system.srcs/sources_1/new/control/relay.v
+L0 8
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vreplace_fifo_buffer
+!s10a 1721987743
+R2
+!i10b 1
+!s100 =<olh>EoKXnlAH5J=Z_=j1
+IABY6j2MaFoHC8GReAk6=43
+R3
+R0
+w1721987743
+8../../../../memory_system.srcs/sources_1/new/replace_fifo_buffer.v
+F../../../../memory_system.srcs/sources_1/new/replace_fifo_buffer.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vreplace_fifo_buffer_tb
+!s10a 1720870736
+R2
+!i10b 1
+!s100 Y[[cNC@Z7Xg;H;nHO?Lb;0
+IX>UACZ<HM<D3ZeEQRB=dh0
+R3
+R0
+w1720870736
+8../../../../memory_system.srcs/sim_1/new/replace_fifo_buffer_tb.v
+F../../../../memory_system.srcs/sim_1/new/replace_fifo_buffer_tb.v
+L0 24
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vsender
+R10
+R2
+!i10b 1
+!s100 <09SR[8Y9F;ejV4W4JOJL2
+IDghOEB[h86iYb;SbomXTh0
+R3
+R0
+R11
+8../../../../memory_system.srcs/sources_1/new/control/sender.v
+F../../../../memory_system.srcs/sources_1/new/control/sender.v
+R12
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
+vtag_compare
+!s10a 1720961793
+R2
+!i10b 1
+!s100 1<GD5>j^Q5UPRo9b7NUf[1
+IaTU31lAWl9Il42zPh]TRb3
+R3
+R0
+w1720961793
+8../../../../memory_system.srcs/sources_1/new/tag_compare.v
+F../../../../memory_system.srcs/sources_1/new/tag_compare.v
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1
