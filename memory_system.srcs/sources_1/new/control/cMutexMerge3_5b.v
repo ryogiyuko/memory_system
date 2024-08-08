@@ -50,7 +50,7 @@ assign o_driveNext = i_drive0
 
 assign o_free0 = i_freeNext & w_firstReq;
 assign o_free1 = i_freeNext & w_secondReq;
-assign o_free1 = i_freeNext & w_thirdReq;
+assign o_free2 = i_freeNext & w_thirdReq;
 
 assign w_data  = (w_firstReq == 1'b1) ? i_data0 :
 			    ((w_secondReq == 1'b1) ? i_data1 : 

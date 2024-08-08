@@ -828,3 +828,5 @@
 #    Time: 500 ns  Iteration: 0  Instance: /Dcache_tb
 # Break in Module Dcache_tb at ../../../../../memory_system.srcs/sim_1/new/Dcache_tb.v line 249
 write format wave -window .main_pane.wave.interior.cs.body.pw.wf D:/github/memory_system/memory_system.sim/sim_1/synth/timing/modelsim/dcache_wave_240804_1736.do
+# End time: 10:17:58 on Aug 05,2024, Elapsed time: 16:43:53
+# Errors: 23, Warnings: 1

@@ -1,7 +1,7 @@
 Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-| Date         : Sun Aug  4 17:16:02 2024
+| Date         : Sun Aug  4 22:43:58 2024
 | Host         : DESKTOP-DKUDC5F running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Dcache_utilization_synth.rpt -pb Dcache_utilization_synth.pb
 | Design       : Dcache
@@ -35,14 +35,14 @@ Table of Contents
 +-------------------------+------+-------+-----------+-------+
 |        Site Type        | Used | Fixed | Available | Util% |
 +-------------------------+------+-------+-----------+-------+
-| CLB LUTs*               | 4310 |     0 |   1728000 |  0.25 |
-|   LUT as Logic          | 4310 |     0 |   1728000 |  0.25 |
+| CLB LUTs*               | 4308 |     0 |   1728000 |  0.25 |
+|   LUT as Logic          | 4308 |     0 |   1728000 |  0.25 |
 |   LUT as Memory         |    0 |     0 |    791040 |  0.00 |
-| CLB Registers           |  909 |     0 |   3456000 |  0.03 |
+| CLB Registers           |  908 |     0 |   3456000 |  0.03 |
 |   Register as Flip Flop |  886 |     0 |   3456000 |  0.03 |
-|   Register as Latch     |   23 |     0 |   3456000 | <0.01 |
+|   Register as Latch     |   22 |     0 |   3456000 | <0.01 |
 | CARRY8                  |    8 |     0 |    216000 | <0.01 |
-| F7 Muxes                |  151 |     0 |    864000 |  0.02 |
+| F7 Muxes                |  150 |     0 |    864000 |  0.02 |
 | F8 Muxes                |   34 |     0 |    432000 | <0.01 |
 | F9 Muxes                |    0 |     0 |    216000 |  0.00 |
 +-------------------------+------+-------+-----------+-------+
@@ -62,7 +62,7 @@ Table of Contents
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 26    |          Yes |           - |          Set |
-| 871   |          Yes |           - |        Reset |
+| 870   |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
 | 12    |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
@@ -158,7 +158,7 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| LUT6     | 2714 |                 CLB |
+| LUT6     | 2712 |                 CLB |
 | FDCE     |  848 |            Register |
 | LUT4     |  839 |                 CLB |
 | OBUF     |  497 |                 I/O |
@@ -166,12 +166,12 @@ Table of Contents
 | INBUF    |  372 |                 I/O |
 | IBUFCTRL |  372 |              Others |
 | LUT1     |  159 |                 CLB |
-| LUT2     |  154 |                 CLB |
-| MUXF7    |  151 |                 CLB |
+| LUT2     |  153 |                 CLB |
+| MUXF7    |  150 |                 CLB |
 | LUT3     |   61 |                 CLB |
 | MUXF8    |   34 |                 CLB |
 | FDPE     |   26 |            Register |
-| LDCE     |   23 |            Register |
+| LDCE     |   22 |            Register |
 | FDRE     |   12 |            Register |
 | CARRY8   |    8 |                 CLB |
 | BUFGCE   |    3 |               Clock |

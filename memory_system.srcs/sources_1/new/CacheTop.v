@@ -34,12 +34,12 @@ module CacheTop(
 
     input [4:0] i_lsu_rd0_5, i_lsu_rd1_5, i_lsu_rd2_5,  i_lsu_rd3_5, 
     input [5:0] i_lsu_index0_6, i_lsu_index1_6, i_lsu_index2_6, i_lsu_index3_6,
-    input [2:0] i_lsu_flag0_3, i_lsu_flag1_3, i_lsu_flag2_3, i_lsu_flag3_3,  //[2] load_or_store [1] flag(多次还是单次) [0] 第几次
+    input [9:0] i_lsu_flag0_10, i_lsu_flag1_10, i_lsu_flag2_10, i_lsu_flag3_10,  //[2] load_or_store [1] flag(多次还是单次) [0] 第几次
     input i_lsu_bypass0, i_lsu_bypass1, i_lsu_bypass2, i_lsu_bypass3,
 
     output [4:0] o_lsu_rd0_5, o_lsu_rd1_5, o_lsu_rd2_5,  o_lsu_rd3_5,
     output [5:0] o_lsu_index0_6, o_lsu_index1_6, o_lsu_index2_6, o_lsu_index3_6,  
-    output [2:0] o_lsu_flag0_3, o_lsu_flag1_3, o_lsu_flag2_3, o_lsu_flag3_3,
+    output [9:0] o_lsu_flag0_10, o_lsu_flag1_10, o_lsu_flag2_10, o_lsu_flag3_10,
     output o_lsu_bypass0, o_lsu_bypass1, o_lsu_bypass2, o_lsu_bypass3,
     
     //mmu
@@ -396,7 +396,7 @@ module CacheTop(
 //
     assign { o_lsu_rd0_5, o_lsu_rd1_5, o_lsu_rd2_5,  o_lsu_rd3_5} = { i_lsu_rd0_5, i_lsu_rd1_5, i_lsu_rd2_5,  i_lsu_rd3_5 } ;
     assign { o_lsu_index0_6, o_lsu_index1_6, o_lsu_index2_6, o_lsu_index3_6 } = { i_lsu_index0_6, i_lsu_index1_6, i_lsu_index2_6, i_lsu_index3_6 };
-    assign { o_lsu_flag0_3, o_lsu_flag1_3, o_lsu_flag2_3, o_lsu_flag3_3 } = { i_lsu_flag0_3, i_lsu_flag1_3, i_lsu_flag2_3, i_lsu_flag3_3 };
+    assign { o_lsu_flag0_10, o_lsu_flag1_10, o_lsu_flag2_10, o_lsu_flag3_10 } = { i_lsu_flag0_10, i_lsu_flag1_10, i_lsu_flag2_10, i_lsu_flag3_10 };
     assign { o_lsu_bypass0, o_lsu_bypass1, o_lsu_bypass2, o_lsu_bypass3 } = { i_lsu_bypass0, i_lsu_bypass1, i_lsu_bypass2, i_lsu_bypass3 };
 
     assign { w_loadData0_to_retire_38[37:32], w_loadData1_to_retire_38[37:32], w_loadData2_to_retire_38[37:32], w_loadData3_to_retire_38[37:32] } = { i_lsu_index0_6, i_lsu_index1_6, i_lsu_index2_6, i_lsu_index3_6 };
@@ -430,7 +430,7 @@ module CacheTop(
         .i_lsu_PA_34              (i_lsu_PA0_34              ),
         .i_lsu_storeData_32       (i_lsu_storeData0_32       ),
         .i_lsu_storeIndex_6       (6'b0       ),
-        .i_lsu_load_or_store      (i_lsu_flag0_3[2]      ),
+        .i_lsu_load_or_store      (i_lsu_flag0_10[9]      ),
         .o_storeIndex_to_lsu_6    (    ),
         
         .i_freeNext_retire_store  (1'b0  ),.i_freeNext_retire_load   (w_freeNext0_retire_load   ),
@@ -552,7 +552,7 @@ module CacheTop(
         .i_lsu_PA_34              (i_lsu_PA1_34              ),
         .i_lsu_storeData_32       (i_lsu_storeData1_32       ),
         .i_lsu_storeIndex_6       (6'b0       ),
-        .i_lsu_load_or_store      (i_lsu_flag1_3[2]      ),
+        .i_lsu_load_or_store      (i_lsu_flag1_10[9]      ),
         .o_storeIndex_to_lsu_6    (    ),
         
         .i_freeNext_retire_store  (1'b0  ),.i_freeNext_retire_load   (w_freeNext1_retire_load   ),
@@ -674,7 +674,7 @@ module CacheTop(
         .i_lsu_PA_34              (i_lsu_PA2_34              ),
         .i_lsu_storeData_32       (i_lsu_storeData2_32       ),
         .i_lsu_storeIndex_6       (6'b0       ),
-        .i_lsu_load_or_store      (i_lsu_flag2_3[2]      ),
+        .i_lsu_load_or_store      (i_lsu_flag2_10[9]      ),
         .o_storeIndex_to_lsu_6    (    ),
         
         .i_freeNext_retire_store  (1'b0  ),.i_freeNext_retire_load   (w_freeNext2_retire_load   ),
@@ -796,7 +796,7 @@ module CacheTop(
         .i_lsu_PA_34              (i_lsu_PA3_34              ),
         .i_lsu_storeData_32       (i_lsu_storeData3_32       ),
         .i_lsu_storeIndex_6       (6'b0       ),
-        .i_lsu_load_or_store      (i_lsu_flag3_3[2]      ),
+        .i_lsu_load_or_store      (i_lsu_flag3_10[9]      ),
         .o_storeIndex_to_lsu_6    (    ),
         
         .i_freeNext_retire_store  (1'b0  ),.i_freeNext_retire_load   (w_freeNext3_retire_load   ),

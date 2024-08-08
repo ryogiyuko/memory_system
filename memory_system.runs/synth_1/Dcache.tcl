@@ -50,7 +50,6 @@ read_verilog -library xil_defaultlib {
   D:/github/memory_system/memory_system.srcs/sources_1/new/CacheTop.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/Dcache.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/L2Cache.v
-  D:/github/memory_system/memory_system.srcs/sources_1/new/control/delay/delay2Unit.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/pmtRelay.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_1b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/tag_compare.v
@@ -58,7 +57,6 @@ read_verilog -library xil_defaultlib {
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge6_outpmt_6b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/Dcache_D_V_buffer.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/Dcache_plru_buffer.v
-  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector5.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/dcache_plru_evict.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector5_fire2.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cWaitMerge2_2b.v
@@ -67,10 +65,8 @@ read_verilog -library xil_defaultlib {
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cArbMerge2_6b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector6.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge4_38b.v
-  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector4.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge3_5b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_5b.v
-  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cArbMerge2_5b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector8.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cArbMerge8_8b.v
 }
