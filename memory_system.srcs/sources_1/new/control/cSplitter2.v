@@ -25,7 +25,7 @@ wire w_secondTrig, w_secondReq;
 
 (* dont_touch="true" *)delay1Unit outdelay1 (.inR(i_freeNext0), .outR(w_free0Next), .rst(rst));
 
-assign w_firstTrig = i_freeNext0 | w_sendDrive;
+assign w_firstTrig = w_free0Next | w_sendDrive;
 
 contTap firstTap(
 .trig(w_firstTrig),
@@ -34,7 +34,7 @@ contTap firstTap(
 
 (* dont_touch="true" *)delay1Unit outdelay2 (.inR(i_freeNext1), .outR(w_free1Next), .rst(rst));
 
-assign w_secondTrig = i_freeNext1 | w_sendDrive;
+assign w_secondTrig = w_free1Next | w_sendDrive;
 
 contTap secondTap(
 .trig(w_secondTrig),

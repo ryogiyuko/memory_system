@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xcvu13p-fhgb2104-2-i" LaunchTime="1722782556">
   <File Type="PA-TCL" Name="Dcache.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="Dcache_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Dcache_reports.tcl"/>
   <File Type="RDS-RDS" Name="Dcache.vds"/>
   <File Type="RDS-UTIL" Name="Dcache_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="Dcache_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="Dcache.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="Dcache_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="Dcache_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/new/replace_fifo_buffer.v">
@@ -281,13 +278,11 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2019"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="Dcache_bank_dataSram1"/>
   <BlockFileSet Type="BlockSrcs" Name="Icache_SRAM_bank"/>
+  <BlockFileSet Type="BlockSrcs" Name="Dcache_bank_dataSram1"/>
   <BlockFileSet Type="BlockSrcs" Name="Dcache_bank_dataSram0"/>
   <BlockFileSet Type="BlockSrcs" Name="Dcache_bank_tagSRAM"/>
 </GenRun>

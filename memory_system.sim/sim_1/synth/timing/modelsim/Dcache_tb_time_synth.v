@@ -1,7 +1,7 @@
 // Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2019.1 (win64) Build 2552052 Fri May 24 14:49:42 MDT 2019
-// Date        : Sun Aug  4 17:29:56 2024
+// Date        : Sun Aug 11 15:48:56 2024
 // Host        : DESKTOP-DKUDC5F running 64-bit major release  (build 9200)
 // Command     : write_verilog -mode timesim -nolib -sdf_anno true -force -file
 //               D:/github/memory_system/memory_system.sim/sim_1/synth/timing/modelsim/Dcache_tb_time_synth.v
@@ -43,7 +43,7 @@ module IBUF_UNIQ_BASE_
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1485
+module IBUF_HD372
    (O,
     I);
   output O;
@@ -73,7 +73,7 @@ module IBUF_HD1485
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1486
+module IBUF_HD373
    (O,
     I);
   output O;
@@ -103,7 +103,7 @@ module IBUF_HD1486
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1487
+module IBUF_HD374
    (O,
     I);
   output O;
@@ -133,7 +133,7 @@ module IBUF_HD1487
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1488
+module IBUF_HD375
    (O,
     I);
   output O;
@@ -163,7 +163,7 @@ module IBUF_HD1488
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1489
+module IBUF_HD376
    (O,
     I);
   output O;
@@ -193,7 +193,7 @@ module IBUF_HD1489
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1490
+module IBUF_HD377
    (O,
     I);
   output O;
@@ -223,7 +223,7 @@ module IBUF_HD1490
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1491
+module IBUF_HD378
    (O,
     I);
   output O;
@@ -253,7 +253,7 @@ module IBUF_HD1491
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1492
+module IBUF_HD379
    (O,
     I);
   output O;
@@ -283,7 +283,7 @@ module IBUF_HD1492
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1493
+module IBUF_HD380
    (O,
     I);
   output O;
@@ -313,7 +313,7 @@ module IBUF_HD1493
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1494
+module IBUF_HD381
    (O,
     I);
   output O;
@@ -343,7 +343,7 @@ module IBUF_HD1494
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1495
+module IBUF_HD382
    (O,
     I);
   output O;
@@ -373,7 +373,7 @@ module IBUF_HD1495
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1496
+module IBUF_HD383
    (O,
     I);
   output O;
@@ -403,7 +403,7 @@ module IBUF_HD1496
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1497
+module IBUF_HD384
    (O,
     I);
   output O;
@@ -433,7 +433,7 @@ module IBUF_HD1497
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1498
+module IBUF_HD385
    (O,
     I);
   output O;
@@ -463,7 +463,7 @@ module IBUF_HD1498
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1499
+module IBUF_HD386
    (O,
     I);
   output O;
@@ -493,7 +493,7 @@ module IBUF_HD1499
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1500
+module IBUF_HD387
    (O,
     I);
   output O;
@@ -523,7 +523,7 @@ module IBUF_HD1500
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1501
+module IBUF_HD388
    (O,
     I);
   output O;
@@ -553,7 +553,7 @@ module IBUF_HD1501
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1502
+module IBUF_HD389
    (O,
     I);
   output O;
@@ -583,7 +583,7 @@ module IBUF_HD1502
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1503
+module IBUF_HD390
    (O,
     I);
   output O;
@@ -613,7 +613,7 @@ module IBUF_HD1503
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1504
+module IBUF_HD391
    (O,
     I);
   output O;
@@ -643,7 +643,7 @@ module IBUF_HD1504
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1505
+module IBUF_HD392
    (O,
     I);
   output O;
@@ -673,7 +673,7 @@ module IBUF_HD1505
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1506
+module IBUF_HD393
    (O,
     I);
   output O;
@@ -703,7 +703,7 @@ module IBUF_HD1506
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1507
+module IBUF_HD394
    (O,
     I);
   output O;
@@ -733,7 +733,7 @@ module IBUF_HD1507
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1508
+module IBUF_HD395
    (O,
     I);
   output O;
@@ -763,7 +763,7 @@ module IBUF_HD1508
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1509
+module IBUF_HD396
    (O,
     I);
   output O;
@@ -793,7 +793,7 @@ module IBUF_HD1509
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1510
+module IBUF_HD397
    (O,
     I);
   output O;
@@ -823,7 +823,7 @@ module IBUF_HD1510
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1511
+module IBUF_HD398
    (O,
     I);
   output O;
@@ -853,7 +853,7 @@ module IBUF_HD1511
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1512
+module IBUF_HD399
    (O,
     I);
   output O;
@@ -883,7 +883,7 @@ module IBUF_HD1512
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1513
+module IBUF_HD400
    (O,
     I);
   output O;
@@ -913,7 +913,7 @@ module IBUF_HD1513
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1514
+module IBUF_HD401
    (O,
     I);
   output O;
@@ -943,7 +943,7 @@ module IBUF_HD1514
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1515
+module IBUF_HD402
    (O,
     I);
   output O;
@@ -973,7 +973,7 @@ module IBUF_HD1515
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1516
+module IBUF_HD403
    (O,
     I);
   output O;
@@ -1003,7 +1003,7 @@ module IBUF_HD1516
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1517
+module IBUF_HD404
    (O,
     I);
   output O;
@@ -1033,7 +1033,7 @@ module IBUF_HD1517
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1518
+module IBUF_HD405
    (O,
     I);
   output O;
@@ -1063,7 +1063,7 @@ module IBUF_HD1518
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1519
+module IBUF_HD406
    (O,
     I);
   output O;
@@ -1093,7 +1093,7 @@ module IBUF_HD1519
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1520
+module IBUF_HD407
    (O,
     I);
   output O;
@@ -1123,7 +1123,7 @@ module IBUF_HD1520
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1521
+module IBUF_HD408
    (O,
     I);
   output O;
@@ -1153,7 +1153,7 @@ module IBUF_HD1521
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1522
+module IBUF_HD409
    (O,
     I);
   output O;
@@ -1183,7 +1183,7 @@ module IBUF_HD1522
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1523
+module IBUF_HD410
    (O,
     I);
   output O;
@@ -1213,7 +1213,7 @@ module IBUF_HD1523
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1524
+module IBUF_HD411
    (O,
     I);
   output O;
@@ -1243,7 +1243,7 @@ module IBUF_HD1524
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1525
+module IBUF_HD412
    (O,
     I);
   output O;
@@ -1273,7 +1273,7 @@ module IBUF_HD1525
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1526
+module IBUF_HD413
    (O,
     I);
   output O;
@@ -1303,7 +1303,7 @@ module IBUF_HD1526
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1527
+module IBUF_HD414
    (O,
     I);
   output O;
@@ -1333,7 +1333,7 @@ module IBUF_HD1527
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1528
+module IBUF_HD415
    (O,
     I);
   output O;
@@ -1363,7 +1363,7 @@ module IBUF_HD1528
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1529
+module IBUF_HD416
    (O,
     I);
   output O;
@@ -1393,7 +1393,7 @@ module IBUF_HD1529
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1530
+module IBUF_HD417
    (O,
     I);
   output O;
@@ -1423,7 +1423,7 @@ module IBUF_HD1530
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1531
+module IBUF_HD418
    (O,
     I);
   output O;
@@ -1453,7 +1453,7 @@ module IBUF_HD1531
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1532
+module IBUF_HD419
    (O,
     I);
   output O;
@@ -1483,7 +1483,7 @@ module IBUF_HD1532
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1533
+module IBUF_HD420
    (O,
     I);
   output O;
@@ -1513,7 +1513,7 @@ module IBUF_HD1533
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1534
+module IBUF_HD421
    (O,
     I);
   output O;
@@ -1543,7 +1543,7 @@ module IBUF_HD1534
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1535
+module IBUF_HD422
    (O,
     I);
   output O;
@@ -1573,7 +1573,7 @@ module IBUF_HD1535
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1536
+module IBUF_HD423
    (O,
     I);
   output O;
@@ -1603,7 +1603,7 @@ module IBUF_HD1536
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1537
+module IBUF_HD424
    (O,
     I);
   output O;
@@ -1633,7 +1633,7 @@ module IBUF_HD1537
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1538
+module IBUF_HD425
    (O,
     I);
   output O;
@@ -1663,7 +1663,7 @@ module IBUF_HD1538
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1539
+module IBUF_HD426
    (O,
     I);
   output O;
@@ -1693,7 +1693,7 @@ module IBUF_HD1539
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1540
+module IBUF_HD427
    (O,
     I);
   output O;
@@ -1723,7 +1723,7 @@ module IBUF_HD1540
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1541
+module IBUF_HD428
    (O,
     I);
   output O;
@@ -1753,7 +1753,7 @@ module IBUF_HD1541
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1542
+module IBUF_HD429
    (O,
     I);
   output O;
@@ -1783,7 +1783,7 @@ module IBUF_HD1542
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1543
+module IBUF_HD430
    (O,
     I);
   output O;
@@ -1813,7 +1813,7 @@ module IBUF_HD1543
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1544
+module IBUF_HD431
    (O,
     I);
   output O;
@@ -1843,7 +1843,7 @@ module IBUF_HD1544
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1545
+module IBUF_HD432
    (O,
     I);
   output O;
@@ -1873,7 +1873,7 @@ module IBUF_HD1545
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1546
+module IBUF_HD433
    (O,
     I);
   output O;
@@ -1903,7 +1903,7 @@ module IBUF_HD1546
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1547
+module IBUF_HD434
    (O,
     I);
   output O;
@@ -1933,7 +1933,7 @@ module IBUF_HD1547
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1548
+module IBUF_HD435
    (O,
     I);
   output O;
@@ -1963,7 +1963,7 @@ module IBUF_HD1548
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1549
+module IBUF_HD436
    (O,
     I);
   output O;
@@ -1993,7 +1993,7 @@ module IBUF_HD1549
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1550
+module IBUF_HD437
    (O,
     I);
   output O;
@@ -2023,7 +2023,7 @@ module IBUF_HD1550
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1551
+module IBUF_HD438
    (O,
     I);
   output O;
@@ -2053,7 +2053,7 @@ module IBUF_HD1551
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1552
+module IBUF_HD439
    (O,
     I);
   output O;
@@ -2083,7 +2083,7 @@ module IBUF_HD1552
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1553
+module IBUF_HD440
    (O,
     I);
   output O;
@@ -2113,7 +2113,7 @@ module IBUF_HD1553
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1554
+module IBUF_HD441
    (O,
     I);
   output O;
@@ -2143,7 +2143,7 @@ module IBUF_HD1554
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1555
+module IBUF_HD442
    (O,
     I);
   output O;
@@ -2173,7 +2173,7 @@ module IBUF_HD1555
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1556
+module IBUF_HD443
    (O,
     I);
   output O;
@@ -2203,7 +2203,7 @@ module IBUF_HD1556
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1557
+module IBUF_HD444
    (O,
     I);
   output O;
@@ -2233,7 +2233,7 @@ module IBUF_HD1557
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1558
+module IBUF_HD445
    (O,
     I);
   output O;
@@ -2263,7 +2263,7 @@ module IBUF_HD1558
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1559
+module IBUF_HD446
    (O,
     I);
   output O;
@@ -2293,7 +2293,7 @@ module IBUF_HD1559
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1560
+module IBUF_HD447
    (O,
     I);
   output O;
@@ -2323,7 +2323,7 @@ module IBUF_HD1560
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1561
+module IBUF_HD448
    (O,
     I);
   output O;
@@ -2353,7 +2353,7 @@ module IBUF_HD1561
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1562
+module IBUF_HD449
    (O,
     I);
   output O;
@@ -2383,7 +2383,7 @@ module IBUF_HD1562
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1563
+module IBUF_HD450
    (O,
     I);
   output O;
@@ -2413,7 +2413,7 @@ module IBUF_HD1563
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1564
+module IBUF_HD451
    (O,
     I);
   output O;
@@ -2443,7 +2443,7 @@ module IBUF_HD1564
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1565
+module IBUF_HD452
    (O,
     I);
   output O;
@@ -2473,7 +2473,7 @@ module IBUF_HD1565
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1566
+module IBUF_HD453
    (O,
     I);
   output O;
@@ -2503,7 +2503,7 @@ module IBUF_HD1566
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1567
+module IBUF_HD454
    (O,
     I);
   output O;
@@ -2533,7 +2533,7 @@ module IBUF_HD1567
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1568
+module IBUF_HD455
    (O,
     I);
   output O;
@@ -2563,7 +2563,7 @@ module IBUF_HD1568
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1569
+module IBUF_HD456
    (O,
     I);
   output O;
@@ -2593,7 +2593,7 @@ module IBUF_HD1569
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1570
+module IBUF_HD457
    (O,
     I);
   output O;
@@ -2623,7 +2623,7 @@ module IBUF_HD1570
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1571
+module IBUF_HD458
    (O,
     I);
   output O;
@@ -2653,7 +2653,7 @@ module IBUF_HD1571
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1572
+module IBUF_HD459
    (O,
     I);
   output O;
@@ -2683,7 +2683,7 @@ module IBUF_HD1572
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1573
+module IBUF_HD460
    (O,
     I);
   output O;
@@ -2713,7 +2713,7 @@ module IBUF_HD1573
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1574
+module IBUF_HD461
    (O,
     I);
   output O;
@@ -2743,7 +2743,7 @@ module IBUF_HD1574
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1575
+module IBUF_HD462
    (O,
     I);
   output O;
@@ -2773,7 +2773,7 @@ module IBUF_HD1575
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1576
+module IBUF_HD463
    (O,
     I);
   output O;
@@ -2803,7 +2803,7 @@ module IBUF_HD1576
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1577
+module IBUF_HD464
    (O,
     I);
   output O;
@@ -2833,7 +2833,7 @@ module IBUF_HD1577
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1578
+module IBUF_HD465
    (O,
     I);
   output O;
@@ -2863,7 +2863,7 @@ module IBUF_HD1578
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1579
+module IBUF_HD466
    (O,
     I);
   output O;
@@ -2893,7 +2893,7 @@ module IBUF_HD1579
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1580
+module IBUF_HD467
    (O,
     I);
   output O;
@@ -2923,7 +2923,7 @@ module IBUF_HD1580
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1581
+module IBUF_HD468
    (O,
     I);
   output O;
@@ -2953,7 +2953,7 @@ module IBUF_HD1581
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1582
+module IBUF_HD469
    (O,
     I);
   output O;
@@ -2983,7 +2983,7 @@ module IBUF_HD1582
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1583
+module IBUF_HD470
    (O,
     I);
   output O;
@@ -3013,7 +3013,7 @@ module IBUF_HD1583
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1584
+module IBUF_HD471
    (O,
     I);
   output O;
@@ -3043,7 +3043,7 @@ module IBUF_HD1584
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1585
+module IBUF_HD472
    (O,
     I);
   output O;
@@ -3073,7 +3073,7 @@ module IBUF_HD1585
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1586
+module IBUF_HD473
    (O,
     I);
   output O;
@@ -3103,7 +3103,7 @@ module IBUF_HD1586
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1587
+module IBUF_HD474
    (O,
     I);
   output O;
@@ -3133,7 +3133,7 @@ module IBUF_HD1587
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1588
+module IBUF_HD475
    (O,
     I);
   output O;
@@ -3163,7 +3163,7 @@ module IBUF_HD1588
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1589
+module IBUF_HD476
    (O,
     I);
   output O;
@@ -3193,7 +3193,7 @@ module IBUF_HD1589
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1590
+module IBUF_HD477
    (O,
     I);
   output O;
@@ -3223,7 +3223,7 @@ module IBUF_HD1590
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1591
+module IBUF_HD478
    (O,
     I);
   output O;
@@ -3253,7 +3253,7 @@ module IBUF_HD1591
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1592
+module IBUF_HD479
    (O,
     I);
   output O;
@@ -3283,7 +3283,7 @@ module IBUF_HD1592
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1593
+module IBUF_HD480
    (O,
     I);
   output O;
@@ -3313,7 +3313,7 @@ module IBUF_HD1593
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1594
+module IBUF_HD481
    (O,
     I);
   output O;
@@ -3343,7 +3343,7 @@ module IBUF_HD1594
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1595
+module IBUF_HD482
    (O,
     I);
   output O;
@@ -3373,7 +3373,7 @@ module IBUF_HD1595
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1596
+module IBUF_HD483
    (O,
     I);
   output O;
@@ -3403,7 +3403,7 @@ module IBUF_HD1596
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1597
+module IBUF_HD484
    (O,
     I);
   output O;
@@ -3433,7 +3433,7 @@ module IBUF_HD1597
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1598
+module IBUF_HD485
    (O,
     I);
   output O;
@@ -3463,7 +3463,7 @@ module IBUF_HD1598
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1599
+module IBUF_HD486
    (O,
     I);
   output O;
@@ -3493,7 +3493,7 @@ module IBUF_HD1599
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1600
+module IBUF_HD487
    (O,
     I);
   output O;
@@ -3523,7 +3523,7 @@ module IBUF_HD1600
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1601
+module IBUF_HD488
    (O,
     I);
   output O;
@@ -3553,7 +3553,7 @@ module IBUF_HD1601
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1602
+module IBUF_HD489
    (O,
     I);
   output O;
@@ -3583,7 +3583,7 @@ module IBUF_HD1602
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1603
+module IBUF_HD490
    (O,
     I);
   output O;
@@ -3613,7 +3613,7 @@ module IBUF_HD1603
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1604
+module IBUF_HD491
    (O,
     I);
   output O;
@@ -3643,7 +3643,7 @@ module IBUF_HD1604
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1605
+module IBUF_HD492
    (O,
     I);
   output O;
@@ -3673,7 +3673,7 @@ module IBUF_HD1605
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1606
+module IBUF_HD493
    (O,
     I);
   output O;
@@ -3703,7 +3703,7 @@ module IBUF_HD1606
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1607
+module IBUF_HD494
    (O,
     I);
   output O;
@@ -3733,7 +3733,7 @@ module IBUF_HD1607
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1608
+module IBUF_HD495
    (O,
     I);
   output O;
@@ -3763,7 +3763,7 @@ module IBUF_HD1608
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1609
+module IBUF_HD496
    (O,
     I);
   output O;
@@ -3793,7 +3793,7 @@ module IBUF_HD1609
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1610
+module IBUF_HD497
    (O,
     I);
   output O;
@@ -3823,7 +3823,7 @@ module IBUF_HD1610
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1611
+module IBUF_HD498
    (O,
     I);
   output O;
@@ -3853,7 +3853,7 @@ module IBUF_HD1611
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1612
+module IBUF_HD499
    (O,
     I);
   output O;
@@ -3883,7 +3883,7 @@ module IBUF_HD1612
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1613
+module IBUF_HD500
    (O,
     I);
   output O;
@@ -3913,7 +3913,7 @@ module IBUF_HD1613
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1614
+module IBUF_HD501
    (O,
     I);
   output O;
@@ -3943,7 +3943,7 @@ module IBUF_HD1614
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1615
+module IBUF_HD502
    (O,
     I);
   output O;
@@ -3973,7 +3973,7 @@ module IBUF_HD1615
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1616
+module IBUF_HD503
    (O,
     I);
   output O;
@@ -4003,7 +4003,7 @@ module IBUF_HD1616
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1617
+module IBUF_HD504
    (O,
     I);
   output O;
@@ -4033,7 +4033,7 @@ module IBUF_HD1617
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1618
+module IBUF_HD505
    (O,
     I);
   output O;
@@ -4063,7 +4063,7 @@ module IBUF_HD1618
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1619
+module IBUF_HD506
    (O,
     I);
   output O;
@@ -4093,7 +4093,7 @@ module IBUF_HD1619
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1620
+module IBUF_HD507
    (O,
     I);
   output O;
@@ -4123,7 +4123,7 @@ module IBUF_HD1620
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1621
+module IBUF_HD508
    (O,
     I);
   output O;
@@ -4153,7 +4153,7 @@ module IBUF_HD1621
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1622
+module IBUF_HD509
    (O,
     I);
   output O;
@@ -4183,7 +4183,7 @@ module IBUF_HD1622
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1623
+module IBUF_HD510
    (O,
     I);
   output O;
@@ -4213,7 +4213,7 @@ module IBUF_HD1623
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1624
+module IBUF_HD511
    (O,
     I);
   output O;
@@ -4243,7 +4243,7 @@ module IBUF_HD1624
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1625
+module IBUF_HD512
    (O,
     I);
   output O;
@@ -4273,7 +4273,7 @@ module IBUF_HD1625
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1626
+module IBUF_HD513
    (O,
     I);
   output O;
@@ -4303,7 +4303,7 @@ module IBUF_HD1626
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1627
+module IBUF_HD514
    (O,
     I);
   output O;
@@ -4333,7 +4333,7 @@ module IBUF_HD1627
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1628
+module IBUF_HD515
    (O,
     I);
   output O;
@@ -4363,7 +4363,7 @@ module IBUF_HD1628
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1629
+module IBUF_HD516
    (O,
     I);
   output O;
@@ -4393,7 +4393,7 @@ module IBUF_HD1629
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1630
+module IBUF_HD517
    (O,
     I);
   output O;
@@ -4423,7 +4423,7 @@ module IBUF_HD1630
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1631
+module IBUF_HD518
    (O,
     I);
   output O;
@@ -4453,7 +4453,7 @@ module IBUF_HD1631
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1632
+module IBUF_HD519
    (O,
     I);
   output O;
@@ -4483,7 +4483,7 @@ module IBUF_HD1632
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1633
+module IBUF_HD520
    (O,
     I);
   output O;
@@ -4513,7 +4513,7 @@ module IBUF_HD1633
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1634
+module IBUF_HD521
    (O,
     I);
   output O;
@@ -4543,7 +4543,7 @@ module IBUF_HD1634
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1635
+module IBUF_HD522
    (O,
     I);
   output O;
@@ -4573,7 +4573,7 @@ module IBUF_HD1635
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1636
+module IBUF_HD523
    (O,
     I);
   output O;
@@ -4603,7 +4603,7 @@ module IBUF_HD1636
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1637
+module IBUF_HD524
    (O,
     I);
   output O;
@@ -4633,7 +4633,7 @@ module IBUF_HD1637
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1638
+module IBUF_HD525
    (O,
     I);
   output O;
@@ -4663,7 +4663,7 @@ module IBUF_HD1638
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1639
+module IBUF_HD526
    (O,
     I);
   output O;
@@ -4693,7 +4693,7 @@ module IBUF_HD1639
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1640
+module IBUF_HD527
    (O,
     I);
   output O;
@@ -4723,7 +4723,7 @@ module IBUF_HD1640
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1641
+module IBUF_HD528
    (O,
     I);
   output O;
@@ -4753,7 +4753,7 @@ module IBUF_HD1641
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1642
+module IBUF_HD529
    (O,
     I);
   output O;
@@ -4783,7 +4783,7 @@ module IBUF_HD1642
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1643
+module IBUF_HD530
    (O,
     I);
   output O;
@@ -4813,7 +4813,7 @@ module IBUF_HD1643
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1644
+module IBUF_HD531
    (O,
     I);
   output O;
@@ -4843,7 +4843,7 @@ module IBUF_HD1644
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1645
+module IBUF_HD532
    (O,
     I);
   output O;
@@ -4873,7 +4873,7 @@ module IBUF_HD1645
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1646
+module IBUF_HD533
    (O,
     I);
   output O;
@@ -4903,7 +4903,7 @@ module IBUF_HD1646
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1647
+module IBUF_HD534
    (O,
     I);
   output O;
@@ -4933,7 +4933,7 @@ module IBUF_HD1647
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1648
+module IBUF_HD535
    (O,
     I);
   output O;
@@ -4963,7 +4963,7 @@ module IBUF_HD1648
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1649
+module IBUF_HD536
    (O,
     I);
   output O;
@@ -4993,7 +4993,7 @@ module IBUF_HD1649
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1650
+module IBUF_HD537
    (O,
     I);
   output O;
@@ -5023,7 +5023,7 @@ module IBUF_HD1650
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1651
+module IBUF_HD538
    (O,
     I);
   output O;
@@ -5053,7 +5053,7 @@ module IBUF_HD1651
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1652
+module IBUF_HD539
    (O,
     I);
   output O;
@@ -5083,7 +5083,7 @@ module IBUF_HD1652
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1653
+module IBUF_HD540
    (O,
     I);
   output O;
@@ -5113,7 +5113,7 @@ module IBUF_HD1653
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1654
+module IBUF_HD541
    (O,
     I);
   output O;
@@ -5143,7 +5143,7 @@ module IBUF_HD1654
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1655
+module IBUF_HD542
    (O,
     I);
   output O;
@@ -5173,7 +5173,7 @@ module IBUF_HD1655
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1656
+module IBUF_HD543
    (O,
     I);
   output O;
@@ -5203,7 +5203,7 @@ module IBUF_HD1656
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1657
+module IBUF_HD544
    (O,
     I);
   output O;
@@ -5233,7 +5233,7 @@ module IBUF_HD1657
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1658
+module IBUF_HD545
    (O,
     I);
   output O;
@@ -5263,7 +5263,7 @@ module IBUF_HD1658
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1659
+module IBUF_HD546
    (O,
     I);
   output O;
@@ -5293,7 +5293,7 @@ module IBUF_HD1659
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1660
+module IBUF_HD547
    (O,
     I);
   output O;
@@ -5323,7 +5323,7 @@ module IBUF_HD1660
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1661
+module IBUF_HD548
    (O,
     I);
   output O;
@@ -5353,7 +5353,7 @@ module IBUF_HD1661
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1662
+module IBUF_HD549
    (O,
     I);
   output O;
@@ -5383,7 +5383,7 @@ module IBUF_HD1662
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1663
+module IBUF_HD550
    (O,
     I);
   output O;
@@ -5413,7 +5413,7 @@ module IBUF_HD1663
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1664
+module IBUF_HD551
    (O,
     I);
   output O;
@@ -5443,7 +5443,7 @@ module IBUF_HD1664
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1665
+module IBUF_HD552
    (O,
     I);
   output O;
@@ -5473,7 +5473,7 @@ module IBUF_HD1665
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1666
+module IBUF_HD553
    (O,
     I);
   output O;
@@ -5503,7 +5503,7 @@ module IBUF_HD1666
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1667
+module IBUF_HD554
    (O,
     I);
   output O;
@@ -5533,7 +5533,7 @@ module IBUF_HD1667
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1668
+module IBUF_HD555
    (O,
     I);
   output O;
@@ -5563,7 +5563,7 @@ module IBUF_HD1668
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1669
+module IBUF_HD556
    (O,
     I);
   output O;
@@ -5593,7 +5593,7 @@ module IBUF_HD1669
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1670
+module IBUF_HD557
    (O,
     I);
   output O;
@@ -5623,7 +5623,7 @@ module IBUF_HD1670
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1671
+module IBUF_HD558
    (O,
     I);
   output O;
@@ -5653,7 +5653,7 @@ module IBUF_HD1671
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1672
+module IBUF_HD559
    (O,
     I);
   output O;
@@ -5683,7 +5683,7 @@ module IBUF_HD1672
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1673
+module IBUF_HD560
    (O,
     I);
   output O;
@@ -5713,7 +5713,7 @@ module IBUF_HD1673
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1674
+module IBUF_HD561
    (O,
     I);
   output O;
@@ -5743,7 +5743,7 @@ module IBUF_HD1674
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1675
+module IBUF_HD562
    (O,
     I);
   output O;
@@ -5773,7 +5773,7 @@ module IBUF_HD1675
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1676
+module IBUF_HD563
    (O,
     I);
   output O;
@@ -5803,7 +5803,7 @@ module IBUF_HD1676
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1677
+module IBUF_HD564
    (O,
     I);
   output O;
@@ -5833,7 +5833,7 @@ module IBUF_HD1677
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1678
+module IBUF_HD565
    (O,
     I);
   output O;
@@ -5863,7 +5863,7 @@ module IBUF_HD1678
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1679
+module IBUF_HD566
    (O,
     I);
   output O;
@@ -5893,7 +5893,7 @@ module IBUF_HD1679
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1680
+module IBUF_HD567
    (O,
     I);
   output O;
@@ -5923,7 +5923,7 @@ module IBUF_HD1680
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1681
+module IBUF_HD568
    (O,
     I);
   output O;
@@ -5953,7 +5953,7 @@ module IBUF_HD1681
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1682
+module IBUF_HD569
    (O,
     I);
   output O;
@@ -5983,7 +5983,7 @@ module IBUF_HD1682
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1683
+module IBUF_HD570
    (O,
     I);
   output O;
@@ -6013,7 +6013,7 @@ module IBUF_HD1683
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1684
+module IBUF_HD571
    (O,
     I);
   output O;
@@ -6043,7 +6043,7 @@ module IBUF_HD1684
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1685
+module IBUF_HD572
    (O,
     I);
   output O;
@@ -6073,7 +6073,7 @@ module IBUF_HD1685
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1686
+module IBUF_HD573
    (O,
     I);
   output O;
@@ -6103,7 +6103,7 @@ module IBUF_HD1686
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1687
+module IBUF_HD574
    (O,
     I);
   output O;
@@ -6133,7 +6133,7 @@ module IBUF_HD1687
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1688
+module IBUF_HD575
    (O,
     I);
   output O;
@@ -6163,7 +6163,7 @@ module IBUF_HD1688
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1689
+module IBUF_HD576
    (O,
     I);
   output O;
@@ -6193,7 +6193,7 @@ module IBUF_HD1689
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1690
+module IBUF_HD577
    (O,
     I);
   output O;
@@ -6223,7 +6223,7 @@ module IBUF_HD1690
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1691
+module IBUF_HD578
    (O,
     I);
   output O;
@@ -6253,7 +6253,7 @@ module IBUF_HD1691
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1692
+module IBUF_HD579
    (O,
     I);
   output O;
@@ -6283,7 +6283,7 @@ module IBUF_HD1692
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1693
+module IBUF_HD580
    (O,
     I);
   output O;
@@ -6313,7 +6313,7 @@ module IBUF_HD1693
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1694
+module IBUF_HD581
    (O,
     I);
   output O;
@@ -6343,7 +6343,7 @@ module IBUF_HD1694
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1695
+module IBUF_HD582
    (O,
     I);
   output O;
@@ -6373,7 +6373,7 @@ module IBUF_HD1695
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1696
+module IBUF_HD583
    (O,
     I);
   output O;
@@ -6403,7 +6403,7 @@ module IBUF_HD1696
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1697
+module IBUF_HD584
    (O,
     I);
   output O;
@@ -6433,7 +6433,7 @@ module IBUF_HD1697
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1698
+module IBUF_HD585
    (O,
     I);
   output O;
@@ -6463,7 +6463,7 @@ module IBUF_HD1698
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1699
+module IBUF_HD586
    (O,
     I);
   output O;
@@ -6493,7 +6493,7 @@ module IBUF_HD1699
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1700
+module IBUF_HD587
    (O,
     I);
   output O;
@@ -6523,7 +6523,7 @@ module IBUF_HD1700
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1701
+module IBUF_HD588
    (O,
     I);
   output O;
@@ -6553,7 +6553,7 @@ module IBUF_HD1701
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1702
+module IBUF_HD589
    (O,
     I);
   output O;
@@ -6583,7 +6583,7 @@ module IBUF_HD1702
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1703
+module IBUF_HD590
    (O,
     I);
   output O;
@@ -6613,7 +6613,7 @@ module IBUF_HD1703
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1704
+module IBUF_HD591
    (O,
     I);
   output O;
@@ -6643,7 +6643,7 @@ module IBUF_HD1704
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1705
+module IBUF_HD592
    (O,
     I);
   output O;
@@ -6673,7 +6673,7 @@ module IBUF_HD1705
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1706
+module IBUF_HD593
    (O,
     I);
   output O;
@@ -6703,7 +6703,7 @@ module IBUF_HD1706
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1707
+module IBUF_HD594
    (O,
     I);
   output O;
@@ -6733,7 +6733,7 @@ module IBUF_HD1707
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1708
+module IBUF_HD595
    (O,
     I);
   output O;
@@ -6763,7 +6763,7 @@ module IBUF_HD1708
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1709
+module IBUF_HD596
    (O,
     I);
   output O;
@@ -6793,7 +6793,7 @@ module IBUF_HD1709
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1710
+module IBUF_HD597
    (O,
     I);
   output O;
@@ -6823,7 +6823,7 @@ module IBUF_HD1710
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1711
+module IBUF_HD598
    (O,
     I);
   output O;
@@ -6853,7 +6853,7 @@ module IBUF_HD1711
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1712
+module IBUF_HD599
    (O,
     I);
   output O;
@@ -6883,7 +6883,7 @@ module IBUF_HD1712
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1713
+module IBUF_HD600
    (O,
     I);
   output O;
@@ -6913,7 +6913,7 @@ module IBUF_HD1713
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1714
+module IBUF_HD601
    (O,
     I);
   output O;
@@ -6943,7 +6943,7 @@ module IBUF_HD1714
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1715
+module IBUF_HD602
    (O,
     I);
   output O;
@@ -6973,7 +6973,7 @@ module IBUF_HD1715
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1716
+module IBUF_HD603
    (O,
     I);
   output O;
@@ -7003,7 +7003,7 @@ module IBUF_HD1716
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1717
+module IBUF_HD604
    (O,
     I);
   output O;
@@ -7033,7 +7033,7 @@ module IBUF_HD1717
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1718
+module IBUF_HD605
    (O,
     I);
   output O;
@@ -7063,7 +7063,7 @@ module IBUF_HD1718
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1719
+module IBUF_HD606
    (O,
     I);
   output O;
@@ -7093,7 +7093,7 @@ module IBUF_HD1719
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1720
+module IBUF_HD607
    (O,
     I);
   output O;
@@ -7123,7 +7123,7 @@ module IBUF_HD1720
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1721
+module IBUF_HD608
    (O,
     I);
   output O;
@@ -7153,7 +7153,7 @@ module IBUF_HD1721
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1722
+module IBUF_HD609
    (O,
     I);
   output O;
@@ -7183,7 +7183,7 @@ module IBUF_HD1722
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1723
+module IBUF_HD610
    (O,
     I);
   output O;
@@ -7213,7 +7213,7 @@ module IBUF_HD1723
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1724
+module IBUF_HD611
    (O,
     I);
   output O;
@@ -7243,7 +7243,7 @@ module IBUF_HD1724
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1725
+module IBUF_HD612
    (O,
     I);
   output O;
@@ -7273,7 +7273,7 @@ module IBUF_HD1725
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1726
+module IBUF_HD613
    (O,
     I);
   output O;
@@ -7303,7 +7303,7 @@ module IBUF_HD1726
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1727
+module IBUF_HD614
    (O,
     I);
   output O;
@@ -7333,7 +7333,7 @@ module IBUF_HD1727
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1728
+module IBUF_HD615
    (O,
     I);
   output O;
@@ -7363,7 +7363,7 @@ module IBUF_HD1728
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1729
+module IBUF_HD616
    (O,
     I);
   output O;
@@ -7393,7 +7393,7 @@ module IBUF_HD1729
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1730
+module IBUF_HD617
    (O,
     I);
   output O;
@@ -7423,7 +7423,7 @@ module IBUF_HD1730
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1731
+module IBUF_HD618
    (O,
     I);
   output O;
@@ -7453,7 +7453,7 @@ module IBUF_HD1731
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1732
+module IBUF_HD619
    (O,
     I);
   output O;
@@ -7483,7 +7483,7 @@ module IBUF_HD1732
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1733
+module IBUF_HD620
    (O,
     I);
   output O;
@@ -7513,7 +7513,7 @@ module IBUF_HD1733
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1734
+module IBUF_HD621
    (O,
     I);
   output O;
@@ -7543,7 +7543,7 @@ module IBUF_HD1734
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1735
+module IBUF_HD622
    (O,
     I);
   output O;
@@ -7573,7 +7573,7 @@ module IBUF_HD1735
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1736
+module IBUF_HD623
    (O,
     I);
   output O;
@@ -7603,7 +7603,7 @@ module IBUF_HD1736
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1737
+module IBUF_HD624
    (O,
     I);
   output O;
@@ -7633,7 +7633,7 @@ module IBUF_HD1737
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1738
+module IBUF_HD625
    (O,
     I);
   output O;
@@ -7663,7 +7663,7 @@ module IBUF_HD1738
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1739
+module IBUF_HD626
    (O,
     I);
   output O;
@@ -7693,7 +7693,7 @@ module IBUF_HD1739
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1740
+module IBUF_HD627
    (O,
     I);
   output O;
@@ -7723,7 +7723,7 @@ module IBUF_HD1740
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1741
+module IBUF_HD628
    (O,
     I);
   output O;
@@ -7753,7 +7753,7 @@ module IBUF_HD1741
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1742
+module IBUF_HD629
    (O,
     I);
   output O;
@@ -7783,7 +7783,7 @@ module IBUF_HD1742
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1743
+module IBUF_HD630
    (O,
     I);
   output O;
@@ -7813,7 +7813,7 @@ module IBUF_HD1743
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1744
+module IBUF_HD631
    (O,
     I);
   output O;
@@ -7843,7 +7843,7 @@ module IBUF_HD1744
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1745
+module IBUF_HD632
    (O,
     I);
   output O;
@@ -7873,7 +7873,7 @@ module IBUF_HD1745
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1746
+module IBUF_HD633
    (O,
     I);
   output O;
@@ -7903,7 +7903,7 @@ module IBUF_HD1746
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1747
+module IBUF_HD634
    (O,
     I);
   output O;
@@ -7933,7 +7933,7 @@ module IBUF_HD1747
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1748
+module IBUF_HD635
    (O,
     I);
   output O;
@@ -7963,7 +7963,7 @@ module IBUF_HD1748
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1749
+module IBUF_HD636
    (O,
     I);
   output O;
@@ -7993,7 +7993,7 @@ module IBUF_HD1749
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1750
+module IBUF_HD637
    (O,
     I);
   output O;
@@ -8023,7 +8023,7 @@ module IBUF_HD1750
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1751
+module IBUF_HD638
    (O,
     I);
   output O;
@@ -8053,7 +8053,7 @@ module IBUF_HD1751
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1752
+module IBUF_HD639
    (O,
     I);
   output O;
@@ -8083,7 +8083,7 @@ module IBUF_HD1752
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1753
+module IBUF_HD640
    (O,
     I);
   output O;
@@ -8113,7 +8113,7 @@ module IBUF_HD1753
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1754
+module IBUF_HD641
    (O,
     I);
   output O;
@@ -8143,7 +8143,7 @@ module IBUF_HD1754
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1755
+module IBUF_HD642
    (O,
     I);
   output O;
@@ -8173,7 +8173,7 @@ module IBUF_HD1755
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1756
+module IBUF_HD643
    (O,
     I);
   output O;
@@ -8203,7 +8203,7 @@ module IBUF_HD1756
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1757
+module IBUF_HD644
    (O,
     I);
   output O;
@@ -8233,7 +8233,7 @@ module IBUF_HD1757
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1758
+module IBUF_HD645
    (O,
     I);
   output O;
@@ -8263,7 +8263,7 @@ module IBUF_HD1758
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1759
+module IBUF_HD646
    (O,
     I);
   output O;
@@ -8293,7 +8293,7 @@ module IBUF_HD1759
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1760
+module IBUF_HD647
    (O,
     I);
   output O;
@@ -8323,7 +8323,7 @@ module IBUF_HD1760
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1761
+module IBUF_HD648
    (O,
     I);
   output O;
@@ -8353,7 +8353,7 @@ module IBUF_HD1761
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1762
+module IBUF_HD649
    (O,
     I);
   output O;
@@ -8383,7 +8383,7 @@ module IBUF_HD1762
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1763
+module IBUF_HD650
    (O,
     I);
   output O;
@@ -8413,7 +8413,7 @@ module IBUF_HD1763
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1764
+module IBUF_HD651
    (O,
     I);
   output O;
@@ -8443,7 +8443,7 @@ module IBUF_HD1764
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1765
+module IBUF_HD652
    (O,
     I);
   output O;
@@ -8473,7 +8473,7 @@ module IBUF_HD1765
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1766
+module IBUF_HD653
    (O,
     I);
   output O;
@@ -8503,7 +8503,7 @@ module IBUF_HD1766
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1767
+module IBUF_HD654
    (O,
     I);
   output O;
@@ -8533,7 +8533,7 @@ module IBUF_HD1767
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1768
+module IBUF_HD655
    (O,
     I);
   output O;
@@ -8563,7 +8563,7 @@ module IBUF_HD1768
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1769
+module IBUF_HD656
    (O,
     I);
   output O;
@@ -8593,7 +8593,7 @@ module IBUF_HD1769
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1770
+module IBUF_HD657
    (O,
     I);
   output O;
@@ -8623,7 +8623,7 @@ module IBUF_HD1770
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1771
+module IBUF_HD658
    (O,
     I);
   output O;
@@ -8653,7 +8653,7 @@ module IBUF_HD1771
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1772
+module IBUF_HD659
    (O,
     I);
   output O;
@@ -8683,7 +8683,7 @@ module IBUF_HD1772
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1773
+module IBUF_HD660
    (O,
     I);
   output O;
@@ -8713,7 +8713,7 @@ module IBUF_HD1773
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1774
+module IBUF_HD661
    (O,
     I);
   output O;
@@ -8743,7 +8743,7 @@ module IBUF_HD1774
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1775
+module IBUF_HD662
    (O,
     I);
   output O;
@@ -8773,7 +8773,7 @@ module IBUF_HD1775
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1776
+module IBUF_HD663
    (O,
     I);
   output O;
@@ -8803,7 +8803,7 @@ module IBUF_HD1776
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1777
+module IBUF_HD664
    (O,
     I);
   output O;
@@ -8833,7 +8833,7 @@ module IBUF_HD1777
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1778
+module IBUF_HD665
    (O,
     I);
   output O;
@@ -8863,7 +8863,7 @@ module IBUF_HD1778
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1779
+module IBUF_HD666
    (O,
     I);
   output O;
@@ -8893,7 +8893,7 @@ module IBUF_HD1779
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1780
+module IBUF_HD667
    (O,
     I);
   output O;
@@ -8923,7 +8923,7 @@ module IBUF_HD1780
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1781
+module IBUF_HD668
    (O,
     I);
   output O;
@@ -8953,7 +8953,7 @@ module IBUF_HD1781
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1782
+module IBUF_HD669
    (O,
     I);
   output O;
@@ -8983,7 +8983,7 @@ module IBUF_HD1782
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1783
+module IBUF_HD670
    (O,
     I);
   output O;
@@ -9013,7 +9013,7 @@ module IBUF_HD1783
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1784
+module IBUF_HD671
    (O,
     I);
   output O;
@@ -9043,7 +9043,7 @@ module IBUF_HD1784
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1785
+module IBUF_HD672
    (O,
     I);
   output O;
@@ -9073,7 +9073,7 @@ module IBUF_HD1785
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1786
+module IBUF_HD673
    (O,
     I);
   output O;
@@ -9103,7 +9103,7 @@ module IBUF_HD1786
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1787
+module IBUF_HD674
    (O,
     I);
   output O;
@@ -9133,7 +9133,7 @@ module IBUF_HD1787
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1788
+module IBUF_HD675
    (O,
     I);
   output O;
@@ -9163,7 +9163,7 @@ module IBUF_HD1788
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1789
+module IBUF_HD676
    (O,
     I);
   output O;
@@ -9193,7 +9193,7 @@ module IBUF_HD1789
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1790
+module IBUF_HD677
    (O,
     I);
   output O;
@@ -9223,7 +9223,7 @@ module IBUF_HD1790
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1791
+module IBUF_HD678
    (O,
     I);
   output O;
@@ -9253,7 +9253,7 @@ module IBUF_HD1791
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1792
+module IBUF_HD679
    (O,
     I);
   output O;
@@ -9283,7 +9283,7 @@ module IBUF_HD1792
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1793
+module IBUF_HD680
    (O,
     I);
   output O;
@@ -9313,7 +9313,7 @@ module IBUF_HD1793
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1794
+module IBUF_HD681
    (O,
     I);
   output O;
@@ -9343,7 +9343,7 @@ module IBUF_HD1794
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1795
+module IBUF_HD682
    (O,
     I);
   output O;
@@ -9373,7 +9373,7 @@ module IBUF_HD1795
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1796
+module IBUF_HD683
    (O,
     I);
   output O;
@@ -9403,7 +9403,7 @@ module IBUF_HD1796
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1797
+module IBUF_HD684
    (O,
     I);
   output O;
@@ -9433,7 +9433,7 @@ module IBUF_HD1797
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1798
+module IBUF_HD685
    (O,
     I);
   output O;
@@ -9463,7 +9463,7 @@ module IBUF_HD1798
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1799
+module IBUF_HD686
    (O,
     I);
   output O;
@@ -9493,7 +9493,7 @@ module IBUF_HD1799
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1800
+module IBUF_HD687
    (O,
     I);
   output O;
@@ -9523,7 +9523,7 @@ module IBUF_HD1800
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1801
+module IBUF_HD688
    (O,
     I);
   output O;
@@ -9553,7 +9553,7 @@ module IBUF_HD1801
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1802
+module IBUF_HD689
    (O,
     I);
   output O;
@@ -9583,7 +9583,7 @@ module IBUF_HD1802
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1803
+module IBUF_HD690
    (O,
     I);
   output O;
@@ -9613,7 +9613,7 @@ module IBUF_HD1803
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1804
+module IBUF_HD691
    (O,
     I);
   output O;
@@ -9643,7 +9643,7 @@ module IBUF_HD1804
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1805
+module IBUF_HD692
    (O,
     I);
   output O;
@@ -9673,7 +9673,7 @@ module IBUF_HD1805
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1806
+module IBUF_HD693
    (O,
     I);
   output O;
@@ -9703,7 +9703,7 @@ module IBUF_HD1806
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1807
+module IBUF_HD694
    (O,
     I);
   output O;
@@ -9733,7 +9733,7 @@ module IBUF_HD1807
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1808
+module IBUF_HD695
    (O,
     I);
   output O;
@@ -9763,7 +9763,7 @@ module IBUF_HD1808
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1809
+module IBUF_HD696
    (O,
     I);
   output O;
@@ -9793,7 +9793,7 @@ module IBUF_HD1809
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1810
+module IBUF_HD697
    (O,
     I);
   output O;
@@ -9823,7 +9823,7 @@ module IBUF_HD1810
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1811
+module IBUF_HD698
    (O,
     I);
   output O;
@@ -9853,7 +9853,7 @@ module IBUF_HD1811
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1812
+module IBUF_HD699
    (O,
     I);
   output O;
@@ -9883,7 +9883,7 @@ module IBUF_HD1812
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1813
+module IBUF_HD700
    (O,
     I);
   output O;
@@ -9913,7 +9913,7 @@ module IBUF_HD1813
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1814
+module IBUF_HD701
    (O,
     I);
   output O;
@@ -9943,7 +9943,7 @@ module IBUF_HD1814
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1815
+module IBUF_HD702
    (O,
     I);
   output O;
@@ -9973,7 +9973,7 @@ module IBUF_HD1815
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1816
+module IBUF_HD703
    (O,
     I);
   output O;
@@ -10003,7 +10003,7 @@ module IBUF_HD1816
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1817
+module IBUF_HD704
    (O,
     I);
   output O;
@@ -10033,7 +10033,7 @@ module IBUF_HD1817
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1818
+module IBUF_HD705
    (O,
     I);
   output O;
@@ -10063,7 +10063,7 @@ module IBUF_HD1818
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1819
+module IBUF_HD706
    (O,
     I);
   output O;
@@ -10093,7 +10093,7 @@ module IBUF_HD1819
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1820
+module IBUF_HD707
    (O,
     I);
   output O;
@@ -10123,7 +10123,7 @@ module IBUF_HD1820
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1821
+module IBUF_HD708
    (O,
     I);
   output O;
@@ -10153,7 +10153,7 @@ module IBUF_HD1821
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1822
+module IBUF_HD709
    (O,
     I);
   output O;
@@ -10183,7 +10183,7 @@ module IBUF_HD1822
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1823
+module IBUF_HD710
    (O,
     I);
   output O;
@@ -10213,7 +10213,7 @@ module IBUF_HD1823
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1824
+module IBUF_HD711
    (O,
     I);
   output O;
@@ -10243,7 +10243,7 @@ module IBUF_HD1824
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1825
+module IBUF_HD712
    (O,
     I);
   output O;
@@ -10273,7 +10273,7 @@ module IBUF_HD1825
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1826
+module IBUF_HD713
    (O,
     I);
   output O;
@@ -10303,7 +10303,7 @@ module IBUF_HD1826
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1827
+module IBUF_HD714
    (O,
     I);
   output O;
@@ -10333,7 +10333,7 @@ module IBUF_HD1827
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1828
+module IBUF_HD715
    (O,
     I);
   output O;
@@ -10363,7 +10363,7 @@ module IBUF_HD1828
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1829
+module IBUF_HD716
    (O,
     I);
   output O;
@@ -10393,7 +10393,7 @@ module IBUF_HD1829
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1830
+module IBUF_HD717
    (O,
     I);
   output O;
@@ -10423,7 +10423,7 @@ module IBUF_HD1830
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1831
+module IBUF_HD718
    (O,
     I);
   output O;
@@ -10453,7 +10453,7 @@ module IBUF_HD1831
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1832
+module IBUF_HD719
    (O,
     I);
   output O;
@@ -10483,7 +10483,7 @@ module IBUF_HD1832
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1833
+module IBUF_HD720
    (O,
     I);
   output O;
@@ -10513,7 +10513,7 @@ module IBUF_HD1833
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1834
+module IBUF_HD721
    (O,
     I);
   output O;
@@ -10543,7 +10543,7 @@ module IBUF_HD1834
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1835
+module IBUF_HD722
    (O,
     I);
   output O;
@@ -10573,7 +10573,7 @@ module IBUF_HD1835
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1836
+module IBUF_HD723
    (O,
     I);
   output O;
@@ -10603,7 +10603,7 @@ module IBUF_HD1836
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1837
+module IBUF_HD724
    (O,
     I);
   output O;
@@ -10633,7 +10633,7 @@ module IBUF_HD1837
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1838
+module IBUF_HD725
    (O,
     I);
   output O;
@@ -10663,7 +10663,7 @@ module IBUF_HD1838
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1839
+module IBUF_HD726
    (O,
     I);
   output O;
@@ -10693,7 +10693,7 @@ module IBUF_HD1839
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1840
+module IBUF_HD727
    (O,
     I);
   output O;
@@ -10723,7 +10723,7 @@ module IBUF_HD1840
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1841
+module IBUF_HD728
    (O,
     I);
   output O;
@@ -10753,7 +10753,7 @@ module IBUF_HD1841
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1842
+module IBUF_HD729
    (O,
     I);
   output O;
@@ -10783,7 +10783,7 @@ module IBUF_HD1842
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1843
+module IBUF_HD730
    (O,
     I);
   output O;
@@ -10813,7 +10813,7 @@ module IBUF_HD1843
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1844
+module IBUF_HD731
    (O,
     I);
   output O;
@@ -10843,7 +10843,7 @@ module IBUF_HD1844
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1845
+module IBUF_HD732
    (O,
     I);
   output O;
@@ -10873,7 +10873,7 @@ module IBUF_HD1845
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1846
+module IBUF_HD733
    (O,
     I);
   output O;
@@ -10903,7 +10903,7 @@ module IBUF_HD1846
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1847
+module IBUF_HD734
    (O,
     I);
   output O;
@@ -10933,7 +10933,7 @@ module IBUF_HD1847
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1848
+module IBUF_HD735
    (O,
     I);
   output O;
@@ -10963,7 +10963,7 @@ module IBUF_HD1848
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1849
+module IBUF_HD736
    (O,
     I);
   output O;
@@ -10993,7 +10993,7 @@ module IBUF_HD1849
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1850
+module IBUF_HD737
    (O,
     I);
   output O;
@@ -11023,7 +11023,7 @@ module IBUF_HD1850
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1851
+module IBUF_HD738
    (O,
     I);
   output O;
@@ -11053,7 +11053,7 @@ module IBUF_HD1851
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1852
+module IBUF_HD739
    (O,
     I);
   output O;
@@ -11083,7 +11083,7 @@ module IBUF_HD1852
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1853
+module IBUF_HD740
    (O,
     I);
   output O;
@@ -11113,7 +11113,7 @@ module IBUF_HD1853
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1854
+module IBUF_HD741
    (O,
     I);
   output O;
@@ -11143,7 +11143,7 @@ module IBUF_HD1854
         .VREF(NLW_INBUF_INST_VREF_UNCONNECTED));
 endmodule
 
-module IBUF_HD1855
+module IBUF_HD742
    (O,
     I);
   output O;
@@ -12060,1483 +12060,1187 @@ initial begin
  $sdf_annotate("Dcache_tb_time_synth.sdf",,,,"tool_control");
 end
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
   IBUF_UNIQ_BASE_ i_L2cache_drive_IBUF_inst
        (.I(i_L2cache_drive),
         .O(i_L2cache_drive_IBUF));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1485 \i_L2cache_refill_32B_IBUF[0]_inst 
+  IBUF_HD372 \i_L2cache_refill_32B_IBUF[0]_inst 
        (.I(i_L2cache_refill_32B[0]),
         .O(i_L2cache_refill_32B_IBUF[0]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1486 \i_L2cache_refill_32B_IBUF[100]_inst 
+  IBUF_HD373 \i_L2cache_refill_32B_IBUF[100]_inst 
        (.I(i_L2cache_refill_32B[100]),
         .O(i_L2cache_refill_32B_IBUF[100]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1487 \i_L2cache_refill_32B_IBUF[101]_inst 
+  IBUF_HD374 \i_L2cache_refill_32B_IBUF[101]_inst 
        (.I(i_L2cache_refill_32B[101]),
         .O(i_L2cache_refill_32B_IBUF[101]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1488 \i_L2cache_refill_32B_IBUF[102]_inst 
+  IBUF_HD375 \i_L2cache_refill_32B_IBUF[102]_inst 
        (.I(i_L2cache_refill_32B[102]),
         .O(i_L2cache_refill_32B_IBUF[102]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1489 \i_L2cache_refill_32B_IBUF[103]_inst 
+  IBUF_HD376 \i_L2cache_refill_32B_IBUF[103]_inst 
        (.I(i_L2cache_refill_32B[103]),
         .O(i_L2cache_refill_32B_IBUF[103]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1490 \i_L2cache_refill_32B_IBUF[104]_inst 
+  IBUF_HD377 \i_L2cache_refill_32B_IBUF[104]_inst 
        (.I(i_L2cache_refill_32B[104]),
         .O(i_L2cache_refill_32B_IBUF[104]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1491 \i_L2cache_refill_32B_IBUF[105]_inst 
+  IBUF_HD378 \i_L2cache_refill_32B_IBUF[105]_inst 
        (.I(i_L2cache_refill_32B[105]),
         .O(i_L2cache_refill_32B_IBUF[105]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1492 \i_L2cache_refill_32B_IBUF[106]_inst 
+  IBUF_HD379 \i_L2cache_refill_32B_IBUF[106]_inst 
        (.I(i_L2cache_refill_32B[106]),
         .O(i_L2cache_refill_32B_IBUF[106]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1493 \i_L2cache_refill_32B_IBUF[107]_inst 
+  IBUF_HD380 \i_L2cache_refill_32B_IBUF[107]_inst 
        (.I(i_L2cache_refill_32B[107]),
         .O(i_L2cache_refill_32B_IBUF[107]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1494 \i_L2cache_refill_32B_IBUF[108]_inst 
+  IBUF_HD381 \i_L2cache_refill_32B_IBUF[108]_inst 
        (.I(i_L2cache_refill_32B[108]),
         .O(i_L2cache_refill_32B_IBUF[108]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1495 \i_L2cache_refill_32B_IBUF[109]_inst 
+  IBUF_HD382 \i_L2cache_refill_32B_IBUF[109]_inst 
        (.I(i_L2cache_refill_32B[109]),
         .O(i_L2cache_refill_32B_IBUF[109]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1496 \i_L2cache_refill_32B_IBUF[10]_inst 
+  IBUF_HD383 \i_L2cache_refill_32B_IBUF[10]_inst 
        (.I(i_L2cache_refill_32B[10]),
         .O(i_L2cache_refill_32B_IBUF[10]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1497 \i_L2cache_refill_32B_IBUF[110]_inst 
+  IBUF_HD384 \i_L2cache_refill_32B_IBUF[110]_inst 
        (.I(i_L2cache_refill_32B[110]),
         .O(i_L2cache_refill_32B_IBUF[110]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1498 \i_L2cache_refill_32B_IBUF[111]_inst 
+  IBUF_HD385 \i_L2cache_refill_32B_IBUF[111]_inst 
        (.I(i_L2cache_refill_32B[111]),
         .O(i_L2cache_refill_32B_IBUF[111]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1499 \i_L2cache_refill_32B_IBUF[112]_inst 
+  IBUF_HD386 \i_L2cache_refill_32B_IBUF[112]_inst 
        (.I(i_L2cache_refill_32B[112]),
         .O(i_L2cache_refill_32B_IBUF[112]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1500 \i_L2cache_refill_32B_IBUF[113]_inst 
+  IBUF_HD387 \i_L2cache_refill_32B_IBUF[113]_inst 
        (.I(i_L2cache_refill_32B[113]),
         .O(i_L2cache_refill_32B_IBUF[113]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1501 \i_L2cache_refill_32B_IBUF[114]_inst 
+  IBUF_HD388 \i_L2cache_refill_32B_IBUF[114]_inst 
        (.I(i_L2cache_refill_32B[114]),
         .O(i_L2cache_refill_32B_IBUF[114]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1502 \i_L2cache_refill_32B_IBUF[115]_inst 
+  IBUF_HD389 \i_L2cache_refill_32B_IBUF[115]_inst 
        (.I(i_L2cache_refill_32B[115]),
         .O(i_L2cache_refill_32B_IBUF[115]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1503 \i_L2cache_refill_32B_IBUF[116]_inst 
+  IBUF_HD390 \i_L2cache_refill_32B_IBUF[116]_inst 
        (.I(i_L2cache_refill_32B[116]),
         .O(i_L2cache_refill_32B_IBUF[116]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1504 \i_L2cache_refill_32B_IBUF[117]_inst 
+  IBUF_HD391 \i_L2cache_refill_32B_IBUF[117]_inst 
        (.I(i_L2cache_refill_32B[117]),
         .O(i_L2cache_refill_32B_IBUF[117]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1505 \i_L2cache_refill_32B_IBUF[118]_inst 
+  IBUF_HD392 \i_L2cache_refill_32B_IBUF[118]_inst 
        (.I(i_L2cache_refill_32B[118]),
         .O(i_L2cache_refill_32B_IBUF[118]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1506 \i_L2cache_refill_32B_IBUF[119]_inst 
+  IBUF_HD393 \i_L2cache_refill_32B_IBUF[119]_inst 
        (.I(i_L2cache_refill_32B[119]),
         .O(i_L2cache_refill_32B_IBUF[119]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1507 \i_L2cache_refill_32B_IBUF[11]_inst 
+  IBUF_HD394 \i_L2cache_refill_32B_IBUF[11]_inst 
        (.I(i_L2cache_refill_32B[11]),
         .O(i_L2cache_refill_32B_IBUF[11]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1508 \i_L2cache_refill_32B_IBUF[120]_inst 
+  IBUF_HD395 \i_L2cache_refill_32B_IBUF[120]_inst 
        (.I(i_L2cache_refill_32B[120]),
         .O(i_L2cache_refill_32B_IBUF[120]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1509 \i_L2cache_refill_32B_IBUF[121]_inst 
+  IBUF_HD396 \i_L2cache_refill_32B_IBUF[121]_inst 
        (.I(i_L2cache_refill_32B[121]),
         .O(i_L2cache_refill_32B_IBUF[121]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1510 \i_L2cache_refill_32B_IBUF[122]_inst 
+  IBUF_HD397 \i_L2cache_refill_32B_IBUF[122]_inst 
        (.I(i_L2cache_refill_32B[122]),
         .O(i_L2cache_refill_32B_IBUF[122]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1511 \i_L2cache_refill_32B_IBUF[123]_inst 
+  IBUF_HD398 \i_L2cache_refill_32B_IBUF[123]_inst 
        (.I(i_L2cache_refill_32B[123]),
         .O(i_L2cache_refill_32B_IBUF[123]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1512 \i_L2cache_refill_32B_IBUF[124]_inst 
+  IBUF_HD399 \i_L2cache_refill_32B_IBUF[124]_inst 
        (.I(i_L2cache_refill_32B[124]),
         .O(i_L2cache_refill_32B_IBUF[124]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1513 \i_L2cache_refill_32B_IBUF[125]_inst 
+  IBUF_HD400 \i_L2cache_refill_32B_IBUF[125]_inst 
        (.I(i_L2cache_refill_32B[125]),
         .O(i_L2cache_refill_32B_IBUF[125]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1514 \i_L2cache_refill_32B_IBUF[126]_inst 
+  IBUF_HD401 \i_L2cache_refill_32B_IBUF[126]_inst 
        (.I(i_L2cache_refill_32B[126]),
         .O(i_L2cache_refill_32B_IBUF[126]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1515 \i_L2cache_refill_32B_IBUF[127]_inst 
+  IBUF_HD402 \i_L2cache_refill_32B_IBUF[127]_inst 
        (.I(i_L2cache_refill_32B[127]),
         .O(i_L2cache_refill_32B_IBUF[127]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1516 \i_L2cache_refill_32B_IBUF[128]_inst 
+  IBUF_HD403 \i_L2cache_refill_32B_IBUF[128]_inst 
        (.I(i_L2cache_refill_32B[128]),
         .O(i_L2cache_refill_32B_IBUF[128]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1517 \i_L2cache_refill_32B_IBUF[129]_inst 
+  IBUF_HD404 \i_L2cache_refill_32B_IBUF[129]_inst 
        (.I(i_L2cache_refill_32B[129]),
         .O(i_L2cache_refill_32B_IBUF[129]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1518 \i_L2cache_refill_32B_IBUF[12]_inst 
+  IBUF_HD405 \i_L2cache_refill_32B_IBUF[12]_inst 
        (.I(i_L2cache_refill_32B[12]),
         .O(i_L2cache_refill_32B_IBUF[12]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1519 \i_L2cache_refill_32B_IBUF[130]_inst 
+  IBUF_HD406 \i_L2cache_refill_32B_IBUF[130]_inst 
        (.I(i_L2cache_refill_32B[130]),
         .O(i_L2cache_refill_32B_IBUF[130]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1520 \i_L2cache_refill_32B_IBUF[131]_inst 
+  IBUF_HD407 \i_L2cache_refill_32B_IBUF[131]_inst 
        (.I(i_L2cache_refill_32B[131]),
         .O(i_L2cache_refill_32B_IBUF[131]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1521 \i_L2cache_refill_32B_IBUF[132]_inst 
+  IBUF_HD408 \i_L2cache_refill_32B_IBUF[132]_inst 
        (.I(i_L2cache_refill_32B[132]),
         .O(i_L2cache_refill_32B_IBUF[132]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1522 \i_L2cache_refill_32B_IBUF[133]_inst 
+  IBUF_HD409 \i_L2cache_refill_32B_IBUF[133]_inst 
        (.I(i_L2cache_refill_32B[133]),
         .O(i_L2cache_refill_32B_IBUF[133]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1523 \i_L2cache_refill_32B_IBUF[134]_inst 
+  IBUF_HD410 \i_L2cache_refill_32B_IBUF[134]_inst 
        (.I(i_L2cache_refill_32B[134]),
         .O(i_L2cache_refill_32B_IBUF[134]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1524 \i_L2cache_refill_32B_IBUF[135]_inst 
+  IBUF_HD411 \i_L2cache_refill_32B_IBUF[135]_inst 
        (.I(i_L2cache_refill_32B[135]),
         .O(i_L2cache_refill_32B_IBUF[135]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1525 \i_L2cache_refill_32B_IBUF[136]_inst 
+  IBUF_HD412 \i_L2cache_refill_32B_IBUF[136]_inst 
        (.I(i_L2cache_refill_32B[136]),
         .O(i_L2cache_refill_32B_IBUF[136]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1526 \i_L2cache_refill_32B_IBUF[137]_inst 
+  IBUF_HD413 \i_L2cache_refill_32B_IBUF[137]_inst 
        (.I(i_L2cache_refill_32B[137]),
         .O(i_L2cache_refill_32B_IBUF[137]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1527 \i_L2cache_refill_32B_IBUF[138]_inst 
+  IBUF_HD414 \i_L2cache_refill_32B_IBUF[138]_inst 
        (.I(i_L2cache_refill_32B[138]),
         .O(i_L2cache_refill_32B_IBUF[138]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1528 \i_L2cache_refill_32B_IBUF[139]_inst 
+  IBUF_HD415 \i_L2cache_refill_32B_IBUF[139]_inst 
        (.I(i_L2cache_refill_32B[139]),
         .O(i_L2cache_refill_32B_IBUF[139]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1529 \i_L2cache_refill_32B_IBUF[13]_inst 
+  IBUF_HD416 \i_L2cache_refill_32B_IBUF[13]_inst 
        (.I(i_L2cache_refill_32B[13]),
         .O(i_L2cache_refill_32B_IBUF[13]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1530 \i_L2cache_refill_32B_IBUF[140]_inst 
+  IBUF_HD417 \i_L2cache_refill_32B_IBUF[140]_inst 
        (.I(i_L2cache_refill_32B[140]),
         .O(i_L2cache_refill_32B_IBUF[140]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1531 \i_L2cache_refill_32B_IBUF[141]_inst 
+  IBUF_HD418 \i_L2cache_refill_32B_IBUF[141]_inst 
        (.I(i_L2cache_refill_32B[141]),
         .O(i_L2cache_refill_32B_IBUF[141]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1532 \i_L2cache_refill_32B_IBUF[142]_inst 
+  IBUF_HD419 \i_L2cache_refill_32B_IBUF[142]_inst 
        (.I(i_L2cache_refill_32B[142]),
         .O(i_L2cache_refill_32B_IBUF[142]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1533 \i_L2cache_refill_32B_IBUF[143]_inst 
+  IBUF_HD420 \i_L2cache_refill_32B_IBUF[143]_inst 
        (.I(i_L2cache_refill_32B[143]),
         .O(i_L2cache_refill_32B_IBUF[143]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1534 \i_L2cache_refill_32B_IBUF[144]_inst 
+  IBUF_HD421 \i_L2cache_refill_32B_IBUF[144]_inst 
        (.I(i_L2cache_refill_32B[144]),
         .O(i_L2cache_refill_32B_IBUF[144]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1535 \i_L2cache_refill_32B_IBUF[145]_inst 
+  IBUF_HD422 \i_L2cache_refill_32B_IBUF[145]_inst 
        (.I(i_L2cache_refill_32B[145]),
         .O(i_L2cache_refill_32B_IBUF[145]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1536 \i_L2cache_refill_32B_IBUF[146]_inst 
+  IBUF_HD423 \i_L2cache_refill_32B_IBUF[146]_inst 
        (.I(i_L2cache_refill_32B[146]),
         .O(i_L2cache_refill_32B_IBUF[146]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1537 \i_L2cache_refill_32B_IBUF[147]_inst 
+  IBUF_HD424 \i_L2cache_refill_32B_IBUF[147]_inst 
        (.I(i_L2cache_refill_32B[147]),
         .O(i_L2cache_refill_32B_IBUF[147]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1538 \i_L2cache_refill_32B_IBUF[148]_inst 
+  IBUF_HD425 \i_L2cache_refill_32B_IBUF[148]_inst 
        (.I(i_L2cache_refill_32B[148]),
         .O(i_L2cache_refill_32B_IBUF[148]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1539 \i_L2cache_refill_32B_IBUF[149]_inst 
+  IBUF_HD426 \i_L2cache_refill_32B_IBUF[149]_inst 
        (.I(i_L2cache_refill_32B[149]),
         .O(i_L2cache_refill_32B_IBUF[149]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1540 \i_L2cache_refill_32B_IBUF[14]_inst 
+  IBUF_HD427 \i_L2cache_refill_32B_IBUF[14]_inst 
        (.I(i_L2cache_refill_32B[14]),
         .O(i_L2cache_refill_32B_IBUF[14]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1541 \i_L2cache_refill_32B_IBUF[150]_inst 
+  IBUF_HD428 \i_L2cache_refill_32B_IBUF[150]_inst 
        (.I(i_L2cache_refill_32B[150]),
         .O(i_L2cache_refill_32B_IBUF[150]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1542 \i_L2cache_refill_32B_IBUF[151]_inst 
+  IBUF_HD429 \i_L2cache_refill_32B_IBUF[151]_inst 
        (.I(i_L2cache_refill_32B[151]),
         .O(i_L2cache_refill_32B_IBUF[151]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1543 \i_L2cache_refill_32B_IBUF[152]_inst 
+  IBUF_HD430 \i_L2cache_refill_32B_IBUF[152]_inst 
        (.I(i_L2cache_refill_32B[152]),
         .O(i_L2cache_refill_32B_IBUF[152]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1544 \i_L2cache_refill_32B_IBUF[153]_inst 
+  IBUF_HD431 \i_L2cache_refill_32B_IBUF[153]_inst 
        (.I(i_L2cache_refill_32B[153]),
         .O(i_L2cache_refill_32B_IBUF[153]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1545 \i_L2cache_refill_32B_IBUF[154]_inst 
+  IBUF_HD432 \i_L2cache_refill_32B_IBUF[154]_inst 
        (.I(i_L2cache_refill_32B[154]),
         .O(i_L2cache_refill_32B_IBUF[154]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1546 \i_L2cache_refill_32B_IBUF[155]_inst 
+  IBUF_HD433 \i_L2cache_refill_32B_IBUF[155]_inst 
        (.I(i_L2cache_refill_32B[155]),
         .O(i_L2cache_refill_32B_IBUF[155]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1547 \i_L2cache_refill_32B_IBUF[156]_inst 
+  IBUF_HD434 \i_L2cache_refill_32B_IBUF[156]_inst 
        (.I(i_L2cache_refill_32B[156]),
         .O(i_L2cache_refill_32B_IBUF[156]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1548 \i_L2cache_refill_32B_IBUF[157]_inst 
+  IBUF_HD435 \i_L2cache_refill_32B_IBUF[157]_inst 
        (.I(i_L2cache_refill_32B[157]),
         .O(i_L2cache_refill_32B_IBUF[157]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1549 \i_L2cache_refill_32B_IBUF[158]_inst 
+  IBUF_HD436 \i_L2cache_refill_32B_IBUF[158]_inst 
        (.I(i_L2cache_refill_32B[158]),
         .O(i_L2cache_refill_32B_IBUF[158]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1550 \i_L2cache_refill_32B_IBUF[159]_inst 
+  IBUF_HD437 \i_L2cache_refill_32B_IBUF[159]_inst 
        (.I(i_L2cache_refill_32B[159]),
         .O(i_L2cache_refill_32B_IBUF[159]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1551 \i_L2cache_refill_32B_IBUF[15]_inst 
+  IBUF_HD438 \i_L2cache_refill_32B_IBUF[15]_inst 
        (.I(i_L2cache_refill_32B[15]),
         .O(i_L2cache_refill_32B_IBUF[15]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1552 \i_L2cache_refill_32B_IBUF[160]_inst 
+  IBUF_HD439 \i_L2cache_refill_32B_IBUF[160]_inst 
        (.I(i_L2cache_refill_32B[160]),
         .O(i_L2cache_refill_32B_IBUF[160]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1553 \i_L2cache_refill_32B_IBUF[161]_inst 
+  IBUF_HD440 \i_L2cache_refill_32B_IBUF[161]_inst 
        (.I(i_L2cache_refill_32B[161]),
         .O(i_L2cache_refill_32B_IBUF[161]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1554 \i_L2cache_refill_32B_IBUF[162]_inst 
+  IBUF_HD441 \i_L2cache_refill_32B_IBUF[162]_inst 
        (.I(i_L2cache_refill_32B[162]),
         .O(i_L2cache_refill_32B_IBUF[162]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1555 \i_L2cache_refill_32B_IBUF[163]_inst 
+  IBUF_HD442 \i_L2cache_refill_32B_IBUF[163]_inst 
        (.I(i_L2cache_refill_32B[163]),
         .O(i_L2cache_refill_32B_IBUF[163]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1556 \i_L2cache_refill_32B_IBUF[164]_inst 
+  IBUF_HD443 \i_L2cache_refill_32B_IBUF[164]_inst 
        (.I(i_L2cache_refill_32B[164]),
         .O(i_L2cache_refill_32B_IBUF[164]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1557 \i_L2cache_refill_32B_IBUF[165]_inst 
+  IBUF_HD444 \i_L2cache_refill_32B_IBUF[165]_inst 
        (.I(i_L2cache_refill_32B[165]),
         .O(i_L2cache_refill_32B_IBUF[165]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1558 \i_L2cache_refill_32B_IBUF[166]_inst 
+  IBUF_HD445 \i_L2cache_refill_32B_IBUF[166]_inst 
        (.I(i_L2cache_refill_32B[166]),
         .O(i_L2cache_refill_32B_IBUF[166]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1559 \i_L2cache_refill_32B_IBUF[167]_inst 
+  IBUF_HD446 \i_L2cache_refill_32B_IBUF[167]_inst 
        (.I(i_L2cache_refill_32B[167]),
         .O(i_L2cache_refill_32B_IBUF[167]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1560 \i_L2cache_refill_32B_IBUF[168]_inst 
+  IBUF_HD447 \i_L2cache_refill_32B_IBUF[168]_inst 
        (.I(i_L2cache_refill_32B[168]),
         .O(i_L2cache_refill_32B_IBUF[168]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1561 \i_L2cache_refill_32B_IBUF[169]_inst 
+  IBUF_HD448 \i_L2cache_refill_32B_IBUF[169]_inst 
        (.I(i_L2cache_refill_32B[169]),
         .O(i_L2cache_refill_32B_IBUF[169]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1562 \i_L2cache_refill_32B_IBUF[16]_inst 
+  IBUF_HD449 \i_L2cache_refill_32B_IBUF[16]_inst 
        (.I(i_L2cache_refill_32B[16]),
         .O(i_L2cache_refill_32B_IBUF[16]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1563 \i_L2cache_refill_32B_IBUF[170]_inst 
+  IBUF_HD450 \i_L2cache_refill_32B_IBUF[170]_inst 
        (.I(i_L2cache_refill_32B[170]),
         .O(i_L2cache_refill_32B_IBUF[170]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1564 \i_L2cache_refill_32B_IBUF[171]_inst 
+  IBUF_HD451 \i_L2cache_refill_32B_IBUF[171]_inst 
        (.I(i_L2cache_refill_32B[171]),
         .O(i_L2cache_refill_32B_IBUF[171]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1565 \i_L2cache_refill_32B_IBUF[172]_inst 
+  IBUF_HD452 \i_L2cache_refill_32B_IBUF[172]_inst 
        (.I(i_L2cache_refill_32B[172]),
         .O(i_L2cache_refill_32B_IBUF[172]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1566 \i_L2cache_refill_32B_IBUF[173]_inst 
+  IBUF_HD453 \i_L2cache_refill_32B_IBUF[173]_inst 
        (.I(i_L2cache_refill_32B[173]),
         .O(i_L2cache_refill_32B_IBUF[173]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1567 \i_L2cache_refill_32B_IBUF[174]_inst 
+  IBUF_HD454 \i_L2cache_refill_32B_IBUF[174]_inst 
        (.I(i_L2cache_refill_32B[174]),
         .O(i_L2cache_refill_32B_IBUF[174]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1568 \i_L2cache_refill_32B_IBUF[175]_inst 
+  IBUF_HD455 \i_L2cache_refill_32B_IBUF[175]_inst 
        (.I(i_L2cache_refill_32B[175]),
         .O(i_L2cache_refill_32B_IBUF[175]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1569 \i_L2cache_refill_32B_IBUF[176]_inst 
+  IBUF_HD456 \i_L2cache_refill_32B_IBUF[176]_inst 
        (.I(i_L2cache_refill_32B[176]),
         .O(i_L2cache_refill_32B_IBUF[176]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1570 \i_L2cache_refill_32B_IBUF[177]_inst 
+  IBUF_HD457 \i_L2cache_refill_32B_IBUF[177]_inst 
        (.I(i_L2cache_refill_32B[177]),
         .O(i_L2cache_refill_32B_IBUF[177]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1571 \i_L2cache_refill_32B_IBUF[178]_inst 
+  IBUF_HD458 \i_L2cache_refill_32B_IBUF[178]_inst 
        (.I(i_L2cache_refill_32B[178]),
         .O(i_L2cache_refill_32B_IBUF[178]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1572 \i_L2cache_refill_32B_IBUF[179]_inst 
+  IBUF_HD459 \i_L2cache_refill_32B_IBUF[179]_inst 
        (.I(i_L2cache_refill_32B[179]),
         .O(i_L2cache_refill_32B_IBUF[179]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1573 \i_L2cache_refill_32B_IBUF[17]_inst 
+  IBUF_HD460 \i_L2cache_refill_32B_IBUF[17]_inst 
        (.I(i_L2cache_refill_32B[17]),
         .O(i_L2cache_refill_32B_IBUF[17]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1574 \i_L2cache_refill_32B_IBUF[180]_inst 
+  IBUF_HD461 \i_L2cache_refill_32B_IBUF[180]_inst 
        (.I(i_L2cache_refill_32B[180]),
         .O(i_L2cache_refill_32B_IBUF[180]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1575 \i_L2cache_refill_32B_IBUF[181]_inst 
+  IBUF_HD462 \i_L2cache_refill_32B_IBUF[181]_inst 
        (.I(i_L2cache_refill_32B[181]),
         .O(i_L2cache_refill_32B_IBUF[181]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1576 \i_L2cache_refill_32B_IBUF[182]_inst 
+  IBUF_HD463 \i_L2cache_refill_32B_IBUF[182]_inst 
        (.I(i_L2cache_refill_32B[182]),
         .O(i_L2cache_refill_32B_IBUF[182]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1577 \i_L2cache_refill_32B_IBUF[183]_inst 
+  IBUF_HD464 \i_L2cache_refill_32B_IBUF[183]_inst 
        (.I(i_L2cache_refill_32B[183]),
         .O(i_L2cache_refill_32B_IBUF[183]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1578 \i_L2cache_refill_32B_IBUF[184]_inst 
+  IBUF_HD465 \i_L2cache_refill_32B_IBUF[184]_inst 
        (.I(i_L2cache_refill_32B[184]),
         .O(i_L2cache_refill_32B_IBUF[184]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1579 \i_L2cache_refill_32B_IBUF[185]_inst 
+  IBUF_HD466 \i_L2cache_refill_32B_IBUF[185]_inst 
        (.I(i_L2cache_refill_32B[185]),
         .O(i_L2cache_refill_32B_IBUF[185]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1580 \i_L2cache_refill_32B_IBUF[186]_inst 
+  IBUF_HD467 \i_L2cache_refill_32B_IBUF[186]_inst 
        (.I(i_L2cache_refill_32B[186]),
         .O(i_L2cache_refill_32B_IBUF[186]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1581 \i_L2cache_refill_32B_IBUF[187]_inst 
+  IBUF_HD468 \i_L2cache_refill_32B_IBUF[187]_inst 
        (.I(i_L2cache_refill_32B[187]),
         .O(i_L2cache_refill_32B_IBUF[187]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1582 \i_L2cache_refill_32B_IBUF[188]_inst 
+  IBUF_HD469 \i_L2cache_refill_32B_IBUF[188]_inst 
        (.I(i_L2cache_refill_32B[188]),
         .O(i_L2cache_refill_32B_IBUF[188]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1583 \i_L2cache_refill_32B_IBUF[189]_inst 
+  IBUF_HD470 \i_L2cache_refill_32B_IBUF[189]_inst 
        (.I(i_L2cache_refill_32B[189]),
         .O(i_L2cache_refill_32B_IBUF[189]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1584 \i_L2cache_refill_32B_IBUF[18]_inst 
+  IBUF_HD471 \i_L2cache_refill_32B_IBUF[18]_inst 
        (.I(i_L2cache_refill_32B[18]),
         .O(i_L2cache_refill_32B_IBUF[18]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1585 \i_L2cache_refill_32B_IBUF[190]_inst 
+  IBUF_HD472 \i_L2cache_refill_32B_IBUF[190]_inst 
        (.I(i_L2cache_refill_32B[190]),
         .O(i_L2cache_refill_32B_IBUF[190]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1586 \i_L2cache_refill_32B_IBUF[191]_inst 
+  IBUF_HD473 \i_L2cache_refill_32B_IBUF[191]_inst 
        (.I(i_L2cache_refill_32B[191]),
         .O(i_L2cache_refill_32B_IBUF[191]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1587 \i_L2cache_refill_32B_IBUF[192]_inst 
+  IBUF_HD474 \i_L2cache_refill_32B_IBUF[192]_inst 
        (.I(i_L2cache_refill_32B[192]),
         .O(i_L2cache_refill_32B_IBUF[192]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1588 \i_L2cache_refill_32B_IBUF[193]_inst 
+  IBUF_HD475 \i_L2cache_refill_32B_IBUF[193]_inst 
        (.I(i_L2cache_refill_32B[193]),
         .O(i_L2cache_refill_32B_IBUF[193]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1589 \i_L2cache_refill_32B_IBUF[194]_inst 
+  IBUF_HD476 \i_L2cache_refill_32B_IBUF[194]_inst 
        (.I(i_L2cache_refill_32B[194]),
         .O(i_L2cache_refill_32B_IBUF[194]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1590 \i_L2cache_refill_32B_IBUF[195]_inst 
+  IBUF_HD477 \i_L2cache_refill_32B_IBUF[195]_inst 
        (.I(i_L2cache_refill_32B[195]),
         .O(i_L2cache_refill_32B_IBUF[195]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1591 \i_L2cache_refill_32B_IBUF[196]_inst 
+  IBUF_HD478 \i_L2cache_refill_32B_IBUF[196]_inst 
        (.I(i_L2cache_refill_32B[196]),
         .O(i_L2cache_refill_32B_IBUF[196]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1592 \i_L2cache_refill_32B_IBUF[197]_inst 
+  IBUF_HD479 \i_L2cache_refill_32B_IBUF[197]_inst 
        (.I(i_L2cache_refill_32B[197]),
         .O(i_L2cache_refill_32B_IBUF[197]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1593 \i_L2cache_refill_32B_IBUF[198]_inst 
+  IBUF_HD480 \i_L2cache_refill_32B_IBUF[198]_inst 
        (.I(i_L2cache_refill_32B[198]),
         .O(i_L2cache_refill_32B_IBUF[198]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1594 \i_L2cache_refill_32B_IBUF[199]_inst 
+  IBUF_HD481 \i_L2cache_refill_32B_IBUF[199]_inst 
        (.I(i_L2cache_refill_32B[199]),
         .O(i_L2cache_refill_32B_IBUF[199]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1595 \i_L2cache_refill_32B_IBUF[19]_inst 
+  IBUF_HD482 \i_L2cache_refill_32B_IBUF[19]_inst 
        (.I(i_L2cache_refill_32B[19]),
         .O(i_L2cache_refill_32B_IBUF[19]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1596 \i_L2cache_refill_32B_IBUF[1]_inst 
+  IBUF_HD483 \i_L2cache_refill_32B_IBUF[1]_inst 
        (.I(i_L2cache_refill_32B[1]),
         .O(i_L2cache_refill_32B_IBUF[1]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1597 \i_L2cache_refill_32B_IBUF[200]_inst 
+  IBUF_HD484 \i_L2cache_refill_32B_IBUF[200]_inst 
        (.I(i_L2cache_refill_32B[200]),
         .O(i_L2cache_refill_32B_IBUF[200]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1598 \i_L2cache_refill_32B_IBUF[201]_inst 
+  IBUF_HD485 \i_L2cache_refill_32B_IBUF[201]_inst 
        (.I(i_L2cache_refill_32B[201]),
         .O(i_L2cache_refill_32B_IBUF[201]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1599 \i_L2cache_refill_32B_IBUF[202]_inst 
+  IBUF_HD486 \i_L2cache_refill_32B_IBUF[202]_inst 
        (.I(i_L2cache_refill_32B[202]),
         .O(i_L2cache_refill_32B_IBUF[202]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1600 \i_L2cache_refill_32B_IBUF[203]_inst 
+  IBUF_HD487 \i_L2cache_refill_32B_IBUF[203]_inst 
        (.I(i_L2cache_refill_32B[203]),
         .O(i_L2cache_refill_32B_IBUF[203]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1601 \i_L2cache_refill_32B_IBUF[204]_inst 
+  IBUF_HD488 \i_L2cache_refill_32B_IBUF[204]_inst 
        (.I(i_L2cache_refill_32B[204]),
         .O(i_L2cache_refill_32B_IBUF[204]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1602 \i_L2cache_refill_32B_IBUF[205]_inst 
+  IBUF_HD489 \i_L2cache_refill_32B_IBUF[205]_inst 
        (.I(i_L2cache_refill_32B[205]),
         .O(i_L2cache_refill_32B_IBUF[205]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1603 \i_L2cache_refill_32B_IBUF[206]_inst 
+  IBUF_HD490 \i_L2cache_refill_32B_IBUF[206]_inst 
        (.I(i_L2cache_refill_32B[206]),
         .O(i_L2cache_refill_32B_IBUF[206]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1604 \i_L2cache_refill_32B_IBUF[207]_inst 
+  IBUF_HD491 \i_L2cache_refill_32B_IBUF[207]_inst 
        (.I(i_L2cache_refill_32B[207]),
         .O(i_L2cache_refill_32B_IBUF[207]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1605 \i_L2cache_refill_32B_IBUF[208]_inst 
+  IBUF_HD492 \i_L2cache_refill_32B_IBUF[208]_inst 
        (.I(i_L2cache_refill_32B[208]),
         .O(i_L2cache_refill_32B_IBUF[208]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1606 \i_L2cache_refill_32B_IBUF[209]_inst 
+  IBUF_HD493 \i_L2cache_refill_32B_IBUF[209]_inst 
        (.I(i_L2cache_refill_32B[209]),
         .O(i_L2cache_refill_32B_IBUF[209]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1607 \i_L2cache_refill_32B_IBUF[20]_inst 
+  IBUF_HD494 \i_L2cache_refill_32B_IBUF[20]_inst 
        (.I(i_L2cache_refill_32B[20]),
         .O(i_L2cache_refill_32B_IBUF[20]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1608 \i_L2cache_refill_32B_IBUF[210]_inst 
+  IBUF_HD495 \i_L2cache_refill_32B_IBUF[210]_inst 
        (.I(i_L2cache_refill_32B[210]),
         .O(i_L2cache_refill_32B_IBUF[210]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1609 \i_L2cache_refill_32B_IBUF[211]_inst 
+  IBUF_HD496 \i_L2cache_refill_32B_IBUF[211]_inst 
        (.I(i_L2cache_refill_32B[211]),
         .O(i_L2cache_refill_32B_IBUF[211]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1610 \i_L2cache_refill_32B_IBUF[212]_inst 
+  IBUF_HD497 \i_L2cache_refill_32B_IBUF[212]_inst 
        (.I(i_L2cache_refill_32B[212]),
         .O(i_L2cache_refill_32B_IBUF[212]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1611 \i_L2cache_refill_32B_IBUF[213]_inst 
+  IBUF_HD498 \i_L2cache_refill_32B_IBUF[213]_inst 
        (.I(i_L2cache_refill_32B[213]),
         .O(i_L2cache_refill_32B_IBUF[213]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1612 \i_L2cache_refill_32B_IBUF[214]_inst 
+  IBUF_HD499 \i_L2cache_refill_32B_IBUF[214]_inst 
        (.I(i_L2cache_refill_32B[214]),
         .O(i_L2cache_refill_32B_IBUF[214]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1613 \i_L2cache_refill_32B_IBUF[215]_inst 
+  IBUF_HD500 \i_L2cache_refill_32B_IBUF[215]_inst 
        (.I(i_L2cache_refill_32B[215]),
         .O(i_L2cache_refill_32B_IBUF[215]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1614 \i_L2cache_refill_32B_IBUF[216]_inst 
+  IBUF_HD501 \i_L2cache_refill_32B_IBUF[216]_inst 
        (.I(i_L2cache_refill_32B[216]),
         .O(i_L2cache_refill_32B_IBUF[216]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1615 \i_L2cache_refill_32B_IBUF[217]_inst 
+  IBUF_HD502 \i_L2cache_refill_32B_IBUF[217]_inst 
        (.I(i_L2cache_refill_32B[217]),
         .O(i_L2cache_refill_32B_IBUF[217]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1616 \i_L2cache_refill_32B_IBUF[218]_inst 
+  IBUF_HD503 \i_L2cache_refill_32B_IBUF[218]_inst 
        (.I(i_L2cache_refill_32B[218]),
         .O(i_L2cache_refill_32B_IBUF[218]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1617 \i_L2cache_refill_32B_IBUF[219]_inst 
+  IBUF_HD504 \i_L2cache_refill_32B_IBUF[219]_inst 
        (.I(i_L2cache_refill_32B[219]),
         .O(i_L2cache_refill_32B_IBUF[219]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1618 \i_L2cache_refill_32B_IBUF[21]_inst 
+  IBUF_HD505 \i_L2cache_refill_32B_IBUF[21]_inst 
        (.I(i_L2cache_refill_32B[21]),
         .O(i_L2cache_refill_32B_IBUF[21]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1619 \i_L2cache_refill_32B_IBUF[220]_inst 
+  IBUF_HD506 \i_L2cache_refill_32B_IBUF[220]_inst 
        (.I(i_L2cache_refill_32B[220]),
         .O(i_L2cache_refill_32B_IBUF[220]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1620 \i_L2cache_refill_32B_IBUF[221]_inst 
+  IBUF_HD507 \i_L2cache_refill_32B_IBUF[221]_inst 
        (.I(i_L2cache_refill_32B[221]),
         .O(i_L2cache_refill_32B_IBUF[221]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1621 \i_L2cache_refill_32B_IBUF[222]_inst 
+  IBUF_HD508 \i_L2cache_refill_32B_IBUF[222]_inst 
        (.I(i_L2cache_refill_32B[222]),
         .O(i_L2cache_refill_32B_IBUF[222]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1622 \i_L2cache_refill_32B_IBUF[223]_inst 
+  IBUF_HD509 \i_L2cache_refill_32B_IBUF[223]_inst 
        (.I(i_L2cache_refill_32B[223]),
         .O(i_L2cache_refill_32B_IBUF[223]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1623 \i_L2cache_refill_32B_IBUF[224]_inst 
+  IBUF_HD510 \i_L2cache_refill_32B_IBUF[224]_inst 
        (.I(i_L2cache_refill_32B[224]),
         .O(i_L2cache_refill_32B_IBUF[224]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1624 \i_L2cache_refill_32B_IBUF[225]_inst 
+  IBUF_HD511 \i_L2cache_refill_32B_IBUF[225]_inst 
        (.I(i_L2cache_refill_32B[225]),
         .O(i_L2cache_refill_32B_IBUF[225]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1625 \i_L2cache_refill_32B_IBUF[226]_inst 
+  IBUF_HD512 \i_L2cache_refill_32B_IBUF[226]_inst 
        (.I(i_L2cache_refill_32B[226]),
         .O(i_L2cache_refill_32B_IBUF[226]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1626 \i_L2cache_refill_32B_IBUF[227]_inst 
+  IBUF_HD513 \i_L2cache_refill_32B_IBUF[227]_inst 
        (.I(i_L2cache_refill_32B[227]),
         .O(i_L2cache_refill_32B_IBUF[227]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1627 \i_L2cache_refill_32B_IBUF[228]_inst 
+  IBUF_HD514 \i_L2cache_refill_32B_IBUF[228]_inst 
        (.I(i_L2cache_refill_32B[228]),
         .O(i_L2cache_refill_32B_IBUF[228]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1628 \i_L2cache_refill_32B_IBUF[229]_inst 
+  IBUF_HD515 \i_L2cache_refill_32B_IBUF[229]_inst 
        (.I(i_L2cache_refill_32B[229]),
         .O(i_L2cache_refill_32B_IBUF[229]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1629 \i_L2cache_refill_32B_IBUF[22]_inst 
+  IBUF_HD516 \i_L2cache_refill_32B_IBUF[22]_inst 
        (.I(i_L2cache_refill_32B[22]),
         .O(i_L2cache_refill_32B_IBUF[22]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1630 \i_L2cache_refill_32B_IBUF[230]_inst 
+  IBUF_HD517 \i_L2cache_refill_32B_IBUF[230]_inst 
        (.I(i_L2cache_refill_32B[230]),
         .O(i_L2cache_refill_32B_IBUF[230]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1631 \i_L2cache_refill_32B_IBUF[231]_inst 
+  IBUF_HD518 \i_L2cache_refill_32B_IBUF[231]_inst 
        (.I(i_L2cache_refill_32B[231]),
         .O(i_L2cache_refill_32B_IBUF[231]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1632 \i_L2cache_refill_32B_IBUF[232]_inst 
+  IBUF_HD519 \i_L2cache_refill_32B_IBUF[232]_inst 
        (.I(i_L2cache_refill_32B[232]),
         .O(i_L2cache_refill_32B_IBUF[232]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1633 \i_L2cache_refill_32B_IBUF[233]_inst 
+  IBUF_HD520 \i_L2cache_refill_32B_IBUF[233]_inst 
        (.I(i_L2cache_refill_32B[233]),
         .O(i_L2cache_refill_32B_IBUF[233]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1634 \i_L2cache_refill_32B_IBUF[234]_inst 
+  IBUF_HD521 \i_L2cache_refill_32B_IBUF[234]_inst 
        (.I(i_L2cache_refill_32B[234]),
         .O(i_L2cache_refill_32B_IBUF[234]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1635 \i_L2cache_refill_32B_IBUF[235]_inst 
+  IBUF_HD522 \i_L2cache_refill_32B_IBUF[235]_inst 
        (.I(i_L2cache_refill_32B[235]),
         .O(i_L2cache_refill_32B_IBUF[235]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1636 \i_L2cache_refill_32B_IBUF[236]_inst 
+  IBUF_HD523 \i_L2cache_refill_32B_IBUF[236]_inst 
        (.I(i_L2cache_refill_32B[236]),
         .O(i_L2cache_refill_32B_IBUF[236]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1637 \i_L2cache_refill_32B_IBUF[237]_inst 
+  IBUF_HD524 \i_L2cache_refill_32B_IBUF[237]_inst 
        (.I(i_L2cache_refill_32B[237]),
         .O(i_L2cache_refill_32B_IBUF[237]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1638 \i_L2cache_refill_32B_IBUF[238]_inst 
+  IBUF_HD525 \i_L2cache_refill_32B_IBUF[238]_inst 
        (.I(i_L2cache_refill_32B[238]),
         .O(i_L2cache_refill_32B_IBUF[238]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1639 \i_L2cache_refill_32B_IBUF[239]_inst 
+  IBUF_HD526 \i_L2cache_refill_32B_IBUF[239]_inst 
        (.I(i_L2cache_refill_32B[239]),
         .O(i_L2cache_refill_32B_IBUF[239]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1640 \i_L2cache_refill_32B_IBUF[23]_inst 
+  IBUF_HD527 \i_L2cache_refill_32B_IBUF[23]_inst 
        (.I(i_L2cache_refill_32B[23]),
         .O(i_L2cache_refill_32B_IBUF[23]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1641 \i_L2cache_refill_32B_IBUF[240]_inst 
+  IBUF_HD528 \i_L2cache_refill_32B_IBUF[240]_inst 
        (.I(i_L2cache_refill_32B[240]),
         .O(i_L2cache_refill_32B_IBUF[240]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1642 \i_L2cache_refill_32B_IBUF[241]_inst 
+  IBUF_HD529 \i_L2cache_refill_32B_IBUF[241]_inst 
        (.I(i_L2cache_refill_32B[241]),
         .O(i_L2cache_refill_32B_IBUF[241]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1643 \i_L2cache_refill_32B_IBUF[242]_inst 
+  IBUF_HD530 \i_L2cache_refill_32B_IBUF[242]_inst 
        (.I(i_L2cache_refill_32B[242]),
         .O(i_L2cache_refill_32B_IBUF[242]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1644 \i_L2cache_refill_32B_IBUF[243]_inst 
+  IBUF_HD531 \i_L2cache_refill_32B_IBUF[243]_inst 
        (.I(i_L2cache_refill_32B[243]),
         .O(i_L2cache_refill_32B_IBUF[243]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1645 \i_L2cache_refill_32B_IBUF[244]_inst 
+  IBUF_HD532 \i_L2cache_refill_32B_IBUF[244]_inst 
        (.I(i_L2cache_refill_32B[244]),
         .O(i_L2cache_refill_32B_IBUF[244]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1646 \i_L2cache_refill_32B_IBUF[245]_inst 
+  IBUF_HD533 \i_L2cache_refill_32B_IBUF[245]_inst 
        (.I(i_L2cache_refill_32B[245]),
         .O(i_L2cache_refill_32B_IBUF[245]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1647 \i_L2cache_refill_32B_IBUF[246]_inst 
+  IBUF_HD534 \i_L2cache_refill_32B_IBUF[246]_inst 
        (.I(i_L2cache_refill_32B[246]),
         .O(i_L2cache_refill_32B_IBUF[246]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1648 \i_L2cache_refill_32B_IBUF[247]_inst 
+  IBUF_HD535 \i_L2cache_refill_32B_IBUF[247]_inst 
        (.I(i_L2cache_refill_32B[247]),
         .O(i_L2cache_refill_32B_IBUF[247]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1649 \i_L2cache_refill_32B_IBUF[248]_inst 
+  IBUF_HD536 \i_L2cache_refill_32B_IBUF[248]_inst 
        (.I(i_L2cache_refill_32B[248]),
         .O(i_L2cache_refill_32B_IBUF[248]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1650 \i_L2cache_refill_32B_IBUF[249]_inst 
+  IBUF_HD537 \i_L2cache_refill_32B_IBUF[249]_inst 
        (.I(i_L2cache_refill_32B[249]),
         .O(i_L2cache_refill_32B_IBUF[249]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1651 \i_L2cache_refill_32B_IBUF[24]_inst 
+  IBUF_HD538 \i_L2cache_refill_32B_IBUF[24]_inst 
        (.I(i_L2cache_refill_32B[24]),
         .O(i_L2cache_refill_32B_IBUF[24]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1652 \i_L2cache_refill_32B_IBUF[250]_inst 
+  IBUF_HD539 \i_L2cache_refill_32B_IBUF[250]_inst 
        (.I(i_L2cache_refill_32B[250]),
         .O(i_L2cache_refill_32B_IBUF[250]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1653 \i_L2cache_refill_32B_IBUF[251]_inst 
+  IBUF_HD540 \i_L2cache_refill_32B_IBUF[251]_inst 
        (.I(i_L2cache_refill_32B[251]),
         .O(i_L2cache_refill_32B_IBUF[251]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1654 \i_L2cache_refill_32B_IBUF[252]_inst 
+  IBUF_HD541 \i_L2cache_refill_32B_IBUF[252]_inst 
        (.I(i_L2cache_refill_32B[252]),
         .O(i_L2cache_refill_32B_IBUF[252]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1655 \i_L2cache_refill_32B_IBUF[253]_inst 
+  IBUF_HD542 \i_L2cache_refill_32B_IBUF[253]_inst 
        (.I(i_L2cache_refill_32B[253]),
         .O(i_L2cache_refill_32B_IBUF[253]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1656 \i_L2cache_refill_32B_IBUF[254]_inst 
+  IBUF_HD543 \i_L2cache_refill_32B_IBUF[254]_inst 
        (.I(i_L2cache_refill_32B[254]),
         .O(i_L2cache_refill_32B_IBUF[254]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1657 \i_L2cache_refill_32B_IBUF[255]_inst 
+  IBUF_HD544 \i_L2cache_refill_32B_IBUF[255]_inst 
        (.I(i_L2cache_refill_32B[255]),
         .O(i_L2cache_refill_32B_IBUF[255]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1658 \i_L2cache_refill_32B_IBUF[25]_inst 
+  IBUF_HD545 \i_L2cache_refill_32B_IBUF[25]_inst 
        (.I(i_L2cache_refill_32B[25]),
         .O(i_L2cache_refill_32B_IBUF[25]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1659 \i_L2cache_refill_32B_IBUF[26]_inst 
+  IBUF_HD546 \i_L2cache_refill_32B_IBUF[26]_inst 
        (.I(i_L2cache_refill_32B[26]),
         .O(i_L2cache_refill_32B_IBUF[26]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1660 \i_L2cache_refill_32B_IBUF[27]_inst 
+  IBUF_HD547 \i_L2cache_refill_32B_IBUF[27]_inst 
        (.I(i_L2cache_refill_32B[27]),
         .O(i_L2cache_refill_32B_IBUF[27]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1661 \i_L2cache_refill_32B_IBUF[28]_inst 
+  IBUF_HD548 \i_L2cache_refill_32B_IBUF[28]_inst 
        (.I(i_L2cache_refill_32B[28]),
         .O(i_L2cache_refill_32B_IBUF[28]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1662 \i_L2cache_refill_32B_IBUF[29]_inst 
+  IBUF_HD549 \i_L2cache_refill_32B_IBUF[29]_inst 
        (.I(i_L2cache_refill_32B[29]),
         .O(i_L2cache_refill_32B_IBUF[29]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1663 \i_L2cache_refill_32B_IBUF[2]_inst 
+  IBUF_HD550 \i_L2cache_refill_32B_IBUF[2]_inst 
        (.I(i_L2cache_refill_32B[2]),
         .O(i_L2cache_refill_32B_IBUF[2]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1664 \i_L2cache_refill_32B_IBUF[30]_inst 
+  IBUF_HD551 \i_L2cache_refill_32B_IBUF[30]_inst 
        (.I(i_L2cache_refill_32B[30]),
         .O(i_L2cache_refill_32B_IBUF[30]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1665 \i_L2cache_refill_32B_IBUF[31]_inst 
+  IBUF_HD552 \i_L2cache_refill_32B_IBUF[31]_inst 
        (.I(i_L2cache_refill_32B[31]),
         .O(i_L2cache_refill_32B_IBUF[31]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1666 \i_L2cache_refill_32B_IBUF[32]_inst 
+  IBUF_HD553 \i_L2cache_refill_32B_IBUF[32]_inst 
        (.I(i_L2cache_refill_32B[32]),
         .O(i_L2cache_refill_32B_IBUF[32]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1667 \i_L2cache_refill_32B_IBUF[33]_inst 
+  IBUF_HD554 \i_L2cache_refill_32B_IBUF[33]_inst 
        (.I(i_L2cache_refill_32B[33]),
         .O(i_L2cache_refill_32B_IBUF[33]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1668 \i_L2cache_refill_32B_IBUF[34]_inst 
+  IBUF_HD555 \i_L2cache_refill_32B_IBUF[34]_inst 
        (.I(i_L2cache_refill_32B[34]),
         .O(i_L2cache_refill_32B_IBUF[34]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1669 \i_L2cache_refill_32B_IBUF[35]_inst 
+  IBUF_HD556 \i_L2cache_refill_32B_IBUF[35]_inst 
        (.I(i_L2cache_refill_32B[35]),
         .O(i_L2cache_refill_32B_IBUF[35]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1670 \i_L2cache_refill_32B_IBUF[36]_inst 
+  IBUF_HD557 \i_L2cache_refill_32B_IBUF[36]_inst 
        (.I(i_L2cache_refill_32B[36]),
         .O(i_L2cache_refill_32B_IBUF[36]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1671 \i_L2cache_refill_32B_IBUF[37]_inst 
+  IBUF_HD558 \i_L2cache_refill_32B_IBUF[37]_inst 
        (.I(i_L2cache_refill_32B[37]),
         .O(i_L2cache_refill_32B_IBUF[37]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1672 \i_L2cache_refill_32B_IBUF[38]_inst 
+  IBUF_HD559 \i_L2cache_refill_32B_IBUF[38]_inst 
        (.I(i_L2cache_refill_32B[38]),
         .O(i_L2cache_refill_32B_IBUF[38]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1673 \i_L2cache_refill_32B_IBUF[39]_inst 
+  IBUF_HD560 \i_L2cache_refill_32B_IBUF[39]_inst 
        (.I(i_L2cache_refill_32B[39]),
         .O(i_L2cache_refill_32B_IBUF[39]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1674 \i_L2cache_refill_32B_IBUF[3]_inst 
+  IBUF_HD561 \i_L2cache_refill_32B_IBUF[3]_inst 
        (.I(i_L2cache_refill_32B[3]),
         .O(i_L2cache_refill_32B_IBUF[3]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1675 \i_L2cache_refill_32B_IBUF[40]_inst 
+  IBUF_HD562 \i_L2cache_refill_32B_IBUF[40]_inst 
        (.I(i_L2cache_refill_32B[40]),
         .O(i_L2cache_refill_32B_IBUF[40]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1676 \i_L2cache_refill_32B_IBUF[41]_inst 
+  IBUF_HD563 \i_L2cache_refill_32B_IBUF[41]_inst 
        (.I(i_L2cache_refill_32B[41]),
         .O(i_L2cache_refill_32B_IBUF[41]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1677 \i_L2cache_refill_32B_IBUF[42]_inst 
+  IBUF_HD564 \i_L2cache_refill_32B_IBUF[42]_inst 
        (.I(i_L2cache_refill_32B[42]),
         .O(i_L2cache_refill_32B_IBUF[42]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1678 \i_L2cache_refill_32B_IBUF[43]_inst 
+  IBUF_HD565 \i_L2cache_refill_32B_IBUF[43]_inst 
        (.I(i_L2cache_refill_32B[43]),
         .O(i_L2cache_refill_32B_IBUF[43]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1679 \i_L2cache_refill_32B_IBUF[44]_inst 
+  IBUF_HD566 \i_L2cache_refill_32B_IBUF[44]_inst 
        (.I(i_L2cache_refill_32B[44]),
         .O(i_L2cache_refill_32B_IBUF[44]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1680 \i_L2cache_refill_32B_IBUF[45]_inst 
+  IBUF_HD567 \i_L2cache_refill_32B_IBUF[45]_inst 
        (.I(i_L2cache_refill_32B[45]),
         .O(i_L2cache_refill_32B_IBUF[45]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1681 \i_L2cache_refill_32B_IBUF[46]_inst 
+  IBUF_HD568 \i_L2cache_refill_32B_IBUF[46]_inst 
        (.I(i_L2cache_refill_32B[46]),
         .O(i_L2cache_refill_32B_IBUF[46]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1682 \i_L2cache_refill_32B_IBUF[47]_inst 
+  IBUF_HD569 \i_L2cache_refill_32B_IBUF[47]_inst 
        (.I(i_L2cache_refill_32B[47]),
         .O(i_L2cache_refill_32B_IBUF[47]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1683 \i_L2cache_refill_32B_IBUF[48]_inst 
+  IBUF_HD570 \i_L2cache_refill_32B_IBUF[48]_inst 
        (.I(i_L2cache_refill_32B[48]),
         .O(i_L2cache_refill_32B_IBUF[48]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1684 \i_L2cache_refill_32B_IBUF[49]_inst 
+  IBUF_HD571 \i_L2cache_refill_32B_IBUF[49]_inst 
        (.I(i_L2cache_refill_32B[49]),
         .O(i_L2cache_refill_32B_IBUF[49]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1685 \i_L2cache_refill_32B_IBUF[4]_inst 
+  IBUF_HD572 \i_L2cache_refill_32B_IBUF[4]_inst 
        (.I(i_L2cache_refill_32B[4]),
         .O(i_L2cache_refill_32B_IBUF[4]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1686 \i_L2cache_refill_32B_IBUF[50]_inst 
+  IBUF_HD573 \i_L2cache_refill_32B_IBUF[50]_inst 
        (.I(i_L2cache_refill_32B[50]),
         .O(i_L2cache_refill_32B_IBUF[50]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1687 \i_L2cache_refill_32B_IBUF[51]_inst 
+  IBUF_HD574 \i_L2cache_refill_32B_IBUF[51]_inst 
        (.I(i_L2cache_refill_32B[51]),
         .O(i_L2cache_refill_32B_IBUF[51]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1688 \i_L2cache_refill_32B_IBUF[52]_inst 
+  IBUF_HD575 \i_L2cache_refill_32B_IBUF[52]_inst 
        (.I(i_L2cache_refill_32B[52]),
         .O(i_L2cache_refill_32B_IBUF[52]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1689 \i_L2cache_refill_32B_IBUF[53]_inst 
+  IBUF_HD576 \i_L2cache_refill_32B_IBUF[53]_inst 
        (.I(i_L2cache_refill_32B[53]),
         .O(i_L2cache_refill_32B_IBUF[53]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1690 \i_L2cache_refill_32B_IBUF[54]_inst 
+  IBUF_HD577 \i_L2cache_refill_32B_IBUF[54]_inst 
        (.I(i_L2cache_refill_32B[54]),
         .O(i_L2cache_refill_32B_IBUF[54]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1691 \i_L2cache_refill_32B_IBUF[55]_inst 
+  IBUF_HD578 \i_L2cache_refill_32B_IBUF[55]_inst 
        (.I(i_L2cache_refill_32B[55]),
         .O(i_L2cache_refill_32B_IBUF[55]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1692 \i_L2cache_refill_32B_IBUF[56]_inst 
+  IBUF_HD579 \i_L2cache_refill_32B_IBUF[56]_inst 
        (.I(i_L2cache_refill_32B[56]),
         .O(i_L2cache_refill_32B_IBUF[56]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1693 \i_L2cache_refill_32B_IBUF[57]_inst 
+  IBUF_HD580 \i_L2cache_refill_32B_IBUF[57]_inst 
        (.I(i_L2cache_refill_32B[57]),
         .O(i_L2cache_refill_32B_IBUF[57]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1694 \i_L2cache_refill_32B_IBUF[58]_inst 
+  IBUF_HD581 \i_L2cache_refill_32B_IBUF[58]_inst 
        (.I(i_L2cache_refill_32B[58]),
         .O(i_L2cache_refill_32B_IBUF[58]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1695 \i_L2cache_refill_32B_IBUF[59]_inst 
+  IBUF_HD582 \i_L2cache_refill_32B_IBUF[59]_inst 
        (.I(i_L2cache_refill_32B[59]),
         .O(i_L2cache_refill_32B_IBUF[59]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1696 \i_L2cache_refill_32B_IBUF[5]_inst 
+  IBUF_HD583 \i_L2cache_refill_32B_IBUF[5]_inst 
        (.I(i_L2cache_refill_32B[5]),
         .O(i_L2cache_refill_32B_IBUF[5]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1697 \i_L2cache_refill_32B_IBUF[60]_inst 
+  IBUF_HD584 \i_L2cache_refill_32B_IBUF[60]_inst 
        (.I(i_L2cache_refill_32B[60]),
         .O(i_L2cache_refill_32B_IBUF[60]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1698 \i_L2cache_refill_32B_IBUF[61]_inst 
+  IBUF_HD585 \i_L2cache_refill_32B_IBUF[61]_inst 
        (.I(i_L2cache_refill_32B[61]),
         .O(i_L2cache_refill_32B_IBUF[61]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1699 \i_L2cache_refill_32B_IBUF[62]_inst 
+  IBUF_HD586 \i_L2cache_refill_32B_IBUF[62]_inst 
        (.I(i_L2cache_refill_32B[62]),
         .O(i_L2cache_refill_32B_IBUF[62]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1700 \i_L2cache_refill_32B_IBUF[63]_inst 
+  IBUF_HD587 \i_L2cache_refill_32B_IBUF[63]_inst 
        (.I(i_L2cache_refill_32B[63]),
         .O(i_L2cache_refill_32B_IBUF[63]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1701 \i_L2cache_refill_32B_IBUF[64]_inst 
+  IBUF_HD588 \i_L2cache_refill_32B_IBUF[64]_inst 
        (.I(i_L2cache_refill_32B[64]),
         .O(i_L2cache_refill_32B_IBUF[64]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1702 \i_L2cache_refill_32B_IBUF[65]_inst 
+  IBUF_HD589 \i_L2cache_refill_32B_IBUF[65]_inst 
        (.I(i_L2cache_refill_32B[65]),
         .O(i_L2cache_refill_32B_IBUF[65]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1703 \i_L2cache_refill_32B_IBUF[66]_inst 
+  IBUF_HD590 \i_L2cache_refill_32B_IBUF[66]_inst 
        (.I(i_L2cache_refill_32B[66]),
         .O(i_L2cache_refill_32B_IBUF[66]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1704 \i_L2cache_refill_32B_IBUF[67]_inst 
+  IBUF_HD591 \i_L2cache_refill_32B_IBUF[67]_inst 
        (.I(i_L2cache_refill_32B[67]),
         .O(i_L2cache_refill_32B_IBUF[67]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1705 \i_L2cache_refill_32B_IBUF[68]_inst 
+  IBUF_HD592 \i_L2cache_refill_32B_IBUF[68]_inst 
        (.I(i_L2cache_refill_32B[68]),
         .O(i_L2cache_refill_32B_IBUF[68]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1706 \i_L2cache_refill_32B_IBUF[69]_inst 
+  IBUF_HD593 \i_L2cache_refill_32B_IBUF[69]_inst 
        (.I(i_L2cache_refill_32B[69]),
         .O(i_L2cache_refill_32B_IBUF[69]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1707 \i_L2cache_refill_32B_IBUF[6]_inst 
+  IBUF_HD594 \i_L2cache_refill_32B_IBUF[6]_inst 
        (.I(i_L2cache_refill_32B[6]),
         .O(i_L2cache_refill_32B_IBUF[6]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1708 \i_L2cache_refill_32B_IBUF[70]_inst 
+  IBUF_HD595 \i_L2cache_refill_32B_IBUF[70]_inst 
        (.I(i_L2cache_refill_32B[70]),
         .O(i_L2cache_refill_32B_IBUF[70]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1709 \i_L2cache_refill_32B_IBUF[71]_inst 
+  IBUF_HD596 \i_L2cache_refill_32B_IBUF[71]_inst 
        (.I(i_L2cache_refill_32B[71]),
         .O(i_L2cache_refill_32B_IBUF[71]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1710 \i_L2cache_refill_32B_IBUF[72]_inst 
+  IBUF_HD597 \i_L2cache_refill_32B_IBUF[72]_inst 
        (.I(i_L2cache_refill_32B[72]),
         .O(i_L2cache_refill_32B_IBUF[72]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1711 \i_L2cache_refill_32B_IBUF[73]_inst 
+  IBUF_HD598 \i_L2cache_refill_32B_IBUF[73]_inst 
        (.I(i_L2cache_refill_32B[73]),
         .O(i_L2cache_refill_32B_IBUF[73]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1712 \i_L2cache_refill_32B_IBUF[74]_inst 
+  IBUF_HD599 \i_L2cache_refill_32B_IBUF[74]_inst 
        (.I(i_L2cache_refill_32B[74]),
         .O(i_L2cache_refill_32B_IBUF[74]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1713 \i_L2cache_refill_32B_IBUF[75]_inst 
+  IBUF_HD600 \i_L2cache_refill_32B_IBUF[75]_inst 
        (.I(i_L2cache_refill_32B[75]),
         .O(i_L2cache_refill_32B_IBUF[75]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1714 \i_L2cache_refill_32B_IBUF[76]_inst 
+  IBUF_HD601 \i_L2cache_refill_32B_IBUF[76]_inst 
        (.I(i_L2cache_refill_32B[76]),
         .O(i_L2cache_refill_32B_IBUF[76]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1715 \i_L2cache_refill_32B_IBUF[77]_inst 
+  IBUF_HD602 \i_L2cache_refill_32B_IBUF[77]_inst 
        (.I(i_L2cache_refill_32B[77]),
         .O(i_L2cache_refill_32B_IBUF[77]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1716 \i_L2cache_refill_32B_IBUF[78]_inst 
+  IBUF_HD603 \i_L2cache_refill_32B_IBUF[78]_inst 
        (.I(i_L2cache_refill_32B[78]),
         .O(i_L2cache_refill_32B_IBUF[78]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1717 \i_L2cache_refill_32B_IBUF[79]_inst 
+  IBUF_HD604 \i_L2cache_refill_32B_IBUF[79]_inst 
        (.I(i_L2cache_refill_32B[79]),
         .O(i_L2cache_refill_32B_IBUF[79]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1718 \i_L2cache_refill_32B_IBUF[7]_inst 
+  IBUF_HD605 \i_L2cache_refill_32B_IBUF[7]_inst 
        (.I(i_L2cache_refill_32B[7]),
         .O(i_L2cache_refill_32B_IBUF[7]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1719 \i_L2cache_refill_32B_IBUF[80]_inst 
+  IBUF_HD606 \i_L2cache_refill_32B_IBUF[80]_inst 
        (.I(i_L2cache_refill_32B[80]),
         .O(i_L2cache_refill_32B_IBUF[80]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1720 \i_L2cache_refill_32B_IBUF[81]_inst 
+  IBUF_HD607 \i_L2cache_refill_32B_IBUF[81]_inst 
        (.I(i_L2cache_refill_32B[81]),
         .O(i_L2cache_refill_32B_IBUF[81]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1721 \i_L2cache_refill_32B_IBUF[82]_inst 
+  IBUF_HD608 \i_L2cache_refill_32B_IBUF[82]_inst 
        (.I(i_L2cache_refill_32B[82]),
         .O(i_L2cache_refill_32B_IBUF[82]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1722 \i_L2cache_refill_32B_IBUF[83]_inst 
+  IBUF_HD609 \i_L2cache_refill_32B_IBUF[83]_inst 
        (.I(i_L2cache_refill_32B[83]),
         .O(i_L2cache_refill_32B_IBUF[83]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1723 \i_L2cache_refill_32B_IBUF[84]_inst 
+  IBUF_HD610 \i_L2cache_refill_32B_IBUF[84]_inst 
        (.I(i_L2cache_refill_32B[84]),
         .O(i_L2cache_refill_32B_IBUF[84]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1724 \i_L2cache_refill_32B_IBUF[85]_inst 
+  IBUF_HD611 \i_L2cache_refill_32B_IBUF[85]_inst 
        (.I(i_L2cache_refill_32B[85]),
         .O(i_L2cache_refill_32B_IBUF[85]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1725 \i_L2cache_refill_32B_IBUF[86]_inst 
+  IBUF_HD612 \i_L2cache_refill_32B_IBUF[86]_inst 
        (.I(i_L2cache_refill_32B[86]),
         .O(i_L2cache_refill_32B_IBUF[86]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1726 \i_L2cache_refill_32B_IBUF[87]_inst 
+  IBUF_HD613 \i_L2cache_refill_32B_IBUF[87]_inst 
        (.I(i_L2cache_refill_32B[87]),
         .O(i_L2cache_refill_32B_IBUF[87]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1727 \i_L2cache_refill_32B_IBUF[88]_inst 
+  IBUF_HD614 \i_L2cache_refill_32B_IBUF[88]_inst 
        (.I(i_L2cache_refill_32B[88]),
         .O(i_L2cache_refill_32B_IBUF[88]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1728 \i_L2cache_refill_32B_IBUF[89]_inst 
+  IBUF_HD615 \i_L2cache_refill_32B_IBUF[89]_inst 
        (.I(i_L2cache_refill_32B[89]),
         .O(i_L2cache_refill_32B_IBUF[89]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1729 \i_L2cache_refill_32B_IBUF[8]_inst 
+  IBUF_HD616 \i_L2cache_refill_32B_IBUF[8]_inst 
        (.I(i_L2cache_refill_32B[8]),
         .O(i_L2cache_refill_32B_IBUF[8]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1730 \i_L2cache_refill_32B_IBUF[90]_inst 
+  IBUF_HD617 \i_L2cache_refill_32B_IBUF[90]_inst 
        (.I(i_L2cache_refill_32B[90]),
         .O(i_L2cache_refill_32B_IBUF[90]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1731 \i_L2cache_refill_32B_IBUF[91]_inst 
+  IBUF_HD618 \i_L2cache_refill_32B_IBUF[91]_inst 
        (.I(i_L2cache_refill_32B[91]),
         .O(i_L2cache_refill_32B_IBUF[91]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1732 \i_L2cache_refill_32B_IBUF[92]_inst 
+  IBUF_HD619 \i_L2cache_refill_32B_IBUF[92]_inst 
        (.I(i_L2cache_refill_32B[92]),
         .O(i_L2cache_refill_32B_IBUF[92]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1733 \i_L2cache_refill_32B_IBUF[93]_inst 
+  IBUF_HD620 \i_L2cache_refill_32B_IBUF[93]_inst 
        (.I(i_L2cache_refill_32B[93]),
         .O(i_L2cache_refill_32B_IBUF[93]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1734 \i_L2cache_refill_32B_IBUF[94]_inst 
+  IBUF_HD621 \i_L2cache_refill_32B_IBUF[94]_inst 
        (.I(i_L2cache_refill_32B[94]),
         .O(i_L2cache_refill_32B_IBUF[94]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1735 \i_L2cache_refill_32B_IBUF[95]_inst 
+  IBUF_HD622 \i_L2cache_refill_32B_IBUF[95]_inst 
        (.I(i_L2cache_refill_32B[95]),
         .O(i_L2cache_refill_32B_IBUF[95]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1736 \i_L2cache_refill_32B_IBUF[96]_inst 
+  IBUF_HD623 \i_L2cache_refill_32B_IBUF[96]_inst 
        (.I(i_L2cache_refill_32B[96]),
         .O(i_L2cache_refill_32B_IBUF[96]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1737 \i_L2cache_refill_32B_IBUF[97]_inst 
+  IBUF_HD624 \i_L2cache_refill_32B_IBUF[97]_inst 
        (.I(i_L2cache_refill_32B[97]),
         .O(i_L2cache_refill_32B_IBUF[97]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1738 \i_L2cache_refill_32B_IBUF[98]_inst 
+  IBUF_HD625 \i_L2cache_refill_32B_IBUF[98]_inst 
        (.I(i_L2cache_refill_32B[98]),
         .O(i_L2cache_refill_32B_IBUF[98]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1739 \i_L2cache_refill_32B_IBUF[99]_inst 
+  IBUF_HD626 \i_L2cache_refill_32B_IBUF[99]_inst 
        (.I(i_L2cache_refill_32B[99]),
         .O(i_L2cache_refill_32B_IBUF[99]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1740 \i_L2cache_refill_32B_IBUF[9]_inst 
+  IBUF_HD627 \i_L2cache_refill_32B_IBUF[9]_inst 
        (.I(i_L2cache_refill_32B[9]),
         .O(i_L2cache_refill_32B_IBUF[9]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1741 i_freeNext_L2cache_miss_IBUF_inst
+  IBUF_HD628 i_freeNext_L2cache_miss_IBUF_inst
        (.I(i_freeNext_L2cache_miss),
         .O(i_freeNext_L2cache_miss_IBUF));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1742 i_freeNext_L2cache_writeBack_IBUF_inst
+  IBUF_HD629 i_freeNext_L2cache_writeBack_IBUF_inst
        (.I(i_freeNext_L2cache_writeBack),
         .O(i_freeNext_L2cache_writeBack_IBUF));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1743 i_freeNext_ptw_IBUF_inst
+  IBUF_HD630 i_freeNext_ptw_IBUF_inst
        (.I(i_freeNext_ptw),
         .O(i_freeNext_ptw_IBUF));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1744 i_freeNext_retire_load_IBUF_inst
+  IBUF_HD631 i_freeNext_retire_load_IBUF_inst
        (.I(i_freeNext_retire_load),
         .O(i_freeNext_retire_load_IBUF));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1745 i_freeNext_retire_store_IBUF_inst
+  IBUF_HD632 i_freeNext_retire_store_IBUF_inst
        (.I(i_freeNext_retire_store),
         .O(i_freeNext_retire_store_IBUF));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1746 \i_lsu_PA_34_IBUF[0]_inst 
+  IBUF_HD633 \i_lsu_PA_34_IBUF[0]_inst 
        (.I(i_lsu_PA_34[0]),
         .O(i_lsu_PA_34_IBUF[0]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1747 \i_lsu_PA_34_IBUF[10]_inst 
+  IBUF_HD634 \i_lsu_PA_34_IBUF[10]_inst 
        (.I(i_lsu_PA_34[10]),
         .O(i_lsu_PA_34_IBUF[10]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1748 \i_lsu_PA_34_IBUF[11]_inst 
+  IBUF_HD635 \i_lsu_PA_34_IBUF[11]_inst 
        (.I(i_lsu_PA_34[11]),
         .O(i_lsu_PA_34_IBUF[11]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1749 \i_lsu_PA_34_IBUF[12]_inst 
+  IBUF_HD636 \i_lsu_PA_34_IBUF[12]_inst 
        (.I(i_lsu_PA_34[12]),
         .O(i_lsu_PA_34_IBUF[12]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1750 \i_lsu_PA_34_IBUF[13]_inst 
+  IBUF_HD637 \i_lsu_PA_34_IBUF[13]_inst 
        (.I(i_lsu_PA_34[13]),
         .O(i_lsu_PA_34_IBUF[13]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1751 \i_lsu_PA_34_IBUF[14]_inst 
+  IBUF_HD638 \i_lsu_PA_34_IBUF[14]_inst 
        (.I(i_lsu_PA_34[14]),
         .O(i_lsu_PA_34_IBUF[14]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1752 \i_lsu_PA_34_IBUF[15]_inst 
+  IBUF_HD639 \i_lsu_PA_34_IBUF[15]_inst 
        (.I(i_lsu_PA_34[15]),
         .O(i_lsu_PA_34_IBUF[15]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1753 \i_lsu_PA_34_IBUF[16]_inst 
+  IBUF_HD640 \i_lsu_PA_34_IBUF[16]_inst 
        (.I(i_lsu_PA_34[16]),
         .O(i_lsu_PA_34_IBUF[16]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1754 \i_lsu_PA_34_IBUF[17]_inst 
+  IBUF_HD641 \i_lsu_PA_34_IBUF[17]_inst 
        (.I(i_lsu_PA_34[17]),
         .O(i_lsu_PA_34_IBUF[17]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1755 \i_lsu_PA_34_IBUF[18]_inst 
+  IBUF_HD642 \i_lsu_PA_34_IBUF[18]_inst 
        (.I(i_lsu_PA_34[18]),
         .O(i_lsu_PA_34_IBUF[18]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1756 \i_lsu_PA_34_IBUF[19]_inst 
+  IBUF_HD643 \i_lsu_PA_34_IBUF[19]_inst 
        (.I(i_lsu_PA_34[19]),
         .O(i_lsu_PA_34_IBUF[19]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1757 \i_lsu_PA_34_IBUF[1]_inst 
+  IBUF_HD644 \i_lsu_PA_34_IBUF[1]_inst 
        (.I(i_lsu_PA_34[1]),
         .O(i_lsu_PA_34_IBUF[1]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1758 \i_lsu_PA_34_IBUF[20]_inst 
+  IBUF_HD645 \i_lsu_PA_34_IBUF[20]_inst 
        (.I(i_lsu_PA_34[20]),
         .O(i_lsu_PA_34_IBUF[20]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1759 \i_lsu_PA_34_IBUF[21]_inst 
+  IBUF_HD646 \i_lsu_PA_34_IBUF[21]_inst 
        (.I(i_lsu_PA_34[21]),
         .O(i_lsu_PA_34_IBUF[21]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1760 \i_lsu_PA_34_IBUF[22]_inst 
+  IBUF_HD647 \i_lsu_PA_34_IBUF[22]_inst 
        (.I(i_lsu_PA_34[22]),
         .O(i_lsu_PA_34_IBUF[22]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1761 \i_lsu_PA_34_IBUF[23]_inst 
+  IBUF_HD648 \i_lsu_PA_34_IBUF[23]_inst 
        (.I(i_lsu_PA_34[23]),
         .O(i_lsu_PA_34_IBUF[23]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1762 \i_lsu_PA_34_IBUF[24]_inst 
+  IBUF_HD649 \i_lsu_PA_34_IBUF[24]_inst 
        (.I(i_lsu_PA_34[24]),
         .O(i_lsu_PA_34_IBUF[24]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1763 \i_lsu_PA_34_IBUF[25]_inst 
+  IBUF_HD650 \i_lsu_PA_34_IBUF[25]_inst 
        (.I(i_lsu_PA_34[25]),
         .O(i_lsu_PA_34_IBUF[25]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1764 \i_lsu_PA_34_IBUF[26]_inst 
+  IBUF_HD651 \i_lsu_PA_34_IBUF[26]_inst 
        (.I(i_lsu_PA_34[26]),
         .O(i_lsu_PA_34_IBUF[26]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1765 \i_lsu_PA_34_IBUF[27]_inst 
+  IBUF_HD652 \i_lsu_PA_34_IBUF[27]_inst 
        (.I(i_lsu_PA_34[27]),
         .O(i_lsu_PA_34_IBUF[27]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1766 \i_lsu_PA_34_IBUF[28]_inst 
+  IBUF_HD653 \i_lsu_PA_34_IBUF[28]_inst 
        (.I(i_lsu_PA_34[28]),
         .O(i_lsu_PA_34_IBUF[28]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1767 \i_lsu_PA_34_IBUF[29]_inst 
+  IBUF_HD654 \i_lsu_PA_34_IBUF[29]_inst 
        (.I(i_lsu_PA_34[29]),
         .O(i_lsu_PA_34_IBUF[29]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1768 \i_lsu_PA_34_IBUF[2]_inst 
+  IBUF_HD655 \i_lsu_PA_34_IBUF[2]_inst 
        (.I(i_lsu_PA_34[2]),
         .O(i_lsu_PA_34_IBUF[2]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1769 \i_lsu_PA_34_IBUF[30]_inst 
+  IBUF_HD656 \i_lsu_PA_34_IBUF[30]_inst 
        (.I(i_lsu_PA_34[30]),
         .O(i_lsu_PA_34_IBUF[30]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1770 \i_lsu_PA_34_IBUF[31]_inst 
+  IBUF_HD657 \i_lsu_PA_34_IBUF[31]_inst 
        (.I(i_lsu_PA_34[31]),
         .O(i_lsu_PA_34_IBUF[31]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1771 \i_lsu_PA_34_IBUF[32]_inst 
+  IBUF_HD658 \i_lsu_PA_34_IBUF[32]_inst 
        (.I(i_lsu_PA_34[32]),
         .O(i_lsu_PA_34_IBUF[32]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1772 \i_lsu_PA_34_IBUF[33]_inst 
+  IBUF_HD659 \i_lsu_PA_34_IBUF[33]_inst 
        (.I(i_lsu_PA_34[33]),
         .O(i_lsu_PA_34_IBUF[33]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1773 \i_lsu_PA_34_IBUF[3]_inst 
+  IBUF_HD660 \i_lsu_PA_34_IBUF[3]_inst 
        (.I(i_lsu_PA_34[3]),
         .O(i_lsu_PA_34_IBUF[3]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1774 \i_lsu_PA_34_IBUF[4]_inst 
+  IBUF_HD661 \i_lsu_PA_34_IBUF[4]_inst 
        (.I(i_lsu_PA_34[4]),
         .O(i_lsu_PA_34_IBUF[4]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1775 \i_lsu_PA_34_IBUF[5]_inst 
+  IBUF_HD662 \i_lsu_PA_34_IBUF[5]_inst 
        (.I(i_lsu_PA_34[5]),
         .O(i_lsu_PA_34_IBUF[5]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1776 \i_lsu_PA_34_IBUF[6]_inst 
+  IBUF_HD663 \i_lsu_PA_34_IBUF[6]_inst 
        (.I(i_lsu_PA_34[6]),
         .O(i_lsu_PA_34_IBUF[6]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1777 \i_lsu_PA_34_IBUF[7]_inst 
+  IBUF_HD664 \i_lsu_PA_34_IBUF[7]_inst 
        (.I(i_lsu_PA_34[7]),
         .O(i_lsu_PA_34_IBUF[7]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1778 \i_lsu_PA_34_IBUF[8]_inst 
+  IBUF_HD665 \i_lsu_PA_34_IBUF[8]_inst 
        (.I(i_lsu_PA_34[8]),
         .O(i_lsu_PA_34_IBUF[8]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1779 \i_lsu_PA_34_IBUF[9]_inst 
+  IBUF_HD666 \i_lsu_PA_34_IBUF[9]_inst 
        (.I(i_lsu_PA_34[9]),
         .O(i_lsu_PA_34_IBUF[9]));
   (* XILINX_LEGACY_PRIM = "BUFG" *) 
@@ -13549,203 +13253,163 @@ end
         .I(i_lsu_drive_IBUF),
         .O(i_lsu_drive_IBUF_BUFG));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1780 i_lsu_drive_IBUF_inst
+  IBUF_HD667 i_lsu_drive_IBUF_inst
        (.I(i_lsu_drive),
         .O(i_lsu_drive_IBUF));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1781 i_lsu_load_or_store_IBUF_inst
+  IBUF_HD668 i_lsu_load_or_store_IBUF_inst
        (.I(i_lsu_load_or_store),
         .O(i_lsu_load_or_store_IBUF));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1782 \i_lsu_storeData_32_IBUF[0]_inst 
+  IBUF_HD669 \i_lsu_storeData_32_IBUF[0]_inst 
        (.I(i_lsu_storeData_32[0]),
         .O(i_lsu_storeData_32_IBUF[0]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1783 \i_lsu_storeData_32_IBUF[10]_inst 
+  IBUF_HD670 \i_lsu_storeData_32_IBUF[10]_inst 
        (.I(i_lsu_storeData_32[10]),
         .O(i_lsu_storeData_32_IBUF[10]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1784 \i_lsu_storeData_32_IBUF[11]_inst 
+  IBUF_HD671 \i_lsu_storeData_32_IBUF[11]_inst 
        (.I(i_lsu_storeData_32[11]),
         .O(i_lsu_storeData_32_IBUF[11]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1785 \i_lsu_storeData_32_IBUF[12]_inst 
+  IBUF_HD672 \i_lsu_storeData_32_IBUF[12]_inst 
        (.I(i_lsu_storeData_32[12]),
         .O(i_lsu_storeData_32_IBUF[12]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1786 \i_lsu_storeData_32_IBUF[13]_inst 
+  IBUF_HD673 \i_lsu_storeData_32_IBUF[13]_inst 
        (.I(i_lsu_storeData_32[13]),
         .O(i_lsu_storeData_32_IBUF[13]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1787 \i_lsu_storeData_32_IBUF[14]_inst 
+  IBUF_HD674 \i_lsu_storeData_32_IBUF[14]_inst 
        (.I(i_lsu_storeData_32[14]),
         .O(i_lsu_storeData_32_IBUF[14]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1788 \i_lsu_storeData_32_IBUF[15]_inst 
+  IBUF_HD675 \i_lsu_storeData_32_IBUF[15]_inst 
        (.I(i_lsu_storeData_32[15]),
         .O(i_lsu_storeData_32_IBUF[15]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1789 \i_lsu_storeData_32_IBUF[16]_inst 
+  IBUF_HD676 \i_lsu_storeData_32_IBUF[16]_inst 
        (.I(i_lsu_storeData_32[16]),
         .O(i_lsu_storeData_32_IBUF[16]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1790 \i_lsu_storeData_32_IBUF[17]_inst 
+  IBUF_HD677 \i_lsu_storeData_32_IBUF[17]_inst 
        (.I(i_lsu_storeData_32[17]),
         .O(i_lsu_storeData_32_IBUF[17]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1791 \i_lsu_storeData_32_IBUF[18]_inst 
+  IBUF_HD678 \i_lsu_storeData_32_IBUF[18]_inst 
        (.I(i_lsu_storeData_32[18]),
         .O(i_lsu_storeData_32_IBUF[18]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1792 \i_lsu_storeData_32_IBUF[19]_inst 
+  IBUF_HD679 \i_lsu_storeData_32_IBUF[19]_inst 
        (.I(i_lsu_storeData_32[19]),
         .O(i_lsu_storeData_32_IBUF[19]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1793 \i_lsu_storeData_32_IBUF[1]_inst 
+  IBUF_HD680 \i_lsu_storeData_32_IBUF[1]_inst 
        (.I(i_lsu_storeData_32[1]),
         .O(i_lsu_storeData_32_IBUF[1]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1794 \i_lsu_storeData_32_IBUF[20]_inst 
+  IBUF_HD681 \i_lsu_storeData_32_IBUF[20]_inst 
        (.I(i_lsu_storeData_32[20]),
         .O(i_lsu_storeData_32_IBUF[20]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1795 \i_lsu_storeData_32_IBUF[21]_inst 
+  IBUF_HD682 \i_lsu_storeData_32_IBUF[21]_inst 
        (.I(i_lsu_storeData_32[21]),
         .O(i_lsu_storeData_32_IBUF[21]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1796 \i_lsu_storeData_32_IBUF[22]_inst 
+  IBUF_HD683 \i_lsu_storeData_32_IBUF[22]_inst 
        (.I(i_lsu_storeData_32[22]),
         .O(i_lsu_storeData_32_IBUF[22]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1797 \i_lsu_storeData_32_IBUF[23]_inst 
+  IBUF_HD684 \i_lsu_storeData_32_IBUF[23]_inst 
        (.I(i_lsu_storeData_32[23]),
         .O(i_lsu_storeData_32_IBUF[23]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1798 \i_lsu_storeData_32_IBUF[24]_inst 
+  IBUF_HD685 \i_lsu_storeData_32_IBUF[24]_inst 
        (.I(i_lsu_storeData_32[24]),
         .O(i_lsu_storeData_32_IBUF[24]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1799 \i_lsu_storeData_32_IBUF[25]_inst 
+  IBUF_HD686 \i_lsu_storeData_32_IBUF[25]_inst 
        (.I(i_lsu_storeData_32[25]),
         .O(i_lsu_storeData_32_IBUF[25]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1800 \i_lsu_storeData_32_IBUF[26]_inst 
+  IBUF_HD687 \i_lsu_storeData_32_IBUF[26]_inst 
        (.I(i_lsu_storeData_32[26]),
         .O(i_lsu_storeData_32_IBUF[26]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1801 \i_lsu_storeData_32_IBUF[27]_inst 
+  IBUF_HD688 \i_lsu_storeData_32_IBUF[27]_inst 
        (.I(i_lsu_storeData_32[27]),
         .O(i_lsu_storeData_32_IBUF[27]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1802 \i_lsu_storeData_32_IBUF[28]_inst 
+  IBUF_HD689 \i_lsu_storeData_32_IBUF[28]_inst 
        (.I(i_lsu_storeData_32[28]),
         .O(i_lsu_storeData_32_IBUF[28]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1803 \i_lsu_storeData_32_IBUF[29]_inst 
+  IBUF_HD690 \i_lsu_storeData_32_IBUF[29]_inst 
        (.I(i_lsu_storeData_32[29]),
         .O(i_lsu_storeData_32_IBUF[29]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1804 \i_lsu_storeData_32_IBUF[2]_inst 
+  IBUF_HD691 \i_lsu_storeData_32_IBUF[2]_inst 
        (.I(i_lsu_storeData_32[2]),
         .O(i_lsu_storeData_32_IBUF[2]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1805 \i_lsu_storeData_32_IBUF[30]_inst 
+  IBUF_HD692 \i_lsu_storeData_32_IBUF[30]_inst 
        (.I(i_lsu_storeData_32[30]),
         .O(i_lsu_storeData_32_IBUF[30]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1806 \i_lsu_storeData_32_IBUF[31]_inst 
+  IBUF_HD693 \i_lsu_storeData_32_IBUF[31]_inst 
        (.I(i_lsu_storeData_32[31]),
         .O(i_lsu_storeData_32_IBUF[31]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1807 \i_lsu_storeData_32_IBUF[3]_inst 
+  IBUF_HD694 \i_lsu_storeData_32_IBUF[3]_inst 
        (.I(i_lsu_storeData_32[3]),
         .O(i_lsu_storeData_32_IBUF[3]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1808 \i_lsu_storeData_32_IBUF[4]_inst 
+  IBUF_HD695 \i_lsu_storeData_32_IBUF[4]_inst 
        (.I(i_lsu_storeData_32[4]),
         .O(i_lsu_storeData_32_IBUF[4]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1809 \i_lsu_storeData_32_IBUF[5]_inst 
+  IBUF_HD696 \i_lsu_storeData_32_IBUF[5]_inst 
        (.I(i_lsu_storeData_32[5]),
         .O(i_lsu_storeData_32_IBUF[5]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1810 \i_lsu_storeData_32_IBUF[6]_inst 
+  IBUF_HD697 \i_lsu_storeData_32_IBUF[6]_inst 
        (.I(i_lsu_storeData_32[6]),
         .O(i_lsu_storeData_32_IBUF[6]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1811 \i_lsu_storeData_32_IBUF[7]_inst 
+  IBUF_HD698 \i_lsu_storeData_32_IBUF[7]_inst 
        (.I(i_lsu_storeData_32[7]),
         .O(i_lsu_storeData_32_IBUF[7]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1812 \i_lsu_storeData_32_IBUF[8]_inst 
+  IBUF_HD699 \i_lsu_storeData_32_IBUF[8]_inst 
        (.I(i_lsu_storeData_32[8]),
         .O(i_lsu_storeData_32_IBUF[8]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1813 \i_lsu_storeData_32_IBUF[9]_inst 
+  IBUF_HD700 \i_lsu_storeData_32_IBUF[9]_inst 
        (.I(i_lsu_storeData_32[9]),
         .O(i_lsu_storeData_32_IBUF[9]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1814 \i_lsu_storeIndex_6_IBUF[0]_inst 
+  IBUF_HD701 \i_lsu_storeIndex_6_IBUF[0]_inst 
        (.I(i_lsu_storeIndex_6[0]),
         .O(o_storeIndex_to_lsu_6_OBUF[0]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1815 \i_lsu_storeIndex_6_IBUF[1]_inst 
+  IBUF_HD702 \i_lsu_storeIndex_6_IBUF[1]_inst 
        (.I(i_lsu_storeIndex_6[1]),
         .O(o_storeIndex_to_lsu_6_OBUF[1]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1816 \i_lsu_storeIndex_6_IBUF[2]_inst 
+  IBUF_HD703 \i_lsu_storeIndex_6_IBUF[2]_inst 
        (.I(i_lsu_storeIndex_6[2]),
         .O(o_storeIndex_to_lsu_6_OBUF[2]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1817 \i_lsu_storeIndex_6_IBUF[3]_inst 
+  IBUF_HD704 \i_lsu_storeIndex_6_IBUF[3]_inst 
        (.I(i_lsu_storeIndex_6[3]),
         .O(o_storeIndex_to_lsu_6_OBUF[3]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1818 \i_lsu_storeIndex_6_IBUF[4]_inst 
+  IBUF_HD705 \i_lsu_storeIndex_6_IBUF[4]_inst 
        (.I(i_lsu_storeIndex_6[4]),
         .O(o_storeIndex_to_lsu_6_OBUF[4]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1819 \i_lsu_storeIndex_6_IBUF[5]_inst 
+  IBUF_HD706 \i_lsu_storeIndex_6_IBUF[5]_inst 
        (.I(i_lsu_storeIndex_6[5]),
         .O(o_storeIndex_to_lsu_6_OBUF[5]));
   (* XILINX_LEGACY_PRIM = "BUFG" *) 
@@ -13758,178 +13422,143 @@ end
         .I(i_ptw_drive_IBUF),
         .O(i_ptw_drive_IBUF_BUFG));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1820 i_ptw_drive_IBUF_inst
+  IBUF_HD707 i_ptw_drive_IBUF_inst
        (.I(i_ptw_drive),
         .O(i_ptw_drive_IBUF));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1821 \i_ptw_ptePA_34_IBUF[0]_inst 
+  IBUF_HD708 \i_ptw_ptePA_34_IBUF[0]_inst 
        (.I(i_ptw_ptePA_34[0]),
         .O(i_ptw_ptePA_34_IBUF[0]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1822 \i_ptw_ptePA_34_IBUF[10]_inst 
+  IBUF_HD709 \i_ptw_ptePA_34_IBUF[10]_inst 
        (.I(i_ptw_ptePA_34[10]),
         .O(i_ptw_ptePA_34_IBUF[10]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1823 \i_ptw_ptePA_34_IBUF[11]_inst 
+  IBUF_HD710 \i_ptw_ptePA_34_IBUF[11]_inst 
        (.I(i_ptw_ptePA_34[11]),
         .O(i_ptw_ptePA_34_IBUF[11]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1824 \i_ptw_ptePA_34_IBUF[12]_inst 
+  IBUF_HD711 \i_ptw_ptePA_34_IBUF[12]_inst 
        (.I(i_ptw_ptePA_34[12]),
         .O(i_ptw_ptePA_34_IBUF[12]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1825 \i_ptw_ptePA_34_IBUF[13]_inst 
+  IBUF_HD712 \i_ptw_ptePA_34_IBUF[13]_inst 
        (.I(i_ptw_ptePA_34[13]),
         .O(i_ptw_ptePA_34_IBUF[13]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1826 \i_ptw_ptePA_34_IBUF[14]_inst 
+  IBUF_HD713 \i_ptw_ptePA_34_IBUF[14]_inst 
        (.I(i_ptw_ptePA_34[14]),
         .O(i_ptw_ptePA_34_IBUF[14]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1827 \i_ptw_ptePA_34_IBUF[15]_inst 
+  IBUF_HD714 \i_ptw_ptePA_34_IBUF[15]_inst 
        (.I(i_ptw_ptePA_34[15]),
         .O(i_ptw_ptePA_34_IBUF[15]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1828 \i_ptw_ptePA_34_IBUF[16]_inst 
+  IBUF_HD715 \i_ptw_ptePA_34_IBUF[16]_inst 
        (.I(i_ptw_ptePA_34[16]),
         .O(i_ptw_ptePA_34_IBUF[16]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1829 \i_ptw_ptePA_34_IBUF[17]_inst 
+  IBUF_HD716 \i_ptw_ptePA_34_IBUF[17]_inst 
        (.I(i_ptw_ptePA_34[17]),
         .O(i_ptw_ptePA_34_IBUF[17]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1830 \i_ptw_ptePA_34_IBUF[18]_inst 
+  IBUF_HD717 \i_ptw_ptePA_34_IBUF[18]_inst 
        (.I(i_ptw_ptePA_34[18]),
         .O(i_ptw_ptePA_34_IBUF[18]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1831 \i_ptw_ptePA_34_IBUF[19]_inst 
+  IBUF_HD718 \i_ptw_ptePA_34_IBUF[19]_inst 
        (.I(i_ptw_ptePA_34[19]),
         .O(i_ptw_ptePA_34_IBUF[19]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1832 \i_ptw_ptePA_34_IBUF[1]_inst 
+  IBUF_HD719 \i_ptw_ptePA_34_IBUF[1]_inst 
        (.I(i_ptw_ptePA_34[1]),
         .O(i_ptw_ptePA_34_IBUF[1]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1833 \i_ptw_ptePA_34_IBUF[20]_inst 
+  IBUF_HD720 \i_ptw_ptePA_34_IBUF[20]_inst 
        (.I(i_ptw_ptePA_34[20]),
         .O(i_ptw_ptePA_34_IBUF[20]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1834 \i_ptw_ptePA_34_IBUF[21]_inst 
+  IBUF_HD721 \i_ptw_ptePA_34_IBUF[21]_inst 
        (.I(i_ptw_ptePA_34[21]),
         .O(i_ptw_ptePA_34_IBUF[21]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1835 \i_ptw_ptePA_34_IBUF[22]_inst 
+  IBUF_HD722 \i_ptw_ptePA_34_IBUF[22]_inst 
        (.I(i_ptw_ptePA_34[22]),
         .O(i_ptw_ptePA_34_IBUF[22]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1836 \i_ptw_ptePA_34_IBUF[23]_inst 
+  IBUF_HD723 \i_ptw_ptePA_34_IBUF[23]_inst 
        (.I(i_ptw_ptePA_34[23]),
         .O(i_ptw_ptePA_34_IBUF[23]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1837 \i_ptw_ptePA_34_IBUF[24]_inst 
+  IBUF_HD724 \i_ptw_ptePA_34_IBUF[24]_inst 
        (.I(i_ptw_ptePA_34[24]),
         .O(i_ptw_ptePA_34_IBUF[24]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1838 \i_ptw_ptePA_34_IBUF[25]_inst 
+  IBUF_HD725 \i_ptw_ptePA_34_IBUF[25]_inst 
        (.I(i_ptw_ptePA_34[25]),
         .O(i_ptw_ptePA_34_IBUF[25]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1839 \i_ptw_ptePA_34_IBUF[26]_inst 
+  IBUF_HD726 \i_ptw_ptePA_34_IBUF[26]_inst 
        (.I(i_ptw_ptePA_34[26]),
         .O(i_ptw_ptePA_34_IBUF[26]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1840 \i_ptw_ptePA_34_IBUF[27]_inst 
+  IBUF_HD727 \i_ptw_ptePA_34_IBUF[27]_inst 
        (.I(i_ptw_ptePA_34[27]),
         .O(i_ptw_ptePA_34_IBUF[27]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1841 \i_ptw_ptePA_34_IBUF[28]_inst 
+  IBUF_HD728 \i_ptw_ptePA_34_IBUF[28]_inst 
        (.I(i_ptw_ptePA_34[28]),
         .O(i_ptw_ptePA_34_IBUF[28]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1842 \i_ptw_ptePA_34_IBUF[29]_inst 
+  IBUF_HD729 \i_ptw_ptePA_34_IBUF[29]_inst 
        (.I(i_ptw_ptePA_34[29]),
         .O(i_ptw_ptePA_34_IBUF[29]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1843 \i_ptw_ptePA_34_IBUF[2]_inst 
+  IBUF_HD730 \i_ptw_ptePA_34_IBUF[2]_inst 
        (.I(i_ptw_ptePA_34[2]),
         .O(i_ptw_ptePA_34_IBUF[2]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1844 \i_ptw_ptePA_34_IBUF[30]_inst 
+  IBUF_HD731 \i_ptw_ptePA_34_IBUF[30]_inst 
        (.I(i_ptw_ptePA_34[30]),
         .O(i_ptw_ptePA_34_IBUF[30]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1845 \i_ptw_ptePA_34_IBUF[31]_inst 
+  IBUF_HD732 \i_ptw_ptePA_34_IBUF[31]_inst 
        (.I(i_ptw_ptePA_34[31]),
         .O(i_ptw_ptePA_34_IBUF[31]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1846 \i_ptw_ptePA_34_IBUF[32]_inst 
+  IBUF_HD733 \i_ptw_ptePA_34_IBUF[32]_inst 
        (.I(i_ptw_ptePA_34[32]),
         .O(i_ptw_ptePA_34_IBUF[32]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1847 \i_ptw_ptePA_34_IBUF[33]_inst 
+  IBUF_HD734 \i_ptw_ptePA_34_IBUF[33]_inst 
        (.I(i_ptw_ptePA_34[33]),
         .O(i_ptw_ptePA_34_IBUF[33]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1848 \i_ptw_ptePA_34_IBUF[3]_inst 
+  IBUF_HD735 \i_ptw_ptePA_34_IBUF[3]_inst 
        (.I(i_ptw_ptePA_34[3]),
         .O(i_ptw_ptePA_34_IBUF[3]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1849 \i_ptw_ptePA_34_IBUF[4]_inst 
+  IBUF_HD736 \i_ptw_ptePA_34_IBUF[4]_inst 
        (.I(i_ptw_ptePA_34[4]),
         .O(i_ptw_ptePA_34_IBUF[4]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1850 \i_ptw_ptePA_34_IBUF[5]_inst 
+  IBUF_HD737 \i_ptw_ptePA_34_IBUF[5]_inst 
        (.I(i_ptw_ptePA_34[5]),
         .O(i_ptw_ptePA_34_IBUF[5]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1851 \i_ptw_ptePA_34_IBUF[6]_inst 
+  IBUF_HD738 \i_ptw_ptePA_34_IBUF[6]_inst 
        (.I(i_ptw_ptePA_34[6]),
         .O(i_ptw_ptePA_34_IBUF[6]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1852 \i_ptw_ptePA_34_IBUF[7]_inst 
+  IBUF_HD739 \i_ptw_ptePA_34_IBUF[7]_inst 
        (.I(i_ptw_ptePA_34[7]),
         .O(i_ptw_ptePA_34_IBUF[7]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1853 \i_ptw_ptePA_34_IBUF[8]_inst 
+  IBUF_HD740 \i_ptw_ptePA_34_IBUF[8]_inst 
        (.I(i_ptw_ptePA_34[8]),
         .O(i_ptw_ptePA_34_IBUF[8]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1854 \i_ptw_ptePA_34_IBUF[9]_inst 
+  IBUF_HD741 \i_ptw_ptePA_34_IBUF[9]_inst 
        (.I(i_ptw_ptePA_34[9]),
         .O(i_ptw_ptePA_34_IBUF[9]));
   OBUF o_L2cache_free_OBUF_inst
@@ -17196,7 +16825,7 @@ end
   OBUF \o_writeBack_addr_34_OBUF[9]_inst 
        (.I(o_r_writeBack_addr_34_OBUF[9]),
         .O(o_writeBack_addr_34[9]));
-  (* SOFT_HLUTNM = "soft_lutpair68" *) 
+  (* SOFT_HLUTNM = "soft_lutpair67" *) 
   LUT2 #(
     .INIT(4'h2)) 
     \r_PA_or_ptePA_2[0]_i_1 
@@ -17577,7 +17206,7 @@ end
         .CLR(u_Dcache_D_V_buffer_n_10),
         .D(o_dcache_offset_12_OBUF[9]),
         .Q(o_dcache_PA_34_OBUF[9]));
-  (* SOFT_HLUTNM = "soft_lutpair70" *) 
+  (* SOFT_HLUTNM = "soft_lutpair69" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[0]_i_1 
@@ -17585,7 +17214,7 @@ end
         .I1(i_ptw_ptePA_34_IBUF[0]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(p_0_in[0]));
-  (* SOFT_HLUTNM = "soft_lutpair70" *) 
+  (* SOFT_HLUTNM = "soft_lutpair69" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[10]_i_1 
@@ -17600,7 +17229,7 @@ end
         .I1(w_mutex1_data_to_pmtfifo1_6[2]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(r_dcache_offset_12));
-  (* SOFT_HLUTNM = "soft_lutpair72" *) 
+  (* SOFT_HLUTNM = "soft_lutpair71" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[11]_i_2 
@@ -17608,7 +17237,7 @@ end
         .I1(i_ptw_ptePA_34_IBUF[11]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(p_0_in[11]));
-  (* SOFT_HLUTNM = "soft_lutpair71" *) 
+  (* SOFT_HLUTNM = "soft_lutpair70" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[1]_i_1 
@@ -17616,7 +17245,7 @@ end
         .I1(i_ptw_ptePA_34_IBUF[1]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(p_0_in[1]));
-  (* SOFT_HLUTNM = "soft_lutpair72" *) 
+  (* SOFT_HLUTNM = "soft_lutpair71" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[2]_i_1 
@@ -17624,7 +17253,7 @@ end
         .I1(i_ptw_ptePA_34_IBUF[2]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(p_0_in[2]));
-  (* SOFT_HLUTNM = "soft_lutpair75" *) 
+  (* SOFT_HLUTNM = "soft_lutpair74" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[3]_i_1 
@@ -17632,7 +17261,7 @@ end
         .I1(i_ptw_ptePA_34_IBUF[3]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(p_0_in[3]));
-  (* SOFT_HLUTNM = "soft_lutpair75" *) 
+  (* SOFT_HLUTNM = "soft_lutpair74" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[4]_i_1 
@@ -17640,7 +17269,7 @@ end
         .I1(i_ptw_ptePA_34_IBUF[4]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(p_0_in[4]));
-  (* SOFT_HLUTNM = "soft_lutpair76" *) 
+  (* SOFT_HLUTNM = "soft_lutpair75" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[5]_i_1 
@@ -17648,7 +17277,7 @@ end
         .I1(i_ptw_ptePA_34_IBUF[5]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(p_0_in[5]));
-  (* SOFT_HLUTNM = "soft_lutpair76" *) 
+  (* SOFT_HLUTNM = "soft_lutpair75" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[6]_i_1 
@@ -17656,7 +17285,7 @@ end
         .I1(i_ptw_ptePA_34_IBUF[6]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(p_0_in[6]));
-  (* SOFT_HLUTNM = "soft_lutpair77" *) 
+  (* SOFT_HLUTNM = "soft_lutpair76" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[7]_i_1 
@@ -17664,7 +17293,7 @@ end
         .I1(i_ptw_ptePA_34_IBUF[7]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(p_0_in[7]));
-  (* SOFT_HLUTNM = "soft_lutpair77" *) 
+  (* SOFT_HLUTNM = "soft_lutpair76" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[8]_i_1 
@@ -17672,7 +17301,7 @@ end
         .I1(i_ptw_ptePA_34_IBUF[8]),
         .I2(w_mutex1_data_to_pmtfifo1_6[0]),
         .O(p_0_in[8]));
-  (* SOFT_HLUTNM = "soft_lutpair71" *) 
+  (* SOFT_HLUTNM = "soft_lutpair70" *) 
   LUT3 #(
     .INIT(8'hAC)) 
     \r_dcache_offset_12[9]_i_1 
@@ -18083,8 +17712,7 @@ end
         .D(o_dcache_PA_34_OBUF[9]),
         .Q(o_r_writeBack_addr_34_OBUF[9]));
   (* IS_CCIO = "FALSE" *) 
-  (* XILINX_REPORT_XFORM = "IBUF" *) 
-  IBUF_HD1855 rst_IBUF_inst
+  IBUF_HD742 rst_IBUF_inst
        (.I(rst),
         .O(rst_IBUF));
   Dcache_D_V_buffer u_Dcache_D_V_buffer
@@ -18111,7 +17739,7 @@ end
         .douta({w_dataSRAM_out_way7_32B[127:0],w_dataSRAM_out_way6_32B[127:0],w_dataSRAM_out_way5_32B[127:0],w_dataSRAM_out_way4_32B[127:0],w_dataSRAM_out_way3_32B[127:0],w_dataSRAM_out_way2_32B[127:0],w_dataSRAM_out_way1_32B[127:0],w_dataSRAM_out_way0_32B[127:0]}),
         .ena(1'b1),
         .wea(w_dataSRAM0_write_enable));
-  (* SOFT_HLUTNM = "soft_lutpair66" *) 
+  (* SOFT_HLUTNM = "soft_lutpair65" *) 
   LUT5 #(
     .INIT(32'hEEEEFFFE)) 
     u_Dcache_bank_dataSram0_i_1
@@ -20681,7 +20309,7 @@ end
         .douta({w_dataSRAM_out_way7_32B[255:128],w_dataSRAM_out_way6_32B[255:128],w_dataSRAM_out_way5_32B[255:128],w_dataSRAM_out_way4_32B[255:128],w_dataSRAM_out_way3_32B[255:128],w_dataSRAM_out_way2_32B[255:128],w_dataSRAM_out_way1_32B[255:128],w_dataSRAM_out_way0_32B[255:128]}),
         .ena(1'b1),
         .wea(w_dataSRAM1_write_enable));
-  (* SOFT_HLUTNM = "soft_lutpair66" *) 
+  (* SOFT_HLUTNM = "soft_lutpair65" *) 
   LUT5 #(
     .INIT(32'hFFFEEEEE)) 
     u_Dcache_bank_dataSram1_i_1
@@ -21914,7 +21542,7 @@ end
         .I4(i_L2cache_refill_32B_IBUF[154]),
         .I5(u_Dcache_D_V_buffer_n_6),
         .O(u_Dcache_bank_dataSram1_i_39_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair67" *) 
+  (* SOFT_HLUTNM = "soft_lutpair66" *) 
   LUT5 #(
     .INIT(32'h02030200)) 
     u_Dcache_bank_dataSram1_i_4
@@ -22213,7 +21841,7 @@ end
         .I3(o_r_case_number_6_OBUF[4]),
         .I4(u_Dcache_bank_dataSram1_i_131_n_0),
         .O(u_Dcache_bank_dataSram1_i_66_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair65" *) 
+  (* SOFT_HLUTNM = "soft_lutpair64" *) 
   LUT5 #(
     .INIT(32'hEEEEEFEE)) 
     u_Dcache_bank_dataSram1_i_67
@@ -22242,7 +21870,7 @@ end
         .I3(o_r_case_number_6_OBUF[4]),
         .I4(u_Dcache_bank_dataSram1_i_137_n_0),
         .O(u_Dcache_bank_dataSram1_i_69_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair68" *) 
+  (* SOFT_HLUTNM = "soft_lutpair67" *) 
   LUT5 #(
     .INIT(32'h02030200)) 
     u_Dcache_bank_dataSram1_i_7
@@ -22664,21 +22292,21 @@ end
         .valid2(u_cSelector5_fire2_i_3_n_0),
         .valid3(valid3010_out),
         .valid4(valid408_out));
-  (* SOFT_HLUTNM = "soft_lutpair78" *) 
+  (* SOFT_HLUTNM = "soft_lutpair77" *) 
   LUT2 #(
     .INIT(4'h2)) 
     u_cSelector5_fire2_i_1
        (.I0(o_r_dirty_OBUF),
         .I1(o_r_hit_OBUF),
         .O(valid00));
-  (* SOFT_HLUTNM = "soft_lutpair78" *) 
+  (* SOFT_HLUTNM = "soft_lutpair77" *) 
   LUT2 #(
     .INIT(4'h1)) 
     u_cSelector5_fire2_i_2
        (.I0(o_r_dirty_OBUF),
         .I1(o_r_hit_OBUF),
         .O(valid10));
-  (* SOFT_HLUTNM = "soft_lutpair73" *) 
+  (* SOFT_HLUTNM = "soft_lutpair72" *) 
   LUT3 #(
     .INIT(8'h40)) 
     u_cSelector5_fire2_i_3
@@ -22686,14 +22314,14 @@ end
         .I1(o_r_hit_OBUF),
         .I2(o_r_case_number_6_OBUF[0]),
         .O(u_cSelector5_fire2_i_3_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair69" *) 
+  (* SOFT_HLUTNM = "soft_lutpair68" *) 
   LUT2 #(
     .INIT(4'h8)) 
     u_cSelector5_fire2_i_4
        (.I0(o_r_case_number_6_OBUF[2]),
         .I1(o_r_hit_OBUF),
         .O(valid3010_out));
-  (* SOFT_HLUTNM = "soft_lutpair73" *) 
+  (* SOFT_HLUTNM = "soft_lutpair72" *) 
   LUT3 #(
     .INIT(8'h80)) 
     u_cSelector5_fire2_i_5
@@ -22725,14 +22353,14 @@ end
         .valid3(valid30),
         .valid4(valid40),
         .valid5(valid50));
-  (* SOFT_HLUTNM = "soft_lutpair67" *) 
+  (* SOFT_HLUTNM = "soft_lutpair66" *) 
   LUT2 #(
     .INIT(4'hE)) 
     u_cSelector6_i_1
        (.I0(o_r_case_number_6_OBUF[2]),
         .I1(o_r_case_number_6_OBUF[0]),
         .O(w_PLRU_write_enable));
-  (* SOFT_HLUTNM = "soft_lutpair74" *) 
+  (* SOFT_HLUTNM = "soft_lutpair73" *) 
   LUT3 #(
     .INIT(8'h40)) 
     u_cSelector6_i_2
@@ -22740,7 +22368,7 @@ end
         .I1(p_1_in5_in),
         .I2(o_r_case_number_6_OBUF[3]),
         .O(u_cSelector6_i_2_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair74" *) 
+  (* SOFT_HLUTNM = "soft_lutpair73" *) 
   LUT3 #(
     .INIT(8'h80)) 
     u_cSelector6_i_3
@@ -22748,7 +22376,7 @@ end
         .I1(p_1_in5_in),
         .I2(o_r_case_number_6_OBUF[3]),
         .O(valid30));
-  (* SOFT_HLUTNM = "soft_lutpair65" *) 
+  (* SOFT_HLUTNM = "soft_lutpair64" *) 
   LUT2 #(
     .INIT(4'h8)) 
     u_cSelector6_i_4
@@ -22840,7 +22468,7 @@ end
         .I2(o_r_case_number_6_OBUF[2]),
         .I3(i_ptw_ptePA_34_IBUF[20]),
         .O(w_dcache_PA_34_12[8]));
-  (* SOFT_HLUTNM = "soft_lutpair69" *) 
+  (* SOFT_HLUTNM = "soft_lutpair68" *) 
   LUT4 #(
     .INIT(16'hB888)) 
     u_dcache_tag_compare_i_15
@@ -24987,7 +24615,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[0][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[0][15] ),
         .O(\D_V_buffer[0][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair45" *) 
+  (* SOFT_HLUTNM = "soft_lutpair44" *) 
   LUT4 #(
     .INIT(16'hFFFE)) 
     \D_V_buffer[0][15]_i_2 
@@ -25344,7 +24972,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[10][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[10][15] ),
         .O(\D_V_buffer[10][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair44" *) 
+  (* SOFT_HLUTNM = "soft_lutpair43" *) 
   LUT4 #(
     .INIT(16'hFFFD)) 
     \D_V_buffer[10][15]_i_2 
@@ -25704,7 +25332,7 @@ module Dcache_D_V_buffer
         .I4(\r_dcache_offset_12_reg[10] [5]),
         .I5(\D_V_buffer_reg_n_0_[11][15] ),
         .O(\D_V_buffer[11][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair56" *) 
+  (* SOFT_HLUTNM = "soft_lutpair55" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \D_V_buffer[11][15]_i_2 
@@ -25947,7 +25575,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[8][14]_i_3_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[12]_17 [0]));
-  (* SOFT_HLUTNM = "soft_lutpair35" *) 
+  (* SOFT_HLUTNM = "soft_lutpair34" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[12][0]_i_4 
@@ -25984,7 +25612,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[8][14]_i_3_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[12]_17 [10]));
-  (* SOFT_HLUTNM = "soft_lutpair40" *) 
+  (* SOFT_HLUTNM = "soft_lutpair39" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[12][10]_i_4 
@@ -26075,7 +25703,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[15][14]_i_5_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[12]_17 [14]));
-  (* SOFT_HLUTNM = "soft_lutpair53" *) 
+  (* SOFT_HLUTNM = "soft_lutpair52" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[12][14]_i_4 
@@ -26091,7 +25719,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[12][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[12][15] ),
         .O(\D_V_buffer[12][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair48" *) 
+  (* SOFT_HLUTNM = "soft_lutpair47" *) 
   LUT4 #(
     .INIT(16'hFFFD)) 
     \D_V_buffer[12][15]_i_2 
@@ -26139,7 +25767,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[8][14]_i_3_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[12]_17 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair36" *) 
+  (* SOFT_HLUTNM = "soft_lutpair35" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[12][2]_i_4 
@@ -26185,7 +25813,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[8][14]_i_3_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[12]_17 [4]));
-  (* SOFT_HLUTNM = "soft_lutpair37" *) 
+  (* SOFT_HLUTNM = "soft_lutpair36" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[12][4]_i_4 
@@ -26231,7 +25859,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[8][14]_i_3_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[12]_17 [6]));
-  (* SOFT_HLUTNM = "soft_lutpair38" *) 
+  (* SOFT_HLUTNM = "soft_lutpair37" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[12][6]_i_4 
@@ -26277,7 +25905,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[8][14]_i_3_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[12]_17 [8]));
-  (* SOFT_HLUTNM = "soft_lutpair39" *) 
+  (* SOFT_HLUTNM = "soft_lutpair38" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[12][8]_i_4 
@@ -26479,7 +26107,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[23][15]_i_3_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[13][15] ),
         .O(\D_V_buffer[13][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair63" *) 
+  (* SOFT_HLUTNM = "soft_lutpair62" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \D_V_buffer[13][15]_i_2 
@@ -26878,7 +26506,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[23][15]_i_3_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[14][15] ),
         .O(\D_V_buffer[14][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair50" *) 
+  (* SOFT_HLUTNM = "soft_lutpair49" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \D_V_buffer[14][15]_i_2 
@@ -27284,7 +26912,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[15][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[15][15] ),
         .O(\D_V_buffer[15][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair56" *) 
+  (* SOFT_HLUTNM = "soft_lutpair55" *) 
   LUT4 #(
     .INIT(16'hFF7F)) 
     \D_V_buffer[15][15]_i_2 
@@ -27952,14 +27580,14 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][15]_i_4_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[17][15] ),
         .O(\D_V_buffer[17][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair63" *) 
+  (* SOFT_HLUTNM = "soft_lutpair62" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[17][15]_i_2 
        (.I0(\r_dcache_offset_12_reg[11] ),
         .I1(\D_V_buffer[25][5]_i_2_n_0 ),
         .O(\D_V_buffer[17][15]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair43" *) 
+  (* SOFT_HLUTNM = "soft_lutpair42" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \D_V_buffer[17][15]_i_3 
@@ -28312,7 +27940,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_9_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[18]_18 [14]));
-  (* SOFT_HLUTNM = "soft_lutpair46" *) 
+  (* SOFT_HLUTNM = "soft_lutpair45" *) 
   LUT4 #(
     .INIT(16'hFFFD)) 
     \D_V_buffer[18][14]_i_4 
@@ -28687,7 +28315,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_5_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[19][15] ),
         .O(\D_V_buffer[19][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair51" *) 
+  (* SOFT_HLUTNM = "soft_lutpair50" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[19][15]_i_2 
@@ -29004,7 +28632,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[1][14]_i_4_n_0 ),
         .I5(\D_V_buffer[31][14]_i_4_n_0 ),
         .O(\D_V_buffer[1][14]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair31" *) 
+  (* SOFT_HLUTNM = "soft_lutpair30" *) 
   LUT5 #(
     .INIT(32'h00000002)) 
     \D_V_buffer[1][14]_i_3 
@@ -29033,7 +28661,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[1][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[1][15] ),
         .O(\D_V_buffer[1][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair54" *) 
+  (* SOFT_HLUTNM = "soft_lutpair53" *) 
   LUT4 #(
     .INIT(16'hFFFE)) 
     \D_V_buffer[1][15]_i_2 
@@ -29303,7 +28931,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_9_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[20]_15 [14]));
-  (* SOFT_HLUTNM = "soft_lutpair49" *) 
+  (* SOFT_HLUTNM = "soft_lutpair48" *) 
   LUT4 #(
     .INIT(16'hFFFD)) 
     \D_V_buffer[20][14]_i_4 
@@ -29645,7 +29273,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[21][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[21][15] ),
         .O(\D_V_buffer[21][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair49" *) 
+  (* SOFT_HLUTNM = "soft_lutpair48" *) 
   LUT4 #(
     .INIT(16'hFFF7)) 
     \D_V_buffer[21][15]_i_2 
@@ -30002,7 +29630,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[22][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[22][15] ),
         .O(\D_V_buffer[22][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair50" *) 
+  (* SOFT_HLUTNM = "soft_lutpair49" *) 
   LUT4 #(
     .INIT(16'hFFF7)) 
     \D_V_buffer[22][15]_i_2 
@@ -30300,7 +29928,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[23][11]_i_2_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[23][11] ),
         .O(\D_V_buffer[23][11]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair30" *) 
+  (* SOFT_HLUTNM = "soft_lutpair29" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[23][11]_i_2 
@@ -30356,7 +29984,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[23][13]_i_2_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[23][13] ),
         .O(\D_V_buffer[23][13]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair33" *) 
+  (* SOFT_HLUTNM = "soft_lutpair32" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[23][13]_i_2 
@@ -30422,7 +30050,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer_reg[19][15]_1 [1]),
         .I5(\D_V_buffer_reg[19][15]_2 ),
         .O(\D_V_buffer[23][15]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair34" *) 
+  (* SOFT_HLUTNM = "soft_lutpair33" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[23][15]_i_3 
@@ -30439,7 +30067,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[23][1]_i_2_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[23][1] ),
         .O(\D_V_buffer[23][1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair25" *) 
+  (* SOFT_HLUTNM = "soft_lutpair24" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[23][1]_i_2 
@@ -30495,7 +30123,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[23][3]_i_2_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[23][3] ),
         .O(\D_V_buffer[23][3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair26" *) 
+  (* SOFT_HLUTNM = "soft_lutpair25" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[23][3]_i_2 
@@ -30551,7 +30179,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[23][5]_i_2_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[23][5] ),
         .O(\D_V_buffer[23][5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair27" *) 
+  (* SOFT_HLUTNM = "soft_lutpair26" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[23][5]_i_2 
@@ -30607,7 +30235,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[23][7]_i_2_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[23][7] ),
         .O(\D_V_buffer[23][7]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair28" *) 
+  (* SOFT_HLUTNM = "soft_lutpair27" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[23][7]_i_2 
@@ -30663,7 +30291,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[23][9]_i_2_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[23][9] ),
         .O(\D_V_buffer[23][9]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair29" *) 
+  (* SOFT_HLUTNM = "soft_lutpair28" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[23][9]_i_2 
@@ -30817,7 +30445,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[24][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[24][15] ),
         .O(\D_V_buffer[24][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair47" *) 
+  (* SOFT_HLUTNM = "soft_lutpair46" *) 
   LUT4 #(
     .INIT(16'hFFFD)) 
     \D_V_buffer[24][15]_i_2 
@@ -31021,7 +30649,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[30][6]_i_5_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[25]_13 [0]));
-  (* SOFT_HLUTNM = "soft_lutpair62" *) 
+  (* SOFT_HLUTNM = "soft_lutpair61" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[25][0]_i_4 
@@ -31058,7 +30686,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[30][6]_i_5_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[25]_13 [10]));
-  (* SOFT_HLUTNM = "soft_lutpair61" *) 
+  (* SOFT_HLUTNM = "soft_lutpair60" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[25][10]_i_4 
@@ -31104,7 +30732,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[30][6]_i_5_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[25]_13 [12]));
-  (* SOFT_HLUTNM = "soft_lutpair47" *) 
+  (* SOFT_HLUTNM = "soft_lutpair46" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[25][12]_i_4 
@@ -31150,7 +30778,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[30][6]_i_5_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[25]_13 [14]));
-  (* SOFT_HLUTNM = "soft_lutpair46" *) 
+  (* SOFT_HLUTNM = "soft_lutpair45" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[25][14]_i_4 
@@ -31183,7 +30811,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer_reg[19][15]_1 [1]),
         .I5(\D_V_buffer_reg[19][15]_2 ),
         .O(\D_V_buffer[25][15]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair51" *) 
+  (* SOFT_HLUTNM = "soft_lutpair50" *) 
   LUT4 #(
     .INIT(16'hFFF7)) 
     \D_V_buffer[25][15]_i_3 
@@ -31231,7 +30859,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[30][6]_i_5_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[25]_13 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair57" *) 
+  (* SOFT_HLUTNM = "soft_lutpair56" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[25][2]_i_4 
@@ -31277,7 +30905,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[30][6]_i_5_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[25]_13 [4]));
-  (* SOFT_HLUTNM = "soft_lutpair61" *) 
+  (* SOFT_HLUTNM = "soft_lutpair60" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[25][4]_i_4 
@@ -31378,7 +31006,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[30][6]_i_5_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[25]_13 [8]));
-  (* SOFT_HLUTNM = "soft_lutpair59" *) 
+  (* SOFT_HLUTNM = "soft_lutpair58" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[25][8]_i_4 
@@ -31577,7 +31205,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[26][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[26][15] ),
         .O(\D_V_buffer[26][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair52" *) 
+  (* SOFT_HLUTNM = "soft_lutpair51" *) 
   LUT4 #(
     .INIT(16'hFFF7)) 
     \D_V_buffer[26][15]_i_2 
@@ -32405,7 +32033,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer_reg[19][15]_1 [1]),
         .I5(\D_V_buffer_reg[19][15]_2 ),
         .O(\D_V_buffer[28][15]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair45" *) 
+  (* SOFT_HLUTNM = "soft_lutpair44" *) 
   LUT4 #(
     .INIT(16'hFFF7)) 
     \D_V_buffer[28][15]_i_3 
@@ -32808,7 +32436,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[29][15]_i_4_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[29][15] ),
         .O(\D_V_buffer[29][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair52" *) 
+  (* SOFT_HLUTNM = "soft_lutpair51" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[29][15]_i_2 
@@ -32825,7 +32453,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer_reg[19][15]_1 [1]),
         .I5(\D_V_buffer_reg[19][15]_2 ),
         .O(\D_V_buffer[29][15]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair55" *) 
+  (* SOFT_HLUTNM = "soft_lutpair54" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[29][15]_i_4 
@@ -33142,7 +32770,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[2][14]_i_4_n_0 ),
         .I5(\D_V_buffer[31][14]_i_4_n_0 ),
         .O(\D_V_buffer[2][14]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair31" *) 
+  (* SOFT_HLUTNM = "soft_lutpair30" *) 
   LUT5 #(
     .INIT(32'h00000002)) 
     \D_V_buffer[2][14]_i_3 
@@ -33171,7 +32799,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[2][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[2][15] ),
         .O(\D_V_buffer[2][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair54" *) 
+  (* SOFT_HLUTNM = "soft_lutpair53" *) 
   LUT4 #(
     .INIT(16'hFFFE)) 
     \D_V_buffer[2][15]_i_2 
@@ -33514,7 +33142,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[30][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[30][15] ),
         .O(\D_V_buffer[30][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair55" *) 
+  (* SOFT_HLUTNM = "soft_lutpair54" *) 
   LUT4 #(
     .INIT(16'hFF7F)) 
     \D_V_buffer[30][15]_i_2 
@@ -33774,7 +33402,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_9_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[31]_8 [0]));
-  (* SOFT_HLUTNM = "soft_lutpair62" *) 
+  (* SOFT_HLUTNM = "soft_lutpair61" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[31][0]_i_4 
@@ -33884,7 +33512,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_9_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[31]_8 [12]));
-  (* SOFT_HLUTNM = "soft_lutpair60" *) 
+  (* SOFT_HLUTNM = "soft_lutpair59" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[31][12]_i_4 
@@ -33998,7 +33626,7 @@ module Dcache_D_V_buffer
         .I1(\D_V_buffer_reg[19][15]_0 ),
         .I2(\D_V_buffer_reg[19][15]_1 [3]),
         .O(\D_V_buffer[31][14]_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair58" *) 
+  (* SOFT_HLUTNM = "soft_lutpair57" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[31][14]_i_5 
@@ -34166,7 +33794,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_9_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[31]_8 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair57" *) 
+  (* SOFT_HLUTNM = "soft_lutpair56" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[31][2]_i_4 
@@ -34226,7 +33854,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_9_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[31]_8 [4]));
-  (* SOFT_HLUTNM = "soft_lutpair58" *) 
+  (* SOFT_HLUTNM = "soft_lutpair57" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[31][4]_i_4 
@@ -34286,7 +33914,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_9_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[31]_8 [6]));
-  (* SOFT_HLUTNM = "soft_lutpair60" *) 
+  (* SOFT_HLUTNM = "soft_lutpair59" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[31][6]_i_4 
@@ -34353,7 +33981,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_9_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[31]_8 [8]));
-  (* SOFT_HLUTNM = "soft_lutpair59" *) 
+  (* SOFT_HLUTNM = "soft_lutpair58" *) 
   LUT2 #(
     .INIT(4'h7)) 
     \D_V_buffer[31][8]_i_4 
@@ -34530,7 +34158,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[3][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[3][15] ),
         .O(\D_V_buffer[3][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair44" *) 
+  (* SOFT_HLUTNM = "soft_lutpair43" *) 
   LUT4 #(
     .INIT(16'hFFFD)) 
     \D_V_buffer[3][15]_i_2 
@@ -34751,7 +34379,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[4][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[4][11] ),
         .O(\D_V_buffer[4][11]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair33" *) 
+  (* SOFT_HLUTNM = "soft_lutpair32" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[4][12]_i_1 
@@ -34780,7 +34408,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[4][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[4][13] ),
         .O(\D_V_buffer[4][13]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair34" *) 
+  (* SOFT_HLUTNM = "soft_lutpair33" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[4][14]_i_1 
@@ -34800,7 +34428,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[4][14]_i_4_n_0 ),
         .I5(\D_V_buffer[31][14]_i_4_n_0 ),
         .O(\D_V_buffer[4][14]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair32" *) 
+  (* SOFT_HLUTNM = "soft_lutpair31" *) 
   LUT5 #(
     .INIT(32'h00000002)) 
     \D_V_buffer[4][14]_i_3 
@@ -34829,7 +34457,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[4][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[4][15] ),
         .O(\D_V_buffer[4][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair32" *) 
+  (* SOFT_HLUTNM = "soft_lutpair31" *) 
   LUT4 #(
     .INIT(16'hFFFE)) 
     \D_V_buffer[4][15]_i_2 
@@ -35106,7 +34734,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[5][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[5][15] ),
         .O(\D_V_buffer[5][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair48" *) 
+  (* SOFT_HLUTNM = "soft_lutpair47" *) 
   LUT4 #(
     .INIT(16'hFFFD)) 
     \D_V_buffer[5][15]_i_2 
@@ -35340,7 +34968,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_8_n_0 ),
         .I5(\D_V_buffer[31][10]_i_6_n_0 ),
         .O(\D_V_buffer_reg[6]_24 [10]));
-  (* SOFT_HLUTNM = "soft_lutpair30" *) 
+  (* SOFT_HLUTNM = "soft_lutpair29" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[6][11]_i_1 
@@ -35438,7 +35066,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[6][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[6][15] ),
         .O(\D_V_buffer[6][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair43" *) 
+  (* SOFT_HLUTNM = "soft_lutpair42" *) 
   LUT4 #(
     .INIT(16'hFFFD)) 
     \D_V_buffer[6][15]_i_2 
@@ -35447,7 +35075,7 @@ module Dcache_D_V_buffer
         .I2(\r_dcache_offset_12_reg[7] ),
         .I3(\D_V_buffer[23][15]_i_2_n_0 ),
         .O(\D_V_buffer[6][15]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair25" *) 
+  (* SOFT_HLUTNM = "soft_lutpair24" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[6][1]_i_1 
@@ -35487,7 +35115,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_8_n_0 ),
         .I5(\D_V_buffer[31][2]_i_5_n_0 ),
         .O(\D_V_buffer_reg[6]_24 [2]));
-  (* SOFT_HLUTNM = "soft_lutpair26" *) 
+  (* SOFT_HLUTNM = "soft_lutpair25" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[6][3]_i_1 
@@ -35527,7 +35155,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_8_n_0 ),
         .I5(\D_V_buffer[31][4]_i_5_n_0 ),
         .O(\D_V_buffer_reg[6]_24 [4]));
-  (* SOFT_HLUTNM = "soft_lutpair27" *) 
+  (* SOFT_HLUTNM = "soft_lutpair26" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[6][5]_i_1 
@@ -35567,7 +35195,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_8_n_0 ),
         .I5(\D_V_buffer[31][6]_i_5_n_0 ),
         .O(\D_V_buffer_reg[6]_24 [6]));
-  (* SOFT_HLUTNM = "soft_lutpair28" *) 
+  (* SOFT_HLUTNM = "soft_lutpair27" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[6][7]_i_1 
@@ -35607,7 +35235,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[31][14]_i_8_n_0 ),
         .I5(\D_V_buffer[31][8]_i_5_n_0 ),
         .O(\D_V_buffer_reg[6]_24 [8]));
-  (* SOFT_HLUTNM = "soft_lutpair29" *) 
+  (* SOFT_HLUTNM = "soft_lutpair28" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[6][9]_i_1 
@@ -36009,7 +35637,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[23][9]_i_2_n_0 ),
         .I5(\D_V_buffer_reg_n_0_[7][9] ),
         .O(\D_V_buffer[7][9]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair35" *) 
+  (* SOFT_HLUTNM = "soft_lutpair34" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[8][0]_i_1 
@@ -36029,7 +35657,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[8][14]_i_5_n_0 ),
         .I5(w_d_v_write_enable),
         .O(\D_V_buffer[8][0]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair40" *) 
+  (* SOFT_HLUTNM = "soft_lutpair39" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[8][10]_i_1 
@@ -36115,7 +35743,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer_reg[19][15]_1 [1]),
         .I5(\D_V_buffer_reg[19][15]_2 ),
         .O(\D_V_buffer[8][14]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair42" *) 
+  (* SOFT_HLUTNM = "soft_lutpair41" *) 
   LUT5 #(
     .INIT(32'h00000002)) 
     \D_V_buffer[8][14]_i_4 
@@ -36144,7 +35772,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[8][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[8][15] ),
         .O(\D_V_buffer[8][15]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair42" *) 
+  (* SOFT_HLUTNM = "soft_lutpair41" *) 
   LUT4 #(
     .INIT(16'hFFFE)) 
     \D_V_buffer[8][15]_i_2 
@@ -36162,7 +35790,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[8][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[8][1] ),
         .O(\D_V_buffer[8][1]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair36" *) 
+  (* SOFT_HLUTNM = "soft_lutpair35" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[8][2]_i_1 
@@ -36191,7 +35819,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[8][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[8][3] ),
         .O(\D_V_buffer[8][3]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair37" *) 
+  (* SOFT_HLUTNM = "soft_lutpair36" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[8][4]_i_1 
@@ -36220,7 +35848,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[8][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[8][5] ),
         .O(\D_V_buffer[8][5]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair38" *) 
+  (* SOFT_HLUTNM = "soft_lutpair37" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[8][6]_i_1 
@@ -36249,7 +35877,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer[8][15]_i_2_n_0 ),
         .I4(\D_V_buffer_reg_n_0_[8][7] ),
         .O(\D_V_buffer[8][7]_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair39" *) 
+  (* SOFT_HLUTNM = "soft_lutpair38" *) 
   LUT5 #(
     .INIT(32'hFFBF0080)) 
     \D_V_buffer[8][8]_i_1 
@@ -36418,7 +36046,7 @@ module Dcache_D_V_buffer
         .I4(\D_V_buffer[15][14]_i_5_n_0 ),
         .I5(\D_V_buffer_reg[31][15]_i_7_n_0 ),
         .O(\D_V_buffer_reg[9]_14 [14]));
-  (* SOFT_HLUTNM = "soft_lutpair53" *) 
+  (* SOFT_HLUTNM = "soft_lutpair52" *) 
   LUT4 #(
     .INIT(16'hFFFD)) 
     \D_V_buffer[9][14]_i_4 
@@ -40893,7 +40521,7 @@ module Dcache_D_V_buffer
         .CLR(rst_0),
         .D(\D_V_buffer[9][9]_i_1_n_0 ),
         .Q(\D_V_buffer_reg_n_0_[9][9] ));
-  (* SOFT_HLUTNM = "soft_lutpair41" *) 
+  (* SOFT_HLUTNM = "soft_lutpair40" *) 
   LUT2 #(
     .INIT(4'h1)) 
     \o_loadData_to_retire_32_OBUF[31]_inst_i_4 
@@ -40995,7 +40623,7 @@ module Dcache_D_V_buffer
         .I3(\D_V_buffer_reg[19][15]_1 [0]),
         .I4(u_Dcache_bank_dataSram0_i_7_0[1]),
         .O(\r_dcache_offset_12_reg[10] [1]));
-  (* SOFT_HLUTNM = "soft_lutpair41" *) 
+  (* SOFT_HLUTNM = "soft_lutpair40" *) 
   LUT5 #(
     .INIT(32'h000D0001)) 
     u_Dcache_bank_dataSram0_i_9
@@ -45648,7 +45276,7 @@ module Dcache_plru_buffer
         .I3(w_plru_buffer_out_7[0]),
         .I4(\r_plru_evictWay_3[0]_i_2_n_0 ),
         .O(D[0]));
-  (* SOFT_HLUTNM = "soft_lutpair64" *) 
+  (* SOFT_HLUTNM = "soft_lutpair63" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \r_plru_evictWay_3[0]_i_2 
@@ -45656,7 +45284,7 @@ module Dcache_plru_buffer
         .I1(w_plru_buffer_out_7[1]),
         .I2(w_plru_buffer_out_7[3]),
         .O(\r_plru_evictWay_3[0]_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair64" *) 
+  (* SOFT_HLUTNM = "soft_lutpair63" *) 
   LUT3 #(
     .INIT(8'hB8)) 
     \r_plru_evictWay_3[1]_i_1 
@@ -47299,7 +46927,7 @@ module cMutexMerge2_1b
   contTap__9 firstTap
        (.req(w_firstReq),
         .trig(w_firstTrig));
-  (* SOFT_HLUTNM = "soft_lutpair23" *) 
+  (* SOFT_HLUTNM = "soft_lutpair22" *) 
   LUT3 #(
     .INIT(8'hEA)) 
     firstTap_i_1
@@ -47307,7 +46935,7 @@ module cMutexMerge2_1b
         .I1(w_firstReq),
         .I2(i_freeNext),
         .O(w_firstTrig));
-  (* SOFT_HLUTNM = "soft_lutpair22" *) 
+  (* SOFT_HLUTNM = "soft_lutpair21" *) 
   LUT4 #(
     .INIT(16'hB888)) 
     o_data_INST_0
@@ -47316,21 +46944,21 @@ module cMutexMerge2_1b
         .I2(w_secondReq),
         .I3(i_data1),
         .O(o_data));
-  (* SOFT_HLUTNM = "soft_lutpair23" *) 
+  (* SOFT_HLUTNM = "soft_lutpair22" *) 
   LUT2 #(
     .INIT(4'hE)) 
     o_driveNext_INST_0
        (.I0(i_drive0),
         .I1(i_drive1),
         .O(o_driveNext));
-  (* SOFT_HLUTNM = "soft_lutpair22" *) 
+  (* SOFT_HLUTNM = "soft_lutpair21" *) 
   LUT2 #(
     .INIT(4'h8)) 
     o_free0_INST_0
        (.I0(i_freeNext),
         .I1(w_firstReq),
         .O(o_free0));
-  (* SOFT_HLUTNM = "soft_lutpair24" *) 
+  (* SOFT_HLUTNM = "soft_lutpair23" *) 
   LUT2 #(
     .INIT(4'h8)) 
     o_free1_INST_0
@@ -47341,7 +46969,7 @@ module cMutexMerge2_1b
   contTap secondTap
        (.req(w_secondReq),
         .trig(w_secondTrig));
-  (* SOFT_HLUTNM = "soft_lutpair24" *) 
+  (* SOFT_HLUTNM = "soft_lutpair23" *) 
   LUT3 #(
     .INIT(8'hEA)) 
     secondTap_i_1
@@ -47392,7 +47020,7 @@ module cMutexMerge2_1b__1
   contTap__11 firstTap
        (.req(w_firstReq),
         .trig(w_firstTrig));
-  (* SOFT_HLUTNM = "soft_lutpair20" *) 
+  (* SOFT_HLUTNM = "soft_lutpair19" *) 
   LUT3 #(
     .INIT(8'hEA)) 
     firstTap_i_1
@@ -47400,7 +47028,7 @@ module cMutexMerge2_1b__1
         .I1(w_firstReq),
         .I2(i_freeNext),
         .O(w_firstTrig));
-  (* SOFT_HLUTNM = "soft_lutpair19" *) 
+  (* SOFT_HLUTNM = "soft_lutpair18" *) 
   LUT4 #(
     .INIT(16'hB888)) 
     o_data_INST_0
@@ -47409,21 +47037,21 @@ module cMutexMerge2_1b__1
         .I2(w_secondReq),
         .I3(i_data1),
         .O(o_data));
-  (* SOFT_HLUTNM = "soft_lutpair20" *) 
+  (* SOFT_HLUTNM = "soft_lutpair19" *) 
   LUT2 #(
     .INIT(4'hE)) 
     o_driveNext_INST_0
        (.I0(i_drive0),
         .I1(i_drive1),
         .O(o_driveNext));
-  (* SOFT_HLUTNM = "soft_lutpair19" *) 
+  (* SOFT_HLUTNM = "soft_lutpair18" *) 
   LUT2 #(
     .INIT(4'h8)) 
     o_free0_INST_0
        (.I0(i_freeNext),
         .I1(w_firstReq),
         .O(o_free0));
-  (* SOFT_HLUTNM = "soft_lutpair21" *) 
+  (* SOFT_HLUTNM = "soft_lutpair20" *) 
   LUT2 #(
     .INIT(4'h8)) 
     o_free1_INST_0
@@ -47434,7 +47062,7 @@ module cMutexMerge2_1b__1
   contTap__10 secondTap
        (.req(w_secondReq),
         .trig(w_secondTrig));
-  (* SOFT_HLUTNM = "soft_lutpair21" *) 
+  (* SOFT_HLUTNM = "soft_lutpair20" *) 
   LUT3 #(
     .INIT(8'hEA)) 
     secondTap_i_1
@@ -48108,28 +47736,28 @@ module cSelector5_fire2
   wire w_outRRelay_3_2;
   wire NLW_relay0_inA_UNCONNECTED;
 
-  (* SOFT_HLUTNM = "soft_lutpair17" *) 
+  (* SOFT_HLUTNM = "soft_lutpair16" *) 
   LUT2 #(
     .INIT(4'h8)) 
     o_driveNext0_INST_0
        (.I0(w_driveNext0),
         .I1(valid0),
         .O(o_driveNext0));
-  (* SOFT_HLUTNM = "soft_lutpair17" *) 
+  (* SOFT_HLUTNM = "soft_lutpair16" *) 
   LUT2 #(
     .INIT(4'h8)) 
     o_driveNext1_INST_0
        (.I0(w_driveNext0),
         .I1(valid1),
         .O(o_driveNext1));
-  (* SOFT_HLUTNM = "soft_lutpair18" *) 
+  (* SOFT_HLUTNM = "soft_lutpair17" *) 
   LUT2 #(
     .INIT(4'h8)) 
     o_driveNext2_INST_0
        (.I0(w_driveNext0),
         .I1(valid2),
         .O(o_driveNext2));
-  (* SOFT_HLUTNM = "soft_lutpair18" *) 
+  (* SOFT_HLUTNM = "soft_lutpair17" *) 
   LUT2 #(
     .INIT(4'h8)) 
     o_driveNext3_INST_0
@@ -48785,10 +48413,6 @@ module dcache_tag_compare
   wire w_dirty;
   wire w_dirty_INST_0_i_1_n_0;
   wire w_dirty_INST_0_i_2_n_0;
-  wire w_dirty_INST_0_i_3_n_0;
-  wire w_dirty_reg_i_1_n_0;
-  wire w_dirty_reg_i_2_n_0;
-  wire w_dirty_reg_i_3_n_0;
   wire [21:0]w_evict_tag_22;
   wire \w_evict_tag_22_reg[0]_i_1_n_0 ;
   wire \w_evict_tag_22_reg[0]_i_2_n_0 ;
@@ -49370,16 +48994,23 @@ module dcache_tag_compare
   wire \w_evict_way_32B[9]_INST_0_i_1_n_0 ;
   wire \w_evict_way_32B[9]_INST_0_i_2_n_0 ;
   wire w_hit;
+  wire w_hit1;
+  wire w_hit2;
+  wire w_hit3;
+  wire w_hit4;
+  wire w_hit5;
+  wire w_hit6;
+  wire w_hit7;
+  wire w_hit70_out;
   wire w_hit_BUFG_inst_i_2_n_0;
   wire w_hit_BUFG_inst_i_3_n_0;
   wire w_hit_BUFG_inst_i_4_n_0;
+  wire w_hit_BUFG_inst_i_5_n_0;
   wire w_hit__0;
   wire [2:0]w_hit_way_3;
   wire \w_hit_way_3[0]_INST_0_i_1_n_0 ;
   wire \w_hit_way_3[1]_INST_0_i_1_n_0 ;
   wire \w_hit_way_3[1]_INST_0_i_2_n_0 ;
-  wire \w_hit_way_3[1]_INST_0_i_3_n_0 ;
-  wire \w_hit_way_3[1]_INST_0_i_4_n_0 ;
   wire \w_hit_way_3[2]_INST_0_i_1_n_0 ;
   wire [255:0]w_hitway_data_32B;
   wire \w_hitway_data_32B[0]_INST_0_i_1_n_0 ;
@@ -49844,9 +49475,6 @@ module dcache_tag_compare
   wire \w_hitway_data_32B[238]_INST_0_i_1_n_0 ;
   wire \w_hitway_data_32B[238]_INST_0_i_2_n_0 ;
   wire \w_hitway_data_32B[238]_INST_0_i_3_n_0 ;
-  wire \w_hitway_data_32B[239]_INST_0_i_10_n_0 ;
-  wire \w_hitway_data_32B[239]_INST_0_i_11_n_0 ;
-  wire \w_hitway_data_32B[239]_INST_0_i_12_n_0 ;
   wire \w_hitway_data_32B[239]_INST_0_i_1_n_0 ;
   wire \w_hitway_data_32B[239]_INST_0_i_2_n_0 ;
   wire \w_hitway_data_32B[239]_INST_0_i_3_n_0 ;
@@ -49862,7 +49490,6 @@ module dcache_tag_compare
   wire \w_hitway_data_32B[240]_INST_0_i_1_n_0 ;
   wire \w_hitway_data_32B[240]_INST_0_i_2_n_0 ;
   wire \w_hitway_data_32B[240]_INST_0_i_3_n_0 ;
-  wire \w_hitway_data_32B[240]_INST_0_i_4_n_0 ;
   wire \w_hitway_data_32B[241]_INST_0_i_1_n_0 ;
   wire \w_hitway_data_32B[241]_INST_0_i_2_n_0 ;
   wire \w_hitway_data_32B[241]_INST_0_i_3_n_0 ;
@@ -49908,6 +49535,13 @@ module dcache_tag_compare
   wire \w_hitway_data_32B[254]_INST_0_i_1_n_0 ;
   wire \w_hitway_data_32B[254]_INST_0_i_2_n_0 ;
   wire \w_hitway_data_32B[254]_INST_0_i_3_n_0 ;
+  wire \w_hitway_data_32B[255]_INST_0_i_10_n_0 ;
+  wire \w_hitway_data_32B[255]_INST_0_i_11_n_0 ;
+  wire \w_hitway_data_32B[255]_INST_0_i_12_n_0 ;
+  wire \w_hitway_data_32B[255]_INST_0_i_13_n_0 ;
+  wire \w_hitway_data_32B[255]_INST_0_i_14_n_0 ;
+  wire \w_hitway_data_32B[255]_INST_0_i_15_n_0 ;
+  wire \w_hitway_data_32B[255]_INST_0_i_16_n_0 ;
   wire \w_hitway_data_32B[255]_INST_0_i_1_n_0 ;
   wire \w_hitway_data_32B[255]_INST_0_i_2_n_0 ;
   wire \w_hitway_data_32B[255]_INST_0_i_3_n_0 ;
@@ -50171,14 +49805,12 @@ module dcache_tag_compare
   wire \w_plru_buffer_dataIn_7[1]_INST_0_i_1_n_0 ;
   wire \w_plru_buffer_dataIn_7[1]_INST_0_i_2_n_0 ;
   wire \w_plru_buffer_dataIn_7[2]_INST_0_i_1_n_0 ;
-  wire \w_plru_buffer_dataIn_7[2]_INST_0_i_2_n_0 ;
   wire \w_plru_buffer_dataIn_7[3]_INST_0_i_1_n_0 ;
   wire \w_plru_buffer_dataIn_7[3]_INST_0_i_2_n_0 ;
   wire \w_plru_buffer_dataIn_7[4]_INST_0_i_1_n_0 ;
   wire \w_plru_buffer_dataIn_7[4]_INST_0_i_2_n_0 ;
   wire \w_plru_buffer_dataIn_7[5]_INST_0_i_1_n_0 ;
   wire \w_plru_buffer_dataIn_7[5]_INST_0_i_2_n_0 ;
-  wire \w_plru_buffer_dataIn_7[5]_INST_0_i_3_n_0 ;
   wire \w_plru_buffer_dataIn_7[6]_INST_0_i_1_n_0 ;
   wire \w_plru_buffer_dataIn_7[6]_INST_0_i_2_n_0 ;
   wire [6:0]w_plru_buffer_out_7;
@@ -50191,14 +49823,6 @@ module dcache_tag_compare
   wire [21:0]w_tagSRAM_out_way6_22;
   wire [21:0]w_tagSRAM_out_way7_22;
   wire [7:0]w_way_hit_8;
-  wire w_way_hit_81;
-  wire w_way_hit_810_out;
-  wire w_way_hit_811_out;
-  wire w_way_hit_812_out;
-  wire w_way_hit_813_out;
-  wire w_way_hit_814_out;
-  wire w_way_hit_815_out;
-  wire w_way_hit_816_out;
   wire \w_way_hit_8[0]_INST_0_i_1_n_1 ;
   wire \w_way_hit_8[0]_INST_0_i_1_n_2 ;
   wire \w_way_hit_8[0]_INST_0_i_1_n_3 ;
@@ -50336,75 +49960,34 @@ module dcache_tag_compare
   assign w_way_dirty_8[2] = w_D_V_buffer_dataOut_16[5];
   assign w_way_dirty_8[1] = w_D_V_buffer_dataOut_16[3];
   assign w_way_dirty_8[0] = w_D_V_buffer_dataOut_16[1];
-  (* SOFT_HLUTNM = "soft_lutpair15" *) 
-  LUT2 #(
-    .INIT(4'h4)) 
+  LUT4 #(
+    .INIT(16'h00E2)) 
     w_dirty_INST_0
-       (.I0(w_hit__0),
-        .I1(w_dirty_INST_0_i_1_n_0),
+       (.I0(w_dirty_INST_0_i_1_n_0),
+        .I1(r_plru_evictWay_3[2]),
+        .I2(w_dirty_INST_0_i_2_n_0),
+        .I3(w_hit__0),
         .O(w_dirty));
-  MUXF7 w_dirty_INST_0_i_1
-       (.I0(w_dirty_INST_0_i_2_n_0),
-        .I1(w_dirty_INST_0_i_3_n_0),
-        .O(w_dirty_INST_0_i_1_n_0),
-        .S(r_plru_evictWay_3[2]));
   LUT6 #(
     .INIT(64'hAFA0CFCFAFA0C0C0)) 
-    w_dirty_INST_0_i_2
+    w_dirty_INST_0_i_1
        (.I0(w_D_V_buffer_dataOut_16[7]),
         .I1(w_D_V_buffer_dataOut_16[5]),
         .I2(r_plru_evictWay_3[1]),
         .I3(w_D_V_buffer_dataOut_16[3]),
         .I4(r_plru_evictWay_3[0]),
         .I5(w_D_V_buffer_dataOut_16[1]),
-        .O(w_dirty_INST_0_i_2_n_0));
+        .O(w_dirty_INST_0_i_1_n_0));
   LUT6 #(
     .INIT(64'hAFA0CFCFAFA0C0C0)) 
-    w_dirty_INST_0_i_3
+    w_dirty_INST_0_i_2
        (.I0(w_D_V_buffer_dataOut_16[15]),
         .I1(w_D_V_buffer_dataOut_16[13]),
         .I2(r_plru_evictWay_3[1]),
         .I3(w_D_V_buffer_dataOut_16[11]),
         .I4(r_plru_evictWay_3[0]),
         .I5(w_D_V_buffer_dataOut_16[9]),
-        .O(w_dirty_INST_0_i_3_n_0));
-  (* XILINX_LEGACY_PRIM = "LD" *) 
-  LDCE #(
-    .INIT(1'b0)) 
-    w_dirty_reg
-       (.CLR(1'b0),
-        .D(1'b0),
-        .G(w_dirty_reg_i_1_n_0),
-        .GE(1'b1),
-        .Q(w_dirty));
-  LUT4 #(
-    .INIT(16'hFE99)) 
-    w_dirty_reg_i_1
-       (.I0(w_hit_BUFG_inst_i_3_n_0),
-        .I1(w_hit_BUFG_inst_i_2_n_0),
-        .I2(w_dirty_reg_i_2_n_0),
-        .I3(w_dirty_reg_i_3_n_0),
-        .O(w_dirty_reg_i_1_n_0));
-  LUT6 #(
-    .INIT(64'hFFFFFFFEFFFEFEE8)) 
-    w_dirty_reg_i_2
-       (.I0(\w_plru_buffer_dataIn_7[2]_INST_0_i_2_n_0 ),
-        .I1(\w_plru_buffer_dataIn_7[5]_INST_0_i_3_n_0 ),
-        .I2(w_way_hit_8[7]),
-        .I3(\w_hit_way_3[1]_INST_0_i_4_n_0 ),
-        .I4(w_way_hit_8[2]),
-        .I5(\w_hit_way_3[1]_INST_0_i_3_n_0 ),
-        .O(w_dirty_reg_i_2_n_0));
-  LUT6 #(
-    .INIT(64'hFFFFFFFFFFFFFFFE)) 
-    w_dirty_reg_i_3
-       (.I0(w_way_hit_8[2]),
-        .I1(\w_hit_way_3[1]_INST_0_i_3_n_0 ),
-        .I2(\w_hit_way_3[1]_INST_0_i_4_n_0 ),
-        .I3(\w_plru_buffer_dataIn_7[5]_INST_0_i_3_n_0 ),
-        .I4(w_way_hit_8[7]),
-        .I5(\w_plru_buffer_dataIn_7[2]_INST_0_i_2_n_0 ),
-        .O(w_dirty_reg_i_3_n_0));
+        .O(w_dirty_INST_0_i_2_n_0));
   (* OPT_MODIFIED = "MLO" *) 
   (* XILINX_LEGACY_PRIM = "LD" *) 
   LDCE #(
@@ -51197,7 +50780,7 @@ module dcache_tag_compare
         .I4(r_plru_evictWay_3[0]),
         .I5(w_tagSRAM_out_way4_22[9]),
         .O(\w_evict_tag_22_reg[9]_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair14" *) 
+  (* SOFT_HLUTNM = "soft_lutpair15" *) 
   LUT4 #(
     .INIT(16'h00E2)) 
     \w_evict_way_32B[0]_INST_0 
@@ -54306,7 +53889,6 @@ module dcache_tag_compare
         .I4(r_plru_evictWay_3[0]),
         .I5(w_dataSRAM_out_way4_32B[19]),
         .O(\w_evict_way_32B[19]_INST_0_i_2_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair15" *) 
   LUT4 #(
     .INIT(16'h00E2)) 
     \w_evict_way_32B[1]_INST_0 
@@ -58381,31 +57963,37 @@ module dcache_tag_compare
     w_hit_BUFG_inst_i_1
        (.I0(w_hit_BUFG_inst_i_2_n_0),
         .I1(w_way_hit_8[2]),
-        .I2(w_way_hit_8[7]),
-        .I3(w_hit_BUFG_inst_i_3_n_0),
-        .I4(w_hit_BUFG_inst_i_4_n_0),
+        .I2(w_hit_BUFG_inst_i_3_n_0),
+        .I3(w_hit_BUFG_inst_i_4_n_0),
+        .I4(w_hit_BUFG_inst_i_5_n_0),
         .O(w_hit__0));
   LUT2 #(
     .INIT(4'h8)) 
     w_hit_BUFG_inst_i_2
-       (.I0(w_way_hit_810_out),
+       (.I0(w_hit2),
         .I1(w_D_V_buffer_dataOut_16[2]),
         .O(w_hit_BUFG_inst_i_2_n_0));
   LUT2 #(
     .INIT(4'h8)) 
     w_hit_BUFG_inst_i_3
-       (.I0(w_way_hit_81),
-        .I1(w_D_V_buffer_dataOut_16[0]),
+       (.I0(w_hit70_out),
+        .I1(w_D_V_buffer_dataOut_16[14]),
         .O(w_hit_BUFG_inst_i_3_n_0));
-  (* SOFT_HLUTNM = "soft_lutpair12" *) 
+  LUT2 #(
+    .INIT(4'h8)) 
+    w_hit_BUFG_inst_i_4
+       (.I0(w_hit1),
+        .I1(w_D_V_buffer_dataOut_16[0]),
+        .O(w_hit_BUFG_inst_i_4_n_0));
+  (* SOFT_HLUTNM = "soft_lutpair10" *) 
   LUT4 #(
     .INIT(16'hFFFE)) 
-    w_hit_BUFG_inst_i_4
-       (.I0(\w_hit_way_3[1]_INST_0_i_3_n_0 ),
-        .I1(\w_plru_buffer_dataIn_7[2]_INST_0_i_2_n_0 ),
-        .I2(\w_plru_buffer_dataIn_7[5]_INST_0_i_3_n_0 ),
-        .I3(\w_hit_way_3[1]_INST_0_i_4_n_0 ),
-        .O(w_hit_BUFG_inst_i_4_n_0));
+    w_hit_BUFG_inst_i_5
+       (.I0(w_way_hit_8[4]),
+        .I1(w_way_hit_8[3]),
+        .I2(w_way_hit_8[6]),
+        .I3(w_way_hit_8[5]),
+        .O(w_hit_BUFG_inst_i_5_n_0));
   LUT5 #(
     .INIT(32'h00010000)) 
     \w_hit_way_3[0]_INST_0 
@@ -58433,33 +58021,21 @@ module dcache_tag_compare
         .I4(w_way_hit_8[3]),
         .I5(w_way_hit_8[2]),
         .O(w_hit_way_3[1]));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
+  (* SOFT_HLUTNM = "soft_lutpair11" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \w_hit_way_3[1]_INST_0_i_1 
        (.I0(w_way_hit_8[1]),
         .I1(w_way_hit_8[0]),
         .O(\w_hit_way_3[1]_INST_0_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair11" *) 
+  (* SOFT_HLUTNM = "soft_lutpair12" *) 
   LUT2 #(
     .INIT(4'hE)) 
     \w_hit_way_3[1]_INST_0_i_2 
-       (.I0(\w_hit_way_3[1]_INST_0_i_3_n_0 ),
-        .I1(\w_hit_way_3[1]_INST_0_i_4_n_0 ),
+       (.I0(w_way_hit_8[4]),
+        .I1(w_way_hit_8[5]),
         .O(\w_hit_way_3[1]_INST_0_i_2_n_0 ));
-  LUT2 #(
-    .INIT(4'h8)) 
-    \w_hit_way_3[1]_INST_0_i_3 
-       (.I0(w_way_hit_813_out),
-        .I1(w_D_V_buffer_dataOut_16[8]),
-        .O(\w_hit_way_3[1]_INST_0_i_3_n_0 ));
-  LUT2 #(
-    .INIT(4'h8)) 
-    \w_hit_way_3[1]_INST_0_i_4 
-       (.I0(w_way_hit_814_out),
-        .I1(w_D_V_buffer_dataOut_16[10]),
-        .O(\w_hit_way_3[1]_INST_0_i_4_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair10" *) 
+  (* SOFT_HLUTNM = "soft_lutpair11" *) 
   LUT5 #(
     .INIT(32'h00010000)) 
     \w_hit_way_3[2]_INST_0 
@@ -58491,26 +58067,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[0]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[0]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[0]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[0]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[0]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[0]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[0]),
         .O(\w_hitway_data_32B[0]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[0]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[0]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[0]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[0]),
         .O(\w_hitway_data_32B[0]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58527,26 +58103,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[100]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[100]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[100]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[100]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[100]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[100]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[100]),
         .O(\w_hitway_data_32B[100]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[100]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[100]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[100]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[100]),
         .O(\w_hitway_data_32B[100]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58563,26 +58139,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[101]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[101]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[101]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[101]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[101]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[101]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[101]),
         .O(\w_hitway_data_32B[101]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[101]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[101]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[101]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[101]),
         .O(\w_hitway_data_32B[101]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58599,26 +58175,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[102]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[102]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[102]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[102]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[102]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[102]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[102]),
         .O(\w_hitway_data_32B[102]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[102]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[102]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[102]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[102]),
         .O(\w_hitway_data_32B[102]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58635,26 +58211,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[103]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[103]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[103]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[103]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[103]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[103]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[103]),
         .O(\w_hitway_data_32B[103]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[103]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[103]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[103]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[103]),
         .O(\w_hitway_data_32B[103]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58671,26 +58247,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[104]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[104]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[104]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[104]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[104]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[104]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[104]),
         .O(\w_hitway_data_32B[104]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[104]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[104]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[104]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[104]),
         .O(\w_hitway_data_32B[104]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58707,26 +58283,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[105]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[105]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[105]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[105]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[105]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[105]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[105]),
         .O(\w_hitway_data_32B[105]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[105]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[105]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[105]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[105]),
         .O(\w_hitway_data_32B[105]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58743,26 +58319,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[106]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[106]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[106]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[106]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[106]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[106]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[106]),
         .O(\w_hitway_data_32B[106]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[106]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[106]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[106]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[106]),
         .O(\w_hitway_data_32B[106]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58779,26 +58355,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[107]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[107]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[107]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[107]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[107]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[107]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[107]),
         .O(\w_hitway_data_32B[107]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[107]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[107]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[107]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[107]),
         .O(\w_hitway_data_32B[107]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58815,26 +58391,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[108]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[108]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[108]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[108]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[108]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[108]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[108]),
         .O(\w_hitway_data_32B[108]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[108]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[108]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[108]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[108]),
         .O(\w_hitway_data_32B[108]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58851,26 +58427,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[109]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[109]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[109]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[109]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[109]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[109]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[109]),
         .O(\w_hitway_data_32B[109]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[109]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[109]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[109]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[109]),
         .O(\w_hitway_data_32B[109]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58887,26 +58463,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[10]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[10]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[10]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[10]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[10]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[10]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[10]),
         .O(\w_hitway_data_32B[10]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[10]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[10]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[10]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[10]),
         .O(\w_hitway_data_32B[10]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58923,26 +58499,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[110]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[110]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[110]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[110]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[110]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[110]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[110]),
         .O(\w_hitway_data_32B[110]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[110]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[110]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[110]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[110]),
         .O(\w_hitway_data_32B[110]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58959,26 +58535,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[111]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[111]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[111]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[111]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[111]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[111]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[111]),
         .O(\w_hitway_data_32B[111]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[111]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[111]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[111]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[111]),
         .O(\w_hitway_data_32B[111]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -58993,28 +58569,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[112]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[112]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[112]),
-        .I3(\w_hitway_data_32B[240]_INST_0_i_4_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[112]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[112]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[112]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[112]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[112]),
         .O(\w_hitway_data_32B[112]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[112]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[112]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[112]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[112]),
         .O(\w_hitway_data_32B[112]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59029,28 +58605,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[113]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[113]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[113]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[113]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[113]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[113]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[113]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[113]),
         .O(\w_hitway_data_32B[113]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[113]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[113]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[113]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[113]),
         .O(\w_hitway_data_32B[113]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59065,28 +58641,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[114]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[114]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[114]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[114]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[114]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[114]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[114]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[114]),
         .O(\w_hitway_data_32B[114]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[114]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[114]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[114]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[114]),
         .O(\w_hitway_data_32B[114]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59101,28 +58677,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[115]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[115]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[115]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[115]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[115]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[115]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[115]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[115]),
         .O(\w_hitway_data_32B[115]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[115]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[115]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[115]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[115]),
         .O(\w_hitway_data_32B[115]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59137,28 +58713,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[116]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[116]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[116]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[116]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[116]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[116]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[116]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[116]),
         .O(\w_hitway_data_32B[116]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[116]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[116]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[116]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[116]),
         .O(\w_hitway_data_32B[116]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59173,28 +58749,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[117]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[117]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[117]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[117]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[117]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[117]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[117]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[117]),
         .O(\w_hitway_data_32B[117]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[117]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[117]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[117]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[117]),
         .O(\w_hitway_data_32B[117]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59209,28 +58785,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[118]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[118]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[118]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[118]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[118]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[118]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[118]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[118]),
         .O(\w_hitway_data_32B[118]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[118]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[118]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[118]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[118]),
         .O(\w_hitway_data_32B[118]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59245,28 +58821,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[119]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[119]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[119]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[119]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[119]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[119]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[119]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[119]),
         .O(\w_hitway_data_32B[119]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[119]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[119]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[119]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[119]),
         .O(\w_hitway_data_32B[119]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59283,26 +58859,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[11]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[11]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[11]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[11]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[11]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[11]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[11]),
         .O(\w_hitway_data_32B[11]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[11]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[11]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[11]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[11]),
         .O(\w_hitway_data_32B[11]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59317,28 +58893,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[120]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[120]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[120]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[120]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[120]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[120]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[120]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[120]),
         .O(\w_hitway_data_32B[120]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[120]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[120]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[120]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[120]),
         .O(\w_hitway_data_32B[120]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59353,28 +58929,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[121]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[121]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[121]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[121]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[121]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[121]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[121]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[121]),
         .O(\w_hitway_data_32B[121]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[121]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[121]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[121]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[121]),
         .O(\w_hitway_data_32B[121]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59389,28 +58965,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[122]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[122]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[122]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[122]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[122]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[122]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[122]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[122]),
         .O(\w_hitway_data_32B[122]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[122]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[122]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[122]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[122]),
         .O(\w_hitway_data_32B[122]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59425,28 +59001,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[123]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[123]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[123]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[123]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[123]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[123]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[123]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[123]),
         .O(\w_hitway_data_32B[123]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[123]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[123]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[123]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[123]),
         .O(\w_hitway_data_32B[123]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59461,28 +59037,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[124]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[124]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[124]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[124]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[124]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[124]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[124]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[124]),
         .O(\w_hitway_data_32B[124]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[124]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[124]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[124]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[124]),
         .O(\w_hitway_data_32B[124]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59497,28 +59073,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[125]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[125]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[125]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[125]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[125]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[125]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[125]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[125]),
         .O(\w_hitway_data_32B[125]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[125]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[125]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[125]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[125]),
         .O(\w_hitway_data_32B[125]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59533,28 +59109,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[126]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[126]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[126]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[126]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[126]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[126]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[126]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[126]),
         .O(\w_hitway_data_32B[126]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[126]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[126]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[126]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[126]),
         .O(\w_hitway_data_32B[126]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59569,28 +59145,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[127]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[127]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[127]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[127]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[127]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[127]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[127]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[127]),
         .O(\w_hitway_data_32B[127]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[127]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[127]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[127]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[127]),
         .O(\w_hitway_data_32B[127]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59607,26 +59183,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[128]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[128]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[128]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[128]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[128]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[128]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[128]),
         .O(\w_hitway_data_32B[128]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[128]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[128]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[128]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[128]),
         .O(\w_hitway_data_32B[128]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59643,26 +59219,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[129]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[129]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[129]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[129]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[129]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[129]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[129]),
         .O(\w_hitway_data_32B[129]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[129]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[129]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[129]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[129]),
         .O(\w_hitway_data_32B[129]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59679,26 +59255,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[12]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[12]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[12]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[12]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[12]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[12]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[12]),
         .O(\w_hitway_data_32B[12]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[12]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[12]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[12]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[12]),
         .O(\w_hitway_data_32B[12]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59715,26 +59291,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[130]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[130]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[130]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[130]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[130]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[130]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[130]),
         .O(\w_hitway_data_32B[130]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[130]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[130]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[130]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[130]),
         .O(\w_hitway_data_32B[130]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59751,26 +59327,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[131]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[131]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[131]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[131]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[131]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[131]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[131]),
         .O(\w_hitway_data_32B[131]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[131]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[131]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[131]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[131]),
         .O(\w_hitway_data_32B[131]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59787,26 +59363,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[132]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[132]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[132]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[132]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[132]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[132]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[132]),
         .O(\w_hitway_data_32B[132]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[132]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[132]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[132]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[132]),
         .O(\w_hitway_data_32B[132]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59823,26 +59399,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[133]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[133]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[133]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[133]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[133]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[133]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[133]),
         .O(\w_hitway_data_32B[133]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[133]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[133]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[133]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[133]),
         .O(\w_hitway_data_32B[133]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59859,26 +59435,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[134]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[134]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[134]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[134]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[134]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[134]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[134]),
         .O(\w_hitway_data_32B[134]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[134]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[134]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[134]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[134]),
         .O(\w_hitway_data_32B[134]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59895,26 +59471,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[135]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[135]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[135]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[135]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[135]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[135]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[135]),
         .O(\w_hitway_data_32B[135]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[135]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[135]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[135]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[135]),
         .O(\w_hitway_data_32B[135]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59931,26 +59507,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[136]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[136]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[136]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[136]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[136]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[136]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[136]),
         .O(\w_hitway_data_32B[136]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[136]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[136]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[136]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[136]),
         .O(\w_hitway_data_32B[136]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -59967,26 +59543,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[137]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[137]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[137]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[137]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[137]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[137]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[137]),
         .O(\w_hitway_data_32B[137]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[137]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[137]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[137]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[137]),
         .O(\w_hitway_data_32B[137]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60003,26 +59579,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[138]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[138]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[138]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[138]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[138]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[138]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[138]),
         .O(\w_hitway_data_32B[138]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[138]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[138]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[138]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[138]),
         .O(\w_hitway_data_32B[138]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60039,26 +59615,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[139]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[139]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[139]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[139]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[139]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[139]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[139]),
         .O(\w_hitway_data_32B[139]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[139]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[139]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[139]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[139]),
         .O(\w_hitway_data_32B[139]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60075,26 +59651,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[13]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[13]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[13]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[13]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[13]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[13]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[13]),
         .O(\w_hitway_data_32B[13]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[13]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[13]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[13]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[13]),
         .O(\w_hitway_data_32B[13]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60111,26 +59687,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[140]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[140]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[140]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[140]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[140]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[140]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[140]),
         .O(\w_hitway_data_32B[140]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[140]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[140]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[140]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[140]),
         .O(\w_hitway_data_32B[140]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60147,26 +59723,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[141]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[141]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[141]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[141]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[141]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[141]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[141]),
         .O(\w_hitway_data_32B[141]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[141]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[141]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[141]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[141]),
         .O(\w_hitway_data_32B[141]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60183,26 +59759,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[142]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[142]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[142]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[142]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[142]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[142]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[142]),
         .O(\w_hitway_data_32B[142]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[142]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[142]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[142]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[142]),
         .O(\w_hitway_data_32B[142]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60219,26 +59795,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[143]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[143]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[143]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[143]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[143]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[143]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[143]),
         .O(\w_hitway_data_32B[143]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[143]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[143]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[143]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[143]),
         .O(\w_hitway_data_32B[143]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60253,28 +59829,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[144]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[144]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[144]),
-        .I3(\w_hitway_data_32B[240]_INST_0_i_4_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[144]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[144]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[144]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[144]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[144]),
         .O(\w_hitway_data_32B[144]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[144]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[144]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[144]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[144]),
         .O(\w_hitway_data_32B[144]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60289,28 +59865,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[145]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[145]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[145]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[145]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[145]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[145]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[145]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[145]),
         .O(\w_hitway_data_32B[145]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[145]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[145]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[145]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[145]),
         .O(\w_hitway_data_32B[145]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60325,28 +59901,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[146]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[146]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[146]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[146]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[146]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[146]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[146]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[146]),
         .O(\w_hitway_data_32B[146]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[146]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[146]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[146]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[146]),
         .O(\w_hitway_data_32B[146]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60361,28 +59937,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[147]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[147]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[147]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[147]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[147]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[147]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[147]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[147]),
         .O(\w_hitway_data_32B[147]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[147]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[147]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[147]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[147]),
         .O(\w_hitway_data_32B[147]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60397,28 +59973,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[148]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[148]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[148]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[148]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[148]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[148]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[148]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[148]),
         .O(\w_hitway_data_32B[148]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[148]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[148]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[148]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[148]),
         .O(\w_hitway_data_32B[148]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60433,28 +60009,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[149]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[149]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[149]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[149]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[149]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[149]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[149]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[149]),
         .O(\w_hitway_data_32B[149]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[149]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[149]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[149]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[149]),
         .O(\w_hitway_data_32B[149]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60471,26 +60047,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[14]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[14]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[14]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[14]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[14]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[14]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[14]),
         .O(\w_hitway_data_32B[14]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[14]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[14]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[14]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[14]),
         .O(\w_hitway_data_32B[14]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60505,28 +60081,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[150]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[150]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[150]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[150]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[150]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[150]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[150]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[150]),
         .O(\w_hitway_data_32B[150]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[150]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[150]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[150]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[150]),
         .O(\w_hitway_data_32B[150]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60541,28 +60117,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[151]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[151]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[151]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[151]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[151]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[151]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[151]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[151]),
         .O(\w_hitway_data_32B[151]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[151]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[151]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[151]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[151]),
         .O(\w_hitway_data_32B[151]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60577,28 +60153,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[152]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[152]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[152]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[152]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[152]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[152]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[152]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[152]),
         .O(\w_hitway_data_32B[152]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[152]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[152]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[152]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[152]),
         .O(\w_hitway_data_32B[152]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60613,28 +60189,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[153]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[153]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[153]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[153]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[153]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[153]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[153]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[153]),
         .O(\w_hitway_data_32B[153]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[153]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[153]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[153]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[153]),
         .O(\w_hitway_data_32B[153]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60649,28 +60225,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[154]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[154]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[154]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[154]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[154]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[154]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[154]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[154]),
         .O(\w_hitway_data_32B[154]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[154]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[154]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[154]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[154]),
         .O(\w_hitway_data_32B[154]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60685,28 +60261,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[155]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[155]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[155]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[155]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[155]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[155]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[155]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[155]),
         .O(\w_hitway_data_32B[155]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[155]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[155]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[155]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[155]),
         .O(\w_hitway_data_32B[155]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60721,28 +60297,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[156]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[156]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[156]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[156]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[156]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[156]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[156]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[156]),
         .O(\w_hitway_data_32B[156]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[156]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[156]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[156]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[156]),
         .O(\w_hitway_data_32B[156]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60757,28 +60333,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[157]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[157]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[157]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[157]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[157]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[157]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[157]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[157]),
         .O(\w_hitway_data_32B[157]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[157]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[157]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[157]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[157]),
         .O(\w_hitway_data_32B[157]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60793,28 +60369,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[158]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[158]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[158]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[158]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[158]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[158]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[158]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[158]),
         .O(\w_hitway_data_32B[158]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[158]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[158]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[158]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[158]),
         .O(\w_hitway_data_32B[158]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60829,28 +60405,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[159]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[159]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[159]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[159]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[159]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[159]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[159]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[159]),
         .O(\w_hitway_data_32B[159]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[159]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[159]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[159]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[159]),
         .O(\w_hitway_data_32B[159]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60867,26 +60443,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[15]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[15]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[15]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[15]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[15]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[15]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[15]),
         .O(\w_hitway_data_32B[15]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[15]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[15]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[15]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[15]),
         .O(\w_hitway_data_32B[15]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60903,26 +60479,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[160]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[160]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[160]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[160]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[160]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[160]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[160]),
         .O(\w_hitway_data_32B[160]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[160]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[160]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[160]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[160]),
         .O(\w_hitway_data_32B[160]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60939,26 +60515,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[161]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[161]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[161]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[161]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[161]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[161]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[161]),
         .O(\w_hitway_data_32B[161]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[161]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[161]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[161]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[161]),
         .O(\w_hitway_data_32B[161]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -60975,26 +60551,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[162]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[162]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[162]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[162]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[162]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[162]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[162]),
         .O(\w_hitway_data_32B[162]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[162]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[162]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[162]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[162]),
         .O(\w_hitway_data_32B[162]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61011,26 +60587,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[163]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[163]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[163]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[163]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[163]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[163]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[163]),
         .O(\w_hitway_data_32B[163]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[163]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[163]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[163]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[163]),
         .O(\w_hitway_data_32B[163]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61047,26 +60623,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[164]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[164]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[164]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[164]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[164]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[164]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[164]),
         .O(\w_hitway_data_32B[164]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[164]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[164]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[164]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[164]),
         .O(\w_hitway_data_32B[164]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61083,26 +60659,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[165]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[165]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[165]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[165]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[165]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[165]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[165]),
         .O(\w_hitway_data_32B[165]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[165]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[165]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[165]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[165]),
         .O(\w_hitway_data_32B[165]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61119,26 +60695,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[166]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[166]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[166]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[166]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[166]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[166]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[166]),
         .O(\w_hitway_data_32B[166]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[166]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[166]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[166]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[166]),
         .O(\w_hitway_data_32B[166]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61155,26 +60731,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[167]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[167]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[167]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[167]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[167]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[167]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[167]),
         .O(\w_hitway_data_32B[167]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[167]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[167]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[167]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[167]),
         .O(\w_hitway_data_32B[167]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61191,26 +60767,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[168]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[168]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[168]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[168]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[168]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[168]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[168]),
         .O(\w_hitway_data_32B[168]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[168]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[168]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[168]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[168]),
         .O(\w_hitway_data_32B[168]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61227,26 +60803,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[169]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[169]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[169]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[169]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[169]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[169]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[169]),
         .O(\w_hitway_data_32B[169]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[169]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[169]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[169]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[169]),
         .O(\w_hitway_data_32B[169]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61261,28 +60837,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[16]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[16]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[16]),
-        .I3(\w_hitway_data_32B[240]_INST_0_i_4_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[16]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[16]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[16]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[16]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[16]),
         .O(\w_hitway_data_32B[16]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[16]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[16]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[16]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[16]),
         .O(\w_hitway_data_32B[16]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61299,26 +60875,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[170]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[170]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[170]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[170]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[170]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[170]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[170]),
         .O(\w_hitway_data_32B[170]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[170]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[170]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[170]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[170]),
         .O(\w_hitway_data_32B[170]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61335,26 +60911,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[171]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[171]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[171]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[171]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[171]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[171]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[171]),
         .O(\w_hitway_data_32B[171]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[171]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[171]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[171]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[171]),
         .O(\w_hitway_data_32B[171]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61371,26 +60947,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[172]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[172]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[172]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[172]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[172]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[172]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[172]),
         .O(\w_hitway_data_32B[172]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[172]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[172]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[172]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[172]),
         .O(\w_hitway_data_32B[172]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61407,26 +60983,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[173]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[173]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[173]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[173]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[173]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[173]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[173]),
         .O(\w_hitway_data_32B[173]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[173]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[173]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[173]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[173]),
         .O(\w_hitway_data_32B[173]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61443,26 +61019,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[174]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[174]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[174]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[174]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[174]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[174]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[174]),
         .O(\w_hitway_data_32B[174]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[174]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[174]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[174]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[174]),
         .O(\w_hitway_data_32B[174]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61479,26 +61055,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[175]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[175]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[175]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[175]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[175]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[175]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[175]),
         .O(\w_hitway_data_32B[175]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[175]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[175]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[175]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[175]),
         .O(\w_hitway_data_32B[175]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61513,28 +61089,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[176]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[176]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[176]),
-        .I3(\w_hitway_data_32B[240]_INST_0_i_4_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[176]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[176]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[176]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[176]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[176]),
         .O(\w_hitway_data_32B[176]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[176]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[176]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[176]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[176]),
         .O(\w_hitway_data_32B[176]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61549,28 +61125,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[177]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[177]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[177]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[177]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[177]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[177]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[177]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[177]),
         .O(\w_hitway_data_32B[177]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[177]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[177]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[177]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[177]),
         .O(\w_hitway_data_32B[177]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61585,28 +61161,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[178]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[178]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[178]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[178]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[178]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[178]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[178]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[178]),
         .O(\w_hitway_data_32B[178]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[178]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[178]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[178]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[178]),
         .O(\w_hitway_data_32B[178]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61621,28 +61197,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[179]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[179]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[179]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[179]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[179]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[179]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[179]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[179]),
         .O(\w_hitway_data_32B[179]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[179]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[179]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[179]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[179]),
         .O(\w_hitway_data_32B[179]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61657,28 +61233,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[17]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[17]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[17]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[17]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[17]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[17]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[17]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[17]),
         .O(\w_hitway_data_32B[17]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[17]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[17]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[17]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[17]),
         .O(\w_hitway_data_32B[17]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61693,28 +61269,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[180]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[180]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[180]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[180]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[180]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[180]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[180]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[180]),
         .O(\w_hitway_data_32B[180]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[180]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[180]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[180]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[180]),
         .O(\w_hitway_data_32B[180]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61729,28 +61305,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[181]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[181]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[181]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[181]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[181]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[181]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[181]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[181]),
         .O(\w_hitway_data_32B[181]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[181]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[181]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[181]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[181]),
         .O(\w_hitway_data_32B[181]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61765,28 +61341,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[182]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[182]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[182]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[182]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[182]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[182]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[182]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[182]),
         .O(\w_hitway_data_32B[182]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[182]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[182]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[182]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[182]),
         .O(\w_hitway_data_32B[182]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61801,28 +61377,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[183]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[183]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[183]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[183]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[183]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[183]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[183]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[183]),
         .O(\w_hitway_data_32B[183]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[183]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[183]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[183]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[183]),
         .O(\w_hitway_data_32B[183]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61837,28 +61413,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[184]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[184]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[184]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[184]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[184]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[184]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[184]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[184]),
         .O(\w_hitway_data_32B[184]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[184]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[184]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[184]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[184]),
         .O(\w_hitway_data_32B[184]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61873,28 +61449,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[185]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[185]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[185]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[185]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[185]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[185]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[185]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[185]),
         .O(\w_hitway_data_32B[185]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[185]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[185]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[185]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[185]),
         .O(\w_hitway_data_32B[185]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61909,28 +61485,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[186]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[186]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[186]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[186]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[186]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[186]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[186]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[186]),
         .O(\w_hitway_data_32B[186]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[186]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[186]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[186]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[186]),
         .O(\w_hitway_data_32B[186]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61945,28 +61521,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[187]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[187]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[187]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[187]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[187]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[187]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[187]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[187]),
         .O(\w_hitway_data_32B[187]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[187]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[187]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[187]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[187]),
         .O(\w_hitway_data_32B[187]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -61981,28 +61557,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[188]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[188]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[188]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[188]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[188]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[188]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[188]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[188]),
         .O(\w_hitway_data_32B[188]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[188]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[188]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[188]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[188]),
         .O(\w_hitway_data_32B[188]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62017,28 +61593,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[189]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[189]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[189]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[189]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[189]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[189]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[189]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[189]),
         .O(\w_hitway_data_32B[189]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[189]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[189]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[189]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[189]),
         .O(\w_hitway_data_32B[189]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62053,28 +61629,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[18]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[18]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[18]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[18]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[18]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[18]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[18]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[18]),
         .O(\w_hitway_data_32B[18]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[18]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[18]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[18]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[18]),
         .O(\w_hitway_data_32B[18]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62089,28 +61665,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[190]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[190]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[190]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[190]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[190]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[190]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[190]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[190]),
         .O(\w_hitway_data_32B[190]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[190]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[190]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[190]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[190]),
         .O(\w_hitway_data_32B[190]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62125,28 +61701,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[191]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[191]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[191]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[191]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[191]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[191]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[191]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[191]),
         .O(\w_hitway_data_32B[191]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[191]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[191]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[191]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[191]),
         .O(\w_hitway_data_32B[191]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62163,26 +61739,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[192]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[192]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[192]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[192]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[192]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[192]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[192]),
         .O(\w_hitway_data_32B[192]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[192]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[192]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[192]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[192]),
         .O(\w_hitway_data_32B[192]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62199,26 +61775,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[193]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[193]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[193]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[193]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[193]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[193]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[193]),
         .O(\w_hitway_data_32B[193]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[193]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[193]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[193]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[193]),
         .O(\w_hitway_data_32B[193]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62235,26 +61811,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[194]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[194]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[194]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[194]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[194]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[194]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[194]),
         .O(\w_hitway_data_32B[194]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[194]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[194]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[194]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[194]),
         .O(\w_hitway_data_32B[194]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62271,26 +61847,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[195]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[195]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[195]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[195]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[195]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[195]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[195]),
         .O(\w_hitway_data_32B[195]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[195]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[195]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[195]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[195]),
         .O(\w_hitway_data_32B[195]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62307,26 +61883,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[196]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[196]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[196]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[196]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[196]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[196]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[196]),
         .O(\w_hitway_data_32B[196]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[196]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[196]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[196]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[196]),
         .O(\w_hitway_data_32B[196]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62343,26 +61919,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[197]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[197]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[197]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[197]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[197]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[197]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[197]),
         .O(\w_hitway_data_32B[197]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[197]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[197]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[197]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[197]),
         .O(\w_hitway_data_32B[197]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62379,26 +61955,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[198]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[198]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[198]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[198]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[198]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[198]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[198]),
         .O(\w_hitway_data_32B[198]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[198]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[198]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[198]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[198]),
         .O(\w_hitway_data_32B[198]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62415,26 +61991,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[199]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[199]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[199]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[199]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[199]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[199]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[199]),
         .O(\w_hitway_data_32B[199]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[199]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[199]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[199]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[199]),
         .O(\w_hitway_data_32B[199]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62449,28 +62025,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[19]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[19]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[19]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[19]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[19]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[19]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[19]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[19]),
         .O(\w_hitway_data_32B[19]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[19]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[19]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[19]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[19]),
         .O(\w_hitway_data_32B[19]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62487,26 +62063,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[1]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[1]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[1]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[1]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[1]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[1]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[1]),
         .O(\w_hitway_data_32B[1]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[1]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[1]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[1]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[1]),
         .O(\w_hitway_data_32B[1]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62523,26 +62099,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[200]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[200]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[200]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[200]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[200]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[200]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[200]),
         .O(\w_hitway_data_32B[200]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[200]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[200]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[200]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[200]),
         .O(\w_hitway_data_32B[200]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62559,26 +62135,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[201]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[201]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[201]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[201]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[201]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[201]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[201]),
         .O(\w_hitway_data_32B[201]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[201]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[201]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[201]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[201]),
         .O(\w_hitway_data_32B[201]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62595,26 +62171,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[202]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[202]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[202]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[202]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[202]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[202]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[202]),
         .O(\w_hitway_data_32B[202]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[202]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[202]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[202]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[202]),
         .O(\w_hitway_data_32B[202]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62631,26 +62207,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[203]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[203]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[203]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[203]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[203]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[203]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[203]),
         .O(\w_hitway_data_32B[203]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[203]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[203]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[203]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[203]),
         .O(\w_hitway_data_32B[203]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62667,26 +62243,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[204]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[204]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[204]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[204]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[204]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[204]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[204]),
         .O(\w_hitway_data_32B[204]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[204]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[204]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[204]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[204]),
         .O(\w_hitway_data_32B[204]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62703,26 +62279,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[205]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[205]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[205]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[205]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[205]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[205]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[205]),
         .O(\w_hitway_data_32B[205]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[205]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[205]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[205]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[205]),
         .O(\w_hitway_data_32B[205]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62739,26 +62315,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[206]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[206]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[206]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[206]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[206]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[206]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[206]),
         .O(\w_hitway_data_32B[206]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[206]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[206]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[206]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[206]),
         .O(\w_hitway_data_32B[206]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62775,26 +62351,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[207]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[207]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[207]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[207]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[207]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[207]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[207]),
         .O(\w_hitway_data_32B[207]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[207]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[207]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[207]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[207]),
         .O(\w_hitway_data_32B[207]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62809,28 +62385,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[208]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[208]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[208]),
-        .I3(\w_hitway_data_32B[240]_INST_0_i_4_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[208]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[208]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[208]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[208]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[208]),
         .O(\w_hitway_data_32B[208]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[208]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[208]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[208]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[208]),
         .O(\w_hitway_data_32B[208]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62845,28 +62421,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[209]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[209]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[209]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[209]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[209]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[209]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[209]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[209]),
         .O(\w_hitway_data_32B[209]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[209]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[209]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[209]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[209]),
         .O(\w_hitway_data_32B[209]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62881,28 +62457,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[20]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[20]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[20]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[20]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[20]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[20]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[20]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[20]),
         .O(\w_hitway_data_32B[20]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[20]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[20]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[20]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[20]),
         .O(\w_hitway_data_32B[20]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62917,28 +62493,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[210]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[210]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[210]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[210]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[210]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[210]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[210]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[210]),
         .O(\w_hitway_data_32B[210]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[210]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[210]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[210]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[210]),
         .O(\w_hitway_data_32B[210]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62953,28 +62529,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[211]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[211]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[211]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[211]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[211]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[211]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[211]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[211]),
         .O(\w_hitway_data_32B[211]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[211]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[211]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[211]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[211]),
         .O(\w_hitway_data_32B[211]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -62989,28 +62565,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[212]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[212]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[212]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[212]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[212]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[212]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[212]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[212]),
         .O(\w_hitway_data_32B[212]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[212]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[212]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[212]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[212]),
         .O(\w_hitway_data_32B[212]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63025,28 +62601,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[213]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[213]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[213]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[213]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[213]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[213]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[213]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[213]),
         .O(\w_hitway_data_32B[213]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[213]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[213]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[213]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[213]),
         .O(\w_hitway_data_32B[213]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63061,28 +62637,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[214]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[214]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[214]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[214]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[214]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[214]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[214]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[214]),
         .O(\w_hitway_data_32B[214]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[214]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[214]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[214]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[214]),
         .O(\w_hitway_data_32B[214]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63097,28 +62673,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[215]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[215]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[215]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[215]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[215]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[215]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[215]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[215]),
         .O(\w_hitway_data_32B[215]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[215]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[215]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[215]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[215]),
         .O(\w_hitway_data_32B[215]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63133,28 +62709,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[216]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[216]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[216]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[216]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[216]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[216]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[216]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[216]),
         .O(\w_hitway_data_32B[216]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[216]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[216]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[216]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[216]),
         .O(\w_hitway_data_32B[216]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63169,28 +62745,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[217]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[217]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[217]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[217]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[217]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[217]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[217]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[217]),
         .O(\w_hitway_data_32B[217]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[217]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[217]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[217]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[217]),
         .O(\w_hitway_data_32B[217]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63205,28 +62781,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[218]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[218]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[218]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[218]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[218]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[218]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[218]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[218]),
         .O(\w_hitway_data_32B[218]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[218]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[218]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[218]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[218]),
         .O(\w_hitway_data_32B[218]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63241,28 +62817,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[219]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[219]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[219]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[219]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[219]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[219]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[219]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[219]),
         .O(\w_hitway_data_32B[219]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[219]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[219]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[219]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[219]),
         .O(\w_hitway_data_32B[219]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63277,28 +62853,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[21]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[21]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[21]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[21]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[21]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[21]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[21]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[21]),
         .O(\w_hitway_data_32B[21]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[21]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[21]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[21]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[21]),
         .O(\w_hitway_data_32B[21]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63313,28 +62889,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[220]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[220]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[220]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[220]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[220]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[220]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[220]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[220]),
         .O(\w_hitway_data_32B[220]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[220]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[220]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[220]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[220]),
         .O(\w_hitway_data_32B[220]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63349,28 +62925,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[221]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[221]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[221]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[221]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[221]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[221]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[221]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[221]),
         .O(\w_hitway_data_32B[221]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[221]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[221]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[221]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[221]),
         .O(\w_hitway_data_32B[221]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63385,28 +62961,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[222]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[222]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[222]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[222]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[222]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[222]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[222]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[222]),
         .O(\w_hitway_data_32B[222]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[222]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[222]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[222]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[222]),
         .O(\w_hitway_data_32B[222]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63421,28 +62997,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[223]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[223]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[223]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[223]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[223]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[223]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[223]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[223]),
         .O(\w_hitway_data_32B[223]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[223]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[223]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[223]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[223]),
         .O(\w_hitway_data_32B[223]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63459,26 +63035,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[224]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[224]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[224]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[224]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[224]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[224]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[224]),
         .O(\w_hitway_data_32B[224]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[224]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[224]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[224]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[224]),
         .O(\w_hitway_data_32B[224]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63495,26 +63071,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[225]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[225]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[225]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[225]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[225]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[225]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[225]),
         .O(\w_hitway_data_32B[225]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[225]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[225]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[225]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[225]),
         .O(\w_hitway_data_32B[225]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63531,26 +63107,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[226]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[226]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[226]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[226]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[226]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[226]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[226]),
         .O(\w_hitway_data_32B[226]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[226]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[226]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[226]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[226]),
         .O(\w_hitway_data_32B[226]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63567,26 +63143,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[227]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[227]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[227]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[227]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[227]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[227]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[227]),
         .O(\w_hitway_data_32B[227]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[227]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[227]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[227]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[227]),
         .O(\w_hitway_data_32B[227]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63603,26 +63179,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[228]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[228]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[228]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[228]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[228]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[228]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[228]),
         .O(\w_hitway_data_32B[228]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[228]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[228]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[228]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[228]),
         .O(\w_hitway_data_32B[228]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63639,26 +63215,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[229]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[229]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[229]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[229]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[229]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[229]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[229]),
         .O(\w_hitway_data_32B[229]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[229]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[229]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[229]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[229]),
         .O(\w_hitway_data_32B[229]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63673,28 +63249,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[22]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[22]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[22]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[22]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[22]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[22]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[22]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[22]),
         .O(\w_hitway_data_32B[22]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[22]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[22]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[22]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[22]),
         .O(\w_hitway_data_32B[22]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63711,26 +63287,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[230]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[230]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[230]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[230]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[230]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[230]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[230]),
         .O(\w_hitway_data_32B[230]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[230]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[230]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[230]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[230]),
         .O(\w_hitway_data_32B[230]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63747,26 +63323,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[231]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[231]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[231]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[231]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[231]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[231]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[231]),
         .O(\w_hitway_data_32B[231]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[231]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[231]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[231]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[231]),
         .O(\w_hitway_data_32B[231]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63783,26 +63359,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[232]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[232]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[232]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[232]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[232]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[232]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[232]),
         .O(\w_hitway_data_32B[232]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[232]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[232]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[232]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[232]),
         .O(\w_hitway_data_32B[232]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63819,26 +63395,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[233]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[233]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[233]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[233]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[233]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[233]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[233]),
         .O(\w_hitway_data_32B[233]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[233]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[233]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[233]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[233]),
         .O(\w_hitway_data_32B[233]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63855,26 +63431,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[234]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[234]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[234]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[234]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[234]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[234]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[234]),
         .O(\w_hitway_data_32B[234]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[234]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[234]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[234]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[234]),
         .O(\w_hitway_data_32B[234]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63891,26 +63467,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[235]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[235]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[235]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[235]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[235]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[235]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[235]),
         .O(\w_hitway_data_32B[235]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[235]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[235]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[235]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[235]),
         .O(\w_hitway_data_32B[235]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63927,26 +63503,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[236]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[236]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[236]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[236]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[236]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[236]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[236]),
         .O(\w_hitway_data_32B[236]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[236]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[236]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[236]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[236]),
         .O(\w_hitway_data_32B[236]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63963,26 +63539,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[237]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[237]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[237]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[237]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[237]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[237]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[237]),
         .O(\w_hitway_data_32B[237]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[237]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[237]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[237]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[237]),
         .O(\w_hitway_data_32B[237]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -63999,26 +63575,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[238]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[238]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[238]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[238]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[238]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[238]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[238]),
         .O(\w_hitway_data_32B[238]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[238]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[238]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[238]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[238]),
         .O(\w_hitway_data_32B[238]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64037,81 +63613,63 @@ module dcache_tag_compare
         .I2(\w_hitway_data_32B[255]_INST_0_i_7_n_0 ),
         .I3(\w_hitway_data_32B[255]_INST_0_i_8_n_0 ),
         .O(\w_hitway_data_32B[239]_INST_0_i_1_n_0 ));
-  LUT2 #(
-    .INIT(4'h8)) 
-    \w_hitway_data_32B[239]_INST_0_i_10 
-       (.I0(w_way_hit_812_out),
-        .I1(w_D_V_buffer_dataOut_16[6]),
-        .O(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ));
-  LUT2 #(
-    .INIT(4'h8)) 
-    \w_hitway_data_32B[239]_INST_0_i_11 
-       (.I0(w_way_hit_814_out),
-        .I1(w_D_V_buffer_dataOut_16[10]),
-        .O(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ));
-  LUT2 #(
-    .INIT(4'h8)) 
-    \w_hitway_data_32B[239]_INST_0_i_12 
-       (.I0(w_way_hit_813_out),
-        .I1(w_D_V_buffer_dataOut_16[8]),
-        .O(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ));
   LUT4 #(
     .INIT(16'hF888)) 
     \w_hitway_data_32B[239]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way6_32B[239]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[239]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[239]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[239]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way0_32B[239]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[239]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[239]),
         .O(\w_hitway_data_32B[239]_INST_0_i_3_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[239]_INST_0_i_4 
        (.I0(w_dataSRAM_out_way3_32B[239]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[239]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[239]),
         .O(\w_hitway_data_32B[239]_INST_0_i_4_n_0 ));
   LUT2 #(
     .INIT(4'h8)) 
     \w_hitway_data_32B[239]_INST_0_i_5 
-       (.I0(w_way_hit_815_out),
+       (.I0(w_hit7),
         .I1(w_D_V_buffer_dataOut_16[12]),
         .O(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ));
   LUT2 #(
     .INIT(4'h8)) 
     \w_hitway_data_32B[239]_INST_0_i_6 
-       (.I0(w_way_hit_816_out),
-        .I1(w_D_V_buffer_dataOut_16[14]),
+       (.I0(w_hit3),
+        .I1(w_D_V_buffer_dataOut_16[4]),
         .O(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ));
   LUT2 #(
     .INIT(4'h8)) 
     \w_hitway_data_32B[239]_INST_0_i_7 
-       (.I0(w_way_hit_81),
-        .I1(w_D_V_buffer_dataOut_16[0]),
+       (.I0(w_hit4),
+        .I1(w_D_V_buffer_dataOut_16[6]),
         .O(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ));
   LUT2 #(
     .INIT(4'h8)) 
     \w_hitway_data_32B[239]_INST_0_i_8 
-       (.I0(w_way_hit_811_out),
-        .I1(w_D_V_buffer_dataOut_16[4]),
+       (.I0(w_hit6),
+        .I1(w_D_V_buffer_dataOut_16[10]),
         .O(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ));
   LUT2 #(
     .INIT(4'h8)) 
     \w_hitway_data_32B[239]_INST_0_i_9 
-       (.I0(w_way_hit_810_out),
-        .I1(w_D_V_buffer_dataOut_16[2]),
+       (.I0(w_hit5),
+        .I1(w_D_V_buffer_dataOut_16[8]),
         .O(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ));
   LUT4 #(
     .INIT(16'hAAA8)) 
@@ -64125,28 +63683,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[23]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[23]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[23]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[23]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[23]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[23]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[23]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[23]),
         .O(\w_hitway_data_32B[23]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[23]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[23]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[23]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[23]),
         .O(\w_hitway_data_32B[23]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64161,36 +63719,30 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[240]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[240]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[240]),
-        .I3(\w_hitway_data_32B[240]_INST_0_i_4_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[240]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[240]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[240]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[240]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[240]),
         .O(\w_hitway_data_32B[240]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[240]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[240]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[240]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[240]),
         .O(\w_hitway_data_32B[240]_INST_0_i_3_n_0 ));
-  LUT2 #(
-    .INIT(4'h8)) 
-    \w_hitway_data_32B[240]_INST_0_i_4 
-       (.I0(w_way_hit_816_out),
-        .I1(w_D_V_buffer_dataOut_16[14]),
-        .O(\w_hitway_data_32B[240]_INST_0_i_4_n_0 ));
   LUT4 #(
     .INIT(16'hAAA8)) 
     \w_hitway_data_32B[241]_INST_0 
@@ -64203,28 +63755,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[241]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[241]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[241]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[241]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[241]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[241]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[241]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[241]),
         .O(\w_hitway_data_32B[241]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[241]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[241]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[241]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[241]),
         .O(\w_hitway_data_32B[241]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64239,28 +63791,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[242]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[242]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[242]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[242]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[242]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[242]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[242]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[242]),
         .O(\w_hitway_data_32B[242]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[242]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[242]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[242]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[242]),
         .O(\w_hitway_data_32B[242]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64275,28 +63827,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[243]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[243]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[243]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[243]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[243]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[243]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[243]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[243]),
         .O(\w_hitway_data_32B[243]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[243]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[243]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[243]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[243]),
         .O(\w_hitway_data_32B[243]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64311,28 +63863,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[244]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[244]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[244]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[244]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[244]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[244]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[244]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[244]),
         .O(\w_hitway_data_32B[244]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[244]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[244]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[244]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[244]),
         .O(\w_hitway_data_32B[244]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64347,28 +63899,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[245]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[245]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[245]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[245]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[245]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[245]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[245]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[245]),
         .O(\w_hitway_data_32B[245]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[245]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[245]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[245]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[245]),
         .O(\w_hitway_data_32B[245]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64383,28 +63935,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[246]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[246]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[246]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[246]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[246]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[246]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[246]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[246]),
         .O(\w_hitway_data_32B[246]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[246]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[246]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[246]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[246]),
         .O(\w_hitway_data_32B[246]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64419,28 +63971,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[247]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[247]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[247]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[247]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[247]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[247]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[247]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[247]),
         .O(\w_hitway_data_32B[247]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[247]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[247]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[247]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[247]),
         .O(\w_hitway_data_32B[247]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64455,28 +64007,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[248]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[248]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[248]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[248]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[248]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[248]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[248]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[248]),
         .O(\w_hitway_data_32B[248]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[248]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[248]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[248]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[248]),
         .O(\w_hitway_data_32B[248]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64491,28 +64043,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[249]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[249]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[249]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[249]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[249]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[249]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[249]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[249]),
         .O(\w_hitway_data_32B[249]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[249]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[249]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[249]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[249]),
         .O(\w_hitway_data_32B[249]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64527,28 +64079,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[24]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[24]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[24]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[24]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[24]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[24]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[24]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[24]),
         .O(\w_hitway_data_32B[24]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[24]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[24]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[24]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[24]),
         .O(\w_hitway_data_32B[24]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64563,28 +64115,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[250]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[250]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[250]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[250]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[250]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[250]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[250]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[250]),
         .O(\w_hitway_data_32B[250]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[250]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[250]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[250]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[250]),
         .O(\w_hitway_data_32B[250]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64599,28 +64151,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[251]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[251]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[251]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[251]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[251]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[251]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[251]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[251]),
         .O(\w_hitway_data_32B[251]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[251]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[251]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[251]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[251]),
         .O(\w_hitway_data_32B[251]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64635,28 +64187,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[252]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[252]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[252]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[252]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[252]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[252]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[252]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[252]),
         .O(\w_hitway_data_32B[252]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[252]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[252]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[252]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[252]),
         .O(\w_hitway_data_32B[252]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64671,28 +64223,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[253]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[253]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[253]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[253]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[253]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[253]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[253]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[253]),
         .O(\w_hitway_data_32B[253]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[253]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[253]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[253]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[253]),
         .O(\w_hitway_data_32B[253]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64707,28 +64259,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[254]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[254]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[254]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[254]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[254]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[254]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[254]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[254]),
         .O(\w_hitway_data_32B[254]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[254]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[254]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[254]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[254]),
         .O(\w_hitway_data_32B[254]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64747,75 +64299,117 @@ module dcache_tag_compare
         .I2(\w_hitway_data_32B[255]_INST_0_i_7_n_0 ),
         .I3(\w_hitway_data_32B[255]_INST_0_i_8_n_0 ),
         .O(\w_hitway_data_32B[255]_INST_0_i_1_n_0 ));
+  LUT2 #(
+    .INIT(4'h8)) 
+    \w_hitway_data_32B[255]_INST_0_i_10 
+       (.I0(w_hit70_out),
+        .I1(w_D_V_buffer_dataOut_16[14]),
+        .O(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ));
+  LUT2 #(
+    .INIT(4'h8)) 
+    \w_hitway_data_32B[255]_INST_0_i_11 
+       (.I0(w_hit1),
+        .I1(w_D_V_buffer_dataOut_16[0]),
+        .O(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ));
+  LUT2 #(
+    .INIT(4'h8)) 
+    \w_hitway_data_32B[255]_INST_0_i_12 
+       (.I0(w_hit3),
+        .I1(w_D_V_buffer_dataOut_16[4]),
+        .O(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ));
+  LUT2 #(
+    .INIT(4'h8)) 
+    \w_hitway_data_32B[255]_INST_0_i_13 
+       (.I0(w_hit2),
+        .I1(w_D_V_buffer_dataOut_16[2]),
+        .O(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ));
+  LUT2 #(
+    .INIT(4'h8)) 
+    \w_hitway_data_32B[255]_INST_0_i_14 
+       (.I0(w_hit4),
+        .I1(w_D_V_buffer_dataOut_16[6]),
+        .O(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ));
+  LUT2 #(
+    .INIT(4'h8)) 
+    \w_hitway_data_32B[255]_INST_0_i_15 
+       (.I0(w_hit6),
+        .I1(w_D_V_buffer_dataOut_16[10]),
+        .O(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ));
+  LUT2 #(
+    .INIT(4'h8)) 
+    \w_hitway_data_32B[255]_INST_0_i_16 
+       (.I0(w_hit5),
+        .I1(w_D_V_buffer_dataOut_16[8]),
+        .O(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ));
   LUT4 #(
     .INIT(16'hF888)) 
     \w_hitway_data_32B[255]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way6_32B[255]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[255]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[255]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[255]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way0_32B[255]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[255]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[255]),
         .O(\w_hitway_data_32B[255]_INST_0_i_3_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[255]_INST_0_i_4 
        (.I0(w_dataSRAM_out_way3_32B[255]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[255]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[255]),
         .O(\w_hitway_data_32B[255]_INST_0_i_4_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair13" *) 
   LUT4 #(
     .INIT(16'h0116)) 
     \w_hitway_data_32B[255]_INST_0_i_5 
-       (.I0(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
+       (.I0(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
         .O(\w_hitway_data_32B[255]_INST_0_i_5_n_0 ));
   (* SOFT_HLUTNM = "soft_lutpair13" *) 
   LUT4 #(
     .INIT(16'hFEE8)) 
     \w_hitway_data_32B[255]_INST_0_i_6 
-       (.I0(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
+       (.I0(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
         .O(\w_hitway_data_32B[255]_INST_0_i_6_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair16" *) 
+  (* SOFT_HLUTNM = "soft_lutpair14" *) 
   LUT4 #(
     .INIT(16'h0116)) 
     \w_hitway_data_32B[255]_INST_0_i_7 
-       (.I0(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+       (.I0(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[255]_INST_0_i_7_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair16" *) 
+  (* SOFT_HLUTNM = "soft_lutpair14" *) 
   LUT4 #(
     .INIT(16'hFEE8)) 
     \w_hitway_data_32B[255]_INST_0_i_8 
-       (.I0(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+       (.I0(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[255]_INST_0_i_8_n_0 ));
   LUT2 #(
     .INIT(4'h8)) 
     \w_hitway_data_32B[255]_INST_0_i_9 
-       (.I0(w_way_hit_811_out),
-        .I1(w_D_V_buffer_dataOut_16[4]),
+       (.I0(w_hit7),
+        .I1(w_D_V_buffer_dataOut_16[12]),
         .O(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ));
   LUT4 #(
     .INIT(16'hAAA8)) 
@@ -64829,28 +64423,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[25]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[25]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[25]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[25]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[25]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[25]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[25]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[25]),
         .O(\w_hitway_data_32B[25]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[25]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[25]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[25]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[25]),
         .O(\w_hitway_data_32B[25]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64865,28 +64459,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[26]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[26]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[26]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[26]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[26]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[26]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[26]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[26]),
         .O(\w_hitway_data_32B[26]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[26]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[26]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[26]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[26]),
         .O(\w_hitway_data_32B[26]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64901,28 +64495,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[27]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[27]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[27]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[27]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[27]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[27]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[27]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[27]),
         .O(\w_hitway_data_32B[27]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[27]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[27]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[27]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[27]),
         .O(\w_hitway_data_32B[27]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64937,28 +64531,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[28]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[28]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[28]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[28]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[28]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[28]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[28]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[28]),
         .O(\w_hitway_data_32B[28]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[28]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[28]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[28]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[28]),
         .O(\w_hitway_data_32B[28]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -64973,28 +64567,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[29]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[29]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[29]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[29]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[29]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[29]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[29]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[29]),
         .O(\w_hitway_data_32B[29]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[29]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[29]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[29]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[29]),
         .O(\w_hitway_data_32B[29]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65011,26 +64605,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[2]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[2]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[2]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[2]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[2]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[2]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[2]),
         .O(\w_hitway_data_32B[2]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[2]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[2]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[2]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[2]),
         .O(\w_hitway_data_32B[2]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65045,28 +64639,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[30]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[30]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[30]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[30]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[30]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[30]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[30]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[30]),
         .O(\w_hitway_data_32B[30]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[30]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[30]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[30]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[30]),
         .O(\w_hitway_data_32B[30]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65081,28 +64675,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[31]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[31]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[31]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[31]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[31]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[31]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[31]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[31]),
         .O(\w_hitway_data_32B[31]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[31]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[31]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[31]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[31]),
         .O(\w_hitway_data_32B[31]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65119,26 +64713,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[32]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[32]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[32]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[32]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[32]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[32]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[32]),
         .O(\w_hitway_data_32B[32]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[32]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[32]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[32]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[32]),
         .O(\w_hitway_data_32B[32]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65155,26 +64749,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[33]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[33]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[33]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[33]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[33]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[33]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[33]),
         .O(\w_hitway_data_32B[33]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[33]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[33]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[33]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[33]),
         .O(\w_hitway_data_32B[33]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65191,26 +64785,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[34]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[34]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[34]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[34]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[34]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[34]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[34]),
         .O(\w_hitway_data_32B[34]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[34]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[34]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[34]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[34]),
         .O(\w_hitway_data_32B[34]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65227,26 +64821,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[35]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[35]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[35]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[35]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[35]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[35]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[35]),
         .O(\w_hitway_data_32B[35]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[35]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[35]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[35]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[35]),
         .O(\w_hitway_data_32B[35]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65263,26 +64857,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[36]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[36]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[36]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[36]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[36]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[36]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[36]),
         .O(\w_hitway_data_32B[36]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[36]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[36]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[36]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[36]),
         .O(\w_hitway_data_32B[36]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65299,26 +64893,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[37]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[37]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[37]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[37]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[37]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[37]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[37]),
         .O(\w_hitway_data_32B[37]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[37]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[37]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[37]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[37]),
         .O(\w_hitway_data_32B[37]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65335,26 +64929,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[38]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[38]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[38]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[38]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[38]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[38]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[38]),
         .O(\w_hitway_data_32B[38]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[38]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[38]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[38]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[38]),
         .O(\w_hitway_data_32B[38]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65371,26 +64965,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[39]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[39]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[39]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[39]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[39]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[39]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[39]),
         .O(\w_hitway_data_32B[39]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[39]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[39]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[39]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[39]),
         .O(\w_hitway_data_32B[39]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65407,26 +65001,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[3]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[3]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[3]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[3]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[3]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[3]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[3]),
         .O(\w_hitway_data_32B[3]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[3]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[3]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[3]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[3]),
         .O(\w_hitway_data_32B[3]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65443,26 +65037,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[40]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[40]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[40]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[40]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[40]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[40]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[40]),
         .O(\w_hitway_data_32B[40]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[40]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[40]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[40]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[40]),
         .O(\w_hitway_data_32B[40]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65479,26 +65073,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[41]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[41]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[41]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[41]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[41]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[41]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[41]),
         .O(\w_hitway_data_32B[41]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[41]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[41]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[41]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[41]),
         .O(\w_hitway_data_32B[41]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65515,26 +65109,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[42]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[42]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[42]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[42]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[42]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[42]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[42]),
         .O(\w_hitway_data_32B[42]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[42]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[42]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[42]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[42]),
         .O(\w_hitway_data_32B[42]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65551,26 +65145,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[43]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[43]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[43]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[43]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[43]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[43]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[43]),
         .O(\w_hitway_data_32B[43]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[43]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[43]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[43]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[43]),
         .O(\w_hitway_data_32B[43]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65587,26 +65181,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[44]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[44]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[44]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[44]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[44]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[44]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[44]),
         .O(\w_hitway_data_32B[44]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[44]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[44]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[44]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[44]),
         .O(\w_hitway_data_32B[44]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65623,26 +65217,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[45]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[45]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[45]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[45]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[45]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[45]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[45]),
         .O(\w_hitway_data_32B[45]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[45]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[45]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[45]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[45]),
         .O(\w_hitway_data_32B[45]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65659,26 +65253,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[46]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[46]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[46]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[46]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[46]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[46]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[46]),
         .O(\w_hitway_data_32B[46]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[46]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[46]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[46]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[46]),
         .O(\w_hitway_data_32B[46]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65695,26 +65289,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[47]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[47]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[47]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[47]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[47]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[47]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[47]),
         .O(\w_hitway_data_32B[47]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[47]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[47]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[47]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[47]),
         .O(\w_hitway_data_32B[47]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65729,28 +65323,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[48]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[48]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[48]),
-        .I3(\w_hitway_data_32B[240]_INST_0_i_4_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[48]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[48]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[48]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[48]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[48]),
         .O(\w_hitway_data_32B[48]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[48]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[48]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[48]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[48]),
         .O(\w_hitway_data_32B[48]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65765,28 +65359,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[49]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[49]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[49]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[49]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[49]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[49]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[49]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[49]),
         .O(\w_hitway_data_32B[49]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[49]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[49]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[49]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[49]),
         .O(\w_hitway_data_32B[49]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65803,26 +65397,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[4]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[4]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[4]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[4]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[4]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[4]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[4]),
         .O(\w_hitway_data_32B[4]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[4]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[4]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[4]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[4]),
         .O(\w_hitway_data_32B[4]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65837,28 +65431,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[50]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[50]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[50]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[50]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[50]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[50]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[50]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[50]),
         .O(\w_hitway_data_32B[50]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[50]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[50]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[50]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[50]),
         .O(\w_hitway_data_32B[50]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65873,28 +65467,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[51]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[51]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[51]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[51]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[51]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[51]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[51]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[51]),
         .O(\w_hitway_data_32B[51]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[51]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[51]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[51]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[51]),
         .O(\w_hitway_data_32B[51]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65909,28 +65503,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[52]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[52]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[52]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[52]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[52]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[52]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[52]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[52]),
         .O(\w_hitway_data_32B[52]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[52]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[52]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[52]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[52]),
         .O(\w_hitway_data_32B[52]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65945,28 +65539,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[53]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[53]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[53]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[53]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[53]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[53]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[53]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[53]),
         .O(\w_hitway_data_32B[53]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[53]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[53]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[53]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[53]),
         .O(\w_hitway_data_32B[53]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -65981,28 +65575,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[54]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[54]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[54]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[54]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[54]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[54]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[54]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[54]),
         .O(\w_hitway_data_32B[54]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[54]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[54]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[54]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[54]),
         .O(\w_hitway_data_32B[54]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66017,28 +65611,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[55]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[55]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[55]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[55]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[55]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[55]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[55]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[55]),
         .O(\w_hitway_data_32B[55]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[55]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[55]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[55]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[55]),
         .O(\w_hitway_data_32B[55]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66053,28 +65647,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[56]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[56]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[56]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[56]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[56]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[56]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[56]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[56]),
         .O(\w_hitway_data_32B[56]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[56]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[56]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[56]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[56]),
         .O(\w_hitway_data_32B[56]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66089,28 +65683,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[57]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[57]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[57]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[57]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[57]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[57]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[57]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[57]),
         .O(\w_hitway_data_32B[57]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[57]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[57]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[57]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[57]),
         .O(\w_hitway_data_32B[57]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66125,28 +65719,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[58]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[58]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[58]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[58]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[58]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[58]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[58]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[58]),
         .O(\w_hitway_data_32B[58]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[58]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[58]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[58]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[58]),
         .O(\w_hitway_data_32B[58]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66161,28 +65755,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[59]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[59]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[59]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[59]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[59]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[59]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[59]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[59]),
         .O(\w_hitway_data_32B[59]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[59]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[59]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[59]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[59]),
         .O(\w_hitway_data_32B[59]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66199,26 +65793,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[5]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[5]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[5]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[5]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[5]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[5]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[5]),
         .O(\w_hitway_data_32B[5]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[5]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[5]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[5]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[5]),
         .O(\w_hitway_data_32B[5]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66233,28 +65827,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[60]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[60]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[60]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[60]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[60]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[60]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[60]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[60]),
         .O(\w_hitway_data_32B[60]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[60]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[60]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[60]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[60]),
         .O(\w_hitway_data_32B[60]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66269,28 +65863,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[61]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[61]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[61]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[61]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[61]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[61]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[61]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[61]),
         .O(\w_hitway_data_32B[61]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[61]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[61]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[61]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[61]),
         .O(\w_hitway_data_32B[61]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66305,28 +65899,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[62]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[62]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[62]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[62]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[62]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[62]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[62]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[62]),
         .O(\w_hitway_data_32B[62]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[62]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[62]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[62]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[62]),
         .O(\w_hitway_data_32B[62]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66341,28 +65935,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[63]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[63]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[63]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[63]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[63]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[63]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[63]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[63]),
         .O(\w_hitway_data_32B[63]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[63]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[63]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[63]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[63]),
         .O(\w_hitway_data_32B[63]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66379,26 +65973,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[64]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[64]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[64]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[64]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[64]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[64]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[64]),
         .O(\w_hitway_data_32B[64]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[64]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[64]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[64]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[64]),
         .O(\w_hitway_data_32B[64]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66415,26 +66009,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[65]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[65]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[65]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[65]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[65]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[65]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[65]),
         .O(\w_hitway_data_32B[65]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[65]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[65]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[65]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[65]),
         .O(\w_hitway_data_32B[65]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66451,26 +66045,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[66]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[66]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[66]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[66]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[66]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[66]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[66]),
         .O(\w_hitway_data_32B[66]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[66]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[66]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[66]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[66]),
         .O(\w_hitway_data_32B[66]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66487,26 +66081,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[67]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[67]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[67]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[67]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[67]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[67]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[67]),
         .O(\w_hitway_data_32B[67]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[67]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[67]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[67]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[67]),
         .O(\w_hitway_data_32B[67]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66523,26 +66117,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[68]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[68]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[68]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[68]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[68]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[68]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[68]),
         .O(\w_hitway_data_32B[68]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[68]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[68]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[68]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[68]),
         .O(\w_hitway_data_32B[68]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66559,26 +66153,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[69]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[69]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[69]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[69]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[69]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[69]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[69]),
         .O(\w_hitway_data_32B[69]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[69]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[69]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[69]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[69]),
         .O(\w_hitway_data_32B[69]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66595,26 +66189,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[6]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[6]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[6]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[6]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[6]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[6]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[6]),
         .O(\w_hitway_data_32B[6]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[6]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[6]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[6]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[6]),
         .O(\w_hitway_data_32B[6]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66631,26 +66225,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[70]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[70]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[70]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[70]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[70]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[70]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[70]),
         .O(\w_hitway_data_32B[70]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[70]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[70]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[70]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[70]),
         .O(\w_hitway_data_32B[70]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66667,26 +66261,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[71]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[71]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[71]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[71]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[71]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[71]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[71]),
         .O(\w_hitway_data_32B[71]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[71]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[71]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[71]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[71]),
         .O(\w_hitway_data_32B[71]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66703,26 +66297,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[72]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[72]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[72]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[72]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[72]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[72]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[72]),
         .O(\w_hitway_data_32B[72]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[72]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[72]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[72]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[72]),
         .O(\w_hitway_data_32B[72]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66739,26 +66333,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[73]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[73]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[73]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[73]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[73]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[73]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[73]),
         .O(\w_hitway_data_32B[73]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[73]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[73]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[73]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[73]),
         .O(\w_hitway_data_32B[73]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66775,26 +66369,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[74]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[74]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[74]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[74]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[74]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[74]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[74]),
         .O(\w_hitway_data_32B[74]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[74]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[74]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[74]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[74]),
         .O(\w_hitway_data_32B[74]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66811,26 +66405,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[75]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[75]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[75]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[75]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[75]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[75]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[75]),
         .O(\w_hitway_data_32B[75]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[75]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[75]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[75]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[75]),
         .O(\w_hitway_data_32B[75]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66847,26 +66441,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[76]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[76]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[76]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[76]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[76]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[76]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[76]),
         .O(\w_hitway_data_32B[76]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[76]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[76]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[76]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[76]),
         .O(\w_hitway_data_32B[76]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66883,26 +66477,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[77]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[77]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[77]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[77]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[77]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[77]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[77]),
         .O(\w_hitway_data_32B[77]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[77]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[77]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[77]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[77]),
         .O(\w_hitway_data_32B[77]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66919,26 +66513,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[78]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[78]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[78]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[78]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[78]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[78]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[78]),
         .O(\w_hitway_data_32B[78]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[78]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[78]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[78]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[78]),
         .O(\w_hitway_data_32B[78]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66955,26 +66549,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[79]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[79]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[79]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[79]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[79]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[79]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[79]),
         .O(\w_hitway_data_32B[79]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[79]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[79]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[79]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[79]),
         .O(\w_hitway_data_32B[79]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -66991,26 +66585,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[7]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[7]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[7]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[7]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[7]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[7]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[7]),
         .O(\w_hitway_data_32B[7]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[7]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[7]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[7]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[7]),
         .O(\w_hitway_data_32B[7]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67025,28 +66619,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[80]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[80]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[80]),
-        .I3(\w_hitway_data_32B[240]_INST_0_i_4_n_0 ),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[80]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[80]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[80]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[80]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[80]),
         .O(\w_hitway_data_32B[80]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[80]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[80]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[80]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[80]),
         .O(\w_hitway_data_32B[80]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67061,28 +66655,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[81]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[81]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[81]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[81]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[81]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[81]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[81]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[81]),
         .O(\w_hitway_data_32B[81]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[81]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[81]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[81]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[81]),
         .O(\w_hitway_data_32B[81]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67097,28 +66691,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[82]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[82]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[82]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[82]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[82]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[82]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[82]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[82]),
         .O(\w_hitway_data_32B[82]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[82]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[82]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[82]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[82]),
         .O(\w_hitway_data_32B[82]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67133,28 +66727,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[83]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[83]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[83]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[83]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[83]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[83]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[83]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[83]),
         .O(\w_hitway_data_32B[83]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[83]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[83]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[83]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[83]),
         .O(\w_hitway_data_32B[83]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67169,28 +66763,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[84]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[84]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[84]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[84]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[84]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[84]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[84]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[84]),
         .O(\w_hitway_data_32B[84]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[84]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[84]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[84]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[84]),
         .O(\w_hitway_data_32B[84]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67205,28 +66799,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[85]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[85]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[85]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[85]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[85]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[85]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[85]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[85]),
         .O(\w_hitway_data_32B[85]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[85]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[85]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[85]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[85]),
         .O(\w_hitway_data_32B[85]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67241,28 +66835,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[86]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[86]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[86]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[86]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[86]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[86]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[86]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[86]),
         .O(\w_hitway_data_32B[86]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[86]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[86]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[86]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[86]),
         .O(\w_hitway_data_32B[86]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67277,28 +66871,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[87]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[87]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[87]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[87]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[87]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[87]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[87]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[87]),
         .O(\w_hitway_data_32B[87]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[87]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[87]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[87]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[87]),
         .O(\w_hitway_data_32B[87]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67313,28 +66907,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[88]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[88]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[88]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[88]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[88]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[88]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[88]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[88]),
         .O(\w_hitway_data_32B[88]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[88]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[88]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[88]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[88]),
         .O(\w_hitway_data_32B[88]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67349,28 +66943,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[89]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[89]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[89]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[89]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[89]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[89]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[89]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[89]),
         .O(\w_hitway_data_32B[89]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[89]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[89]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[89]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[89]),
         .O(\w_hitway_data_32B[89]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67387,26 +66981,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[8]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[8]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[8]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[8]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[8]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[8]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[8]),
         .O(\w_hitway_data_32B[8]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[8]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[8]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[8]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[8]),
         .O(\w_hitway_data_32B[8]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67421,28 +67015,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[90]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[90]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[90]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[90]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[90]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[90]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[90]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[90]),
         .O(\w_hitway_data_32B[90]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[90]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[90]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[90]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[90]),
         .O(\w_hitway_data_32B[90]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67457,28 +67051,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[91]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[91]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[91]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[91]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[91]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[91]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[91]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[91]),
         .O(\w_hitway_data_32B[91]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[91]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[91]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[91]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[91]),
         .O(\w_hitway_data_32B[91]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67493,28 +67087,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[92]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[92]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[92]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[92]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[92]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[92]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[92]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[92]),
         .O(\w_hitway_data_32B[92]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[92]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[92]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[92]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[92]),
         .O(\w_hitway_data_32B[92]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67529,28 +67123,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[93]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[93]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[93]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[93]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[93]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[93]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[93]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[93]),
         .O(\w_hitway_data_32B[93]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[93]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[93]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[93]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[93]),
         .O(\w_hitway_data_32B[93]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67565,28 +67159,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[94]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[94]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[94]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[94]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[94]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[94]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[94]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[94]),
         .O(\w_hitway_data_32B[94]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[94]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[94]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[94]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[94]),
         .O(\w_hitway_data_32B[94]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67601,28 +67195,28 @@ module dcache_tag_compare
     .INIT(16'hF888)) 
     \w_hitway_data_32B[95]_INST_0_i_1 
        (.I0(w_dataSRAM_out_way6_32B[95]),
-        .I1(w_way_hit_8[6]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[95]),
-        .I3(w_way_hit_8[7]),
+        .I3(\w_hitway_data_32B[255]_INST_0_i_10_n_0 ),
         .O(\w_hitway_data_32B[95]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[95]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[95]),
-        .I1(w_way_hit_8[0]),
-        .I2(\w_hitway_data_32B[255]_INST_0_i_9_n_0 ),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_11_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_12_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[95]),
-        .I4(w_way_hit_8[1]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_13_n_0 ),
         .I5(w_dataSRAM_out_way1_32B[95]),
         .O(\w_hitway_data_32B[95]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[95]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[95]),
-        .I1(w_way_hit_8[3]),
-        .I2(w_way_hit_8[5]),
+        .I1(\w_hitway_data_32B[255]_INST_0_i_14_n_0 ),
+        .I2(\w_hitway_data_32B[255]_INST_0_i_15_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[95]),
-        .I4(w_way_hit_8[4]),
+        .I4(\w_hitway_data_32B[255]_INST_0_i_16_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[95]),
         .O(\w_hitway_data_32B[95]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67639,26 +67233,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[96]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[96]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[96]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[96]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[96]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[96]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[96]),
         .O(\w_hitway_data_32B[96]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[96]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[96]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[96]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[96]),
         .O(\w_hitway_data_32B[96]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67675,26 +67269,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[97]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[97]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[97]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[97]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[97]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[97]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[97]),
         .O(\w_hitway_data_32B[97]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[97]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[97]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[97]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[97]),
         .O(\w_hitway_data_32B[97]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67711,26 +67305,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[98]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[98]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[98]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[98]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[98]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[98]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[98]),
         .O(\w_hitway_data_32B[98]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[98]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[98]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[98]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[98]),
         .O(\w_hitway_data_32B[98]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67747,26 +67341,26 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[99]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[99]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[99]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[99]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[99]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[99]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[99]),
         .O(\w_hitway_data_32B[99]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[99]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[99]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[99]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[99]),
         .O(\w_hitway_data_32B[99]_INST_0_i_3_n_0 ));
   LUT4 #(
@@ -67783,29 +67377,29 @@ module dcache_tag_compare
        (.I0(w_dataSRAM_out_way6_32B[9]),
         .I1(\w_hitway_data_32B[239]_INST_0_i_5_n_0 ),
         .I2(w_dataSRAM_out_way7_32B[9]),
-        .I3(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
+        .I3(w_way_hit_8[7]),
         .O(\w_hitway_data_32B[9]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[9]_INST_0_i_2 
        (.I0(w_dataSRAM_out_way0_32B[9]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
+        .I1(w_way_hit_8[0]),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_6_n_0 ),
         .I3(w_dataSRAM_out_way2_32B[9]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
+        .I4(w_way_hit_8[1]),
         .I5(w_dataSRAM_out_way1_32B[9]),
         .O(\w_hitway_data_32B[9]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hFFFFF888F888F888)) 
     \w_hitway_data_32B[9]_INST_0_i_3 
        (.I0(w_dataSRAM_out_way3_32B[9]),
-        .I1(\w_hitway_data_32B[239]_INST_0_i_10_n_0 ),
-        .I2(\w_hitway_data_32B[239]_INST_0_i_11_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_7_n_0 ),
+        .I2(\w_hitway_data_32B[239]_INST_0_i_8_n_0 ),
         .I3(w_dataSRAM_out_way5_32B[9]),
-        .I4(\w_hitway_data_32B[239]_INST_0_i_12_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_9_n_0 ),
         .I5(w_dataSRAM_out_way4_32B[9]),
         .O(\w_hitway_data_32B[9]_INST_0_i_3_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair14" *) 
+  (* SOFT_HLUTNM = "soft_lutpair15" *) 
   LUT3 #(
     .INIT(8'h8B)) 
     \w_plru_buffer_dataIn_7[0]_INST_0 
@@ -67818,9 +67412,9 @@ module dcache_tag_compare
     \w_plru_buffer_dataIn_7[0]_INST_0_i_1 
        (.I0(w_hit_BUFG_inst_i_2_n_0),
         .I1(w_way_hit_8[2]),
-        .I2(w_hit_BUFG_inst_i_3_n_0),
-        .I3(\w_plru_buffer_dataIn_7[2]_INST_0_i_2_n_0 ),
-        .I4(\w_hitway_data_32B[255]_INST_0_i_1_n_0 ),
+        .I2(w_hit_BUFG_inst_i_4_n_0),
+        .I3(w_way_hit_8[3]),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_1_n_0 ),
         .I5(w_plru_buffer_out_7[0]),
         .O(\w_plru_buffer_dataIn_7[0]_INST_0_i_1_n_0 ));
   LUT5 #(
@@ -67836,26 +67430,26 @@ module dcache_tag_compare
     .INIT(32'hFEFFAA00)) 
     \w_plru_buffer_dataIn_7[1]_INST_0_i_1 
        (.I0(\w_plru_buffer_dataIn_7[1]_INST_0_i_2_n_0 ),
-        .I1(w_way_hit_8[7]),
-        .I2(\w_plru_buffer_dataIn_7[5]_INST_0_i_3_n_0 ),
-        .I3(\w_hitway_data_32B[255]_INST_0_i_1_n_0 ),
+        .I1(w_hit_BUFG_inst_i_3_n_0),
+        .I2(w_way_hit_8[6]),
+        .I3(\w_hitway_data_32B[239]_INST_0_i_1_n_0 ),
         .I4(w_plru_buffer_out_7[1]),
         .O(\w_plru_buffer_dataIn_7[1]_INST_0_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair11" *) 
+  (* SOFT_HLUTNM = "soft_lutpair12" *) 
   LUT5 #(
     .INIT(32'hFFEEFEEE)) 
     \w_plru_buffer_dataIn_7[1]_INST_0_i_2 
        (.I0(w_hit_BUFG_inst_i_2_n_0),
-        .I1(w_hit_BUFG_inst_i_3_n_0),
-        .I2(\w_hit_way_3[1]_INST_0_i_4_n_0 ),
+        .I1(w_hit_BUFG_inst_i_4_n_0),
+        .I2(w_way_hit_8[5]),
         .I3(w_plru_buffer_out_7[1]),
-        .I4(\w_hit_way_3[1]_INST_0_i_3_n_0 ),
+        .I4(w_way_hit_8[4]),
         .O(\w_plru_buffer_dataIn_7[1]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hB0BFBFBF808F8080)) 
     \w_plru_buffer_dataIn_7[2]_INST_0 
        (.I0(\w_plru_buffer_dataIn_7[2]_INST_0_i_1_n_0 ),
-        .I1(\w_hitway_data_32B[255]_INST_0_i_1_n_0 ),
+        .I1(\w_hitway_data_32B[239]_INST_0_i_1_n_0 ),
         .I2(w_hit__0),
         .I3(r_plru_evictWay_3[1]),
         .I4(r_plru_evictWay_3[2]),
@@ -67866,17 +67460,11 @@ module dcache_tag_compare
     \w_plru_buffer_dataIn_7[2]_INST_0_i_1 
        (.I0(w_hit_BUFG_inst_i_2_n_0),
         .I1(w_way_hit_8[2]),
-        .I2(w_hit_BUFG_inst_i_3_n_0),
+        .I2(w_hit_BUFG_inst_i_4_n_0),
         .I3(\w_hit_way_3[1]_INST_0_i_2_n_0 ),
-        .I4(\w_plru_buffer_dataIn_7[2]_INST_0_i_2_n_0 ),
+        .I4(w_way_hit_8[3]),
         .I5(w_plru_buffer_out_7[2]),
         .O(\w_plru_buffer_dataIn_7[2]_INST_0_i_1_n_0 ));
-  LUT2 #(
-    .INIT(4'h8)) 
-    \w_plru_buffer_dataIn_7[2]_INST_0_i_2 
-       (.I0(w_way_hit_812_out),
-        .I1(w_D_V_buffer_dataOut_16[6]),
-        .O(\w_plru_buffer_dataIn_7[2]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hBB88B888BB88BB8B)) 
     \w_plru_buffer_dataIn_7[3]_INST_0 
@@ -67891,20 +67479,20 @@ module dcache_tag_compare
     .INIT(32'hFEFFAA00)) 
     \w_plru_buffer_dataIn_7[3]_INST_0_i_1 
        (.I0(\w_plru_buffer_dataIn_7[3]_INST_0_i_2_n_0 ),
-        .I1(w_way_hit_8[7]),
-        .I2(\w_plru_buffer_dataIn_7[5]_INST_0_i_3_n_0 ),
-        .I3(\w_hitway_data_32B[255]_INST_0_i_1_n_0 ),
+        .I1(w_hit_BUFG_inst_i_3_n_0),
+        .I2(w_way_hit_8[6]),
+        .I3(\w_hitway_data_32B[239]_INST_0_i_1_n_0 ),
         .I4(w_plru_buffer_out_7[3]),
         .O(\w_plru_buffer_dataIn_7[3]_INST_0_i_1_n_0 ));
   LUT6 #(
     .INIT(64'hFFCCFFCCFFCCFECC)) 
     \w_plru_buffer_dataIn_7[3]_INST_0_i_2 
        (.I0(w_way_hit_8[2]),
-        .I1(w_hit_BUFG_inst_i_3_n_0),
-        .I2(\w_hit_way_3[1]_INST_0_i_3_n_0 ),
+        .I1(w_hit_BUFG_inst_i_4_n_0),
+        .I2(w_way_hit_8[4]),
         .I3(w_plru_buffer_out_7[3]),
-        .I4(\w_hit_way_3[1]_INST_0_i_4_n_0 ),
-        .I5(\w_plru_buffer_dataIn_7[2]_INST_0_i_2_n_0 ),
+        .I4(w_way_hit_8[5]),
+        .I5(w_way_hit_8[3]),
         .O(\w_plru_buffer_dataIn_7[3]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hB8BBBBBB888B8888)) 
@@ -67920,9 +67508,9 @@ module dcache_tag_compare
     .INIT(32'hFEFFAA00)) 
     \w_plru_buffer_dataIn_7[4]_INST_0_i_1 
        (.I0(\w_plru_buffer_dataIn_7[4]_INST_0_i_2_n_0 ),
-        .I1(w_way_hit_8[7]),
-        .I2(\w_plru_buffer_dataIn_7[5]_INST_0_i_3_n_0 ),
-        .I3(\w_hitway_data_32B[255]_INST_0_i_1_n_0 ),
+        .I1(w_hit_BUFG_inst_i_3_n_0),
+        .I2(w_way_hit_8[6]),
+        .I3(\w_hitway_data_32B[239]_INST_0_i_1_n_0 ),
         .I4(w_plru_buffer_out_7[4]),
         .O(\w_plru_buffer_dataIn_7[4]_INST_0_i_1_n_0 ));
   LUT6 #(
@@ -67930,10 +67518,10 @@ module dcache_tag_compare
     \w_plru_buffer_dataIn_7[4]_INST_0_i_2 
        (.I0(w_hit_BUFG_inst_i_2_n_0),
         .I1(w_way_hit_8[2]),
-        .I2(w_hit_BUFG_inst_i_3_n_0),
-        .I3(\w_hit_way_3[1]_INST_0_i_4_n_0 ),
+        .I2(w_hit_BUFG_inst_i_4_n_0),
+        .I3(w_way_hit_8[5]),
         .I4(w_plru_buffer_out_7[4]),
-        .I5(\w_hit_way_3[1]_INST_0_i_3_n_0 ),
+        .I5(w_way_hit_8[4]),
         .O(\w_plru_buffer_dataIn_7[4]_INST_0_i_2_n_0 ));
   LUT6 #(
     .INIT(64'hB8BBBBBB888B8888)) 
@@ -67949,9 +67537,9 @@ module dcache_tag_compare
     .INIT(32'hFEFFAA00)) 
     \w_plru_buffer_dataIn_7[5]_INST_0_i_1 
        (.I0(\w_plru_buffer_dataIn_7[5]_INST_0_i_2_n_0 ),
-        .I1(w_way_hit_8[7]),
-        .I2(\w_plru_buffer_dataIn_7[5]_INST_0_i_3_n_0 ),
-        .I3(\w_hitway_data_32B[255]_INST_0_i_1_n_0 ),
+        .I1(w_hit_BUFG_inst_i_3_n_0),
+        .I2(w_way_hit_8[6]),
+        .I3(\w_hitway_data_32B[239]_INST_0_i_1_n_0 ),
         .I4(w_plru_buffer_out_7[5]),
         .O(\w_plru_buffer_dataIn_7[5]_INST_0_i_1_n_0 ));
   LUT6 #(
@@ -67959,17 +67547,11 @@ module dcache_tag_compare
     \w_plru_buffer_dataIn_7[5]_INST_0_i_2 
        (.I0(w_hit_BUFG_inst_i_2_n_0),
         .I1(w_way_hit_8[2]),
-        .I2(w_hit_BUFG_inst_i_3_n_0),
-        .I3(\w_hit_way_3[1]_INST_0_i_3_n_0 ),
-        .I4(\w_plru_buffer_dataIn_7[2]_INST_0_i_2_n_0 ),
+        .I2(w_hit_BUFG_inst_i_4_n_0),
+        .I3(w_way_hit_8[4]),
+        .I4(w_way_hit_8[3]),
         .I5(w_plru_buffer_out_7[5]),
         .O(\w_plru_buffer_dataIn_7[5]_INST_0_i_2_n_0 ));
-  LUT2 #(
-    .INIT(4'h8)) 
-    \w_plru_buffer_dataIn_7[5]_INST_0_i_3 
-       (.I0(w_way_hit_815_out),
-        .I1(w_D_V_buffer_dataOut_16[12]),
-        .O(\w_plru_buffer_dataIn_7[5]_INST_0_i_3_n_0 ));
   LUT6 #(
     .INIT(64'h8BBBBBBB8B888888)) 
     \w_plru_buffer_dataIn_7[6]_INST_0 
@@ -67985,25 +67567,25 @@ module dcache_tag_compare
     \w_plru_buffer_dataIn_7[6]_INST_0_i_1 
        (.I0(w_hit_BUFG_inst_i_2_n_0),
         .I1(w_way_hit_8[2]),
-        .I2(w_hit_BUFG_inst_i_3_n_0),
+        .I2(w_hit_BUFG_inst_i_4_n_0),
         .I3(\w_plru_buffer_dataIn_7[6]_INST_0_i_2_n_0 ),
-        .I4(\w_hitway_data_32B[255]_INST_0_i_1_n_0 ),
+        .I4(\w_hitway_data_32B[239]_INST_0_i_1_n_0 ),
         .I5(w_plru_buffer_out_7[6]),
         .O(\w_plru_buffer_dataIn_7[6]_INST_0_i_1_n_0 ));
-  (* SOFT_HLUTNM = "soft_lutpair12" *) 
+  (* SOFT_HLUTNM = "soft_lutpair10" *) 
   LUT5 #(
     .INIT(32'hFFFFCCC8)) 
     \w_plru_buffer_dataIn_7[6]_INST_0_i_2 
-       (.I0(\w_hit_way_3[1]_INST_0_i_3_n_0 ),
+       (.I0(w_way_hit_8[4]),
         .I1(w_plru_buffer_out_7[6]),
-        .I2(\w_hit_way_3[1]_INST_0_i_4_n_0 ),
-        .I3(\w_plru_buffer_dataIn_7[2]_INST_0_i_2_n_0 ),
-        .I4(\w_plru_buffer_dataIn_7[5]_INST_0_i_3_n_0 ),
+        .I2(w_way_hit_8[5]),
+        .I3(w_way_hit_8[3]),
+        .I4(w_way_hit_8[6]),
         .O(\w_plru_buffer_dataIn_7[6]_INST_0_i_2_n_0 ));
   LUT2 #(
     .INIT(4'h8)) 
     \w_way_hit_8[0]_INST_0 
-       (.I0(w_way_hit_81),
+       (.I0(w_hit1),
         .I1(w_D_V_buffer_dataOut_16[0]),
         .O(w_way_hit_8[0]));
   CARRY8 #(
@@ -68011,7 +67593,7 @@ module dcache_tag_compare
     \w_way_hit_8[0]_INST_0_i_1 
        (.CI(1'b1),
         .CI_TOP(1'b0),
-        .CO({w_way_hit_81,\w_way_hit_8[0]_INST_0_i_1_n_1 ,\w_way_hit_8[0]_INST_0_i_1_n_2 ,\w_way_hit_8[0]_INST_0_i_1_n_3 ,\w_way_hit_8[0]_INST_0_i_1_n_4 ,\w_way_hit_8[0]_INST_0_i_1_n_5 ,\w_way_hit_8[0]_INST_0_i_1_n_6 ,\w_way_hit_8[0]_INST_0_i_1_n_7 }),
+        .CO({w_hit1,\w_way_hit_8[0]_INST_0_i_1_n_1 ,\w_way_hit_8[0]_INST_0_i_1_n_2 ,\w_way_hit_8[0]_INST_0_i_1_n_3 ,\w_way_hit_8[0]_INST_0_i_1_n_4 ,\w_way_hit_8[0]_INST_0_i_1_n_5 ,\w_way_hit_8[0]_INST_0_i_1_n_6 ,\w_way_hit_8[0]_INST_0_i_1_n_7 }),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .O(\NLW_w_way_hit_8[0]_INST_0_i_1_O_UNCONNECTED [7:0]),
         .S({\w_way_hit_8[0]_INST_0_i_2_n_0 ,\w_way_hit_8[0]_INST_0_i_3_n_0 ,\w_way_hit_8[0]_INST_0_i_4_n_0 ,\w_way_hit_8[0]_INST_0_i_5_n_0 ,\w_way_hit_8[0]_INST_0_i_6_n_0 ,\w_way_hit_8[0]_INST_0_i_7_n_0 ,\w_way_hit_8[0]_INST_0_i_8_n_0 ,\w_way_hit_8[0]_INST_0_i_9_n_0 }));
@@ -68094,7 +67676,7 @@ module dcache_tag_compare
   LUT2 #(
     .INIT(4'h8)) 
     \w_way_hit_8[1]_INST_0 
-       (.I0(w_way_hit_810_out),
+       (.I0(w_hit2),
         .I1(w_D_V_buffer_dataOut_16[2]),
         .O(w_way_hit_8[1]));
   CARRY8 #(
@@ -68102,7 +67684,7 @@ module dcache_tag_compare
     \w_way_hit_8[1]_INST_0_i_1 
        (.CI(1'b1),
         .CI_TOP(1'b0),
-        .CO({w_way_hit_810_out,\w_way_hit_8[1]_INST_0_i_1_n_1 ,\w_way_hit_8[1]_INST_0_i_1_n_2 ,\w_way_hit_8[1]_INST_0_i_1_n_3 ,\w_way_hit_8[1]_INST_0_i_1_n_4 ,\w_way_hit_8[1]_INST_0_i_1_n_5 ,\w_way_hit_8[1]_INST_0_i_1_n_6 ,\w_way_hit_8[1]_INST_0_i_1_n_7 }),
+        .CO({w_hit2,\w_way_hit_8[1]_INST_0_i_1_n_1 ,\w_way_hit_8[1]_INST_0_i_1_n_2 ,\w_way_hit_8[1]_INST_0_i_1_n_3 ,\w_way_hit_8[1]_INST_0_i_1_n_4 ,\w_way_hit_8[1]_INST_0_i_1_n_5 ,\w_way_hit_8[1]_INST_0_i_1_n_6 ,\w_way_hit_8[1]_INST_0_i_1_n_7 }),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .O(\NLW_w_way_hit_8[1]_INST_0_i_1_O_UNCONNECTED [7:0]),
         .S({\w_way_hit_8[1]_INST_0_i_2_n_0 ,\w_way_hit_8[1]_INST_0_i_3_n_0 ,\w_way_hit_8[1]_INST_0_i_4_n_0 ,\w_way_hit_8[1]_INST_0_i_5_n_0 ,\w_way_hit_8[1]_INST_0_i_6_n_0 ,\w_way_hit_8[1]_INST_0_i_7_n_0 ,\w_way_hit_8[1]_INST_0_i_8_n_0 ,\w_way_hit_8[1]_INST_0_i_9_n_0 }));
@@ -68185,7 +67767,7 @@ module dcache_tag_compare
   LUT2 #(
     .INIT(4'h8)) 
     \w_way_hit_8[2]_INST_0 
-       (.I0(w_way_hit_811_out),
+       (.I0(w_hit3),
         .I1(w_D_V_buffer_dataOut_16[4]),
         .O(w_way_hit_8[2]));
   CARRY8 #(
@@ -68193,7 +67775,7 @@ module dcache_tag_compare
     \w_way_hit_8[2]_INST_0_i_1 
        (.CI(1'b1),
         .CI_TOP(1'b0),
-        .CO({w_way_hit_811_out,\w_way_hit_8[2]_INST_0_i_1_n_1 ,\w_way_hit_8[2]_INST_0_i_1_n_2 ,\w_way_hit_8[2]_INST_0_i_1_n_3 ,\w_way_hit_8[2]_INST_0_i_1_n_4 ,\w_way_hit_8[2]_INST_0_i_1_n_5 ,\w_way_hit_8[2]_INST_0_i_1_n_6 ,\w_way_hit_8[2]_INST_0_i_1_n_7 }),
+        .CO({w_hit3,\w_way_hit_8[2]_INST_0_i_1_n_1 ,\w_way_hit_8[2]_INST_0_i_1_n_2 ,\w_way_hit_8[2]_INST_0_i_1_n_3 ,\w_way_hit_8[2]_INST_0_i_1_n_4 ,\w_way_hit_8[2]_INST_0_i_1_n_5 ,\w_way_hit_8[2]_INST_0_i_1_n_6 ,\w_way_hit_8[2]_INST_0_i_1_n_7 }),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .O(\NLW_w_way_hit_8[2]_INST_0_i_1_O_UNCONNECTED [7:0]),
         .S({\w_way_hit_8[2]_INST_0_i_2_n_0 ,\w_way_hit_8[2]_INST_0_i_3_n_0 ,\w_way_hit_8[2]_INST_0_i_4_n_0 ,\w_way_hit_8[2]_INST_0_i_5_n_0 ,\w_way_hit_8[2]_INST_0_i_6_n_0 ,\w_way_hit_8[2]_INST_0_i_7_n_0 ,\w_way_hit_8[2]_INST_0_i_8_n_0 ,\w_way_hit_8[2]_INST_0_i_9_n_0 }));
@@ -68276,7 +67858,7 @@ module dcache_tag_compare
   LUT2 #(
     .INIT(4'h8)) 
     \w_way_hit_8[3]_INST_0 
-       (.I0(w_way_hit_812_out),
+       (.I0(w_hit4),
         .I1(w_D_V_buffer_dataOut_16[6]),
         .O(w_way_hit_8[3]));
   CARRY8 #(
@@ -68284,7 +67866,7 @@ module dcache_tag_compare
     \w_way_hit_8[3]_INST_0_i_1 
        (.CI(1'b1),
         .CI_TOP(1'b0),
-        .CO({w_way_hit_812_out,\w_way_hit_8[3]_INST_0_i_1_n_1 ,\w_way_hit_8[3]_INST_0_i_1_n_2 ,\w_way_hit_8[3]_INST_0_i_1_n_3 ,\w_way_hit_8[3]_INST_0_i_1_n_4 ,\w_way_hit_8[3]_INST_0_i_1_n_5 ,\w_way_hit_8[3]_INST_0_i_1_n_6 ,\w_way_hit_8[3]_INST_0_i_1_n_7 }),
+        .CO({w_hit4,\w_way_hit_8[3]_INST_0_i_1_n_1 ,\w_way_hit_8[3]_INST_0_i_1_n_2 ,\w_way_hit_8[3]_INST_0_i_1_n_3 ,\w_way_hit_8[3]_INST_0_i_1_n_4 ,\w_way_hit_8[3]_INST_0_i_1_n_5 ,\w_way_hit_8[3]_INST_0_i_1_n_6 ,\w_way_hit_8[3]_INST_0_i_1_n_7 }),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .O(\NLW_w_way_hit_8[3]_INST_0_i_1_O_UNCONNECTED [7:0]),
         .S({\w_way_hit_8[3]_INST_0_i_2_n_0 ,\w_way_hit_8[3]_INST_0_i_3_n_0 ,\w_way_hit_8[3]_INST_0_i_4_n_0 ,\w_way_hit_8[3]_INST_0_i_5_n_0 ,\w_way_hit_8[3]_INST_0_i_6_n_0 ,\w_way_hit_8[3]_INST_0_i_7_n_0 ,\w_way_hit_8[3]_INST_0_i_8_n_0 ,\w_way_hit_8[3]_INST_0_i_9_n_0 }));
@@ -68367,7 +67949,7 @@ module dcache_tag_compare
   LUT2 #(
     .INIT(4'h8)) 
     \w_way_hit_8[4]_INST_0 
-       (.I0(w_way_hit_813_out),
+       (.I0(w_hit5),
         .I1(w_D_V_buffer_dataOut_16[8]),
         .O(w_way_hit_8[4]));
   CARRY8 #(
@@ -68375,7 +67957,7 @@ module dcache_tag_compare
     \w_way_hit_8[4]_INST_0_i_1 
        (.CI(1'b1),
         .CI_TOP(1'b0),
-        .CO({w_way_hit_813_out,\w_way_hit_8[4]_INST_0_i_1_n_1 ,\w_way_hit_8[4]_INST_0_i_1_n_2 ,\w_way_hit_8[4]_INST_0_i_1_n_3 ,\w_way_hit_8[4]_INST_0_i_1_n_4 ,\w_way_hit_8[4]_INST_0_i_1_n_5 ,\w_way_hit_8[4]_INST_0_i_1_n_6 ,\w_way_hit_8[4]_INST_0_i_1_n_7 }),
+        .CO({w_hit5,\w_way_hit_8[4]_INST_0_i_1_n_1 ,\w_way_hit_8[4]_INST_0_i_1_n_2 ,\w_way_hit_8[4]_INST_0_i_1_n_3 ,\w_way_hit_8[4]_INST_0_i_1_n_4 ,\w_way_hit_8[4]_INST_0_i_1_n_5 ,\w_way_hit_8[4]_INST_0_i_1_n_6 ,\w_way_hit_8[4]_INST_0_i_1_n_7 }),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .O(\NLW_w_way_hit_8[4]_INST_0_i_1_O_UNCONNECTED [7:0]),
         .S({\w_way_hit_8[4]_INST_0_i_2_n_0 ,\w_way_hit_8[4]_INST_0_i_3_n_0 ,\w_way_hit_8[4]_INST_0_i_4_n_0 ,\w_way_hit_8[4]_INST_0_i_5_n_0 ,\w_way_hit_8[4]_INST_0_i_6_n_0 ,\w_way_hit_8[4]_INST_0_i_7_n_0 ,\w_way_hit_8[4]_INST_0_i_8_n_0 ,\w_way_hit_8[4]_INST_0_i_9_n_0 }));
@@ -68458,7 +68040,7 @@ module dcache_tag_compare
   LUT2 #(
     .INIT(4'h8)) 
     \w_way_hit_8[5]_INST_0 
-       (.I0(w_way_hit_814_out),
+       (.I0(w_hit6),
         .I1(w_D_V_buffer_dataOut_16[10]),
         .O(w_way_hit_8[5]));
   CARRY8 #(
@@ -68466,7 +68048,7 @@ module dcache_tag_compare
     \w_way_hit_8[5]_INST_0_i_1 
        (.CI(1'b1),
         .CI_TOP(1'b0),
-        .CO({w_way_hit_814_out,\w_way_hit_8[5]_INST_0_i_1_n_1 ,\w_way_hit_8[5]_INST_0_i_1_n_2 ,\w_way_hit_8[5]_INST_0_i_1_n_3 ,\w_way_hit_8[5]_INST_0_i_1_n_4 ,\w_way_hit_8[5]_INST_0_i_1_n_5 ,\w_way_hit_8[5]_INST_0_i_1_n_6 ,\w_way_hit_8[5]_INST_0_i_1_n_7 }),
+        .CO({w_hit6,\w_way_hit_8[5]_INST_0_i_1_n_1 ,\w_way_hit_8[5]_INST_0_i_1_n_2 ,\w_way_hit_8[5]_INST_0_i_1_n_3 ,\w_way_hit_8[5]_INST_0_i_1_n_4 ,\w_way_hit_8[5]_INST_0_i_1_n_5 ,\w_way_hit_8[5]_INST_0_i_1_n_6 ,\w_way_hit_8[5]_INST_0_i_1_n_7 }),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .O(\NLW_w_way_hit_8[5]_INST_0_i_1_O_UNCONNECTED [7:0]),
         .S({\w_way_hit_8[5]_INST_0_i_2_n_0 ,\w_way_hit_8[5]_INST_0_i_3_n_0 ,\w_way_hit_8[5]_INST_0_i_4_n_0 ,\w_way_hit_8[5]_INST_0_i_5_n_0 ,\w_way_hit_8[5]_INST_0_i_6_n_0 ,\w_way_hit_8[5]_INST_0_i_7_n_0 ,\w_way_hit_8[5]_INST_0_i_8_n_0 ,\w_way_hit_8[5]_INST_0_i_9_n_0 }));
@@ -68549,7 +68131,7 @@ module dcache_tag_compare
   LUT2 #(
     .INIT(4'h8)) 
     \w_way_hit_8[6]_INST_0 
-       (.I0(w_way_hit_815_out),
+       (.I0(w_hit7),
         .I1(w_D_V_buffer_dataOut_16[12]),
         .O(w_way_hit_8[6]));
   CARRY8 #(
@@ -68557,7 +68139,7 @@ module dcache_tag_compare
     \w_way_hit_8[6]_INST_0_i_1 
        (.CI(1'b1),
         .CI_TOP(1'b0),
-        .CO({w_way_hit_815_out,\w_way_hit_8[6]_INST_0_i_1_n_1 ,\w_way_hit_8[6]_INST_0_i_1_n_2 ,\w_way_hit_8[6]_INST_0_i_1_n_3 ,\w_way_hit_8[6]_INST_0_i_1_n_4 ,\w_way_hit_8[6]_INST_0_i_1_n_5 ,\w_way_hit_8[6]_INST_0_i_1_n_6 ,\w_way_hit_8[6]_INST_0_i_1_n_7 }),
+        .CO({w_hit7,\w_way_hit_8[6]_INST_0_i_1_n_1 ,\w_way_hit_8[6]_INST_0_i_1_n_2 ,\w_way_hit_8[6]_INST_0_i_1_n_3 ,\w_way_hit_8[6]_INST_0_i_1_n_4 ,\w_way_hit_8[6]_INST_0_i_1_n_5 ,\w_way_hit_8[6]_INST_0_i_1_n_6 ,\w_way_hit_8[6]_INST_0_i_1_n_7 }),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .O(\NLW_w_way_hit_8[6]_INST_0_i_1_O_UNCONNECTED [7:0]),
         .S({\w_way_hit_8[6]_INST_0_i_2_n_0 ,\w_way_hit_8[6]_INST_0_i_3_n_0 ,\w_way_hit_8[6]_INST_0_i_4_n_0 ,\w_way_hit_8[6]_INST_0_i_5_n_0 ,\w_way_hit_8[6]_INST_0_i_6_n_0 ,\w_way_hit_8[6]_INST_0_i_7_n_0 ,\w_way_hit_8[6]_INST_0_i_8_n_0 ,\w_way_hit_8[6]_INST_0_i_9_n_0 }));
@@ -68640,7 +68222,7 @@ module dcache_tag_compare
   LUT2 #(
     .INIT(4'h8)) 
     \w_way_hit_8[7]_INST_0 
-       (.I0(w_way_hit_816_out),
+       (.I0(w_hit70_out),
         .I1(w_D_V_buffer_dataOut_16[14]),
         .O(w_way_hit_8[7]));
   CARRY8 #(
@@ -68648,7 +68230,7 @@ module dcache_tag_compare
     \w_way_hit_8[7]_INST_0_i_1 
        (.CI(1'b1),
         .CI_TOP(1'b0),
-        .CO({w_way_hit_816_out,\w_way_hit_8[7]_INST_0_i_1_n_1 ,\w_way_hit_8[7]_INST_0_i_1_n_2 ,\w_way_hit_8[7]_INST_0_i_1_n_3 ,\w_way_hit_8[7]_INST_0_i_1_n_4 ,\w_way_hit_8[7]_INST_0_i_1_n_5 ,\w_way_hit_8[7]_INST_0_i_1_n_6 ,\w_way_hit_8[7]_INST_0_i_1_n_7 }),
+        .CO({w_hit70_out,\w_way_hit_8[7]_INST_0_i_1_n_1 ,\w_way_hit_8[7]_INST_0_i_1_n_2 ,\w_way_hit_8[7]_INST_0_i_1_n_3 ,\w_way_hit_8[7]_INST_0_i_1_n_4 ,\w_way_hit_8[7]_INST_0_i_1_n_5 ,\w_way_hit_8[7]_INST_0_i_1_n_6 ,\w_way_hit_8[7]_INST_0_i_1_n_7 }),
         .DI({1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0,1'b0}),
         .O(\NLW_w_way_hit_8[7]_INST_0_i_1_O_UNCONNECTED [7:0]),
         .S({\w_way_hit_8[7]_INST_0_i_2_n_0 ,\w_way_hit_8[7]_INST_0_i_3_n_0 ,\w_way_hit_8[7]_INST_0_i_4_n_0 ,\w_way_hit_8[7]_INST_0_i_5_n_0 ,\w_way_hit_8[7]_INST_0_i_6_n_0 ,\w_way_hit_8[7]_INST_0_i_7_n_0 ,\w_way_hit_8[7]_INST_0_i_8_n_0 ,\w_way_hit_8[7]_INST_0_i_9_n_0 }));
