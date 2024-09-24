@@ -21,7 +21,7 @@
 
 
 module Dcache_D_V_buffer( //待测
-    input  rst, fire, 
+    input  rst, fire,
     input [7:0] i_D_V_buffer_addr_8, //2b为单位，最下面不管
     input i_D_V_write_enable, 
     input [1:0] i_data_in_2, //高位D,V
