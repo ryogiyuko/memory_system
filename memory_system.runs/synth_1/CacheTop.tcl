@@ -18,7 +18,6 @@ proc create_report { reportName command } {
   }
 }
 set_param simulator.modelsimInstallPath D:/software/modeltech64_10.7/win64
-set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xcvu13p-fhgb2104-2-i
 
 set_param project.singleFileAddWarning.threshold 0
@@ -69,6 +68,9 @@ read_verilog -library xil_defaultlib {
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cMutexMerge2_5b.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector8.v
   D:/github/memory_system/memory_system.srcs/sources_1/new/control/cArbMerge8_8b.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/L2Cache_tag_compare.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cSelector4.v
+  D:/github/memory_system/memory_system.srcs/sources_1/new/control/cArbMerge2_5b.v
 }
 read_ip -quiet D:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank/Icache_SRAM_bank.xci
 set_property used_in_implementation false [get_files -all d:/github/memory_system/memory_system.srcs/sources_1/ip/Icache_SRAM_bank/Icache_SRAM_bank_ooc.xdc]
@@ -93,12 +95,12 @@ foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
-synth_design -top Dcache -part xcvu13p-fhgb2104-2-i
+synth_design -top CacheTop -part xcvu13p-fhgb2104-2-i
 
 
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef Dcache.dcp
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file Dcache_utilization_synth.rpt -pb Dcache_utilization_synth.pb"
+write_checkpoint -force -noxdef CacheTop.dcp
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file CacheTop_utilization_synth.rpt -pb CacheTop_utilization_synth.pb"
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

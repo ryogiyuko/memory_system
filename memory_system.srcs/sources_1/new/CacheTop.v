@@ -522,6 +522,7 @@ module CacheTop(
         .o_data      (      )
     );
 
+/*
 
 //PA[6:5] 01 
     Icache u_Icache_bank1(
@@ -888,6 +889,7 @@ module CacheTop(
         .o_data      (      )
     );
 
+*/
 
 //L2
     L2Cache u_L2Cache_bank0( //pa[7:5] 000
@@ -1027,6 +1029,7 @@ module CacheTop(
             .o_data      (   )
         );
 
+/*
 
     L2Cache u_L2Cache_bank2( //pa[7:5] 000
         .rst                             (rst                             ),
@@ -1439,6 +1442,8 @@ module CacheTop(
             .o_driveNext ( w_mutex7_drive_arbRead ),
             .o_data      (   )
         );
+
+*/
 
 //L2 to DDR
     // Arb_write
